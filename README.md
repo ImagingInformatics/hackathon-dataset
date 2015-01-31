@@ -22,14 +22,20 @@ Each patient should have their own directory tree, so that it's easy to keep res
 
 This is not meant to be an exhaustive collection, the types are chosen based on relevance to imaging patients.
 
+# Process to contribute
+- Fork this repo
+- Make your changes/improvements
+- Send a pull request
+
+
 # Patient Narratives
-##BreastDx-01-0003
+###BreastDx-01-0003
 
-##LIDC-IDRI-0132
+###LIDC-IDRI-0132
 
-##TCGA-17-Z058
+###TCGA-17-Z058
 
-##TCGA-50-5072
+###TCGA-50-5072
 
-##TCGA-BA-4077
+###TCGA-BA-4077
 
