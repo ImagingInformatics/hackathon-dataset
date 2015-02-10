@@ -1,0 +1,36 @@
+// organization.example.json
+// http://fhir.hackathon.siim.org/fhir/Organization/hl7?_format=application/json
+
+{
+    "resourceType": "Organization",
+    "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\r\n      Health Level Seven International<br />\r\n\t\t\t\t3300 Washtenaw Avenue, Suite 227<br />\r\n\t\t\t\tAnn Arbor, MI 48104<br />\r\n\t\t\t\tUSA<br />\r\n\t\t\t\t(+1) 734-677-7777 (phone)<br />\r\n\t\t\t\t(+1) 734-677-6622 (fax)<br />\r\n\t\t\t\tE-mail:  <a href=\"mailto:hq@hl7.org\">hq@HL7.org</a></div>"
+    },
+    "name": "Health Level Seven International",
+    "telecom": [
+        {
+            "system": "phone",
+            "value": "(+1) 734-677-7777"
+        },
+        {
+            "system": "fax",
+            "value": "(+1) 734-677-6622"
+        },
+        {
+            "system": "email",
+            "value": "hq@HL7.org"
+        }
+    ],
+    "address": [
+        {
+            "line": [
+                "3300 Washtenaw Avenue, Suite 227"
+            ],
+            "city": "Ann Arbor",
+            "state": "MI",
+            "zip": "48104",
+            "country": "USA"
+        }
+    ]
+}

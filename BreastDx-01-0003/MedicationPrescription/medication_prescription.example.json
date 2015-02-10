@@ -1,0 +1,54 @@
+// medication_prescription.example.json
+// http://fhir.hackathon.siim.org/fhir/MedicationPrescription/example/?_format=application/json 
+
+{
+    "resourceType": "MedicationPrescription",
+    "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\r\n  <p>levothyroxine sodium 50mcg once daily </p>\r\n  <p></p>\r\n  <p>100pill bottle</p>\r\n  <p>to patient ref: a23</p>\r\n  <p>by doctor X</p>\r\n</div>"
+    },
+    "status": "active",
+    "patient": {
+        "reference": "Patient/example"
+    },
+    "prescriber": {
+        "reference": "Practitioner/example"
+    },
+    "medication": {
+        "reference": "Medication/example"
+    },
+    "dosageInstruction": [
+        {
+            "timingSchedule": {
+                "repeat": {
+                    "frequency": 1,
+                    "duration": 1,
+                    "units": "d"
+                }
+            },
+            "route": {
+                "coding": [
+                    {
+                        "system": "http://snomed.info/sct",
+                        "code": "394899003",
+                        "display": "oral administration of treatment"
+                    }
+                ]
+            },
+            "doseQuantity": {
+                "value": 50,
+                "units": "mcg",
+                "system": "http://unitsofmeasure.org/",
+                "code": "mcg"
+            }
+        }
+    ],
+    "dispense": {
+        "quantity": {
+            "value": 100,
+            "units": "ml",
+            "system": "http://unitsofmeasure.org/",
+            "code": "mcg"
+        }
+    }
+}

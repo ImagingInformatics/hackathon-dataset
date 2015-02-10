@@ -1,0 +1,44 @@
+// practitioner.example.json
+// http://fhir.hackathon.siim.org/fhir/Practitioner/example?_format=application/json
+
+{
+    "resourceType": "Practitioner",
+    "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\r\n  <p>Dr Adam Careful is a Referring Practitioner for Acme Hospital from 1-Jan 2012 to 31-Mar\r\n        2012</p>\r\n</div>"
+    },
+    "identifier": [
+        {
+            "system": "http://www.acme.org/practitioners",
+            "value": "23"
+        }
+    ],
+    "name": {
+        "family": [
+            "Careful"
+        ],
+        "given": [
+            "Adam"
+        ],
+        "prefix": [
+            "Dr"
+        ]
+    },
+    "organization": {
+        "reference": "Organization/1"
+    },
+    "role": [
+        {
+            "coding": [
+                {
+                    "system": "http://hl7.org/fhir/v2/0286",
+                    "code": "RP"
+                }
+            ]
+        }
+    ],
+    "period": {
+        "start": "2012-01-01",
+        "end": "2012-03-31"
+    }
+}

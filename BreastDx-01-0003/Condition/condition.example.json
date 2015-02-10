@@ -1,0 +1,62 @@
+// condition.example.json
+// http://fhir.hackathon.siim.org/fhir/Condition/example/?_format=application/json
+
+{
+    "resourceType": "Condition",
+    "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">5/24/2008 Invasive ductal carcinoma</div>"
+    },
+    "subject": {
+        "reference": "Patient/example"
+    },
+    "code": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "code": "39065001",
+                "display": "palpable left breast mass "
+            }
+        ],
+        "text": "palpable left breast mass"
+    },
+    "category": {
+        "coding": [
+            {
+                "system": "http://hl7.org/fhir/condition-category",
+                "code": "diagnosis",
+                "display": "Diagnosis"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "code": "439401001",
+                "display": "Diagnosis"
+            }
+        ]
+    },
+    "status": "confirmed",
+    "severity": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "code": "24484000",
+                "display": "Severe"
+            }
+        ]
+    },
+    "onsetDate": "2012-05-24",
+    "location": [
+        {
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://snomed.info/sct",
+                        "code": "49521004",
+                        "display": "Left breast"
+                    }
+                ],
+                "text": "Left breast"
+            }
+        }
+    ]
+}
