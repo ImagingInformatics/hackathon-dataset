@@ -5,20 +5,20 @@
     "resourceType": "Medication",
     "text": {
         "status": "generated",
-        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">123456789: Penicillin VK oral suspension 125mg/5ml</div>"
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">123456789: levothyroxine sodium 50mcg oral tablet</div>"
     },
-    "name": "Penicillin VK oral suspension 125mg/5ml",
+    "name": "levothyroxine sodium 50mcg ",
     "code": {
         "coding": [
             {
                 "system": "http://snomed.info/sct",
                 "code": "323418000",
-                "display": "Phenoxymethylpenicillin 125mg/5mL oral solution (product)"
+                "display": "levothyroxine sodium 50mcg once daily  (product)"
             },
             {
                 "system": "http://nehta.gov.au/amt/v2",
                 "code": "22571011000036102",
-                "display": "phenoxymethylpenicillin 125 mg / 5 mL oral liquid, 5 mL measure"
+                "display": "levothyroxine sodium 50mcg once daily , 5 mcg measure"
             }
         ]
     },
@@ -30,7 +30,7 @@
                 {
                     "system": "http://snomed.info/sct",
                     "code": "37595005",
-                    "display": "Suspension"
+                    "display": "tablet"
                 }
             ]
         }
