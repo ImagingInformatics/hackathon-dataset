@@ -1,11 +1,11 @@
 // medication.example.json
-// http://fhir.hackathon.siim.org/fhir/Medication/example/?_format=application/json
+// id: 323418000
 
 {
     "resourceType": "Medication",
     "text": {
         "status": "generated",
-        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">123456789: levothyroxine sodium 50mcg oral tablet</div>"
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">323418000: levothyroxine sodium 50mcg oral tablet</div>"
     },
     "name": "levothyroxine sodium 50mcg ",
     "code": {
