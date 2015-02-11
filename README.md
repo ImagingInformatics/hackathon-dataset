@@ -12,15 +12,30 @@ This project will contain FHIR JSON objects surrounding these patient narratives
 During our first hackathon, we realized that in order to have a successful hackathon across multiple platforms, we need to have a cohesive, rich dataset that will allow people to build interesting applications. 
 
 # Organization
-Each patient should be contained in it's own directory.
+In the top level directory there are directories for resources that cross patients (Medications, Practitioner, Organizations)
 
-This skeleton contains a set of top-level directories that correspond with the FHIR Resources: http://www.hl7.org/implement/standards/fhir/resourcelist.html
+Also within the top level directory are a set of sub-folders for each patient.  This skeleton contains a set of top-level directories that correspond with the FHIR Resources: http://www.hl7.org/implement/standards/fhir/resourcelist.html.  Within these sub-folders are json FHIR documents.
 
-This should make it easier for end users to load the information that they want without having to load everything.  
+Each FHIR document should have a commented header that looks like this:
+    // filename
+    // id: random
 
-Each patient should have their own directory tree, so that it's easy to keep resources organized.
+If set to something other than random, this will be used to create the FHIR resource.
 
 This is not meant to be an exhaustive collection, the types are chosen based on relevance to imaging patients.
+
+# Uploading to a FHIR server
+    cp fhir_server.yml.dist fhir_server.yml
+
+Edit fhir_server.yml to fit your needs.
+
+Install dependencies: ruby, bundler
+
+Run Bundler to install needed gems
+    bundle install
+
+Run the script to upload all of the resources in the folders
+    ruby update.rb
 
 # Process to contribute
 - Fork this repo
