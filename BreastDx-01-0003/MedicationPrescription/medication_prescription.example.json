@@ -1,4 +1,5 @@
 // medication_prescription.example.json
+// id: breastdx
 // http://fhir.hackathon.siim.org/fhir/MedicationPrescription/example/?_format=application/json 
 
 {
