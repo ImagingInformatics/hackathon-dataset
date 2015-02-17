@@ -1,5 +1,5 @@
 // allergy_intolerance.example.json
-// id: breastdx
+// id: random
 // Source: http://fhir.hackathon.siim.org/fhir/AllergyIntolerance/example/?_format=application/json
 
 {
@@ -13,22 +13,9 @@
     "recordedDate": "2008-05-24",
     "status": "confirmed",
     "subject": {
-        "reference": "Patient/example"
+        "reference": "Patient/breastdx"
     },
     "recorder": {
         "reference": "Practitioner/example"
-    },
-    "substance": {
-        "reference": "Substance/example"
-    },
-    "reaction": [
-        {
-            "reference": "AdverseReaction/example"
-        }
-    ],
-    "sensitivityTest": [
-        {
-            "reference": "Observation/example"
-        }
-    ]
+    }
 }

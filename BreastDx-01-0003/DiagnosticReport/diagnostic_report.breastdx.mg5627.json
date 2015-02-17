@@ -1,6 +1,6 @@
 // diagnostic_report.example.json
-// id: breastdx
-// http://fhir.hackathon.siim.org/fhir/DiagnosticReport/102?_format=application/json
+// id: breastmg5627
+// http://fhir.hackathon.siim.org/fhir/DiagnosticReport/breastmg5627?_format=application/json
 
 {
     "resourceType": "DiagnosticReport",
@@ -45,7 +45,7 @@
     "status": "final",
     "issued": "2008-04-12T09:23:00+10:00",
     "subject": {
-        "reference": "BreastDx-01-0003"
+        "reference": "Patient/breastdx"
     },
     "performer": {
         "reference": "Organization/1832473e-2fe0-452d-abe9-3cdb9879522f",

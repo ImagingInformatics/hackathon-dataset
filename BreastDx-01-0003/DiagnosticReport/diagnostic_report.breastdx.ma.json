@@ -1,6 +1,6 @@
-// diagnostic_report.example.json
-// id: breastdx
-// http://fhir.hackathon.siim.org/fhir/DiagnosticReport/102?_format=application/json
+// diagnostic_report.breastdx.ma.json
+// id: breastdxma
+// http://fhir.hackathon.siim.org/fhir/DiagnosticReport/breastdxma?_format=application/json
 
 {
     "resourceType": "DiagnosticReport",
@@ -17,7 +17,7 @@
                     {
                         "system": "http://loinc.org/",
                         "code": "24701-5",
-                        "display": "Specimen radiograph   "
+                        "display": "Specimen radiograph"
                     }
                 ]
             },
@@ -40,12 +40,12 @@
                 "code": "38269-7"
             }
         ],
-        "text": "Specimen radiograph   "
+        "text": "Specimen radiograph"
     },
     "status": "final",
     "issued": "2008-05-24T09:23:00+10:00",
     "subject": {
-        "reference": "BreastDx-01-0003"
+        "reference": "Patient/breastdx"
     },
     "performer": {
         "reference": "Organization/1832473e-2fe0-452d-abe9-3cdb9879522f",

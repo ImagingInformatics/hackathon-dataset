@@ -1,5 +1,5 @@
-// patient.example.json
-// id: breast
+// patient.breastdx-01-0003.json
+// id: breastdx
 
 {
     "resourceType": "Patient",

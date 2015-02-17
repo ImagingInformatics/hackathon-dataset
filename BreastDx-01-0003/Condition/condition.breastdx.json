@@ -1,6 +1,6 @@
-// condition.example.json
-// id: breastdx
-// http://fhir.hackathon.siim.org/fhir/Condition/example/?_format=application/json
+// condition.breastdx.json
+// id: breastcondition
+// http://fhir.hackathon.siim.org/fhir/Condition/breastcondition?_format=application/json
 
 {
     "resourceType": "Condition",
@@ -9,7 +9,7 @@
         "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">5/24/2008 Invasive ductal carcinoma</div>"
     },
     "subject": {
-        "reference": "Patient/example"
+        "reference": "Patient/breastdx"
     },
     "code": {
         "coding": [

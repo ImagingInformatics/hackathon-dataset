@@ -9,7 +9,7 @@
     },
     "status": "active",
     "patient": {
-        "reference": "Patient/breast"
+        "reference": "Patient/breastdx"
     },
     "prescriber": {
         "reference": "Practitioner/example"
