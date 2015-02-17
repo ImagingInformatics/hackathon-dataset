@@ -2,9 +2,9 @@
 Collection of FHIR JSON objects representing fictious patient vignettes for use in our hackathon environment.
 
 # What?
-The [Society for Imaging Informatics in Medicine (SIIM)]http://www.siim.org/ is supporting the new DICOMWEB and FHIR standards by creating opportunities for it's members to interact with these systems at the annual meeting, and throughout the year through it's Hackathon/HackPack projects.
+The [Society for Imaging Informatics in Medicine (SIIM)](http://www.siim.org/) is supporting the new DICOMWEB and FHIR standards by creating opportunities for it's members to interact with these systems at the annual meeting, and throughout the year through it's Hackathon/HackPack projects.
 
-We're using images from [The Cancer Imaging Archive (TCIA)]http://www.cancerimagingarchive.net and creating fictious but believable narratives that illustrate concepts common in imaging.
+We're using images from [The Cancer Imaging Archive (TCIA)](http://www.cancerimagingarchive.net) and creating fictious but believable narratives that illustrate concepts common in imaging.
 
 This project will contain FHIR JSON objects surrounding these patient narratives.
 
