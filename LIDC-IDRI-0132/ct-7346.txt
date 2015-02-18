@@ -1,0 +1,98 @@
+Element 	Name 	Data
+(0002,0001)  	File Meta Information Version  	00\01  
+(0002,0002)  	Media Storage SOP Class UID  	1.2.840.10008.5.1.4.1.1.2  
+(0002,0003)  	Media Storage SOP Instance UID  	1.3.6.1.4.1.14519.5.2.1.6279.6001.666948053008973930044402463161  
+(0002,0010)  	Transfer Syntax UID  	1.2.840.10008.1.2  
+(0002,0012)  	Implementation Class UID  	1.2.40.0.13.1.1  
+(0002,0013)  	Implementation Version Name  	dcm4che-1.4.27  
+(0008,0005)  	Specific Character Set  	ISO_IR 100  
+(0008,0008)  	Image Type  	ORIGINAL\PRIMARY\AXIAL\CT_SOM5 SPI  
+(0008,0016)  	SOP Class UID  	1.2.840.10008.5.1.4.1.1.2  
+(0008,0018)  	SOP Instance UID  	1.3.6.1.4.1.14519.5.2.1.6279.6001.666948053008973930044402463161  
+(0008,0020)  	Study Date  	20000101  
+(0008,0021)  	Series Date  	20000101  
+(0008,0022)  	Acquisition Date  	20000101  
+(0008,0023)  	Content Date  	20000101  
+(0008,0024)  	Overlay Date  	20000101  
+(0008,0025)  	Curve Date  	20000101  
+(0008,002A)  	Acquisition Datetime  	20000101  
+(0008,0030)  	Study Time  	 
+(0008,0031)  	Series Time  	 
+(0008,0032)  	Acquisition Time  	 
+(0008,0033)  	Content Time  	 
+(0008,0050)  	Accession Number  	2819497684894126  
+(0008,0060)  	Modality  	CT  
+(0008,0070)  	Manufacturer  	SIEMENS  
+(0008,0090)  	Referring Physician's Name  	 
+(0008,103E)  	Series Description  	ThorRoutine 3.0 B31f  
+(0008,1090)  	Manufacturer's Model Name  	Sensation 16  
+(0010,0010)  	Patient's Name  	 
+(0010,0020)  	Patient ID  	LIDC-IDRI-0132  
+(0010,0030)  	Patient's Birth Date  	 
+(0010,0040)  	Patient's Sex  	 
+(0010,1010)  	Patient's Age  	 
+(0010,21D0)  	Last Menstrual Date  	20000101  
+(0012,0062)  	Patient Identity Removed  	YES  
+(0012,0063)  	De-identification Method  	DCM:113100/113105/113107/113108/113109/113111  
+(0013,0010)  	 	CTP  
+(0013,1010)  	 	4C\49\44\43\2D\49\44\52\49\00  
+(0013,1013)  	 	36\32\37\39\36\30\30\31  
+(0018,0015)  	Body Part Examined  	CHEST  
+(0018,0050)  	Slice Thickness  	3  
+(0018,0060)  	KVP  	120  
+(0018,0090)  	Data Collection Diameter  	500  
+(0018,1020)  	Software Version(s)  	VB10B  
+(0018,1100)  	Reconstruction Diameter  	280  
+(0018,1110)  	Distance Source to Detector  	1040  
+(0018,1111)  	Distance Source to Patient  	570  
+(0018,1120)  	Gantry/Detector Tilt  	0  
+(0018,1130)  	Table Height  	163  
+(0018,1140)  	Rotation Direction  	CW  
+(0018,1150)  	Exposure Time  	500  
+(0018,1151)  	X-ray Tube Current  	309  
+(0018,1152)  	Exposure  	206  
+(0018,1160)  	Filter Type  	0  
+(0018,1170)  	Generator Power  	27  
+(0018,1190)  	Focal Spot(s)  	1.2  
+(0018,1200)  	Date of Last Calibration  	 
+(0018,1201)  	Time of Last Calibration  	 
+(0018,1210)  	Convolution Kernel  	B31f  
+(0018,5100)  	Patient Position  	FFS  
+(0020,000D)  	Study Instance UID  	1.3.6.1.4.1.14519.5.2.1.6279.6001.314138616411061948052843767346  
+(0020,000E)  	Series Instance UID  	1.3.6.1.4.1.14519.5.2.1.6279.6001.254176853278710432756285662989  
+(0020,0010)  	Study ID  	 
+(0020,0011)  	Series Number  	5418  
+(0020,0012)  	Acquisition Number  	2  
+(0020,0013)  	Instance Number  	1  
+(0020,0032)  	Image Position (Patient)  	-142.7265625\-302.7265625\-21.5  
+(0020,0037)  	Image Orientation (Patient)  	1\0\0\0\1\0  
+(0020,0052)  	Frame of Reference UID  	1.3.6.1.4.1.14519.5.2.1.6279.6001.254079284510447590509127010984  
+(0020,1040)  	Position Reference Indicator  	 
+(0020,1041)  	Slice Location  	21.5  
+(0028,0002)  	Samples per Pixel  	1  
+(0028,0004)  	Photometric Interpretation  	MONOCHROME2  
+(0028,0010)  	Rows  	512  
+(0028,0011)  	Columns  	512  
+(0028,0030)  	Pixel Spacing  	0.546875\0.546875  
+(0028,0100)  	Bits Allocated  	16  
+(0028,0101)  	Bits Stored  	12  
+(0028,0102)  	High Bit  	11  
+(0028,0103)  	Pixel Representation  	0  
+(0028,0303)  	 	4D\4F\44\49\46\49\45\44  
+(0028,1050)  	Window Center  	40\-600  
+(0028,1051)  	Window Width  	400\1200  
+(0028,1052)  	Rescale Intercept  	-1024  
+(0028,1053)  	Rescale Slope  	1  
+(0028,1055)  	Window Center & Width Explanation  	WINDOW1\WINDOW2  
+(0032,1060)  	Requested Procedure Description  	 
+(0038,0020)  	Admitting Date  	20000101  
+(0040,0002)  	Scheduled Procedure Step Start Date  	20000101  
+(0040,0004)  	Scheduled Procedure Step End Date  	20000101  
+(0040,0244)  	Performed Procedure Step Start Date  	20000101  
+(0040,2016)  	Placer Order Number / Imaging Service Request  	 
+(0040,2017)  	Filler Order Number / Imaging Service Request  	 
+(0040,A075)  	Verifying Observer Name  	Removed by CTP  
+(0040,A123)  	Person Name  	Removed by CTP  
+(0070,0084)  	Presentation Creator's Name  	 
+
+

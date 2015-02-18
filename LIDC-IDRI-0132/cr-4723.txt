@@ -1,0 +1,96 @@
+Element 	Name 	Data
+(0002,0001)  	File Meta Information Version  	00\01  
+(0002,0002)  	Media Storage SOP Class UID  	1.2.840.10008.5.1.4.1.1.1  
+(0002,0003)  	Media Storage SOP Instance UID  	1.3.6.1.4.1.14519.5.2.1.6279.6001.197993217821785409800235232773  
+(0002,0010)  	Transfer Syntax UID  	1.2.840.10008.1.2  
+(0002,0012)  	Implementation Class UID  	1.2.40.0.13.1.1  
+(0002,0013)  	Implementation Version Name  	dcm4che-1.4.27  
+(0008,0005)  	Specific Character Set  	ISO_IR 100  
+(0008,0008)  	Image Type  	DERIVED\SECONDARY\\CSA RESAMPLED  
+(0008,0016)  	SOP Class UID  	1.2.840.10008.5.1.4.1.1.1  
+(0008,0018)  	SOP Instance UID  	1.3.6.1.4.1.14519.5.2.1.6279.6001.197993217821785409800235232773  
+(0008,0020)  	Study Date  	20000101  
+(0008,0021)  	Series Date  	20000101  
+(0008,0022)  	Acquisition Date  	20000101  
+(0008,0023)  	Content Date  	20000101  
+(0008,0024)  	Overlay Date  	20000101  
+(0008,0025)  	Curve Date  	20000101  
+(0008,002A)  	Acquisition Datetime  	20000101  
+(0008,0030)  	Study Time  	 
+(0008,0031)  	Series Time  	 
+(0008,0032)  	Acquisition Time  	112243  
+(0008,0033)  	Content Time  	112243  
+(0008,0050)  	Accession Number  	2819497684894126  
+(0008,0060)  	Modality  	CR  
+(0008,0070)  	Manufacturer  	SIEMENS  
+(0008,0090)  	Referring Physician's Name  	 
+(0008,103E)  	Series Description  	W Chest PA  
+(0008,1090)  	Manufacturer's Model Name  	SIEMENS FD-X  
+(0010,0010)  	Patient's Name  	 
+(0010,0020)  	Patient ID  	LIDC-IDRI-0132  
+(0010,0030)  	Patient's Birth Date  	 
+(0010,0040)  	Patient's Sex  	M  
+(0010,1010)  	Patient's Age  	 
+(0010,2160)  	Ethnic Group  	white-ns  
+(0010,21C0)  	Pregnancy Status  	4  
+(0010,21D0)  	Last Menstrual Date  	20000101  
+(0012,0062)  	Patient Identity Removed  	YES  
+(0012,0063)  	De-identification Method  	DCM:113100/113105/113107/113108/113109/113111  
+(0013,0010)  	 	CTP  
+(0013,1010)  	 	4C\49\44\43\2D\49\44\52\49\00  
+(0013,1013)  	 	36\32\37\39\36\30\30\31  
+(0018,0015)  	Body Part Examined  	CHEST  
+(0018,0060)  	KVP  	125  
+(0018,1020)  	Software Version(s)  	VA20L  
+(0018,1110)  	Distance Source to Detector  	1800  
+(0018,1150)  	Exposure Time  	5  
+(0018,1151)  	X-ray Tube Current  	218  
+(0018,1152)  	Exposure  	1  
+(0018,1153)  	Exposure in uAs  	1090  
+(0018,1160)  	Filter Type  	none  
+(0018,1164)  	Imager Pixel Spacing  	0.143\0.143  
+(0018,1180)  	Collimator/grid Name  	180cm  
+(0018,5101)  	View Position  	 
+(0018,6000)  	Sensitivity  	400  
+(0020,000D)  	Study Instance UID  	1.3.6.1.4.1.14519.5.2.1.6279.6001.300027087262813745730072134723  
+(0020,000E)  	Series Instance UID  	1.3.6.1.4.1.14519.5.2.1.6279.6001.513114548408601984123939083099  
+(0020,0010)  	Study ID  	 
+(0020,0011)  	Series Number  	3172  
+(0020,0012)  	Acquisition Number  	1  
+(0020,0013)  	Instance Number  	1  
+(0020,0020)  	Patient Orientation  	 
+(0028,0002)  	Samples per Pixel  	1  
+(0028,0004)  	Photometric Interpretation  	MONOCHROME2  
+(0028,0010)  	Rows  	2927  
+(0028,0011)  	Columns  	2570  
+(0028,0100)  	Bits Allocated  	16  
+(0028,0101)  	Bits Stored  	12  
+(0028,0102)  	High Bit  	11  
+(0028,0103)  	Pixel Representation  	0  
+(0028,0303)  	 	4D\4F\44\49\46\49\45\44  
+(0028,1050)  	Window Center  	2028  
+(0028,1051)  	Window Width  	2026  
+(0032,000A)  	Study Status ID  	 
+(0032,1000)  	Scheduled Study Start Date  	 
+(0032,1001)  	Scheduled Study Start Time  	 
+(0032,1021)  	Scheduled Study Location AE Title(s)  	 
+(0032,1060)  	Requested Procedure Description  	 
+(0032,1064)  	Requested Procedure Code Sequence  	 
+>(0008,0100)  	Code Value  	 
+>(0008,0104)  	Code Meaning  	 
+(0032,1064)  	End Requested Procedure Code Sequence  	 
+(0032,4000)  	Study Comments  	 
+(0038,0020)  	Admitting Date  	20000101  
+(0040,0002)  	Scheduled Procedure Step Start Date  	20000101  
+(0040,0004)  	Scheduled Procedure Step End Date  	20000101  
+(0040,0244)  	Performed Procedure Step Start Date  	20000101  
+(0040,0275)  	Request Attributes Sequence  	 
+>(0040,1001)  	Requested Procedure ID  	5605108900033725  
+(0040,0275)  	End Request Attributes Sequence  	 
+(0040,2016)  	Placer Order Number / Imaging Service Request  	 
+(0040,2017)  	Filler Order Number / Imaging Service Request  	 
+(0040,A075)  	Verifying Observer Name  	Removed by CTP  
+(0040,A123)  	Person Name  	Removed by CTP  
+(0070,0084)  	Presentation Creator's Name  	 
+
+

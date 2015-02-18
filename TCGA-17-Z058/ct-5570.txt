@@ -1,0 +1,142 @@
+Element 	Name 	Data
+(0002,0001)  	File Meta Information Version  	00\01  
+(0002,0002)  	Media Storage SOP Class UID  	1.2.840.10008.5.1.4.1.1.2  
+(0002,0003)  	Media Storage SOP Instance UID  	1.3.6.1.4.1.14519.5.2.1.7777.9002.249278040707076363548973496503  
+(0002,0010)  	Transfer Syntax UID  	1.2.840.10008.1.2  
+(0002,0012)  	Implementation Class UID  	1.2.40.0.13.1.1.1  
+(0002,0013)  	Implementation Version Name  	dcm4che-1.4.31  
+(0008,0005)  	Specific Character Set  	ISO_IR 100  
+(0008,0008)  	Image Type  	ORIGINAL\PRIMARY\LOCALIZER\CT_SOM5 TOP  
+(0008,0016)  	SOP Class UID  	1.2.840.10008.5.1.4.1.1.2  
+(0008,0018)  	SOP Instance UID  	1.3.6.1.4.1.14519.5.2.1.7777.9002.249278040707076363548973496503  
+(0008,0020)  	Study Date  	19860505  
+(0008,0021)  	Series Date  	19860505  
+(0008,0022)  	Acquisition Date  	19860505  
+(0008,0023)  	Content Date  	19860505  
+(0008,0030)  	Study Time  	171137.156000  
+(0008,0031)  	Series Time  	174148.640000  
+(0008,0032)  	Acquisition Time  	174200.985213  
+(0008,0033)  	Content Time  	174200.985213  
+(0008,0040)  	Data Set Type (Retired)  	00\00  
+(0008,0041)  	Data Set Subtype (Retired)  	49\4D\41\20\4E\4F\4E\45  
+(0008,0050)  	Accession Number  	1857795211017352  
+(0008,0060)  	Modality  	CT  
+(0008,0070)  	Manufacturer  	SIEMENS  
+(0008,0090)  	Referring Physician's Name  	 
+(0008,1010)  	Station Name  	 
+(0008,103E)  	Series Description  	Topogram 1.0 T20s  
+(0008,1090)  	Manufacturer's Model Name  	Sensation 16  
+(0008,2111)  	Derivation Description  	 
+(0009,0010)  	 	SIEMENS CT VA1 DUMMY  
+(0009,0011)  	 	SPI RELEASE 1  
+(0010,0010)  	Patient's Name  	TCGA-17-Z058  
+(0010,0020)  	Patient ID  	TCGA-17-Z058  
+(0010,0030)  	Patient's Birth Date  	 
+(0010,0040)  	Patient's Sex  	M  
+(0010,1010)  	Patient's Age  	060Y  
+(0011,0010)  	 	SPI RELEASE 1  
+(0012,0062)  	Patient Identity Removed  	YES  
+(0012,0063)  	De-identification Method  	Per DICOM PS 3.15 AnnexE. Details in 0012,0064  
+(0012,0064)  	De-identification Method Code Sequence  	 
+>(0008,0100)  	Code Value  	113100  
+>(0008,0102)  	Coding Scheme Designator  	DCM  
+>(0008,0104)  	Code Meaning  	Basic Application Confidentiality Profile  
+>(0008,0100)  	Code Value  	113101  
+>(0008,0102)  	Coding Scheme Designator  	DCM  
+>(0008,0104)  	Code Meaning  	Clean Pixel Data Option  
+>(0008,0100)  	Code Value  	113103  
+>(0008,0102)  	Coding Scheme Designator  	DCM  
+>(0008,0104)  	Code Meaning  	Clean Graphics Option  
+>(0008,0100)  	Code Value  	113105  
+>(0008,0102)  	Coding Scheme Designator  	DCM  
+>(0008,0104)  	Code Meaning  	Clean Descriptors Option  
+>(0008,0100)  	Code Value  	113107  
+>(0008,0102)  	Coding Scheme Designator  	DCM  
+>(0008,0104)  	Code Meaning  	Retain Longitudinal With Modified Dates Option  
+>(0008,0100)  	Code Value  	113108  
+>(0008,0102)  	Coding Scheme Designator  	DCM  
+>(0008,0104)  	Code Meaning  	Retain Patient Characteristics Option  
+>(0008,0100)  	Code Value  	113109  
+>(0008,0102)  	Coding Scheme Designator  	DCM  
+>(0008,0104)  	Code Meaning  	Retain Device Identity Option  
+>(0008,0100)  	Code Value  	113111  
+>(0008,0102)  	Coding Scheme Designator  	DCM  
+>(0008,0104)  	Code Meaning  	Retain Safe Private Option  
+(0012,0064)  	End De-identification Method Code Sequence  	 
+(0013,0010)  	 	CTP  
+(0013,1010)  	 	54\43\47\41\2D\4C\55\41\44\00  
+(0013,1013)  	 	37\37\37\37\39\30\30\32  
+(0018,0015)  	Body Part Examined  	CHEST  
+(0018,0050)  	Slice Thickness  	1  
+(0018,0060)  	KVP  	120  
+(0018,0090)  	Data Collection Diameter  	500  
+(0018,1000)  	Device Serial Number  	50090  
+(0018,1020)  	Software Version(s)  	VA70C  
+(0018,1030)  	Protocol Name  	08 PE ROUTINE  
+(0018,1100)  	Reconstruction Diameter  	512  
+(0018,1110)  	Distance Source to Detector  	1040  
+(0018,1111)  	Distance Source to Patient  	570  
+(0018,1120)  	Gantry/Detector Tilt  	0  
+(0018,1130)  	Table Height  	160  
+(0018,1140)  	Rotation Direction  	CW  
+(0018,1150)  	Exposure Time  	5340  
+(0018,1151)  	X-ray Tube Current  	50  
+(0018,1152)  	Exposure  	267  
+(0018,1160)  	Filter Type  	0  
+(0018,1170)  	Generator Power  	6  
+(0018,1190)  	Focal Spot(s)  	1.2  
+(0018,1200)  	Date of Last Calibration  	19860505  
+(0018,1201)  	Time of Last Calibration  	072757.000000  
+(0018,1210)  	Convolution Kernel  	T20s  
+(0018,1600)  	Shutter Shape  	 
+(0018,5100)  	Patient Position  	HFS  
+(0019,0010)  	 	SIEMENS CT VA0 COAD  
+(0019,0011)  	 	SIEMENS DLR.01  
+(0019,0012)  	 	SIEMENS SIENET  
+(0019,1090)  	 	30\20  
+(0019,1092)  	 	30\2E\39\36\36\20  
+(0019,1093)  	 	30\2E\38\38  
+(0019,1096)  	 	30\20  
+(0020,000D)  	Study Instance UID  	1.3.6.1.4.1.14519.5.2.1.7777.9002.230343245760929624980341715570  
+(0020,000E)  	Series Instance UID  	1.3.6.1.4.1.14519.5.2.1.7777.9002.270755510288481703289127192748  
+(0020,0010)  	Study ID  	 
+(0020,0011)  	Series Number  	1  
+(0020,0012)  	Acquisition Number  	1  
+(0020,0013)  	Instance Number  	1  
+(0020,0032)  	Image Position (Patient)  	-255.5\-160\-21.5  
+(0020,0037)  	Image Orientation (Patient)  	1\7.0448747e-016\0\0\0\-1  
+(0020,0052)  	Frame of Reference UID  	1.3.6.1.4.1.14519.5.2.1.7777.9002.200478241969607574025285554961  
+(0020,1040)  	Position Reference Indicator  	 
+(0020,1041)  	Slice Location  	-21  
+(0021,0010)  	 	SIEMENS MED  
+(0028,0002)  	Samples per Pixel  	1  
+(0028,0004)  	Photometric Interpretation  	MONOCHROME2  
+(0028,0010)  	Rows  	512  
+(0028,0011)  	Columns  	512  
+(0028,0030)  	Pixel Spacing  	1\1  
+(0028,0100)  	Bits Allocated  	16  
+(0028,0101)  	Bits Stored  	12  
+(0028,0102)  	High Bit  	11  
+(0028,0103)  	Pixel Representation  	0  
+(0028,0301)  	Burned In Annotation  	NO  
+(0028,0303)  	 	4D\4F\44\49\46\49\45\44  
+(0028,1050)  	Window Center  	50\300  
+(0028,1051)  	Window Width  	350\2000  
+(0028,1052)  	Rescale Intercept  	-1024.000000  
+(0028,1053)  	Rescale Slope  	1.000000  
+(0028,1055)  	Window Center & Width Explanation  	WINDOW1\WINDOW2  
+(0029,0010)  	 	SIEMENS CSA HEADER  
+(0029,0011)  	 	SIEMENS MEDCOM HEADER  
+(0029,0012)  	 	SIEMENS MED DISPLAY  
+(0029,1131)  	 	32\30\32\2E\30\2E\31\30\34\36\32\34\36\35  
+(0029,1134)  	 	44\42\20\54\4F\20\44\49\43\4F\4D\20  
+(0032,1060)  	Requested Procedure Description  	Thorax 08 PE ROUTINE  
+(0032,4000)  	Study Comments  	 
+(0040,0009)  	Scheduled Procedure Step ID  	 
+(0040,1003)  	Requested Procedure Priority  	 
+(0091,0010)  	 	SIENET  
+(0095,0010)  	 	SIENET  
+(0097,0010)  	 	SIENET  
+(0099,0010)  	 	SIENET  
+
+
