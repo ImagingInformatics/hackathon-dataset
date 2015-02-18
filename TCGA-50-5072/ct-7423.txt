@@ -1,0 +1,212 @@
+Element 	Name 	Data
+(0002,0001)  	File Meta Information Version  	00\01  
+(0002,0002)  	Media Storage SOP Class UID  	1.2.840.10008.5.1.4.1.1.2  
+(0002,0003)  	Media Storage SOP Instance UID  	1.3.6.1.4.1.14519.5.2.1.6450.9002.290231660349920502919014183860  
+(0002,0010)  	Transfer Syntax UID  	1.2.840.10008.1.2.1  
+(0002,0012)  	Implementation Class UID  	1.2.40.0.13.1.1.1  
+(0002,0013)  	Implementation Version Name  	dcm4che-1.4.34  
+(0008,0005)  	Specific Character Set  	ISO_IR 100  
+(0008,0008)  	Image Type  	ORIGINAL\PRIMARY\LOCALIZER  
+(0008,0012)  	Instance Creation Date  	20000128  
+(0008,0013)  	Instance Creation Time  	084431  
+(0008,0016)  	SOP Class UID  	1.2.840.10008.5.1.4.1.1.2  
+(0008,0018)  	SOP Instance UID  	1.3.6.1.4.1.14519.5.2.1.6450.9002.290231660349920502919014183860  
+(0008,0020)  	Study Date  	20000128  
+(0008,0021)  	Series Date  	20000128  
+(0008,0022)  	Acquisition Date  	20000128  
+(0008,0023)  	Content Date  	20000128  
+(0008,0030)  	Study Time  	084405  
+(0008,0031)  	Series Time  	084405  
+(0008,0032)  	Acquisition Time  	084425  
+(0008,0033)  	Content Time  	084431  
+(0008,0050)  	Accession Number  	2508258761846499  
+(0008,0060)  	Modality  	CT  
+(0008,0070)  	Manufacturer  	GE MEDICAL SYSTEMS  
+(0008,0090)  	Referring Physician's Name  	 
+(0008,1030)  	Study Description  	CT CHEST N/C  
+(0008,1032)  	Procedure Code Sequence  	 
+(0008,1032)  	End Procedure Code Sequence  	 
+(0008,103E)  	Series Description  	scout  
+(0008,1090)  	Manufacturer's Model Name  	LightSpeed16  
+(0009,0010)  	 	GEMS_IDEN_01  
+(0009,1002)  	 	43\54\32\58  
+(0009,1004)  	 	4C\69\67\68\74\53\70\65\65\64\31\36  
+(0010,0010)  	Patient's Name  	TCGA-50-5072  
+(0010,0020)  	Patient ID  	TCGA-50-5072  
+(0010,0030)  	Patient's Birth Date  	 
+(0010,0040)  	Patient's Sex  	M  
+(0010,1010)  	Patient's Age  	074Y  
+(0010,21B0)  	Additional Patient History  	MASS SEEN ON CXR  
+(0012,0062)  	Patient Identity Removed  	YES  
+(0012,0063)  	De-identification Method  	Per DICOM PS 3.15 AnnexE. Details in 0012,0064  
+(0012,0064)  	De-identification Method Code Sequence  	 
+>(0008,0100)  	Code Value  	113100  
+>(0008,0102)  	Coding Scheme Designator  	DCM  
+>(0008,0104)  	Code Meaning  	Basic Application Confidentiality Profile  
+>(0008,0100)  	Code Value  	113101  
+>(0008,0102)  	Coding Scheme Designator  	DCM  
+>(0008,0104)  	Code Meaning  	Clean Pixel Data Option  
+>(0008,0100)  	Code Value  	113105  
+>(0008,0102)  	Coding Scheme Designator  	DCM  
+>(0008,0104)  	Code Meaning  	Clean Descriptors Option  
+>(0008,0100)  	Code Value  	113107  
+>(0008,0102)  	Coding Scheme Designator  	DCM  
+>(0008,0104)  	Code Meaning  	Retain Longitudinal With Modified Dates Option  
+>(0008,0100)  	Code Value  	113108  
+>(0008,0102)  	Coding Scheme Designator  	DCM  
+>(0008,0104)  	Code Meaning  	Retain Patient Characteristics Option  
+>(0008,0100)  	Code Value  	113109  
+>(0008,0102)  	Coding Scheme Designator  	DCM  
+>(0008,0104)  	Code Meaning  	Retain Device Identity Option  
+>(0008,0100)  	Code Value  	113111  
+>(0008,0102)  	Coding Scheme Designator  	DCM  
+>(0008,0104)  	Code Meaning  	Retain Safe Private Option  
+(0012,0064)  	End De-identification Method Code Sequence  	 
+(0013,0010)  	 	CTP  
+(0013,1010)  	 	54\43\47\41\2D\4C\55\41\44\00  
+(0013,1013)  	 	36\34\35\30\39\30\30\32  
+(0018,0015)  	Body Part Examined  	LUNG  
+(0018,0022)  	Scan Options  	SCOUT MODE  
+(0018,0050)  	Slice Thickness  	400.181793  
+(0018,0060)  	KVP  	120  
+(0018,0090)  	Data Collection Diameter  	500.000000  
+(0018,1020)  	Software Version(s)  	LightSpeedApps405I.2_H4.0M5  
+(0018,1030)  	Protocol Name  	5.1 CHEST WO (THINS 0.6'S/LACOMIS)  
+(0018,1100)  	Reconstruction Diameter  	 
+(0018,1110)  	Distance Source to Detector  	949.075012  
+(0018,1111)  	Distance Source to Patient  	541.000000  
+(0018,1120)  	Gantry/Detector Tilt  	0.000000  
+(0018,1130)  	Table Height  	158.100006  
+(0018,1140)  	Rotation Direction  	CW  
+(0018,1150)  	Exposure Time  	460  
+(0018,1151)  	X-ray Tube Current  	60  
+(0018,1152)  	Exposure  	244  
+(0018,1160)  	Filter Type  	BODY FILTER  
+(0018,1170)  	Generator Power  	7200  
+(0018,1190)  	Focal Spot(s)  	0.700000  
+(0018,1210)  	Convolution Kernel  	STANDARD  
+(0018,5100)  	Patient Position  	FFS  
+(0019,0010)  	 	GEMS_ACQU_01  
+(0019,1002)  	 	90\03\00\00  
+(0019,1003)  	 	33\38\39\2E\37\35\30\30\30\30  
+(0019,1004)  	 	31\2E\30\32\33\39\30\30  
+(0019,100F)  	 	39\38\35\2E\37\31\39\39\37\31  
+(0019,1011)  	 	00\00  
+(0019,1018)  	 	53\20  
+(0019,101A)  	 	49\20  
+(0019,1023)  	 	30\2E\30\30\30\30\30\30  
+(0019,1024)  	 	30\2E\30\30\30\30\30\30  
+(0019,1025)  	 	00\00  
+(0019,1026)  	 	5A\00\00\00  
+(0019,1027)  	 	30\2E\30\30\30\30\30\30  
+(0019,102C)  	 	C4\08\00\00  
+(0019,102E)  	 	30\2E\30\30\30\30\30\30  
+(0019,102F)  	 	35\35\30\2E\30\30\30\30\30\30  
+(0019,1039)  	 	10\00  
+(0019,1042)  	 	00\00  
+(0019,1043)  	 	00\00  
+(0019,1047)  	 	03\00  
+(0019,1052)  	 	01\00  
+(0019,106A)  	 	02\00  
+(0020,000D)  	Study Instance UID  	1.3.6.1.4.1.14519.5.2.1.6450.9002.339372202011004731829363267423  
+(0020,000E)  	Series Instance UID  	1.3.6.1.4.1.14519.5.2.1.6450.9002.320679027608000687591928843096  
+(0020,0010)  	Study ID  	 
+(0020,0011)  	Series Number  	1  
+(0020,0012)  	Acquisition Number  	1  
+(0020,0013)  	Instance Number  	1  
+(0020,0032)  	Image Position (Patient)  	0.000000\265.000000\0.000000  
+(0020,0037)  	Image Orientation (Patient)  	0.000000\-1.000000\0.000000\0.000000\0.000000\-1.000000  
+(0020,0052)  	Frame of Reference UID  	1.3.6.1.4.1.14519.5.2.1.6450.9002.110984847748848147045184167394  
+(0020,1040)  	Position Reference Indicator  	SN  
+(0020,1041)  	Slice Location  	0.000000  
+(0021,0010)  	 	GEMS_RELA_01  
+(0021,1003)  	 	01\00  
+(0021,1035)  	 	00\00  
+(0021,1036)  	 	00\00  
+(0021,1091)  	 	00\00  
+(0021,1092)  	 	00\00\00\00  
+(0021,1093)  	 	00\00\00\00  
+(0023,0010)  	 	GEMS_STDY_01  
+(0027,0010)  	 	GEMS_IMAG_01  
+(0027,1010)  	 	02\00  
+(0027,101C)  	 	00\00\00\00  
+(0027,101E)  	 	00\00\00\00  
+(0027,101F)  	 	00\00\00\00  
+(0027,1020)  	 	00\00  
+(0027,1035)  	 	01\00  
+(0027,1042)  	 	00\00\00\00  
+(0027,1043)  	 	00\00\00\00  
+(0027,1044)  	 	BB\E8\47\C3  
+(0027,1045)  	 	00\00\80\BF  
+(0027,1046)  	 	00\00\00\00  
+(0027,1047)  	 	00\00\00\00  
+(0027,1050)  	 	E9\A2\0B\34  
+(0027,1051)  	 	BB\E8\C7\C3  
+(0028,0002)  	Samples per Pixel  	1  
+(0028,0004)  	Photometric Interpretation  	MONOCHROME2  
+(0028,0010)  	Rows  	733  
+(0028,0011)  	Columns  	888  
+(0028,0030)  	Pixel Spacing  	0.545455\0.596847  
+(0028,0100)  	Bits Allocated  	16  
+(0028,0101)  	Bits Stored  	16  
+(0028,0102)  	High Bit  	15  
+(0028,0103)  	Pixel Representation  	1  
+(0028,0303)  	 	MODIFIED  
+(0028,1050)  	Window Center  	50  
+(0028,1051)  	Window Width  	500  
+(0028,1052)  	Rescale Intercept  	-1024  
+(0028,1053)  	Rescale Slope  	1  
+(0040,0244)  	Performed Procedure Step Start Date  	20000128  
+(0040,0245)  	Performed Procedure Step Start Time  	084405  
+(0040,0254)  	Performed Procedure Step Description  	CT CHEST N/C  
+(0043,0010)  	 	GEMS_PARM_01  
+(0043,1010)  	 	F4\01  
+(0043,1012)  	 	63\00\63\00\63\00  
+(0043,1016)  	 	FF\FF  
+(0043,101E)  	 	30\2E\30\30\30\30\30\30  
+(0043,101F)  	 	00\00\00\00  
+(0043,1021)  	 	00\00  
+(0043,1025)  	 	00\00\00\00\00\00\00\00\00\00\00\00  
+(0043,1026)  	 	00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00  
+(0043,1027)  	 	 
+(0043,102B)  	 	08\00\00\00\00\00\00\00  
+(0043,1031)  	 	30\2E\30\30\30\30\30\30\5C\30\2E\30\30\30\30\30\30\20  
+(0043,1040)  	 	0A\E6\B3\42  
+(0043,1041)  	 	38\D4\01\10  
+(0043,1042)  	 	00\00\00\00  
+(0043,1043)  	 	00\00\00\00  
+(0043,1044)  	 	00\00\00\00  
+(0043,1045)  	 	00\00\00\00  
+(0043,1046)  	 	00\00\00\00  
+(0043,104D)  	 	00\00\00\00  
+(0043,104E)  	 	5C\8F\82\40  
+(0045,0010)  	 	GEMS_HELIOS_01  
+(0045,1001)  	 	04\00  
+(0045,1002)  	 	01\00\00\00  
+(0045,1003)  	 	09\00  
+(0045,1004)  	 	04\00  
+(0045,1006)  	 	4F\55\54\20\4F\46\20\47\41\4E\54\52\59\20  
+(0045,1007)  	 	00\00\00\00  
+(0045,1008)  	 	00\00  
+(0045,1009)  	 	00\00  
+(0045,100A)  	 	00\00\00\00  
+(0045,100B)  	 	00\00\00\00  
+(0045,100C)  	 	00\00  
+(0045,100D)  	 	00\00  
+(0045,100E)  	 	00\00\00\00  
+(0045,100F)  	 	00\00\00\00  
+(0045,1010)  	 	00\00  
+(0045,1011)  	 	00\00  
+(0045,1012)  	 	00\00  
+(0045,1013)  	 	00\00  
+(0045,1014)  	 	00\00  
+(0045,1015)  	 	00\00  
+(0045,1016)  	 	00\00  
+(0045,1017)  	 	00\00  
+(0045,1018)  	 	00\00  
+(0045,1021)  	 	00\00  
+(0045,1022)  	 	00\00  
+(0045,1032)  	 	1F\85\EB\3E  
+(0073,0010)  	 	STENTOR  
+
+
