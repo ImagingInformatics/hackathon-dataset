@@ -1,5 +1,5 @@
 // specimen.z058.json
-// id: z058
+// id: Z058
 // http://fhir.hackathon.siim.org/fhir/Specimen/101?_format=application/json
 
 {
@@ -38,7 +38,7 @@
         ]
     },
     "subject": {
-        "reference": "Patient/example",
+        "reference": "Patient/Z058",
         "display": "Z058"
     },
     "accessionIdentifier": {
