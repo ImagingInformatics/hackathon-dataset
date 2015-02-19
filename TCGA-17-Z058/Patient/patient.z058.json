@@ -1,0 +1,120 @@
+// patient.example.json
+// id: z058
+// http://fhir.hackathon.siim.org/fhir/Patient/example?_format=application/json
+
+
+{
+    "resourceType": "Patient",
+    "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\r\n  <table>\r\n    <tbody>\r\n      <tr>\r\n        <td>Name</td>\r\n        <td>Peter James <b>Chalmers</b> (\"Jim\")</td>\r\n      </tr>\r\n      <tr>\r\n        <td>Address</td>\r\n        <td>534 Erewhon, Pleasantville, Vic, 3999</td>\r\n      </tr>\r\n      <tr>\r\n        <td>Contacts</td>\r\n        <td>Home: unknown. Work: (03) 5555 6473</td>\r\n      </tr>\r\n      <tr>\r\n        <td>Id</td>\r\n        <td>MRN: 12345 (Acme Healthcare)</td>\r\n      </tr>\r\n    </tbody>\r\n  </table>\r\n</div>"
+    },
+    "identifier": [
+        {
+            "use": "usual",
+            "label": "MRN",
+            "system": "urn:oid:1.2.36.146.595.217.0.1",
+            "value": "TCGA-17-Z058",
+            "period": {
+                "start": "1986-03-06"
+            },
+            "assigner": {
+                "display": "Acme Healthcare"
+            }
+        }
+    ],
+    "name": [
+        {
+            "use": "official",
+            "family": [
+                "TCGA-17-Z058 "
+            ],
+            "given": [
+                "Z058",
+                "17"
+            ]
+        },
+        {
+            "use": "usual",
+            "given": [
+                "17"
+            ]
+        }
+    ],
+    "telecom": [
+        {
+            "use": "home"
+        },
+        {
+            "system": "phone",
+            "value": "(035) 555 6473",
+            "use": "work"
+        }
+    ],
+    "gender": {
+        "coding": [
+            {
+                "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+                "code": "M",
+                "display": "Male"
+            }
+        ]
+    },
+    "birthDate": "1926-03-30",
+    "deceasedBoolean": false,
+    "address": [
+        {
+            "use": "home",
+            "line": [
+                "534 Erewhon St"
+            ],
+            "city": "PleasantVille",
+            "state": "Vic",
+            "zip": "3999"
+        }
+    ],
+    "contact": [
+        {
+            "relationship": [
+                {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/patient-contact-relationship",
+                            "code": "partner"
+                        }
+                    ]
+                }
+            ],
+            "name": {
+                "family": [
+                    "du",
+                    "Marché"
+                ],
+                "_family": [
+                    {
+                        "extension": [
+                            {
+                                "url": "http://hl7.org/fhir/Profile/iso-21090#qualifier",
+                                "valueCode": "VV"
+                            }
+                        ]
+                    },
+                    null
+                ],
+                "given": [
+                    "Bénédicte"
+                ]
+            },
+            "telecom": [
+                {
+                    "system": "phone",
+                    "value": "+33 (237) 998327"
+                }
+            ]
+        }
+    ],
+    "managingOrganization": {
+        "reference": "Organization/1"
+    },
+    "active": true
+}
