@@ -129,6 +129,7 @@ Left hilar mass concerning for malignancy.
 
 ---------------------------------------
 PET Oncologic Study 4/22/1986
+
 Duration of fast prior to injection: 6 hours
 
 Blood glucose prior to injection: 85 mg/dl
