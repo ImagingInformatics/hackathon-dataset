@@ -15,8 +15,8 @@
         "coding": [
             {
                 "system": "http://snomed.info/sct",
-                "code": "39065001",
-                "display": "palpable left breast mass "
+                "code": "89164003",
+                "display": "breast lump"
             }
         ],
         "text": "palpable left breast mass"
@@ -52,7 +52,7 @@
                 "coding": [
                     {
                         "system": "http://snomed.info/sct",
-                        "code": "49521004",
+                        "code": "361716006",
                         "display": "Left breast"
                     }
                 ],
