@@ -78,14 +78,13 @@ Pathology
 Invasive ductal carcinoma
 
 
-
-
-
 ###LIDC-IDRI-0132
 
 
 ###TCGA-17-Z058
-HPI: 60 yo male with history of lung adenocarcinoma.  Pt has 8 CT scans of Abd/Pelvis.
+HPI: 60 yo male with history of lung adenocarcinoma. 
+
+
 
 ####Imaging Exams
 CT Onco Lung Mass 3/30/1986
@@ -109,61 +108,72 @@ Internal consistency: homogenous, hypodense to surrounding muscle.
 Local extent
 Pleural surface: Left lower lobe metastasis
 
-Chest wall: [No involvement.]
+Chest wall: No involvement.
 
 Airway: Compression of the lingula
 
 Vessels: Mass surrounds and nearly occludes the left inferior pulmonary artery.
 
-Nerves: [No involvement.]
+Nerves: No involvement.
 
 Regional extent
 Lymph nodes: AP window, and right hilar adenopathy.
 
-Distant metastases (chest and upper abdomen): [None. ]
+Distant metastases (chest and upper abdomen): None.
 
 Other findings
-Other findings [None. ]
+Other findings: None. 
 
 Impression
-Left hilar mass, compatible with adenocarcinoma.
+Left hilar mass concerning for malignancy.
 
 ---------------------------------------
 PET Oncologic Study 4/22/1986
-Duration of fast prior to injection: [      ]
+Duration of fast prior to injection: 6 hours
 
-Blood glucose prior to injection: [      ] mg/dl
+Blood glucose prior to injection: 85 mg/dl
 
-Scan region: [      ]
+Scan region: Brain, Neck, Chest, Abdomen
 
-Radiopharmaceutical: [F-18 FDG] [      ] mCi IV
+Radiopharmaceutical: F-18 FDG 10 mCi IV
 
-Calibration time: [<date>] [<time>]
+Calibration time: 4/22/1986 10:30 AM
 
-Administration time: [<date>] [<time>]
+Administration time: 4/22/1986 10:32 AM
 
-Injection site: [      ]
+Injection site: left antecubital fossa
 
-Post-injection imaging delay: [      ] minutes
+Post-injection imaging delay: 60 minutes
 
-Attenuation correction: [Rod source transmission scan. ]
+Attenuation correction: Rod source transmission scan.
 
 Clinical information
-[      ]
+60 yo male with left hilar mass, evaluate for metastatic disease
 
 Comparison
-[None. ]
+Chest CT scan 3/30/1986
 
 Findings
-Hypermetabolic foci: [None. ]
+Hypermetabolic foci:
+5.0 cm hypermetabolic left hilar mass on image 162 with a maximum SUV of 3.2.
+1.8 x 1.2 cm hypermetabolic AP window lymph node on image 132 maximum SUV of 2.7
+There is spurious activity in the neck musculature.  No contralateral hypermetabolic lesions are appreciated.
 
-Other findings: [None.]
+The right hilar adenopathy suspected on the prior CT scan is not seen.
+
+Other findings:
+The visualized brain parenchyma is unremarkable.  The soft tissues of the neck are unremarkable. The thyroid gland is unremarkable.  No axillary adenopathy.  No focal infiltrate.  No pneumothorax.  There a tiny left pleural effusion vs. pleural thickening.  This is not FDG avid.  The heart size is normal.  No pericardial effusion.
+
+Lack of IV contrast mildly limits evaluation of the organs in the abdomen and pelvis. The liver is unremarkable without focal lesion.  The adrenals are normal.  The pancreas, spleen, and kidneys are unreamarkable.
+
+Atherosclerotic calcification is seen throughout the aorta.  No abnormally dilated bowel.  No suspicious retroperitoneal or mesenteric adenopathy.
+
+There are no suspicious bony lesions.
 
 Impression
-[      ]
+1. Findings again compatible with left hilar malignancy with a left AP window lymph node. There is no evidence of contralateral disease.
 
-EORTC Response Criteria: [Complete Metabolic Response. MaxSUV < 2.5 or equivalent to background | Partial Metabolic Response. Decrease in MaxSUV >= 25% | Progressive Metabolic Disease. Increase in MaxSUV > 25% | Stable Metabolic Disease. Change in MaxSUV < 25%]
-
+EORTC Response Criteria: N/A - Baseline
 
 ---------------------------------------
 SIIM Diagnostic Lab
