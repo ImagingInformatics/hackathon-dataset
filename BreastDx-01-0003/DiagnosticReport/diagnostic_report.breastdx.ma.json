@@ -6,8 +6,8 @@
     "resourceType": "DiagnosticReport",
     "text": {
         "status": "generated",
-        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\r\n  <h2>Breast Specimen radiograph  </h2>\r\n  <table>\r\n    <tr>\r\n      <td>NAME</td>\r\n      <td>XXXXXXX</td>\r\n    </tr>\r\n    <tr>\r\n      <td>DOB</td>\r\n      <td>10/02/1974</td>\r\n    </tr>\r\n    <tr>\r\n      <td>REFERRING DR</td>\r\n      <td>Smith, Jane</td>\r\n    </tr>\r\n    <tr>\r\n      <td>INDICATIONS</td>\r\n      <td>Early menopause on estrogen levels. No period  for 18 months</td>\r\n    </tr>\r\n    <tr>\r\n      <td>PROCEDURE</td>\r\n      <td>Dual energy x-ray absorptiometry (DEXA)</td>\r\n    </tr>\r\n  </table>\r\n  <h3>Bone Mineral Density</h3>\r\n  <table>\r\n    <tr>\r\n      <td>Scan Type</td>\r\n      <td>Region</td>\r\n      <td>Measured</td>\r\n      <td>Age</td>\r\n      <td>BMD</td>\r\n      <td>T-Score</td>\r\n      <td>Z-Score</td>\r\n      <td>ΔBMD(g/cm2)</td>\r\n      <td>ΔBMD(%)</td>\r\n    </tr>\r\n    <tr>\r\n      <td>AP Spine</td>\r\n      <td>L1-L4</td>\r\n      <td>17/06/2008</td>\r\n      <td>34.4</td>\r\n      <td>1.148 g/cm²</td>\r\n      <td>-0.4</td>\r\n      <td>-0.5</td>\r\n      <td>-</td>\r\n      <td>-</td>\r\n    </tr>\r\n    <tr>\r\n      <td>Left Femur</td>\r\n      <td>Neck</td>\r\n      <td>17/06/2008</td>\r\n      <td>34.4</td>\r\n      <td>0.891 g/cm²</td>\r\n      <td>-1.0</td>\r\n      <td>-0.9</td>\r\n      <td>-</td>\r\n      <td>-</td>\r\n    </tr>\r\n    <tr>\r\n      <td>Left Femur</td>\r\n      <td>Total</td>\r\n      <td>17/06/2008</td>\r\n      <td>34.4</td>\r\n      <td>0.887 g/cm²</td>\r\n      <td>-1.2</td>\r\n      <td>-1.3</td>\r\n      <td>-</td>\r\n      <td>-</td>\r\n    </tr>\r\n    <tr>\r\n      <td>Right Femur</td>\r\n      <td>Neck</td>\r\n      <td>17/06/2008</td>\r\n      <td>34.4</td>\r\n      <td>0.885 g/cm²</td>\r\n      <td>-1.0</td>\r\n      <td>-1.0</td>\r\n      <td>-</td>\r\n      <td>-</td>\r\n    </tr>\r\n    <tr>\r\n      <td>Right Femur</td>\r\n      <td>Total</td>\r\n      <td>17/06/2008</td>\r\n      <td>34.4</td>\r\n      <td>0.867 g/cm²</td>\r\n      <td>-1.4</td>\r\n      <td>-1.4</td>\r\n      <td>-</td>\r\n      <td>-</td>\r\n    </tr>\r\n  </table>\r\n  <p>Assessment:</p>\r\n  <ul>\r\n    <li>The Spine L1-L4 BMD is normal.</li>\r\n    <li>The Left Femur Neck BMD is in the osteopenic range. Relative fracture risk is about 2.</li>\r\n    <li>The Left Femur Total BMD is in the osteopenic range. Relative fracture risk is about 2.</li>\r\n    <li>The Right Femur Neck BMD is in the osteopenic range. Relative fracture risk is about 2.</li>\r\n    <li>The Right Femur Total BMD is in the osteopenic range. Relative fracture risk is about 2.</li>\r\n  </ul>\r\n  <p>\r\n    <b>COMMENT</b>\r\n  </p>\r\n  <p>Osteopenia on measured BMD. The estimated 10-year probability of fracture based on present age, gender and measured BMD is less than 10%. This absolute fracture risk remains low. A follow-up assessment may be considered in 2 to 3 years to monitor the trend in BMD.</p>\r\n  <p>Thank you for your referral.  Dr Peter Ng  17/06/2008</p>\r\n  <pre>\r\nNote:\r\nWHO classification of osteoporosis (WHO Technical Report Series 1994: 843)\r\n- Normal: T-score equal to -1.0 s.d. or higher\r\n- Osteopenia: T-score  between -1.0 and -2.5 s.d.\r\n- Osteoporosis: T-score equal to -2.5 s.d. or lower\r\n- Severe/Established osteoporosis: Osteoporosis with one or more fragility fracture.\r\n\r\nT-score: The number of s.d. from the mean BMD for a gender-matched young adult population. \r\nZ-score: The number of s.d. from the mean BMD for an age-, weight- and gender-matched population.\r\n\r\nReference for 10-year probability of fracture risk: Kanis JA, Johnell O, Oden A, Dawson A,  De Laet C, Jonsson B. Ten year probabilities of osteoporotic fractures according to BMD and diagnostic thresholds. Osteoporos.Int. 2001;12(12):989-995.\r\n\r\nGE LUNAR PRODIGY DENSITOMETER\r\n</pre>\r\n</div>"
-    },
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\r\n  </div>"
+            },
     "contained": [
         {
             "resourceType": "Observation",
@@ -16,8 +16,8 @@
                 "coding": [
                     {
                         "system": "http://loinc.org/",
-                        "code": "24701-5",
-                        "display": "Specimen radiograph"
+                        "code": "24597-7",
+                        "display": "Breast Specimen Mammogram"
                     }
                 ]
             },
@@ -27,7 +27,8 @@
                 "coding": [
                     {
                         "system": "http://snomed.info/sct",
-                        "code": "71341001:272741003=7771000"
+                        "code": "89164003",
+                        "display": "left breast"
                     }
                 ]
             }
@@ -37,10 +38,10 @@
         "coding": [
             {
                 "system": "http://loinc.org/",
-                "code": "38269-7"
+                "code": "24597-7"
             }
         ],
-        "text": "Specimen radiograph"
+        "text": "Breast Specimen Mammogram"
     },
     "status": "final",
     "issued": "2008-05-24T09:23:00+10:00",
@@ -62,8 +63,8 @@
             "coding": [
                 {
                     "system": "http://snomed.info/sct",
-                    "code": "391040000",
-                    "display": "Specimen radiograph demonstrates......... BI-RADS Final Assessment Category IV: Suspicious for Malignancy."
+                    "code": "89164003",
+                    "display": "left breast lump"
                 }
             ]
         }

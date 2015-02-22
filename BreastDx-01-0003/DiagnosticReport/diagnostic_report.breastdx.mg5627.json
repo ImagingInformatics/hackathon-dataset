@@ -1,6 +1,6 @@
-// diagnostic_report.example.json
-// id: breastmg5627
-// http://fhir.hackathon.siim.org/fhir/DiagnosticReport/breastmg5627?_format=application/json
+// diagnostic_report.breastdx.mg5627.json
+// id: breastdxmg5627
+// http://fhir.hackathon.siim.org/fhir/DiagnosticReport/breastdxmg5627?_format=application/json
 
 {
     "resourceType": "DiagnosticReport",
@@ -16,8 +16,8 @@
                 "coding": [
                     {
                         "system": "http://loinc.org/",
-                        "code": "24701-5",
-                        "display": "Digital Diagnostic Mammogram Bilateral "
+                        "code": "39152-4",
+                        "display": "Digital Diagnostic Mammogram Bilateral"
                     }
                 ]
             },
@@ -27,8 +27,17 @@
                 "coding": [
                     {
                         "system": "http://snomed.info/sct",
-                        "code": "71341001:272741003=7771000"
+                        "code": "51440002",
+                        "display": "right and left"
+                    },
+                    {
+                        "system": "http://snomed.info/sct",
+                        "code": "181131000",
+                        "display": "entire breast"
                     }
+
+
+
                 ]
             }
         }
@@ -37,7 +46,7 @@
         "coding": [
             {
                 "system": "http://loinc.org/",
-                "code": "38269-7"
+                "code": "39152-4"
             }
         ],
         "text": "Digital Diagnostic Mammogram Bilateral "
@@ -62,8 +71,13 @@
             "coding": [
                 {
                     "system": "http://snomed.info/sct",
-                    "code": "391040000",
-                    "display": "Diagnostic mammogram revealed a mass with microcalcification in the outer portion of the left breast. BI-RADS Final Assessment Category IV: Suspicious for Malignancy."
+                    "code": "89164003",
+                    "display": "left breast lump"
+                },
+                {
+                    "system": "http://snomed.info/sct",
+                    "code": "384671006",
+                    "display": "microcalcifications in tumor present"
                 }
             ]
         }

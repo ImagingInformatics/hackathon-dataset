@@ -16,8 +16,8 @@
                 "coding": [
                     {
                         "system": "http://loinc.org/",
-                        "code": "24701-5",
-                        "display": "Digital Diagnostic Mammogram Left Breast  "
+                        "code": "42169-3",
+                        "display": "Digital Diagnostic Mammogram Left Breast"
                     }
                 ]
             },
@@ -27,7 +27,8 @@
                 "coding": [
                     {
                         "system": "http://snomed.info/sct",
-                        "code": "71341001:272741003=7771000"
+                        "code": "89164003",
+                        "display": "left breast"
                     }
                 ]
             }
@@ -37,10 +38,10 @@
         "coding": [
             {
                 "system": "http://loinc.org/",
-                "code": "38269-7"
+                "code": "42169-3"
             }
         ],
-        "text": "Digital Diagnostic Mammogram Left Breast  "
+        "text": "Digital Diagnostic Mammogram Left Breast"
     },
     "status": "final",
     "issued": "2008-04-19T09:23:00+10:00",
@@ -62,8 +63,8 @@
             "coding": [
                 {
                     "system": "http://snomed.info/sct",
-                    "code": "391040000",
-                    "display": "Left Diagnostic Mammogram demonstrates ... BI-RADS Final Assessment Category IV: Suspicious for Malignancy."
+                    "code": "89164003",
+                    "display": "left breast lump"
                 }
             ]
         }

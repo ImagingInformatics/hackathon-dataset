@@ -10,7 +10,7 @@ log = Logger.new(STDOUT)
 Bundler::require
 
 if !File.exists?("fhir_server.yml")
-	raise "Pleases edit fhir_server.yml"
+	raise "Please edit fhir_server.yml"
 else
 	s = YAML.load_file("fhir_server.yml")
 end
