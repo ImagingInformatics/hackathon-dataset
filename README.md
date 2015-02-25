@@ -56,26 +56,79 @@ Allergies: NKDA
 Medications: levothyroxine sodium 50mcg once daily 
 
 Lab/Radiology
-4/12/2008 
-Diagnostic mammogram revealed a mass with microcalcification in the outer portion of the left breast.  
-BI-RADS Final Assessment Category IV: Suspicious for Malignancy.
 
 ---------------------------------------
-04/19/2008
-Bilateral breast MRI was also performed which demonstrated..........
+
+DIAGNOSTIC BILATERAL 4/12/2008
+
+Clinical History:  59 year-old female with history of left invasive ductal carcinoma (age 55) status post lumpectomy.
+
+Technique: Bilateral CC and MLO, Left spot compression LMLO views were obtained
+
+Findings:
+
+LEFT BREAST: There are scattered fibroglandular densities. There are expected lumpectomy changes in the upper outer quadrant with surgical clips in place.  Skin thickening is consistent with post radiation changes. No concerning masses, architectural distortions, or suspicious calcifications are identified.
+
+RIGHT BREAST: There are scattered fibroglandular densities. No concerning masses, architectural distortions, or suspicious calcifications are identified.
+
+Impression:
+
+LEFT BREAST: Expected lumpectomy changes. Benign. BI-RADS 2 - Recommend routine screening in 1 year.
+
+RIGHT BREAST: Negative. BI-RADS 1 - Recommend routine screening in 1 year.
+
+OVERALL BI-RADS 2 (Benign)
 
 ---------------------------------------
-4/22/2008
-Left Diagnostic Mammogram demonstrates..........
+Bilateral Breast MRI 04/19/2008
+
+Clinical History:  59 year-old female with history of left invasive ductal carcinoma (age 55) status post lumpectomy. High-risk screening MRI exam.
+
+Technique: Bilateral axial imaging of the breasts was obtained including T1, STIR, T1FS, and sequential T1FS+C. Digital subtraction and dynamic contrast curve analysis was performed on a separate workstation.
+
+Findings:
+
+LEFT BREAST: There is minimal benign background enhancement. There are expected post surgical changes in the upper outer breast. Multiple signal voids represent surgical clips in place.  Skin thickening is consistent with post radiation change. There is no abnormal enhancement to indicate residual or recurrent disease.  There are no morphologically abnormal axillary lymph nodes.
+
+RIGHT BREAST: There is minimal benign background enhancement. There is no abnormal enhancement or lymphadenopathy.
+
+Impression:
+
+LEFT BREAST: Expected post treatment changes. Benign. BI-RADS 2. Recommend routine screening mammography in 1 year.
+
+RIGHT BREAST: Negative. BI-RADS 1. Recommend routine screening mammography in 1 year.
+
+OVERALL BI-RADS 2 (Benign)
+
+---------------------------------------
+
+Full Field Digital Left Diagnostic Mammogram 4/22/2008
+
+Clinical History:  59 year-old female with history of left invasive ductal carcinoma (age 55) status post lumpectomy.
+
+Technique: LML, L XCCL
+
+Findings:
+
+LEFT BREAST: There are scattered fibroglandular densities. There are expected lumpectomy changes in the upper outer quadrant with surgical clips in place.  Skin thickening is consistent with post radiation changes. No concerning masses, architectural distortions, or suspicious calcifications are identified.
+
+Impression:
+
+LEFT BREAST: Expected changes status post lumpectomy and radiation. Benign. BI-RADS 2 - Recommend routine screening in 1 year.
 
 ---------------------------------------
 05/24/2008
-Specimen radiograph demonstrates.........
+Surgical Specimen Radiograph
 
----------------------------------------
-Pathology
-5/24/2008
-Invasive ductal carcinoma
+Clinical History:  Unknown
+
+Technique: Single surgical specimen radiograph
+
+Findings: The surgical specimen contains an intact wire and surgical clip.  No masses or calcifications are identified.
+
+Impression:
+
+Specimen radiograph with intact wire and surgical clip.
 
 
 ###LIDC-IDRI-0132
