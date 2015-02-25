@@ -6,7 +6,7 @@
     "resourceType": "DiagnosticReport",
     "text": {
         "status": "generated",
-        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\r\n  </div>"
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\r\n <p>05/24/2008\nSurgical Specimen Radiograph</p>\n\n<p>Clinical History:  Unknown</p>\n\n<p>Technique: Single surgical specimen radiograph</p>\n\n<p>Findings: The surgical specimen contains an intact wire and surgical clip.  No masses or calcifications are identified.</p>\n\n<p>Impression:</p>\n\n<p>Specimen radiograph with intact wire and surgical clip.</p> </div>"
             },
     "contained": [
         {
