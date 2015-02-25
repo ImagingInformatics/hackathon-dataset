@@ -14,7 +14,7 @@
                 "system": "http://snomed.info/sct",
                 "code": "126202002",
                 "display": "levothyroxine sodium 50mcg once daily  (product)"
-            },
+            }
         ]
     },
     "isBrand": false,
