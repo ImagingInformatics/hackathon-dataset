@@ -1,71 +1,70 @@
-// diagnostic_report.Z058ct0433.json
-// id: Z058ct0433
-// http://fhir.hackathon.siim.org/fhir/DiagnosticReport/Z058ct0433?_format=application/json
-
 {
-    "resourceType": "DiagnosticReport",
-    "text": {
-        "status": "generated",
-        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>CT Onco Lung Mass 3/30/1986</p>\n\n<p>Clinical information\n60 yo male with left hilar mass.</p>\n\n<p>Comparison\nNone.</p>\n\n<p>Findings\nLung mass\nSize: 5.3 x 4.0 x 4.0 cm</p>\n\n<p>Location: left hilar region</p>\n\n<p>Shape: Smoothly marginated</p>\n\n<p>Internal consistency: homogenous, hypodense to surrounding muscle.</p>\n\n<p>Local extent\nPleural surface: Left lower lobe metastasis</p>\n\n<p>Chest wall: No involvement.</p>\n\n<p>Airway: Compression of the lingula</p>\n\n<p>Vessels: Mass surrounds and nearly occludes the left inferior pulmonary artery.</p>\n\n<p>Nerves: No involvement.</p>\n\n<p>Regional extent\nLymph nodes: AP window, and right hilar adenopathy.</p>\n\n<p>Distant metastases (chest and upper abdomen): None.</p>\n\n<p>Other findings\nOther findings: None. </p>\n\n<p>Impression\nLeft hilar mass concerning for malignancy.</p></div>"
-    },
-    "contained": [
-        {
-            "resourceType": "Observation",
-            "id": "r1",
-            "name": {
-                "coding": [
-                    {
-                        "system": "http://loinc.org/",
-                        "code": "24627-2",
-                        "display": "Chest CT"
-                    }
-                ]
-            },
-            "status": "final",
-            "reliability": "ok",
-            "bodySite": {
+    "id": "Z058ct0433",
+    "resource": {
+        "resourceType": "DiagnosticReport",
+        "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>CT Onco Lung Mass 3/30/1986</p>\n\n<p>Clinical information\n60 yo male with left hilar mass.</p>\n\n<p>Comparison\nNone.</p>\n\n<p>Findings\nLung mass\nSize: 5.3 x 4.0 x 4.0 cm</p>\n\n<p>Location: left hilar region</p>\n\n<p>Shape: Smoothly marginated</p>\n\n<p>Internal consistency: homogenous, hypodense to surrounding muscle.</p>\n\n<p>Local extent\nPleural surface: Left lower lobe metastasis</p>\n\n<p>Chest wall: No involvement.</p>\n\n<p>Airway: Compression of the lingula</p>\n\n<p>Vessels: Mass surrounds and nearly occludes the left inferior pulmonary artery.</p>\n\n<p>Nerves: No involvement.</p>\n\n<p>Regional extent\nLymph nodes: AP window, and right hilar adenopathy.</p>\n\n<p>Distant metastases (chest and upper abdomen): None.</p>\n\n<p>Other findings\nOther findings: None. </p>\n\n<p>Impression\nLeft hilar mass concerning for malignancy.</p></div>"
+        },
+        "contained": [
+            {
+                "resourceType": "Observation",
+                "id": "r1",
+                "name": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org/",
+                            "code": "24627-2",
+                            "display": "Chest CT"
+                        }
+                    ]
+                },
+                "status": "final",
+                "reliability": "ok",
+                "bodySite": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "51185008"
+                        }
+                    ]
+                }
+            }
+        ],
+        "name": {
+            "coding": [
+                {
+                    "system": "http://loinc.org/",
+                    "code": "24627-2"
+                }
+            ],
+            "text": "chest CT"
+        },
+        "status": "final",
+        "issued": "1986-03-30T09:23:00+10:00",
+        "subject": {
+            "reference": "Patient/Z058"
+        },
+        "performer": {
+            "reference": "Organization/1832473e-2fe0-452d-abe9-3cdb9879522f",
+            "display": "Acme Imaging Diagnostics"
+        },
+        "diagnosticDateTime": "1986-03-30",
+        "result": [
+            {
+                "reference": "#r1"
+            }
+        ],
+        "codedDiagnosis": [
+            {
                 "coding": [
                     {
                         "system": "http://snomed.info/sct",
-                        "code": "51185008"
+                        "code": "35917007",
+                        "display": "Adenocarcinoma"
                     }
                 ]
             }
-        }
-    ],
-    "name": {
-        "coding": [
-            {
-                "system": "http://loinc.org/",
-                "code": "24627-2"
-            }
-        ],
-        "text": "chest CT"
-    },
-    "status": "final",
-    "issued": "1986-03-30T09:23:00+10:00",
-    "subject": {
-        "reference": "Patient/Z058"
-    },
-    "performer": {
-        "reference": "Organization/1832473e-2fe0-452d-abe9-3cdb9879522f",
-        "display": "Acme Imaging Diagnostics"
-    },
-    "diagnosticDateTime": "1986-03-30",
-    "result": [
-        {
-            "reference": "#r1"
-        }
-    ],
-    "codedDiagnosis": [
-        {
-            "coding": [
-                {
-                    "system": "http://snomed.info/sct",
-                    "code": "35917007",
-                    "display": "Adenocarcinoma"
-                }
-            ]
-        }
-    ]
+        ]
+    }
 }
