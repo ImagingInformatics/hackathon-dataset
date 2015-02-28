@@ -1,6 +1,6 @@
 {
     "id": "random",
-    "message": {
+    "resource": {
         "resourceType": "MedicationPrescription",
         "text": {
             "status": "generated",

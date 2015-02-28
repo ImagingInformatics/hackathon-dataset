@@ -1,6 +1,6 @@
 {
     "id": "breastdx",
-    "message": {
+    "resource": {
         "resourceType": "Patient",
         "text": {
             "status": "generated",

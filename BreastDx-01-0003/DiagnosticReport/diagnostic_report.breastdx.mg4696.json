@@ -1,6 +1,6 @@
 {
     "id": "breastdxmg4696",
-    "message": {
+    "resource": {
         "resourceType": "DiagnosticReport",
         "text": {
             "status": "generated",
