@@ -1,71 +1,72 @@
-// diagnostic_report.breastx.mg4696.json
-// id: breastdxmg4696
-// http://fhir.hackathon.siim.org/fhir/DiagnosticReport/breastdxmg4696?_format=application/json
-
 {
-    "resourceType": "DiagnosticReport",
-    "text": {
-        "status": "generated",
-        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Full Field Digital Left Diagnostic Mammogram 4/22/2008</p>\n\n<p>Clinical History:  59 year-old female with history of left invasive ductal carcinoma (age 55) status post lumpectomy.</p>\n\n<p>Technique: LML, L XCCL</p>\n\n<p>Findings:</p>\n\n<p>LEFT BREAST: There are scattered fibroglandular densities. There are expected lumpectomy changes in the upper outer quadrant with surgical clips in place.  Skin thickening is consistent with post radiation changes. No concerning masses, architectural distortions, or suspicious calcifications are identified.</p>\n\n<p>Impression:</p>\n\n<p>LEFT BREAST: Expected changes status post lumpectomy and radiation. Benign. BI-RADS 2 - Recommend routine screening in 1 year.</p> </div>"},
-    "contained": [
-        {
-            "resourceType": "Observation",
-            "id": "r1",
-            "name": {
-                "coding": [
-                    {
-                        "system": "http://loinc.org/",
-                        "code": "42169-3",
-                        "display": "Digital Diagnostic Mammogram Left Breast"
-                    }
-                ]
-            },
-            "status": "final",
-            "reliability": "ok",
-            "bodySite": {
+    "id": "breastdxmg4696",
+    "message": {
+        "resourceType": "DiagnosticReport",
+        "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Full Field Digital Left Diagnostic Mammogram 4/22/2008</p>\n\n<p>Clinical History:  59 year-old female with history of left invasive ductal carcinoma (age 55) status post lumpectomy.</p>\n\n<p>Technique: LML, L XCCL</p>\n\n<p>Findings:</p>\n\n<p>LEFT BREAST: There are scattered fibroglandular densities. There are expected lumpectomy changes in the upper outer quadrant with surgical clips in place.  Skin thickening is consistent with post radiation changes. No concerning masses, architectural distortions, or suspicious calcifications are identified.</p>\n\n<p>Impression:</p>\n\n<p>LEFT BREAST: Expected changes status post lumpectomy and radiation. Benign. BI-RADS 2 - Recommend routine screening in 1 year.</p> </div>"},
+        "contained": [
+            {
+                "resourceType": "Observation",
+                "id": "r1",
+                "name": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org/",
+                            "code": "42169-3",
+                            "display": "Digital Diagnostic Mammogram Left Breast"
+                        }
+                    ]
+                },
+                "status": "final",
+                "reliability": "ok",
+                "bodySite": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "89164003",
+                            "display": "left breast"
+                        }
+                    ]
+                }
+            }
+        ],
+        "name": {
+            "coding": [
+                {
+                    "system": "http://loinc.org/",
+                    "code": "42169-3"
+                }
+            ],
+            "text": "Digital Diagnostic Mammogram Left Breast"
+        },
+        "status": "final",
+        "issued": "2008-04-19T09:23:00+10:00",
+        "subject": {
+            "reference": "Patient/breastdx"
+        },
+        "performer": {
+            "reference": "Organization/1832473e-2fe0-452d-abe9-3cdb9879522f",
+            "display": "Acme Imaging Diagnostics"
+        },
+        "diagnosticDateTime": "2008-04-19",
+        "result": [
+            {
+                "reference": "#r1"
+            }
+        ],
+        "codedDiagnosis": [
+            {
                 "coding": [
                     {
                         "system": "http://snomed.info/sct",
                         "code": "89164003",
-                        "display": "left breast"
+                        "display": "left breast lump"
                     }
                 ]
             }
-        }
-    ],
-    "name": {
-        "coding": [
-            {
-                "system": "http://loinc.org/",
-                "code": "42169-3"
-            }
-        ],
-        "text": "Digital Diagnostic Mammogram Left Breast"
-    },
-    "status": "final",
-    "issued": "2008-04-19T09:23:00+10:00",
-    "subject": {
-        "reference": "Patient/breastdx"
-    },
-    "performer": {
-        "reference": "Organization/1832473e-2fe0-452d-abe9-3cdb9879522f",
-        "display": "Acme Imaging Diagnostics"
-    },
-    "diagnosticDateTime": "2008-04-19",
-    "result": [
-        {
-            "reference": "#r1"
-        }
-    ],
-    "codedDiagnosis": [
-        {
-            "coding": [
-                {
-                    "system": "http://snomed.info/sct",
-                    "code": "89164003",
-                    "display": "left breast lump"
-                }
-            ]
-        }
-    ]
+        ]
+
+
+    }
 }

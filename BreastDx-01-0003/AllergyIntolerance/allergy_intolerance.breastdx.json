@@ -1,21 +1,23 @@
-// allergy_intolerance.example.json
-// id: random
-// Source: http://fhir.hackathon.siim.org/fhir/AllergyIntolerance/example/?_format=application/json
-
 {
-    "resourceType": "AllergyIntolerance",
-    "text": {
-        "status": "generated",
-        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">NKDA</div>"
-    },
-    "criticality": "",
-    "sensitivityType": "allergy",
-    "recordedDate": "2008-05-24",
-    "status": "confirmed",
-    "subject": {
-        "reference": "Patient/breastdx"
-    },
-    "recorder": {
-        "reference": "Practitioner/example"
+    "id": "random",
+    "resource": {
+        "resourceType": "AllergyIntolerance",
+        "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">NKDA</div>"
+        },
+        "criticality": "",
+        "sensitivityType": "allergy",
+        "recordedDate": "2008-05-24",
+        "status": "confirmed",
+        "subject": {
+            "reference": "Patient/breastdx"
+        },
+        "recorder": {
+            "reference": "Practitioner/example"
+        }
+
+
     }
+
 }

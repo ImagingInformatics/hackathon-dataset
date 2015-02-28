@@ -9,47 +9,55 @@ log = Logger.new(STDOUT)
 
 Bundler::require
 
-if !File.exists?("fhir_server.yml")
-	raise "Please edit fhir_server.yml"
+if ARGV.length < 2
+	raise "usage:\n\nruby upload.rb server_config.yml path_for_recursion"
+end
+
+if !File.exists?(ARGV[0])
+	raise "Please specify valid yml config file"
 else
-	s = YAML.load_file("fhir_server.yml")
+	server = YAML.load_file(ARGV[0])
 end
 
 # Test a basic Get against the FHIR server
 # if this fails, it throws an error and the script doesn't proceed
 
 begin
-	result = RestClient.get s[:url] + "Patient", :params => {:_format => s[:format]}
+	result = RestClient.get server[:url] + "Patient", :params => {:_format => server[:format]}
 rescue
 	log.error(result)
 	raise
 end
 
-Dir["./**/*.json"].each do |data|
+Dir["#{ARGV[1]}/**/*.json"].each do |data|
 
 	log.info("Processing: #{data}\n")
 
 	data_string = File.read(data)
 
-	begin
-		# find the ID from the comment at the top of the JSON file
-		id = data_string.scan(/id:(.*?)$/).first.first.strip!
-	rescue
+	json = JSON.parse(File.read(data))
+
+	id = json["id"]
+	resource = json["resource"]
+
+	if id.nil?
 		log.error("Error reading #{data}, make sure an ID is specified in the header comment")
 		raise 
 	end
 
-	resource_type = JSON.parse(data_string)["resourceType"]
+	resource_type = resource["resourceType"]
+
+	log.debug("Resource: #{resource.to_json}\n\nResource Type: #{resource_type}")
 
 	if id == "random"
 		begin
-			result = RestClient.post s[:url] + resource_type, data_string, :content_type => s[:format] + '+fhir', :params => {:_format => s[:format]}
+			result = RestClient.post server[:url] + resource_type, resource.to_json, :content_type => server[:format] + '+fhir', :params => {:_format => server[:format]}
 		rescue => e
 			e.response
 		end
 	else
 		begin
-			result = RestClient.put s[:url] + resource_type + "/" + id, data_string, :content_type => s[:format] + '+fhir', :params => {:_format => s[:format]}
+			result = RestClient.put server[:url] + resource_type + "/" + id, resource.to_json, :content_type => server[:format] + '+fhir', :params => {:_format => server[:format]}
 		rescue => e
 			e.response
 		end

@@ -1,72 +1,71 @@
-// diagnostic_report.breastdx.ma.json
-// id: breastdxma
-// http://fhir.hackathon.siim.org/fhir/DiagnosticReport/breastdxma?_format=application/json
-
 {
-    "resourceType": "DiagnosticReport",
-    "text": {
-        "status": "generated",
-        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\r\n <p>05/24/2008\nSurgical Specimen Radiograph</p>\n\n<p>Clinical History:  Unknown</p>\n\n<p>Technique: Single surgical specimen radiograph</p>\n\n<p>Findings: The surgical specimen contains an intact wire and surgical clip.  No masses or calcifications are identified.</p>\n\n<p>Impression:</p>\n\n<p>Specimen radiograph with intact wire and surgical clip.</p> </div>"
-            },
-    "contained": [
-        {
-            "resourceType": "Observation",
-            "id": "r1",
-            "name": {
-                "coding": [
-                    {
-                        "system": "http://loinc.org/",
-                        "code": "24597-7",
-                        "display": "Breast Specimen Mammogram"
-                    }
-                ]
-            },
-            "status": "final",
-            "reliability": "ok",
-            "bodySite": {
+    "id": "breastdxma",
+    "resource": {
+        "resourceType": "DiagnosticReport",
+        "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\r\n <p>05/24/2008\nSurgical Specimen Radiograph</p>\n\n<p>Clinical History:  Unknown</p>\n\n<p>Technique: Single surgical specimen radiograph</p>\n\n<p>Findings: The surgical specimen contains an intact wire and surgical clip.  No masses or calcifications are identified.</p>\n\n<p>Impression:</p>\n\n<p>Specimen radiograph with intact wire and surgical clip.</p> </div>"
+        },
+        "contained": [
+            {
+                "resourceType": "Observation",
+                "id": "r1",
+                "name": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org/",
+                            "code": "24597-7",
+                            "display": "Breast Specimen Mammogram"
+                        }
+                    ]
+                },
+                "status": "final",
+                "reliability": "ok",
+                "bodySite": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "89164003",
+                            "display": "left breast"
+                        }
+                    ]
+                }
+            }
+        ],
+        "name": {
+            "coding": [
+                {
+                    "system": "http://loinc.org/",
+                    "code": "24597-7"
+                }
+            ],
+            "text": "Breast Specimen Mammogram"
+        },
+        "status": "final",
+        "issued": "2008-05-24T09:23:00+10:00",
+        "subject": {
+            "reference": "Patient/breastdx"
+        },
+        "performer": {
+            "reference": "Organization/1832473e-2fe0-452d-abe9-3cdb9879522f",
+            "display": "Acme Imaging Diagnostics"
+        },
+        "diagnosticDateTime": "2008-05-24",
+        "result": [
+            {
+                "reference": "#r1"
+            }
+        ],
+        "codedDiagnosis": [
+            {
                 "coding": [
                     {
                         "system": "http://snomed.info/sct",
                         "code": "89164003",
-                        "display": "left breast"
+                        "display": "left breast lump"
                     }
                 ]
             }
-        }
-    ],
-    "name": {
-        "coding": [
-            {
-                "system": "http://loinc.org/",
-                "code": "24597-7"
-            }
-        ],
-        "text": "Breast Specimen Mammogram"
-    },
-    "status": "final",
-    "issued": "2008-05-24T09:23:00+10:00",
-    "subject": {
-        "reference": "Patient/breastdx"
-    },
-    "performer": {
-        "reference": "Organization/1832473e-2fe0-452d-abe9-3cdb9879522f",
-        "display": "Acme Imaging Diagnostics"
-    },
-    "diagnosticDateTime": "2008-05-24",
-    "result": [
-        {
-            "reference": "#r1"
-        }
-    ],
-    "codedDiagnosis": [
-        {
-            "coding": [
-                {
-                    "system": "http://snomed.info/sct",
-                    "code": "89164003",
-                    "display": "left breast lump"
-                }
-            ]
-        }
-    ]
+        ]
+    }
 }

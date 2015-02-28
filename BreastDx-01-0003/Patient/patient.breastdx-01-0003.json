@@ -1,118 +1,118 @@
-// patient.breastdx-01-0003.json
-// id: breastdx
-
 {
-    "resourceType": "Patient",
-    "text": {
-        "status": "generated",
-        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\r\n  <table>\r\n    <tbody>\r\n      <tr>\r\n        <td>Name</td>\r\n        <td>BreastDx-01-0003</td>\r\n      </tr>\r\n      <tr>\r\n        <td>Address</td>\r\n        <td>534 Erewhon, Rochester, MD, 53999</td>\r\n      </tr>\r\n      <tr>\r\n        <td>Contacts</td>\r\n        <td>Home: unknown. Work: (03) 5555 6473</td>\r\n      </tr>\r\n      <tr>\r\n        <td>Id</td>\r\n        <td>MRN: BreastDx-01-0003 (Acme Healthcare)</td>\r\n      </tr>\r\n    </tbody>\r\n  </table>\r\n</div>"
-    },
-    "identifier": [
-        {
-            "use": "usual",
-            "label": "MRN",
-            "system": "urn:oid:1.2.36.146.595.217.0.1",
-            "value": "BreastDx-01-0003",
-            "period": {
-                "start": "2001-05-06"
-            },
-            "assigner": {
-                "display": "Acme Healthcare"
-            }
-        }
-    ],
-    "name": [
-        {
-            "use": "official",
-            "family": [
-                "BreastDx-01-0003"
-            ],
-            "given": [
-                "01",
-                "0003"
-            ]
+    "id": "breastdx",
+    "message": {
+        "resourceType": "Patient",
+        "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\r\n  <table>\r\n    <tbody>\r\n      <tr>\r\n        <td>Name</td>\r\n        <td>BreastDx-01-0003</td>\r\n      </tr>\r\n      <tr>\r\n        <td>Address</td>\r\n        <td>534 Erewhon, Rochester, MD, 53999</td>\r\n      </tr>\r\n      <tr>\r\n        <td>Contacts</td>\r\n        <td>Home: unknown. Work: (03) 5555 6473</td>\r\n      </tr>\r\n      <tr>\r\n        <td>Id</td>\r\n        <td>MRN: BreastDx-01-0003 (Acme Healthcare)</td>\r\n      </tr>\r\n    </tbody>\r\n  </table>\r\n</div>"
         },
-        {
-            "use": "usual",
-            "given": [
-                "01"
-            ]
-        }
-    ],
-    "telecom": [
-        {
-            "use": "home"
-        },
-        {
-            "system": "phone",
-            "value": "(507) 555 6473",
-            "use": "work"
-        }
-    ],
-    "gender": {
-        "coding": [
+        "identifier": [
             {
-                "system": "http://hl7.org/fhir/v3/AdministrativeGender",
-                "code": "F",
-                "display": "Female"
-            }
-        ]
-    },
-    "birthDate": "1950-04-12",
-    "deceasedBoolean": false,
-    "address": [
-        {
-            "use": "home",
-            "line": [
-                "534 Erewhon St"
-            ],
-            "city": "Rochester",
-            "state": "MN",
-            "zip": "53999"
-        }
-    ],
-    "contact": [
-        {
-            "relationship": [
-                {
-                    "coding": [
-                        {
-                            "system": "http://hl7.org/fhir/patient-contact-relationship",
-                            "code": "partner"
-                        }
-                    ]
+                "use": "usual",
+                "label": "MRN",
+                "system": "urn:oid:1.2.36.146.595.217.0.1",
+                "value": "BreastDx-01-0003",
+                "period": {
+                    "start": "2001-05-06"
+                },
+                "assigner": {
+                    "display": "Acme Healthcare"
                 }
-            ],
-            "name": {
+            }
+        ],
+        "name": [
+            {
+                "use": "official",
                 "family": [
-                    "du",
-                    "Marché"
-                ],
-                "_family": [
-                    {
-                        "extension": [
-                            {
-                                "url": "http://hl7.org/fhir/Profile/iso-21090#qualifier",
-                                "valueCode": "VV"
-                            }
-                        ]
-                    },
-                    null
+                    "BreastDx-01-0003"
                 ],
                 "given": [
-                    "Bénédicte"
+                    "01",
+                    "0003"
                 ]
             },
-            "telecom": [
+            {
+                "use": "usual",
+                "given": [
+                    "01"
+                ]
+            }
+        ],
+        "telecom": [
+            {
+                "use": "home"
+            },
+            {
+                "system": "phone",
+                "value": "(507) 555 6473",
+                "use": "work"
+            }
+        ],
+        "gender": {
+            "coding": [
                 {
-                    "system": "phone",
-                    "value": "+33 (237) 998327"
+                    "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+                    "code": "F",
+                    "display": "Female"
                 }
             ]
-        }
-    ],
-    "managingOrganization": {
-        "reference": "Organization/1"
-    },
-    "active": true
+        },
+        "birthDate": "1950-04-12",
+        "deceasedBoolean": false,
+        "address": [
+            {
+                "use": "home",
+                "line": [
+                    "534 Erewhon St"
+                ],
+                "city": "Rochester",
+                "state": "MN",
+                "zip": "53999"
+            }
+        ],
+        "contact": [
+            {
+                "relationship": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://hl7.org/fhir/patient-contact-relationship",
+                                "code": "partner"
+                            }
+                        ]
+                    }
+                ],
+                "name": {
+                    "family": [
+                        "du",
+                        "Marché"
+                    ],
+                    "_family": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "http://hl7.org/fhir/Profile/iso-21090#qualifier",
+                                    "valueCode": "VV"
+                                }
+                            ]
+                        },
+                        null
+                    ],
+                    "given": [
+                        "Bénédicte"
+                    ]
+                },
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "+33 (237) 998327"
+                    }
+                ]
+            }
+        ],
+        "managingOrganization": {
+            "reference": "Organization/1"
+        },
+        "active": true
+    }
 }
