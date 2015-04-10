@@ -38,7 +38,7 @@ Element 	Name 	Data
 (0008,103E)  	Series Description  	T2W_TSE SENSE  
 (0008,1080)  	Admitting Diagnosis Description  	 
 (0008,1090)  	Manufacturer's Model Name  	Achieva  
-(0010,0010)  	Patient's Name  	 
+(0010,0010)  	Patient's Name  SIIM^Sally
 (0010,0020)  	Patient ID  	BreastDx-01-0003  
 (0010,0030)  	Patient's Birth Date  	 
 (0010,0040)  	Patient's Sex  	F  

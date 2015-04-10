@@ -34,7 +34,7 @@ Element 	Name 	Data
 >(0008,0102)  	Coding Scheme Designator  	SNM3  
 >(0008,0104)  	Code Meaning  	Breast  
 (0008,2218)  	End Anatomic Region Sequence  	 
-(0010,0010)  	Patient's Name  	 
+(0010,0010)  	Patient's Name  	SIIM^Sally
 (0010,0020)  	Patient ID  	BreastDx-01-0003  
 (0010,0030)  	Patient's Birth Date  	 
 (0010,0040)  	Patient's Sex  	F  

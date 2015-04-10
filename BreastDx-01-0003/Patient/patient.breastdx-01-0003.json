@@ -24,17 +24,16 @@
             {
                 "use": "official",
                 "family": [
-                    "BreastDx-01-0003"
+                    "SIIM"
                 ],
                 "given": [
-                    "01",
-                    "0003"
+                    "Sally"
                 ]
             },
             {
                 "use": "usual",
                 "given": [
-                    "01"
+                    "Sally"
                 ]
             }
         ],
