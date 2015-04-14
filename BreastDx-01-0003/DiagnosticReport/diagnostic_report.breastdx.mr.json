@@ -56,6 +56,7 @@
                 "reference": "#r1"
             }
         ],
+        "conclusion": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\r\n<p>Impression:</p>\n\n<p>LEFT BREAST: Expected post treatment changes. Benign. BI-RADS 2. Recommend routine screening mammography in 1 year.</p>\n\n<p>RIGHT BREAST: Negative. BI-RADS 1. Recommend routine screening mammography in 1 year.</p>\n\n<p>OVERALL BI-RADS 2 (Benign)</p>\n </div>",
         "codedDiagnosis": [
             {
                 "coding": [
