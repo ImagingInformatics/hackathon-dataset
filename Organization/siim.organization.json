@@ -1,0 +1,76 @@
+{
+    "id": "siim",
+    "resource": {
+        "resourceType": "Organization",
+        "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n<p>\n<b>Generated Narrative</b>\n</p>\n<p>\n<b>name</b>: Society of Imaging Informatics in Medicine\n</p>\n<p>\n<b>type</b>: \n<span title=\"Codes: {http://hl7.org/fhir/organization-type dept}\">Hospital Department</span>\n</p>\n<p>\n<b>telecom</b>: ph: (703) 723-0432\n</p>\n<p>\n<b>address</b>: 19440 Golf Vista Plaza<br/>\nSte 330<br/>\nLeesburg, VA 20176<br/>\n</p>\n<h3>Contacts</h3>\n<table class=\"grid\">\n<tr>\n<td>\n<b>Purpose</b>\n</td>\n<td>\n<b>Name</b>\n</td>\n<td>\n<b>Telecom</b>\n</td>\n<td>\n<b>Address</b>\n</td>\n<td>\n<b>Gender</b>\n</td>\n</tr>\n<tr>\n<td>\n<span title=\"Codes: {http://hl7.org/fhir/contactentity-type ADMIN}\">Administrative</span>\n</td>\n<td>Administrator</td>\n<td>ph: (703) 723-0432</td>\n<td>19440 Golf Vista Plaza<br/>\nSte 330<br/>\nLeesburg, VA 20176<br/>\n</td>\n<td></td>\n</tr>\n</table>\n<p>\n<b>active</b>: true\n</p>\n</div>"
+        },
+        "name": "Society of Imaging Informatics in Medicine",
+        "type": {
+            "coding": [
+                {
+                    "system": "http://hl7.org/fhir/organization-type",
+                    "code": "dept",
+                    "display": "Hospital Department"
+                }
+            ]
+        },
+        "telecom": [
+            {
+                "system": "phone",
+                "value": "(703) 723-0432"
+            }
+        ],
+        "address": [
+            {
+                "line": [
+                    "19440 Golf Vista Plaza",
+                    "Ste 330"
+                ],
+                "city": "Leesburg",
+                "state": "VA",
+                "zip": "20176"
+            }
+        ],
+        "contact": [
+            {
+                "purpose": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/contactentity-type",
+                            "code": "ADMIN"
+                        }
+                    ]
+                },
+                "name": {
+                    "text": "SIIM Administrator"
+                },
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "(703) 723-0432"
+                    },
+                    {
+                        "system": "email",
+                        "value": "admin@siim.org"
+                    },
+                    {
+                        "system": "fax",
+                        "value": "(703) 723-0415"
+                    }
+                ],
+                "address": {
+                    "line": [
+                        "19440 Golf Vista Plaza",
+                        "Ste 330"
+                    ],
+                    "city": "Leesburg",
+                    "state": "VA",
+                    "zip": "20176"
+                }
+            }
+        ],
+        "active": true
+    }
+}

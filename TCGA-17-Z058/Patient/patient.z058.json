@@ -111,7 +111,7 @@
             }
         ],
         "managingOrganization": {
-            "reference": "Organization/1"
+            "reference": "Organization/siim"
         },
         "active": true
     }
