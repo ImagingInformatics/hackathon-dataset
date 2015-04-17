@@ -55,6 +55,7 @@
                 "reference": "#r1"
             }
         ],
+        "conclusion":"<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Impression\nLeft hilar mass concerning for malignancy.</p></div>",
         "codedDiagnosis": [
             {
                 "coding": [
