@@ -1,6 +1,6 @@
 {
-    "id": "Z058",
-    "message": {
+    "id": "Z058cond",
+    "resource": {
         "resourceType": "Condition",
         "text": {
             "status": "generated",
