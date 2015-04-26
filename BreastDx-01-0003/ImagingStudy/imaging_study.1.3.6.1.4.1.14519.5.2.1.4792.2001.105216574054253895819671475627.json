@@ -1,0 +1,116 @@
+{
+  "id": "1.3.6.1.4.1.14519.5.2.1.4792.2001.105216574054253895819671475627",
+  "resource": {
+    "resourceType": "ImagingStudy",
+    "text": {
+      "status": "generated",
+      "div": "Digital Diagnostic Mammogram Bilateral"
+    }
+  },
+  "dateTime": "2008-04-12",
+  "subject": {
+    "reference": "Patient/breastdx"
+  },
+  "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.4792.2001.105216574054253895819671475627",
+  "accessionNo": {
+    "use": "usual",
+    "system": "http://www.siim.org",
+    "value": "2278028270041068"
+  },
+  "url": "http://vna.hackathon.siim.org/dcm4chee-arc/wado/DCM4CHEE/studies/1.3.6.1.4.1.14519.5.2.1.4792.2001.105216574054253895819671475627",
+  "numberOfSeries": 6,
+  "numberOfInstances": 6,
+  "series": [
+    {
+      "number": 5,
+      "modality": "MG",
+      "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.4792.2001.243808245447989246744724575759",
+      "description": "R XCCL",
+      "numberOfInstances": 1,
+      "dateTime": "2008-04-12",
+      "instance": [
+        {
+          "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.4792.2001.197875374588993955249111284597",
+          "sopclass": "1.2.840.10008.5.1.4.1.1.1.2",
+          "title": "DERIVED\\SECONDARY"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "modality": "MG",
+      "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.4792.2001.210542687020950294776803479438",
+      "description": "L XCCL",
+      "numberOfInstances": 1,
+      "dateTime": "2008-04-12",
+      "instance": [
+        {
+          "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.4792.2001.542562887503785263109591920039",
+          "sopclass": "1.2.840.10008.5.1.4.1.1.1.2",
+          "title": "DERIVED\\SECONDARY"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "modality": "MG",
+      "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.4792.2001.246998110832292351156382625158",
+      "description": "L MLO",
+      "numberOfInstances": 1,
+      "dateTime": "2008-04-12",
+      "instance": [
+        {
+          "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.4792.2001.335631784062310563723809609946",
+          "sopclass": "1.2.840.10008.5.1.4.1.1.1.2",
+          "title": "DERIVED\\SECONDARY"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "modality": "MG",
+      "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.4792.2001.323835191362867057104216682000",
+      "description": "L CC",
+      "numberOfInstances": 1,
+      "dateTime": "2008-04-12",
+      "instance": [
+        {
+          "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.4792.2001.239556031194154307367372611631",
+          "sopclass": "1.2.840.10008.5.1.4.1.1.1.2",
+          "title": "DERIVED\\SECONDARY"
+        }
+      ]
+    },
+    {
+      "number": 1,
+      "modality": "MG",
+      "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.4792.2001.326862698868700146219088322924",
+      "description": "R CC",
+      "numberOfInstances": 1,
+      "dateTime": "2008-04-12",
+      "instance": [
+        {
+          "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.4792.2001.322088473544713126760999238531",
+          "sopclass": "1.2.840.10008.5.1.4.1.1.1.2",
+          "title": "DERIVED\\SECONDARY"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "modality": "MG",
+      "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.4792.2001.299324598221034771323901632218",
+      "description": "L MLO",
+      "numberOfInstances": 1,
+      "dateTime": "2008-04-12",
+      "instance": [
+        {
+          "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.4792.2001.139413041634779783279439648395",
+          "sopclass": "1.2.840.10008.5.1.4.1.1.1.2",
+          "title": "DERIVED\\SECONDARY"
+        }
+      ]
+    }
+  ],
+  "description": "Digital Diagnostic Mammogram Bilateral"
+}
