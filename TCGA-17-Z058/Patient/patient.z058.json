@@ -10,13 +10,10 @@
             {
                 "use": "usual",
                 "label": "MRN",
-                "system": "urn:oid:1.2.36.146.595.217.0.1",
+                "system": "http://www.siim.org",
                 "value": "TCGA-17-Z058",
-                "period": {
-                    "start": "1986-03-06"
-                },
                 "assigner": {
-                    "display": "Acme Healthcare"
+                    "display": "SIIM"
                 }
             }
         ],
@@ -24,17 +21,16 @@
             {
                 "use": "official",
                 "family": [
-                    "TCGA-17-Z058 "
+                    "SIIM "
                 ],
                 "given": [
-                    "Z058",
-                    "17"
+                    "Joe"
                 ]
             },
             {
                 "use": "usual",
                 "given": [
-                    "17"
+                    "Joe"
                 ]
             }
         ],
