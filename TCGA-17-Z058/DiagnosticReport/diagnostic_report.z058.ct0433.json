@@ -1,5 +1,5 @@
 {
-    "id": "Z058ct0433",
+    "id": "2257132503242682",
     "resource": {
         "resourceType": "DiagnosticReport",
         "text": {
@@ -43,7 +43,7 @@
         "status": "final",
         "issued": "1986-03-30T09:23:00+10:00",
         "subject": {
-            "reference": "Patient/Z058"
+            "reference": "Patient/siimjoe"
         },
         "performer": {
             "reference": "Organization/siim",

@@ -1,5 +1,5 @@
 {
-    "id": "Z058pt5759",
+    "id": "2819497684894126",
     "resource": {
         "resourceType": "DiagnosticReport",
         "text": {
@@ -43,7 +43,7 @@
         "status": "final",
         "issued": "1986-04-22T09:23:00+10:00",
         "subject": {
-            "reference": "Patient/Z058"
+            "reference": "Patient/siimjoe"
         },
         "performer": {
             "reference": "Organization/siim",
@@ -65,6 +65,12 @@
                     }
                 ]
             }
-        ]
+        ],
+      "identifier" : {
+        "use" : "usual",
+        "label" : "Accession Number",
+        "system" : "http://www.siim.org",
+        "value" : "2257132503242682"
+      }
     }
 }

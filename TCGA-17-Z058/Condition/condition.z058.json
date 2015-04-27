@@ -7,7 +7,7 @@
             "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">60 yo male with history of lung adenocarcinoma (Date: 24-May 1985)</div>"
         },
         "subject": {
-            "reference": "Patient/Z058"
+            "reference": "Patient/siimjoe"
         },
         "code": {
             "coding": [

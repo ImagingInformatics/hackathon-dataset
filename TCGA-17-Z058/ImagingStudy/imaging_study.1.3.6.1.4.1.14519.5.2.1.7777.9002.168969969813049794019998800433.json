@@ -1,5 +1,5 @@
 {
-  "id": "1.3.6.1.4.1.14519.5.2.1.7777.9002.168969969813049794019998800433",
+  "id": "2257132503242682",
   "resource": {
     "resourceType": "ImagingStudy",
     "text": {
@@ -8,7 +8,7 @@
     },
     "dateTime": "1986-03-30",
     "subject": {
-      "reference": "Patient/Z058"
+      "reference": "Patient/siimjoe"
     },
     "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.7777.9002.168969969813049794019998800433",
     "accessionNo": {

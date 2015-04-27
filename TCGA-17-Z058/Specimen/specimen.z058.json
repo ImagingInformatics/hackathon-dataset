@@ -1,5 +1,5 @@
 {
-    "id": "Z058",
+    "id": "siimjoe",
     "resource": {
         "resourceType": "Specimen",
         "text": {
@@ -36,8 +36,8 @@
             ]
         },
         "subject": {
-            "reference": "Patient/Z058",
-            "display": "Z058"
+            "reference": "Patient/siimjoe",
+            "display": "siimjoe"
         },
         "accessionIdentifier": {
             "system": "http://lab.acme.org/specimens/2011",
