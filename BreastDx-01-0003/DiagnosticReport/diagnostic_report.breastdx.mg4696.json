@@ -66,7 +66,13 @@
                     }
                 ]
             }
-        ]
+        ],
+        "identifier" : {
+          "use" : "usual",
+          "label" : "Accession Number",
+          "system" : "http://www.siim.org",
+          "value" : "4361814883895900"
+        }
 
 
     }

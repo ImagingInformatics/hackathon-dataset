@@ -1,112 +1,115 @@
 {
-  "id": "2257132503242682.1",
+  "id": "22571325032426823",
   "resource": {
     "resourceType": "ImagingStudy",
     "text": {
       "status": "generated",
-      "div": "CT Chest Routine - Key Images (CT/KO/PR)"
+      "div": "CT Chest Routine (Key Images)"
     },
     "dateTime": "1986-03-30",
     "subject": {
       "reference": "Patient/siimjoe"
     },
-    "uid" : "urn:oid:1.3.6.1.4.1.14519.5.2.1.7777.9002.168969969813049794019998800433",
-    "accessionNo" : {
-      "use" : "usual",
-      "system" : "http://www.siim.org",
-      "value" : "2257132503242682"
+    "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.7777.9002.168969969813049794019998800433",
+    "accessionNo": {
+      "use": "usual",
+      "system": "http://www.siim.org",
+      "value": "2257132503242682"
     },
-    "url" : "http://vna.hackathon.siim.org/dcm4chee-arc/wado/DCM4CHEE/studies/1.3.6.1.4.1.14519.5.2.1.7777.9002.168969969813049794019998800433",
-    "numberOfSeries" : 7,
-    "numberOfInstances" : 137,
-    "series" : [
+    "url": "http://vna.hackathon.siim.org/dcm4chee-arc/wado/DCM4CHEE/studies/1.3.6.1.4.1.14519.5.2.1.7777.9002.168969969813049794019998800433",
+    "numberOfSeries": 7,
+    "numberOfInstances": 137,
+    "series": [
       {
-        "number" : 2,
-        "modality" : "CT",
-        "uid" : "urn:oid:",
-        "description": "KEY IMAGES (chafey)",
-        "numberOfInstances" : 1,
+        "number": 2,
+        "modality": "CT",
+        "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.7777.9002.156193230572698742469080278763",
+        "description": "CHEST ROUTINE  5.0  B20f",
+        "numberOfInstances": 66,
+        "dateTime": "1986-03-30",
         "instance": [
           {
             "number": 43,
-            "uid" :"urn:oid:1.3.6.1.4.1.14519.5.2.1.7777.9002.490124117251418258981431165786",
-            "sopclass" : "1.2.840.10008.5.1.4.1.1.2"
-          },
-          {
-            "number": 51,
-            "uid" :"urn:oid:1.3.6.1.4.1.14519.5.2.1.7777.9002.685135868056669647910082457654",
-            "sopclass" : "1.2.840.10008.5.1.4.1.1.2"
+            "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.7777.9002.490124117251418258981431165786",
+            "sopclass": "1.2.840.10008.5.1.4.1.1.2"
           },
           {
             "number": 28,
-            "uid" :"urn:oid:1.3.6.1.4.1.14519.5.2.1.7777.9002.235035319406651394250478509989",
-            "sopclass" : "1.2.840.10008.5.1.4.1.1.2"
+            "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.7777.9002.235035319406651394250478509989",
+            "sopclass": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          {
+            "number": 51,
+            "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.7777.9002.685135868056669647910082457654",
+            "sopclass": "1.2.840.10008.5.1.4.1.1.2"
           }
         ]
       },
       {
-        "number" : 4,
-        "modality" : "KO",
-        "uid" : "urn:oid:1.3.6.1.4.1.25403.121370035285.1340.20150425031228.1",
+        "number": 4,
+        "modality": "KO",
+        "uid": "urn:oid:1.3.6.1.4.1.25403.121370035285.1340.20150425031228.1",
         "description": "KEY IMAGES (chafey)",
-        "numberOfInstances" : 1,
+        "numberOfInstances": 1,
+        "dateTime": "1986-03-30",
         "instance": [
           {
             "number": 1,
-            "uid" :"urn:oid:1.3.6.1.4.1.25403.121370035285.1340.20150425031228.4",
-            "sopclass" : "1.2.840.10008.5.1.4.1.1.88.59"
+            "uid": "urn:oid:1.3.6.1.4.1.25403.121370035285.1340.20150425031228.4",
+            "sopclass": "1.2.840.10008.5.1.4.1.1.88.59"
           }
         ]
       },
       {
-        "number" : 5,
-        "modality" : "PR",
-        "uid" : "urn:oid:1.3.6.1.4.1.25403.121370035285.1340.20150425031228.2",
+        "number": 5,
+        "modality": "PR",
+        "uid": "urn:oid:1.3.6.1.4.1.25403.121370035285.1340.20150425031228.2",
         "description": "FOR_PRESENTATION",
-        "numberOfInstances" : 1,
+        "numberOfInstances": 1,
+        "dateTime": "1986-03-30",
         "instance": [
           {
             "number": 1,
-            "uid" :"urn:oid:1.3.6.1.4.1.25403.121370035285.1340.20150425031228.3",
-            "sopclass" : "1.2.840.10008.5.1.4.1.1.11.1"
+            "uid": "urn:oid:1.3.6.1.4.1.25403.121370035285.1340.20150425031228.3",
+            "sopclass": "1.2.840.10008.5.1.4.1.1.11.1"
           }
         ]
       },
       {
-        "number" : 6,
-        "modality" : "KO",
-        "uid" : "urn:oid:1.3.6.1.4.1.25403.121370035285.1340.20150425033316.1",
+        "number": 6,
+        "modality": "KO",
+        "uid": "urn:oid:1.3.6.1.4.1.25403.121370035285.1340.20150425033316.1",
         "description": "KEY IMAGES (chafey)",
-        "numberOfInstances" : 1,
+        "numberOfInstances": 1,
+        "dateTime": "1986-03-30",
         "instance": [
           {
             "number": 1,
-            "uid" :"urn:oid:1.3.6.1.4.1.25403.121370035285.1340.20150425033316.5",
-            "sopclass" : "1.2.840.10008.5.1.4.1.1.88.59"
+            "uid": "urn:oid:1.3.6.1.4.1.25403.121370035285.1340.20150425033316.5",
+            "sopclass": "1.2.840.10008.5.1.4.1.1.88.59"
           }
         ]
       },
       {
-        "number" : 7,
-        "modality" : "PR",
-        "uid" : "urn:oid:1.3.6.1.4.1.25403.121370035285.1340.20150425033316.2",
+        "number": 7,
+        "modality": "PR",
+        "uid": "urn:oid:1.3.6.1.4.1.25403.121370035285.1340.20150425033316.2",
         "description": "FOR_PRESENTATION",
-        "numberOfInstances" : 2,
+        "numberOfInstances": 2,
+        "dateTime": "1986-03-30",
         "instance": [
           {
             "number": 1,
-            "uid" :"urn:oid:1.3.6.1.4.1.25403.121370035285.1340.20150425033316.3",
-            "sopclass" : "1.2.840.10008.5.1.4.1.1.11.1"
+            "uid": "urn:oid:1.3.6.1.4.1.25403.121370035285.1340.20150425033316.3",
+            "sopclass": "1.2.840.10008.5.1.4.1.1.11.1"
           },
           {
             "number": 2,
-            "uid" :"urn:oid:1.3.6.1.4.1.25403.121370035285.1340.20150425033316.4",
-            "sopclass" : "1.2.840.10008.5.1.4.1.1.11.1"
+            "uid": "urn:oid:1.3.6.1.4.1.25403.121370035285.1340.20150425033316.4",
+            "sopclass": "1.2.840.10008.5.1.4.1.1.11.1"
           }
-
         ]
       }
     ]
-
   }
 }
