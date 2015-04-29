@@ -24,6 +24,20 @@
             "reference": "Organization/siim",
             "display": "Society of Imaging Informatics in Medicine"
         },
+        "identifier" : {
+          "use" : "usual",
+          "label" : "Accession Number",
+          "system" : "http://www.siim.org",
+          "value" : "3173095681219824"
+        },
+        "serviceCategory" : {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/v2/0074",
+              "code": "RAD"
+            }
+          ]
+        },
         "diagnosticDateTime": "1986-03-30",
         "conclusion":"<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Impression 1. Post surgical changes from left lower lobectomy.</p><p>2. Development of posterior mediastinal and precardial lymphadenopathy concerning for disease progression. An enlarged gastrosplenic node is nonspecific and appears grossly stable compared to CT from 4/22/1986 given differences in technique.</p><p>3. Small rim enhancing left pleural fluid collection concerning for infection.</p></div>",
         "codedDiagnosis": [
@@ -36,12 +50,6 @@
                     }
                 ]
             }
-        ],
-      "identifier" : {
-        "use" : "usual",
-        "label" : "Accession Number",
-        "system" : "http://www.siim.org",
-        "value" : "3173095681219824"
-      }
+        ]
     }
 }

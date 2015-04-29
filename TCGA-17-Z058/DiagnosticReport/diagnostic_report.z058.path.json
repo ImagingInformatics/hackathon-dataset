@@ -49,6 +49,14 @@
             "reference": "Organization/siim",
             "display": "Society of Imaging Informatics in Medicine"
         },
+        "serviceCategory" : {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/v2/0074",
+              "code": "SP"
+            }
+          ]
+        },
         "diagnosticDateTime": "1986-04-25",
         "result": [
             {
