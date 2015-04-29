@@ -273,6 +273,40 @@ NOTE: This is a fictious report that was created to match the TCIA images.  This
 
 END OF REPORT
 
+---------------------------------------
+
+#### CT Chest, abdomen and pelvis 9/28/1986
+
+Clinical indication
+History of lung adenocarcinoma, followup.
+
+Comparison
+Multiple prior CTs, the most recent from 5/31/1986
+
+Technique
+Multidetector axial CT of the chest, abdomen and pelvis was performed after the administration of intravenous contrast in the portal venous phase.
+
+Findings
+
+Thorax:
+The thyroid and thoracic inlet are normal. There are no enlarged axillary lymph nodes. There has been interval development of an enlarged lymph node conglomerate mass within the posterior mediastinum just anterior to the descending aorta, measuring 2.8 x 4.2 cm in axial dimension (series 5, image 36). This mass anteriorly displaces and mildly narrows the left main pulmonary artery. There is no clear evidence of vascular invasion. There is stable right hilar adenopathy. A new markedly enlarged precardial lymph node is also now seen, measuring 3.3 x 1.7 cm (series 5, image 42).
+
+There is stable severe emphysema. A 4 mm left apical nodule (series 5, image 6) appears stable. Surgical changes from prior left lower lobectomy are evident with associated pleural thickening. A small left lateral rim enhancing pleural collection is suspicious for infection.
+
+No suspicious osseous lesions. The visualized soft tissues are unremarkable.
+
+Abdomen:
+Punctate calcifications noted in the right hepatic lobe. Liver otherwise unremarkable. Gallbladder, pancrease, speen, and adrenal glands are normal. Bilateral renal cysts are noted. The kidneys are otherwise unremarkable with normal enhancement.
+
+An enlarged gastrosplenic node is noted, measuring 1.3 cm in short axis dimension (series 6, image 13). The visualized bowel is within normal limits.
+
+Impression
+1. Post surgical changes from left lower lobectomy.
+
+2. Development of posterior mediastinal and precardial lymphadenopathy concerning for disease progression. An enlarged gastrosplenic node is nonspecific and appears grossly stable compared to CT from 4/22/1986 given differences in technique.
+
+3. Small rim enhancing left pleural fluid collection concerning for infection.
+
 
 
 ###TCGA-50-5072
