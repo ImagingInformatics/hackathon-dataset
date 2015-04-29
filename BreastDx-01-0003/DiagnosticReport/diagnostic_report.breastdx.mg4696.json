@@ -49,6 +49,20 @@
             "reference": "Organization/siim",
             "display": "Society of Imaging Informatics in Medicine"
         },
+        "identifier" : {
+          "use" : "usual",
+          "label" : "Accession Number",
+          "system" : "http://www.siim.org",
+          "value" : "4361814883895900"
+        },
+        "serviceCategory" : {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/v2/0074",
+              "code": "RAD"
+            }
+          ]
+        },
         "diagnosticDateTime": "2008-04-19",
         "result": [
             {
@@ -66,13 +80,7 @@
                     }
                 ]
             }
-        ],
-        "identifier" : {
-          "use" : "usual",
-          "label" : "Accession Number",
-          "system" : "http://www.siim.org",
-          "value" : "4361814883895900"
-        }
+        ]
 
 
     }
