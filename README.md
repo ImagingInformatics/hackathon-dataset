@@ -44,7 +44,7 @@ Run the script to upload all of the resources in the folders
 
 
 # Patient Narratives
-###BreastDx-01-0003
+###Sally SIIM (mrn: BreastDx-01-0003)
 58 yo female DOB: 04/12/1950
 
 HPI: Had a palpable left breast mass discovered on self-breast exam.  Patient was initially seen for diagnostic mammogram on 4/12/2008.  Patient had a lumpectomy on 5/24/2008.
@@ -131,13 +131,11 @@ Impression:
 Specimen radiograph with intact wire and surgical clip.
 
 
-###LIDC-IDRI-0132
+###Ravi SIIM (mrn: LIDC-IDRI-0132)
 
 
-###TCGA-17-Z058
+###Joe SIIM (mrn: TCGA-17-Z058)
 HPI: 60 yo male with history of lung adenocarcinoma. 
-
-
 
 ####Imaging Exams
 CT Onco Lung Mass 3/30/1986
@@ -307,9 +305,7 @@ Impression
 
 3. Small rim enhancing left pleural fluid collection concerning for infection.
 
+###Andy SIIM (mrn: TCGA-50-5072)
 
-
-###TCGA-50-5072
-
-###TCGA-BA-4077
+###Neela SIIM (mrn: TCGA-BA-4077)
 
