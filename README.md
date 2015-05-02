@@ -489,4 +489,32 @@ Impression:
 
 ---------------------------------------
 
+####PET/CT Scan Whole Body 2/11/2000
 
+Indication: Initial staging for lung cancer
+
+Procedure: Following injection of 14.6 mCi of F-18 labeled glucose, concurrent PET CT scanning was performed.  Patient also recieved 125 ml of isovue intravenously for diagnostic scanning purposes.
+
+Findings:
+Oncologic Findings:
+Again seen is a 4.6 x 4.6 mass in the left upper lobe (series 3, iamge 78).  The SUV max of the mass is 7.2.
+
+The large AP window lymph node on (series 3, image 89) is again noted and has an SUV of 3.5.
+
+No contralateral lung nodules are identified.  There is physiologic activity in both adrenal glands.
+
+No FDG avid bone metastasis.
+
+Other Findings:
+Visualized intracranial structures are unremarkable.  The trachea is midline.  The thyroid is unremarkable.  No cervical adenopathy.  The salivary glands are unremarkable.
+
+Continued emphysematous changes in the upper lobes bilaterally.  No infiltrate or pleural effusion.  No pneumothorax.
+
+The liver enhances homogenously.  The spleen and pancreas are within normal limits.  The kidneys are unremarkable.  Visualized bowel is unremarkable.  No free fluid or free air.
+
+Extensive vascular changes are noted including AAA graft.  The vessels are grossly patent.
+
+The prostate and seminal vesicles are within normal limits.  The bladder is unremarkable.
+
+Impression:
+1. Left upper lobe mass with mediastinal adenopathy compatible with lung cancer.
