@@ -8,7 +8,7 @@
         },
         "status": "active",
         "patient": {
-            "reference": "Patient/breastdx"
+            "reference": "Patient/siimsally"
         },
         "prescriber": {
             "reference": "Practitioner/example"

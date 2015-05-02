@@ -1,4 +1,4 @@
-{ 
+{
     "id": "breastcondition",
     "resource": {
         "resourceType": "Condition",
@@ -7,7 +7,7 @@
             "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">5/24/2008 Invasive ductal carcinoma</div>"
         },
         "subject": {
-            "reference": "Patient/breastdx"
+            "reference": "Patient/siimsally"
         },
         "code": {
             "coding": [

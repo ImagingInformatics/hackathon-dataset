@@ -49,7 +49,7 @@
         "status": "final",
         "issued": "2008-04-12T09:23:00+10:00",
         "subject": {
-            "reference": "Patient/breastdx"
+            "reference": "Patient/siimsally"
         },
         "performer": {
             "reference": "Organization/siim",

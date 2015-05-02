@@ -1,0 +1,117 @@
+{
+    "id": "siimandy",
+    "resource": {
+        "resourceType": "Patient",
+        "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\r\n  <table>\r\n    <tbody>\r\n      <tr>\r\n        <td>Name</td>\r\n        <td>Andy SIIM</td>\r\n      </tr>\r\n      <tr>\r\n        <td>Address</td>\r\n        <td>534 Erewhon, Rochester, MD, 53999</td>\r\n      </tr>\r\n      <tr>\r\n        <td>Contacts</td>\r\n        <td>Home: unknown. Work: (03) 5555 6473</td>\r\n      </tr>\r\n      <tr>\r\n        <td>Id</td>\r\n        <td>MRN: TCGA-50-5072 (TCIA)</td>\r\n      </tr>\r\n    </tbody>\r\n  </table>\r\n</div>"
+        },
+        "identifier": [
+            {
+                "use": "usual",
+                "label": "MRN",
+                "system": "urn:oid:1.2.36.146.595.217.0.1",
+                "value": "TCGA-50-5072",
+                "period": {
+                    "start": "2001-05-06"
+                },
+                "assigner": {
+                    "display": "TCIA"
+                }
+            }
+        ],
+        "name": [
+            {
+                "use": "official",
+                "family": [
+                    "SIIM"
+                ],
+                "given": [
+                    "Andy"
+                ]
+            },
+            {
+                "use": "usual",
+                "given": [
+                    "Andy"
+                ]
+            }
+        ],
+        "telecom": [
+            {
+                "use": "home"
+            },
+            {
+                "system": "phone",
+                "value": "(507) 555 6473",
+                "use": "work"
+            }
+        ],
+        "gender": {
+            "coding": [
+                {
+                    "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+                    "code": "M",
+                    "display": "Male"
+                }
+            ]
+        },
+        "birthDate": "1926-04-01",
+        "deceasedBoolean": false,
+        "address": [
+            {
+                "use": "home",
+                "line": [
+                    "534 Erewhon St"
+                ],
+                "city": "Rochester",
+                "state": "MN",
+                "zip": "53999"
+            }
+        ],
+        "contact": [
+            {
+                "relationship": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://hl7.org/fhir/patient-contact-relationship",
+                                "code": "partner"
+                            }
+                        ]
+                    }
+                ],
+                "name": {
+                    "family": [
+                        "du",
+                        "Marché"
+                    ],
+                    "_family": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "http://hl7.org/fhir/Profile/iso-21090#qualifier",
+                                    "valueCode": "VV"
+                                }
+                            ]
+                        },
+                        null
+                    ],
+                    "given": [
+                        "Bénédicte"
+                    ]
+                },
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "+33 (237) 998327"
+                    }
+                ]
+            }
+        ],
+        "managingOrganization": {
+            "reference": "Organization/siim"
+        },
+        "active": true
+    }
+}
