@@ -463,7 +463,30 @@ Impression:
 
 ---------------------------------------
 
+###Neela SIIM (mrn: TCGA-BA-4077)
+
 ###Andy SIIM (mrn: TCGA-50-5072)
 
-###Neela SIIM (mrn: TCGA-BA-4077)
+####CT Chest 1/28/2000
+
+Indication: Mass seen on chest x-ray
+
+Comparison: None.
+
+Procedure: CT scan of the chest was performed without intravenous contrast.
+
+Findings: No suspicious axillary or supraclavicular adenopathy.  There are several enlarged mediastinal lymph nodes including 2.7 x 2.2 cm AP window (series 3, image 22), 1.9 x 1.6 cm lower paratracheal (series 3, image 23).  There are a few small right paratracheal nodes that are not enlarged by CT size criteria.
+
+Evaluation of lung windows demonstrates a 4.4 x 3.4 cm left upper lobe mass with well circumscribed borders (series 3, image #12).  A smaller daughter mass measuring 1 cm is seen on (series 3, image #18).  There are no  contralateral lung nodules.  Emphysematous changes are seen greatest in the upper lobes.  No focal infiltrate or pneumothorax.  No pleural thickening or pneumothorax.
+
+Non-contrast evaluation of the upper abdomen is unremarkable.  The liver demonstrates homogenous attenuation.  The adrenal glands are partially imaged, but appear within normal limits.
+
+Evaluation of bone windows does not demonstrate suspicious lucent or sclerotic lesion.
+
+Impression:
+1. Left upper lobe mass, suspicious for malignancy.
+2. Mediastinal adenopathy measuring up to 2.7 cm, without contralateral lung nodules.
+
+---------------------------------------
+
 
