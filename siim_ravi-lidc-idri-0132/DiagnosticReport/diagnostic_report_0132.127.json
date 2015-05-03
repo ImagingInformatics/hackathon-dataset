@@ -1,0 +1,44 @@
+{
+  "id": "2819497684894127",
+  "resource": {
+    "resourceType": "DiagnosticReport",
+    "text": {
+      "status": "generated",
+      "div": "TODO"
+    },
+    "name": {
+      "coding": [
+        {
+          "system": "http://loinc.org/",
+          "code": "TODO"
+        }
+      ],
+      "text": "Chest PA"
+    },
+    "status": "final",
+    "issued": "2000-01-01T09:23:00+10:00",
+    "subject": {
+      "reference": "Patient/siimravi"
+    },
+    "performer": {
+      "reference": "Organization/siim",
+      "display": "Society of Imaging Informatics in Medicine"
+    },
+    "identifier" : {
+      "use" : "usual",
+      "label" : "Accession Number",
+      "system" : "http://www.siim.org",
+      "value" : "2819497684894127"
+    },
+    "serviceCategory" : {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v2/0074",
+          "code": "RAD"
+        }
+      ]
+    },
+    "diagnosticDateTime": "2000-01-01",
+    "conclusion":"TODO"
+  }
+}
