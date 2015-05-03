@@ -1,0 +1,44 @@
+{
+  "id": "4372611551565644",
+  "resource": {
+    "resourceType": "DiagnosticReport",
+    "text": {
+      "status": "generated",
+      "div": "TODO"
+    },
+    "name": {
+      "coding": [
+        {
+          "system": "http://loinc.org/",
+          "code": "TODO"
+        }
+      ],
+      "text": "PTCTSKTHPET / CT TUMOR"
+    },
+    "status": "final",
+    "issued": "2000-02-11T09:23:00+10:00",
+    "subject": {
+      "reference": "Patient/siimandy"
+    },
+    "performer": {
+      "reference": "Organization/siim",
+      "display": "Society of Imaging Informatics in Medicine"
+    },
+    "identifier" : {
+      "use" : "usual",
+      "label" : "Accession Number",
+      "system" : "http://www.siim.org",
+      "value" : "4372611551565644"
+    },
+    "serviceCategory" : {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v2/0074",
+          "code": "RAD"
+        }
+      ]
+    },
+    "diagnosticDateTime": "2000-02-11",
+    "conclusion":"TODO"
+  }
+}
