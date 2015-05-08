@@ -22,7 +22,7 @@ Element 	Name 	Data
 (0008,1032)  	End Procedure Code Sequence  	 
 (0008,103E)  	Series Description  	TB TOTAL BODY  
 (0008,1090)  	Manufacturer's Model Name  	Forte  
-(0010,0010)  	Patient's Name  	TCGA-50-5072  
+(0010,0010)  	Patient's Name  	SIIM^Andy  
 (0010,0020)  	Patient ID  	TCGA-50-5072  
 (0010,0030)  	Patient's Birth Date  	 
 (0010,0040)  	Patient's Sex  	M  

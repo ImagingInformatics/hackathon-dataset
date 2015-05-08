@@ -29,7 +29,7 @@ Element 	Name 	Data
 (0008,1090)  	Manufacturer's Model Name  	Emotion Duo  
 (0008,2111)  	Derivation Description  	 
 (0009,0010)  	 	SPI RELEASE 1  
-(0010,0010)  	Patient's Name  	TCGA-17-Z058  
+(0010,0010)  	Patient's Name  	SIIM^Joe  
 (0010,0020)  	Patient ID  	TCGA-17-Z058  
 (0010,0030)  	Patient's Birth Date  	 
 (0010,0040)  	Patient's Sex  	M  
