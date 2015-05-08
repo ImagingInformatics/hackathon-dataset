@@ -26,7 +26,7 @@ Element 	Name 	Data
 (0008,0090)  	Referring Physician's Name  	 
 (0008,103E)  	Series Description  	ThorRoutine 3.0 B31f  
 (0008,1090)  	Manufacturer's Model Name  	Sensation 16  
-(0010,0010)  	Patient's Name  	 
+(0010,0010)  	Patient's Name  	SIIM^Ravi  
 (0010,0020)  	Patient ID  	LIDC-IDRI-0132  
 (0010,0030)  	Patient's Birth Date  	 
 (0010,0040)  	Patient's Sex  	 
