@@ -138,17 +138,16 @@ Specimen radiograph with intact wire and surgical clip.
 HPI: 60 yo male with history of lung adenocarcinoma. 
 
 ####Imaging Exams
+
+#####CT Chest 3/30/1986 (ct-0433)
+
 CT Onco Lung Mass 3/30/1986
 
-Clinical information
-60 yo male with left hilar mass.
+Clinical information 60 yo male with left hilar mass.
 
-Comparison
-None.
+Comparison None.
 
-Findings
-Lung mass
-Size: 5.3 x 4.0 x 4.0 cm
+Findings Lung mass Size: 5.3 x 4.0 x 4.0 cm
 
 Location: left hilar region
 
@@ -156,8 +155,7 @@ Shape: Smoothly marginated
 
 Internal consistency: homogenous, hypodense to surrounding muscle.
 
-Local extent
-Pleural surface: Left lower lobe metastasis
+Local extent Pleural surface: Left lower lobe metastasis
 
 Chest wall: No involvement.
 
@@ -167,19 +165,17 @@ Vessels: Mass surrounds and nearly occludes the left inferior pulmonary artery.
 
 Nerves: No involvement.
 
-Regional extent
-Lymph nodes: AP window, and right hilar adenopathy.
+Regional extent Lymph nodes: AP window, and right hilar adenopathy.
 
 Distant metastases (chest and upper abdomen): None.
 
-Other findings
-Other findings: None. 
+Other findings Other findings: None.
 
-Impression
-Left hilar mass concerning for malignancy.
+Impression: Left hilar mass concerning for malignancy.
 
 ---------------------------------------
-PET Oncologic Study 4/22/1986
+
+#####PET Oncologic Study 4/22/1986 (pet-5759, pet-7180, ct-3115)
 
 Duration of fast prior to injection: 6 hours
 
@@ -273,23 +269,80 @@ END OF REPORT
 
 ---------------------------------------
 
-#### CT Chest, abdomen and pelvis 9/28/1986
+##### CTA Chest 5/5/1986 (ct-5570)
 
-Clinical indication
+Clinical Indication:
+Acute shortness of breath, elevated D-dimer. History of lung cancer. Concern for PE.
+
+Comparison: PET/CT from 4/22/1986
+
+Technique: Multidetector axial CT of the chest was performed after the administration of intravenous contrast in the arterial phase using a pulmonary embolus protocol.
+
+Findings:
+Enteric drainage catheter courses into the stomach. Endotracheal tube terminates in the mid-thoracic trachea.
+
+There is adequate opacification of the pulmonary vasculature to the subsegmental level without significant motion artifact. No evidence of pulmonary embolism. The main pulmonary artery and right heart are normal in size. A small pericardial effusion is present.
+
+The thyroid and thoracic inlet are normal. No axillary lymphadenopathy. There is stable right hilar lymphadenopathy, slightly enlarged compared to the prior exam.
+
+Emphysema again noted. Post surgical changes from interval left lower lobectomy. A large left hydropneumothorax is noted. There is diffuse bilateral septal thickening compatible with pulmonary edema. The major airways are patent.
+
+Stable indeterminate subcentimeter enhancing lesion in the hepatic dome. Stable mildly enlarged gastrosplenic lymph node. Upper abdomen otherwise unremarkable.
+
+Surgical defect noted in the posterior 6th rib. Osseous structures otherwise unremarkable.
+
+Impression:
+1. No evidence of pulmonary embolism.
+2. Interval left lower lobectomy with large left hydropneumothorax.
+3. Development of severe pulmonary edema.
+4. Slight interval enlargement of right hilar lymph node and stable mild enlargement of a gastrosplenic node.
+
+---------------------------------------
+
+##### CT Chest 5/31/1986 (ct-0858)
+
+Clinical indication: Followup lung mass.
+
+Comparison: Chest CTA from 5/5/1986
+
+Technique: Multidetector axial CT of the chest was performed without the administration of intravenous contrast.
+
+Findings:
+
+Interval placement of a tracheostomy tube. 
+
+The thyroid and thoracic inlet are normal. There are no grossly enlarged axillary or mediastinal lymph nodes, however the hila are difficult to assess without the use of contrast. There is relative hyperdensity of the intraventricular septum suggestive of anemia. The heart is normal in size without significant pericardial effusion. A small hiatal hernia is present.
+
+Stable emphysema. Post-surgical changes from left lower lobectomy again seen with persistent moderate to large subpulmonic loculated hydropneumothorax. Interval decrease in septal thickening with mild persistent septal prominence within the right lung.
+
+Upper abdomen unremarkable given lack of IV contrast.
+
+Stable surgical defect in the posterior left 6th rib. No suspicious osseous lesions.
+
+Impression:
+1. Stable findings of left lower lobectomy with persistent subpulmonic hydropneumothorax.
+2. Interval decrease in pulmonary edema with mild residual right sided septal prominence.
+
+
+---------------------------------------
+
+##### CT Chest, abdomen and pelvis 9/28/1986 (ct-3105)
+
+Clinical indication:
 History of lung adenocarcinoma, followup.
 
-Comparison
+Comparison:
 Multiple prior CTs, the most recent from 5/31/1986
 
-Technique
+Technique:
 Multidetector axial CT of the chest, abdomen and pelvis was performed after the administration of intravenous contrast in the portal venous phase.
 
-Findings
+Findings:
 
 Thorax:
 The thyroid and thoracic inlet are normal. There are no enlarged axillary lymph nodes. There has been interval development of an enlarged lymph node conglomerate mass within the posterior mediastinum just anterior to the descending aorta, measuring 2.8 x 4.2 cm in axial dimension (series 5, image 36). This mass anteriorly displaces and mildly narrows the left main pulmonary artery. There is no clear evidence of vascular invasion. There is stable right hilar adenopathy. A new markedly enlarged precardial lymph node is also now seen, measuring 3.3 x 1.7 cm (series 5, image 42).
 
-There is stable severe emphysema. A 4 mm left apical nodule (series 5, image 6) appears stable. Surgical changes from prior left lower lobectomy are evident with associated pleural thickening. A small left lateral rim enhancing pleural collection is suspicious for infection.
+There is stable severe emphysema. A 4 mm left apical nodule (series 5, image 6) appears stable. Surgical changes from prior left lower lobectomy are evident with associated pleural thickening. Interval resolution of the previously noted left hydropneumothorax. A small left lateral rim enhancing pleural collection is suspicious for infection.
 
 No suspicious osseous lesions. The visualized soft tissues are unremarkable.
 
@@ -298,12 +351,16 @@ Punctate calcifications noted in the right hepatic lobe. Liver otherwise unremar
 
 An enlarged gastrosplenic node is noted, measuring 1.3 cm in short axis dimension (series 6, image 13). The visualized bowel is within normal limits.
 
-Impression
+Impression:
 1. Post surgical changes from left lower lobectomy.
 
 2. Development of posterior mediastinal and precardial lymphadenopathy concerning for disease progression. An enlarged gastrosplenic node is nonspecific and appears grossly stable compared to CT from 4/22/1986 given differences in technique.
 
 3. Small rim enhancing left pleural fluid collection concerning for infection.
+
+---------------------------------------
+
+
 
 ###Andy SIIM (mrn: TCGA-50-5072)
 
