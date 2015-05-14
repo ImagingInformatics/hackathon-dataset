@@ -143,11 +143,15 @@ HPI: 60 yo male with history of lung adenocarcinoma.
 
 CT Onco Lung Mass 3/30/1986
 
-Clinical information 60 yo male with left hilar mass.
+Clinical information
+60 yo male with left hilar mass.
 
-Comparison None.
+Comparison
+None.
 
-Findings Lung mass Size: 5.3 x 4.0 x 4.0 cm
+Findings
+Lung mass
+Size: 5.3 x 4.0 x 4.0 cm
 
 Location: left hilar region
 
@@ -155,7 +159,8 @@ Shape: Smoothly marginated
 
 Internal consistency: homogenous, hypodense to surrounding muscle.
 
-Local extent Pleural surface: Left lower lobe metastasis
+Local extent
+Pleural surface: Left lower lobe metastasis
 
 Chest wall: No involvement.
 
@@ -169,9 +174,11 @@ Regional extent Lymph nodes: AP window, and right hilar adenopathy.
 
 Distant metastases (chest and upper abdomen): None.
 
-Other findings Other findings: None.
+Other findings
+Other findings: None.
 
-Impression: Left hilar mass concerning for malignancy.
+Impression
+Left hilar mass concerning for malignancy.
 
 ---------------------------------------
 
