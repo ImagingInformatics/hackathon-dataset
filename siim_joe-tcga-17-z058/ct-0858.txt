@@ -31,7 +31,7 @@ Element 	Name 	Data
 (0009,0013)  	 	SIEMENS CM VA0 LAB  
 (0009,0020)  	 	SIEMENS CT VA0 IDE  
 (0009,0030)  	 	SIEMENS CT VA0 ORI  
-(0010,0010)  	Patient's Name  	TCGA-17-Z058  
+(0010,0010)  	Patient's Name  	SIIM^Joe  
 (0010,0020)  	Patient ID  	TCGA-17-Z058  
 (0010,0030)  	Patient's Birth Date  	 
 (0010,0040)  	Patient's Sex  	M  

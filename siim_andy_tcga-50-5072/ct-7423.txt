@@ -31,7 +31,7 @@ Element 	Name 	Data
 (0009,0010)  	 	GEMS_IDEN_01  
 (0009,1002)  	 	43\54\32\58  
 (0009,1004)  	 	4C\69\67\68\74\53\70\65\65\64\31\36  
-(0010,0010)  	Patient's Name  	TCGA-50-5072  
+(0010,0010)  	Patient's Name  	SIIM^Andy  
 (0010,0020)  	Patient ID  	TCGA-50-5072  
 (0010,0030)  	Patient's Birth Date  	 
 (0010,0040)  	Patient's Sex  	M  

@@ -25,7 +25,7 @@ Element 	Name 	Data
 (0008,103E)  	Series Description  	Topogram 1.0 T20s  
 (0008,1090)  	Manufacturer's Model Name  	Sensation 16  
 (0009,0010)  	 	SIEMENS CT VA1 DUMMY  
-(0010,0010)  	Patient's Name  	TCGA-BA-4077  
+(0010,0010)  	Patient's Name  	SIIM^Neela  
 (0010,0020)  	Patient ID  	TCGA-BA-4077  
 (0010,0030)  	Patient's Birth Date  	 
 (0010,0040)  	Patient's Sex  	F  
