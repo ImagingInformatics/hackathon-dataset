@@ -24,6 +24,10 @@ If set to something other than random, this will be used to create the FHIR reso
 
 This is not meant to be an exhaustive collection, the types are chosen based on relevance to imaging patients.
 
+# Conventions
+- Original TCIA IDs are retained as MRN
+- Accession numbers are used as FHIR IDs for DiagnosticReports
+
 # Uploading to a FHIR server
     cp fhir_server.yml.dist fhir_server.yml
 
@@ -58,6 +62,7 @@ Medications: levothyroxine sodium 50mcg once daily
 Lab/Radiology
 
 ---------------------------------------
+#####Diagnostic Bilateral Mammogram 4/12/2008 (FHIR ID/Accession Number: 2278028270041068)
 
 DIAGNOSTIC BILATERAL 4/12/2008
 
@@ -80,6 +85,7 @@ RIGHT BREAST: Negative. BI-RADS 1 - Recommend routine screening in 1 year.
 OVERALL BI-RADS 2 (Benign)
 
 ---------------------------------------
+#####Bilateral Breast MRI 4/29/2008 (FHIR ID/Accession Number: 1085557173658239)
 Bilateral Breast MRI 04/19/2008
 
 Clinical History:  59 year-old female with history of left invasive ductal carcinoma (age 55) status post lumpectomy. High-risk screening MRI exam.
@@ -101,8 +107,10 @@ RIGHT BREAST: Negative. BI-RADS 1. Recommend routine screening mammography in 1 
 OVERALL BI-RADS 2 (Benign)
 
 ---------------------------------------
+#####Full Field Digital Left Diagnostic Mammogram 4/19/2008 (FHIR ID/Accession No: 4361814883895900)
 
-Full Field Digital Left Diagnostic Mammogram 4/22/2008
+
+Full Field Digital Left Diagnostic Mammogram 4/19/2008 
 
 Clinical History:  59 year-old female with history of left invasive ductal carcinoma (age 55) status post lumpectomy.
 
@@ -117,6 +125,7 @@ Impression:
 LEFT BREAST: Expected changes status post lumpectomy and radiation. Benign. BI-RADS 2 - Recommend routine screening in 1 year.
 
 ---------------------------------------
+#####Surgical Specimen Radiograph 5/24/2008 (FHIR ID/Accession No 2889127246021897)
 05/24/2008
 Surgical Specimen Radiograph
 
@@ -139,7 +148,7 @@ HPI: 60 yo male with history of lung adenocarcinoma.
 
 ####Imaging Exams
 
-#####CT Chest 3/30/1986 (ct-0433)
+#####CT Chest 3/30/1986 (FHIR ID/Accession No: 2257132503242682)
 
 CT Onco Lung Mass 3/30/1986
 
@@ -183,7 +192,7 @@ Left hilar mass concerning for malignancy.
 
 ---------------------------------------
 
-#####PET Oncologic Study 4/22/1986 (pet-5759, pet-7180, ct-3115)
+#####PET Oncologic Study 4/22/1986 (FHIR ID/Accession No: 2819497684894126)
 
 Duration of fast prior to injection: 6 hours
 
@@ -232,13 +241,15 @@ Impression
 EORTC Response Criteria: N/A - Baseline
 
 ---------------------------------------
+#####Surgical Pathology Report 4/25/1986 (FHIR ID/Accession No: z058path)
+
 SIIM Diagnostic Lab
 Leesburg, VA
 Tel: (555) 555-5555 Fax: (812) 353-5445
 
 Surgical Pathology Report
 
-Patient Name: TCGA-17-Z058. Accession #: XXX66-4444 Med. Rec. #: TCGA-17-Z058
+Patient Name: TCGA-17-Z058. Accession #: z058path Med. Rec. #: TCGA-17-Z058
 Taken: 4/25/1986 Encounter #: 000111111111 Received: 4/25/1986 Gender: M
 Reported: 4/26/1986 16:50 DOB: (Age: 60) Submitting Physician: REFERRING, MD
 Additional Physician(s):
@@ -277,7 +288,7 @@ END OF REPORT
 
 ---------------------------------------
 
-##### CTA Chest 5/5/1986 (ct-5570)
+#####CTA Chest 5/5/1986 (FHIR ID/Accession Number: 1857795211017352)
 
 Clinical Indication:
 Acute shortness of breath, elevated D-dimer. History of lung cancer. Concern for PE.
@@ -307,7 +318,7 @@ Impression:
 
 ---------------------------------------
 
-##### CT Chest 5/31/1986 (ct-0858)
+#####CT Chest 5/31/1986 (FHIR ID/Accession Number: 1654061970756517)
 
 Clinical indication: Followup lung mass.
 
@@ -334,7 +345,7 @@ Impression:
 
 ---------------------------------------
 
-##### CT Chest, abdomen and pelvis 9/28/1986 (ct-3105)
+#####CT Chest, abdomen and pelvis 9/28/1986 (FHIR ID/Accession Number: 3173095681219824)
 
 Clinical indication:
 History of lung adenocarcinoma, followup.
