@@ -142,6 +142,90 @@ Specimen radiograph with intact wire and surgical clip.
 
 ###Ravi SIIM (mrn: LIDC-IDRI-0132)
 
+HPI: 60 yo male with chronic lung disease.
+
+####Imaging Exams
+
+#####CT Chest with IV Contrast 1/1/2000 10:04 AM (FHIR ID/Accession Number: )
+CT Chest with Contrast 1/1/00 at 10:04 AM
+
+Clinical History: Abnormal chest x-ray
+
+Comparison: Chest XR 1/1/00
+
+Technique: Contiguous axial CT images of the chest were obtained after the administration of IV contrast material.
+
+Findings:
+
+The heart is normal in size. There is no pericardial effusion.
+
+The thoracic aorta is normal in size and caliber. There is a bovine configuration of the aortic arch, a normal variant. Mild atherosclerotic changes are present in the upper abdominal aorta.
+
+There is a 2.2 x 1.4 cm cavitary lesion in the left upper lobe (Image 30/116). Linear bandlike areas of scarring/atelectasis are present in the right upper lobe with associated bronchiectasis. Bronchiectasis is also seen in the left upper lobe. The central airways are clear. Pleural-parenchymal scarring is present at the lung apices. There is no pleural effusion.
+
+There is no axillary, mediastinal, or hilar adenopathy. The thyroid gland is within normal limits.
+
+The visualized portions of the upper abdomen are unremarkable. No suspicious osseous lesion is seen. There is evidence of prior trauma/deformity of the right 5th rib.
+
+Impression:
+
+1. Cavitary lesion in the left upper lobe. Differential diagnosis infectious and neoplastic disease.
+
+2. Bandlike areas of atelectasis/scarring and bronchiectasis in the right upper lobe likely related to prior infection/insult.
+
+#####AP Chest Radiograph 1/1/2000 11:22 AM (FHIR ID/Accession Number: )
+
+Chest: AP View
+
+Clinical History: Cough
+
+Comparison: None
+
+Findings:
+
+The cardiomediastinal silhouette and pulmonary vasculature are within normal limits.
+
+Linear scarring and pleural thickening are present in the right upper lobe. There is thickening of the right paratracheal stripe as well as questionable righit hillier adenopathy. A 1.6 cm nodule projects in the left upper lobe. The right costophrenic angle is effaced.
+
+No free air beneath the hemidiaphragms. The osseous structures are grossly unremarkable.
+
+Impression:
+
+1. 1.6 cm left upper lobe nodule.
+
+2. Right upper lobe scarring and pleural thickening along with right pleural effusion versus scarring.
+
+Recommendations:
+
+CT Chest is recommended to further evaluate the above findings and impression.
+
+#####CT Chest with IV Contrast 1/1/2000 12:00 PM (FHIR ID/Accession Number: )
+
+CT Chest with Contrast
+
+Clinical History: Abnormal chest x-ray
+
+Comparison: Chest XR 1/1/00, Chest CT 10:04 AM 1/1/00
+
+Technique: Contiguous axial CT images of the chest were obtained after the administration of IV contrast material.
+
+Findings:
+
+The heart is normal in size. There is no pericardial effusion.
+
+The thoracic aorta is normal in size and calibur. There is a bovine configuration of the aortic arch, a normal variant. Mild atherosclerotic changes are present in the upper abdominal aorta.
+
+There is a 2.1 x 1.4 cm cavitary lesion in the left upper lobe (Image 28/116). A smaller cavitary lesion is seen in the right lower lobe measuring 9 mm (Image 40/116). Linear bandlike areas of scarring/atelectasis are present in the right upper lobe with associated bronchiectasis. The central airways are clear.
+
+There is no axillary, mediastinal, or hilar adenopathy. The thyroid gland is within normal limits.
+
+The visualized portions of the upper abdomen are unremarkable. No suspicious osseous lesion is seen. There is evidence of prior trauma/deformity of the right 5th rib.
+
+Impression:
+
+1. Interval evolution of left upper lobe cavitary lesion in the left upper and new right lower lobe nodule. Given the rapid evolution of these cavitary lesions an infectious etiology is favored.
+
+2. Unchanged bandlike areas of atelectasis/scarring and bronchiectasis in the right upper lobe likely related to prior infection/insult.
 
 ###Joe SIIM (mrn: TCGA-17-Z058)
 HPI: 60 yo male with history of lung adenocarcinoma. 
@@ -378,8 +462,6 @@ Impression:
 3. Small rim enhancing left pleural fluid collection concerning for infection.
 
 ---------------------------------------
-
-
 
 ###Andy SIIM (mrn: TCGA-50-5072)
 
