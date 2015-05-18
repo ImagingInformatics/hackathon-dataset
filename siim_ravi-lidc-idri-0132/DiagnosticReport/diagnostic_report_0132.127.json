@@ -4,19 +4,19 @@
     "resourceType": "DiagnosticReport",
     "text": {
       "status": "generated",
-      "div": "TODO"
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Chest: AP View</p>\n\n<p>Clinical History: Cough</p>\n\n<p>Comparison: None</p>\n\n<p>Findings:</p>\n\n<p>The cardiomediastinal silhouette and pulmonary vasculature are within normal limits.</p>\n\n<p>Linear scarring and pleural thickening are present in the right upper lobe. There is thickening of the right paratracheal stripe as well as questionable righit hillier adenopathy. A 1.6 cm nodule projects in the left upper lobe. The right costophrenic angle is effaced.</p>\n\n<p>No free air beneath the hemidiaphragms. The osseous structures are grossly unremarkable.</p>\n\n<p>Impression:</p>\n\n<ol>\n<li><p>1.6 cm left upper lobe nodule.</p></li>\n<li><p>Right upper lobe scarring and pleural thickening along with right pleural effusion versus scarring.</p></li>\n</ol>\n\n<p>Recommendations:</p>\n\n<p>CT Chest is recommended to further evaluate the above findings and impression.</p>\n</div>"
     },
     "name": {
       "coding": [
         {
           "system": "http://loinc.org/",
-          "code": "TODO"
+          "code": "36572-6"
         }
       ],
-      "text": "Chest PA"
+      "text": "Chest AP"
     },
     "status": "final",
-    "issued": "2000-01-01T09:23:00+10:00",
+    "issued": "2000-01-02T11:15:00+10:00",
     "subject": {
       "reference": "Patient/siimravi"
     },
@@ -39,6 +39,6 @@
       ]
     },
     "diagnosticDateTime": "2000-01-01",
-    "conclusion":"TODO"
+    "conclusion":"<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Impression:</p>\n\n<ol>\n<li><p>1.6 cm left upper lobe nodule.</p></li>\n<li><p>Right upper lobe scarring and pleural thickening along with right pleural effusion versus scarring.</p></li>\n</ol>\n\n<p>Recommendations:</p>\n\n<p>CT Chest is recommended to further evaluate the above findings and impression.</p>\n</div>"
   }
 }

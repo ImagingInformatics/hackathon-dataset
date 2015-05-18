@@ -4,19 +4,19 @@
     "resourceType": "DiagnosticReport",
     "text": {
       "status": "generated",
-      "div": "TODO"
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>CT Chest with Contrast 1/1/00 at 10:04 AM</p>\n\n<p>Clinical History: Abnormal chest x-ray</p>\n\n<p>Comparison: Chest XR 1/1/00</p>\n\n<p>Technique: Contiguous axial CT images of the chest were obtained after the administration of IV contrast material.</p>\n\n<p>Findings:</p>\n\n<p>The heart is normal in size. There is no pericardial effusion.</p>\n\n<p>The thoracic aorta is normal in size and caliber. There is a bovine configuration of the aortic arch, a normal variant. Mild atherosclerotic changes are present in the upper abdominal aorta.</p>\n\n<p>There is a 2.2 x 1.4 cm cavitary lesion in the left upper lobe (Image 30/116). Linear bandlike areas of scarring/atelectasis are present in the right upper lobe with associated bronchiectasis. Bronchiectasis is also seen in the left upper lobe. The central airways are clear. Pleural-parenchymal scarring is present at the lung apices. There is no pleural effusion.</p>\n\n<p>There is no axillary, mediastinal, or hilar adenopathy. The thyroid gland is within normal limits.</p>\n\n<p>The visualized portions of the upper abdomen are unremarkable. No suspicious osseous lesion is seen. There is evidence of prior trauma/deformity of the right 5th rib.</p>\n\n<p>Impression:</p>\n\n<ol>\n<li><p>Cavitary lesion in the left upper lobe. Differential diagnosis infectious and neoplastic disease.</p></li>\n<li><p>Bandlike areas of atelectasis/scarring and bronchiectasis in the right upper lobe likely related to prior infection/insult.</p></li>\n</ol>\n</div>"
     },
     "name": {
       "coding": [
         {
           "system": "http://loinc.org/",
-          "code": "TODO"
+          "code": "24627-2"
         }
       ],
       "text": "CT Chest"
     },
     "status": "final",
-    "issued": "2000-01-01T09:23:00+10:00",
+    "issued": "2000-01-02T09:23:00+10:00",
     "subject": {
       "reference": "Patient/siimravi"
     },
@@ -38,7 +38,7 @@
         }
       ]
     },
-    "diagnosticDateTime": "2000-01-01",
-    "conclusion":"TODO"
+    "diagnosticDateTime": "2000-01-02",
+    "conclusion":"<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Impression:</p>\n\n<ol>\n<li><p>Cavitary lesion in the left upper lobe. Differential diagnosis infectious and neoplastic disease.</p></li>\n<li><p>Bandlike areas of atelectasis/scarring and bronchiectasis in the right upper lobe likely related to prior infection/insult.</p></li>\n</ol>\n</div>"
   }
 }
