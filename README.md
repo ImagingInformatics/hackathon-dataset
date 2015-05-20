@@ -539,29 +539,18 @@ Physiologic uptake identified. No other areas of increased uptake.
 
 Other findings: [CT Chest, Abdomen and Pelvis without contrast.]
 
-Lungs and large airways [Normal. ]
-Pleura: [Normal. No pleural effusion or thickening. ]
-Heart and pericardium: [Heart size is normal. No pericardial effusion. ]
-Mediastium and hila: [Normal. ]
-Chest wall and lower neck: [Normal. ]
-Vessels: [Atherosclerotic changes in the aorta ]
-Liver [Normal.]
-Gallbladder and biliary tree [No calcified gallstones. Normal caliber wall.] [No intra- or extrahepatic biliary ductal dilation.]
-Pancreas [Normal.]
-Spleen [Normal.]
-Adrenals [Normal.]
-Kidneys and ureters [Normal.]
-Bladder [Normal.]
-Reproductive organs [No pelvic masses]
-Bowel [Normal caliber.]
-Lymph nodes
-    Retroperitoneal [No enlarged retroperitoneal lymph nodes.]
-    Mesenteric [No enlarged mesenteric lymph nodes.]
-    Pelvic [No enlarged pelvic lymph nodes.]
-Peritoneum [No ascites or free air. No other fluid collection.]
-Retroperitoneum [Normal.]
-Abdominal wall [Normal.]
-Bones [Normal.]
+The lungs are clear bilaterally. No pulmonary nodules, consolidations, or pleural effusions.
+No axillary, hilar, mediastinal, or paratracheal lymphadenopathy.
+
+Heart size is normal. No pericardial effusion.  Calcific coronary atherosclerosis of the aorta
+
+The visualized osseous structures are unremarkable. No suspicious sclerotic or lytic lesions observed.
+
+Chest wall is unremarkable.
+
+The liver, gallbladder, pancreas, spleen and adrenal glands are within normal limits. There is no retroperitoneal or mesenteric lymphadenopathy. 
+The visualized loops of small bowel and large bowel are within normal limits. No free fluid or free air within the visualized abdomen.
+
 
 Impression
 
