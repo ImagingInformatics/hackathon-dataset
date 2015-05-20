@@ -540,57 +540,32 @@ Physiologic uptake identified. No other areas of increased uptake.
 Other findings: [CT Chest, Abdomen and Pelvis without contrast.]
 
 Lungs and large airways [Normal. ]
-
 Pleura: [Normal. No pleural effusion or thickening. ]
-
 Heart and pericardium: [Heart size is normal. No pericardial effusion. ]
-
 Mediastium and hila: [Normal. ]
-
 Chest wall and lower neck: [Normal. ]
-
-Vessels: [Atherosclerotic changes in the aorta and coronary arteries.]
-
-Bones: [Normal.]
-
+Vessels: [Atherosclerotic changes in the aorta ]
 Liver [Normal.]
-
 Gallbladder and biliary tree [No calcified gallstones. Normal caliber wall.] [No intra- or extrahepatic biliary ductal dilation.]
-
 Pancreas [Normal.]
-
 Spleen [Normal.]
-
 Adrenals [Normal.]
-
 Kidneys and ureters [Normal.]
-
 Bladder [Normal.]
-
 Reproductive organs [No pelvic masses]
-
 Bowel [Normal caliber.]
-
 Lymph nodes
-Retroperitoneal [No enlarged retroperitoneal lymph nodes.]
-
-Mesenteric [No enlarged mesenteric lymph nodes.]
-
-Pelvic [No enlarged pelvic lymph nodes.]
-
+    Retroperitoneal [No enlarged retroperitoneal lymph nodes.]
+    Mesenteric [No enlarged mesenteric lymph nodes.]
+    Pelvic [No enlarged pelvic lymph nodes.]
 Peritoneum [No ascites or free air. No other fluid collection.]
-
-Vessels [Normal.]
-
 Retroperitoneum [Normal.]
-
 Abdominal wall [Normal.]
-
 Bones [Normal.]
 
 Impression
 
-1. FDG hypermetabolic lesion in the base of the right lung suggests recurrent disease. No areas of increased peripheral uptake 
+1. FDG hypermetabolic lesion in the base of the right tongue suggests recurrent disease. No areas of increased peripheral uptake 
 suggestive of distant metastatic disease
 
 ---------------------------------------
