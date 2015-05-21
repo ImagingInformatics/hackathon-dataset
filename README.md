@@ -467,7 +467,9 @@ Impression:
 
 ###Andy SIIM (mrn: TCGA-50-5072)
 
-####CT Chest 1/28/2000
+HPI: 75 yo with lung cancer
+
+####CT Chest 1/28/2000 (FHIR ID/Accession Number: 2508258761846499)
 
 Indication: Mass seen on chest x-ray
 
@@ -489,7 +491,11 @@ Impression:
 
 ---------------------------------------
 
-####PET/CT Scan Whole Body 2/11/2000
+####PET/CT Scan Whole Body 2/11/2000 (FHIR ID/Accession Number: 1411079800582267)
+
+Exam: PET/CT Scan Whole Body
+
+Date: 2/11/2000
 
 Indication: Initial staging for lung cancer
 
@@ -497,9 +503,9 @@ Procedure: Following injection of 14.6 mCi of F-18 labeled glucose, concurrent P
 
 Findings:
 Oncologic Findings:
-Again seen is a 4.6 x 4.6 mass in the left upper lobe (series 3, iamge 78).  The SUV max of the mass is 7.2.
+Again seen is a 4.6 x 4.6 mass in the left upper lobe (series 3, iamge 78).  The SUV max of the mass is 3.1.
 
-The large AP window lymph node on (series 3, image 89) is again noted and has an SUV of 3.5.
+The large AP window lymph node on (series 3, image 89) is again noted and has a maximum SUV of 1.5.
 
 No contralateral lung nodules are identified.  There is physiologic activity in both adrenal glands.
 
@@ -518,3 +524,54 @@ The prostate and seminal vesicles are within normal limits.  The bladder is unre
 
 Impression:
 1. Left upper lobe mass with mediastinal adenopathy compatible with lung cancer.
+
+---------------------------------------
+
+####Bone Scan, Whole Body 2/23/2000 (FHIR ID/Accession Number: 1411079800582267)
+
+Whole Body Tc-99m Bone Scintigraphy 2/23/2000
+
+Indication: History of lung cancer with back pain, evaluate for bone mets
+
+Procedure: Following intravenous administration of a standard dose of Tc-99m (not indicated in metadata) MDP a bone scan was performed.
+
+Findings: No suspicious areas of increased or decreased uptake to suggest bony metastatic disease.  Suspect bilateral first MCP degenerative change.  
+
+Impression:
+Negative for bony metastatic disease.
+
+---------------------------------------
+
+
+####PET/CT Scan Whole Body 4/19/2000 (FHIR ID/Accession Number: 1411079800582267)
+
+PET/CT scan whole body with IV contrast 4/19/2000
+
+Indication: Measure response from lung cancer.
+
+Procedure: Simultaneous PET/CT scanning was performed 1 hour and 18 minutes   following intravenous administration of 14.48 mCi of FDG.  Gastroview enteric contrast was administered prior to the CT scan.  125 mL of Isovue was administered intravenously at the time of the CT scan to improve diagnostic accuracy.
+
+Findings:
+
+Again seen is a mass in the left upper lobe (series 3, image 85).  This currently measures 2.8 x 2.1 cm (previously 4.6 x 4.6 cm).  The max SUV is 1.96 (previously 3.1).
+
+The AP window adenopathy (series 3, image 85) has also decreased in size.  This now measures 2.0 x 1.7 cm (previously 3.2 x 2.4 cm).   The SUV max of this lesion is 1.46 (previously 1.53).
+
+No right hilar adnenopathy.  No paratracheal adenopathy.  No contralateral lung lesions.
+
+No FDG-avid metastatic disease in the abdomen or pelvis.
+
+Other Findings:
+There is continued mild cardiomegaly.  The liver enhances homogeneously.  The pancreas is unremarkable.  The esophagus and stomach are unremarkable.  The spleen is within normal limits.  The kidneys are unremarkable.  Again seen is an aortic graft which appears patent.  The celiac and superior mesenteric arteries are patent.
+
+There is normal progression of enteric contrast.  Stool is scattered throughout the colon.  Scattered colonic diverticula without diverticulitis.
+
+There is mild diffuse thickening of the anterior bladder wall.
+
+Bone windows are unreamarkable.  No sclerotic or lucent lesions are identified.
+
+Impression:
+1. Interval decrease in size and FDG activity of left upper lobe lesion and AP window adenopathy.
+2. No findings to suggest progression
+
+
