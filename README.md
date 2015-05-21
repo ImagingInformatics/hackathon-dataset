@@ -46,6 +46,9 @@ Run the script to upload all of the resources in the folders
 - Make your changes/improvements
 - Send a pull request
 
+# Suggested Exercises
+- Search report text to add coded diagnosis for Andy's DiagnosticReports
+
 
 # Patient Narratives
 ###Sally SIIM (mrn: BreastDx-01-0003)
