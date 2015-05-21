@@ -467,6 +467,97 @@ Impression:
 ---------------------------------------
 
 ###Neela SIIM (mrn: TCGA-BA-4077)
+HPI: 65 yo Female with recurrent right base of tongue cancer after chemotherapy and radiotherapy
+
+####Imaging Exams
+
+#####CT Head and Neck 4/28/1986 (FHIR ID/Accession No: 2605867053656544)
+
+CT Head and Neck with contrast 4/28/1986
+
+Clinical information:
+65 yo Female with recurrent right base of tongue cancer after chemotherapy and radiotherapy
+
+Comparison:
+None.
+
+Technique:
+Sequential axial CT images were obtained from the base of the brain to the thoracic inlet following the uneventful administration of intravenous contrast.
+
+Findings:
+Orbits, paranasal sinuses, and skull base: Normal skull base and orbits. Mucosal thickening in both maxillary sinuses.
+
+Nasopharynx: Normal.
+
+Suprahyoid neck: There is a nectrotic heterogenously enhancing mass in the base of the right tongue that measures 3.0 cm x 3.7 cm (Ap versus transverse) with gas identified in the mass. No bulky local lymph nodes. No extension of the mass into the mandible, retropharyngeal or parapharyngeal space. Mild mass effect into the oropharynx.
+
+Infrahyoid neck: Normal larynx, hypopharynx, and supraglottis.
+
+Thyroid: Normal.
+
+Thoracic inlet: Normal lung apices and brachial plexus.
+
+Lymph nodes Normal. No lymphadenopathy.
+
+Vascular structures: Normal.
+
+Other findings: None.
+
+Impression
+1. 3.0 cm x 3.7 cm mass in the base of the right tongue as detailed above consistent with known malignancy
+
+---------------------------------------
+
+##### Whole Body PET/CT Restaging 5/14/1996 (FHIR ID/Accession No: 2142485449496602)
+
+5/14/1996
+PET Oncologic Study
+
+Duration of fast prior to injection: 12 hours
+
+Blood glucose prior to injection: 100 mg/dl
+
+Scan region: Whole body scan
+
+Radiopharmaceutical: F-18 FDG 12.9 mCi IV
+
+Administration time: 11:35
+
+Post-injection imaging delay: 60 minutes
+
+Attenuation correction: Rod source transmission scan.
+
+Clinical information
+65 yo Female with recurrent right base of tongue cancer after chemotherapy and radiotherapy
+
+Comparison
+CT Head and Neck 4/28/1986. No prior comparison PET scan
+
+Findings
+Hypermetabolic foci: Increased FDG uptake in the base of the tongue with max SUV of 8.4.
+
+Physiologic uptake identified. No other areas of increased uptake.
+
+Other findings:
+The lungs are clear bilaterally. No pulmonary nodules, consolidations, or pleural effusions.
+
+No axillary, hilar, mediastinal, or paratracheal lymphadenopathy.
+
+Heart size is normal. No pericardial effusion.  Calcific coronary atherosclerosis.
+
+The visualized osseous structures are unremarkable. No suspicious sclerotic or lytic lesions observed.
+
+Chest wall is unremarkable.
+
+The liver, gallbladder, pancreas, spleen and adrenal glands are within normal limits. There is no retroperitoneal or mesenteric lymphadenopathy.
+
+The visualized loops of small bowel and large bowel are within normal limits. No free fluid or free air within the visualized abdomen.
+
+Impression
+1. FDG hypermetabolic lesion in the base of the right tongue suggests recurrent disease. No areas of increased peripheral uptake 
+suggestive of distant metastatic disease
+
+---------------------------------------
 
 ###Andy SIIM (mrn: TCGA-50-5072)
 
