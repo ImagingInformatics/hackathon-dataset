@@ -4,16 +4,16 @@
     "resourceType": "DiagnosticReport",
     "text": {
       "status": "generated",
-      "div": "TODO"
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Whole Body Tc-99m Bone Scintigraphy 2/23/2000</p>\n\n<p>Indication: History of lung cancer with back pain, evaluate for bone mets</p>\n\n<p>Procedure: Following intravenous administration of a standard dose of Tc-99m (not indicated in metadata) MDP a bone scan was performed.</p>\n\n<p>Findings: No suspicious areas of increased or decreased uptake to suggest bony metastatic disease.  Suspect bilateral first MCP degenerative change.  </p>\n\n<p>Impression:\nNegative for bony metastatic disease.</p></div>"
     },
     "name": {
       "coding": [
         {
           "system": "http://loinc.org/",
-          "code": "TODO"
+          "code": "39818-0"
         }
       ],
-      "text": "TB TOTAL BODY"
+      "text": "Bone Scan whole body"
     },
     "status": "final",
     "issued": "2000-02-23T09:23:00+10:00",
@@ -39,6 +39,6 @@
       ]
     },
     "diagnosticDateTime": "2000-02-23",
-    "conclusion":"TODO"
+    "conclusion":"<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Impression:\nNegative for bony metastatic disease.</p></div>"
   }
 }

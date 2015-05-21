@@ -576,5 +576,3 @@ Bone windows are unreamarkable.  No sclerotic or lucent lesions are identified.
 Impression:
 1. Interval decrease in size and FDG activity of left upper lobe lesion and AP window adenopathy.
 2. No findings to suggest progression
-
-
