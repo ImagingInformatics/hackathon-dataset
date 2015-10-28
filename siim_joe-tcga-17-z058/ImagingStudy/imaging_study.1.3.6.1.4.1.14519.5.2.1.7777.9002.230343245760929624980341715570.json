@@ -22,7 +22,10 @@
     "series": [
       {
         "number": 10,
-        "modality": "CT",
+        "modality": {
+          "system": "http://dicom.nema.org/medical/dicom/current/output/html/part03.html#sect_C.7.3.1.1",
+          "code": "CT"
+        },
         "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.7777.9002.172960632048542002539638602372",
         "description": "PE Routine  1.0  B20f",
         "numberOfInstances": 345,
@@ -1757,7 +1760,10 @@
       },
       {
         "number": 1,
-        "modality": "CT",
+        "modality": {
+          "system": "http://dicom.nema.org/medical/dicom/current/output/html/part03.html#sect_C.7.3.1.1",
+          "code": "CT"
+        },
         "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.7777.9002.270755510288481703289127192748",
         "description": "Topogram  1.0  T20s",
         "numberOfInstances": 2,
@@ -1777,7 +1783,10 @@
       },
       {
         "number": 9,
-        "modality": "CT",
+        "modality": {
+          "system": "http://dicom.nema.org/medical/dicom/current/output/html/part03.html#sect_C.7.3.1.1",
+          "code": "CT"
+        },
         "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.7777.9002.162170395728077871532200089367",
         "description": "PE Routine  5.0  B60f",
         "numberOfInstances": 67,

@@ -22,7 +22,10 @@
     "series": [
       {
         "number": 2,
-        "modality": "MG",
+        "modality": {
+          "system": "http://dicom.nema.org/medical/dicom/current/output/html/part03.html#sect_C.7.3.1.1",
+          "code": "MG"
+        },
         "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.4792.2001.104616474240757574154876423123",
         "description": "L SPECIMEN",
         "numberOfInstances": 1,

@@ -22,7 +22,10 @@
     "series": [
       {
         "number": 401,
-        "modality": "MR",
+        "modality": {
+          "system": "http://dicom.nema.org/medical/dicom/current/output/html/part03.html#sect_C.7.3.1.1",
+          "code": "MR"
+        },
         "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.4792.2001.379921312179789310069408456752",
         "description": "STIR SENSE",
         "numberOfInstances": 95,
@@ -507,7 +510,10 @@
       },
       {
         "number": 701,
-        "modality": "MR",
+        "modality": {
+          "system": "http://dicom.nema.org/medical/dicom/current/output/html/part03.html#sect_C.7.3.1.1",
+          "code": "MR"
+        },
         "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.4792.2001.146297080074792942851314092932",
         "description": "AX BLISS_AUTO SENSE",
         "numberOfInstances": 760,

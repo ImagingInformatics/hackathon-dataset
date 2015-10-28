@@ -22,7 +22,10 @@
     "series": [
       {
         "number": 607,
-        "modality": "PT",
+        "modality": {
+          "system": "http://dicom.nema.org/medical/dicom/current/output/html/part03.html#sect_C.7.3.1.1",
+          "code": "PT"
+        },
         "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.7777.9002.338693646012912810657666242632",
         "description": "PROJECTION<MIP Range>",
         "numberOfInstances": 32,
@@ -192,7 +195,10 @@
       },
       {
         "number": 605,
-        "modality": "PT",
+        "modality": {
+          "system": "http://dicom.nema.org/medical/dicom/current/output/html/part03.html#sect_C.7.3.1.1",
+          "code": "PT"
+        },
         "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.7777.9002.483970526485201431983118576674",
         "description": "PET WB-uncorrected",
         "numberOfInstances": 299,
@@ -1697,7 +1703,10 @@
       },
       {
         "number": 1,
-        "modality": "CT",
+        "modality": {
+          "system": "http://dicom.nema.org/medical/dicom/current/output/html/part03.html#sect_C.7.3.1.1",
+          "code": "CT"
+        },
         "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.7777.9002.139227318580447170989733503790",
         "description": "Topogram",
         "numberOfInstances": 1,
@@ -1712,7 +1721,10 @@
       },
       {
         "number": 608,
-        "modality": "CT",
+        "modality": {
+          "system": "http://dicom.nema.org/medical/dicom/current/output/html/part03.html#sect_C.7.3.1.1",
+          "code": "CT"
+        },
         "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.7777.9002.189472349000633286262330433483",
         "description": "<ALPHA Collection>",
         "numberOfInstances": 9,
@@ -1767,7 +1779,10 @@
       },
       {
         "number": 608,
-        "modality": "CT",
+        "modality": {
+          "system": "http://dicom.nema.org/medical/dicom/current/output/html/part03.html#sect_C.7.3.1.1",
+          "code": "CT"
+        },
         "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.7777.9002.331308443872722270694908138201",
         "description": "<ALPHA Collection>",
         "numberOfInstances": 9,
@@ -1822,7 +1837,10 @@
       },
       {
         "number": 2,
-        "modality": "CT",
+        "modality": {
+          "system": "http://dicom.nema.org/medical/dicom/current/output/html/part03.html#sect_C.7.3.1.1",
+          "code": "CT"
+        },
         "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.7777.9002.273279093200991843714733857258",
         "description": "Abd.CT 5.0 B30s",
         "numberOfInstances": 179,
@@ -2727,7 +2745,10 @@
       },
       {
         "number": 2,
-        "modality": "CT",
+        "modality": {
+          "system": "http://dicom.nema.org/medical/dicom/current/output/html/part03.html#sect_C.7.3.1.1",
+          "code": "CT"
+        },
         "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.7777.9002.276979399257180200489703215689",
         "description": "Abd.CT 5.0 B30s",
         "numberOfInstances": 225,
@@ -3862,7 +3883,10 @@
       },
       {
         "number": 1,
-        "modality": "PT",
+        "modality": {
+          "system": "http://dicom.nema.org/medical/dicom/current/output/html/part03.html#sect_C.7.3.1.1",
+          "code": "PT"
+        },
         "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.7777.9002.173979535811735592326423332677",
         "description": "PET WB [MIP]",
         "numberOfInstances": 32,
@@ -4032,7 +4056,10 @@
       },
       {
         "number": 606,
-        "modality": "PT",
+        "modality": {
+          "system": "http://dicom.nema.org/medical/dicom/current/output/html/part03.html#sect_C.7.3.1.1",
+          "code": "PT"
+        },
         "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.7777.9002.219070742080005429019386559724",
         "description": "PET WB",
         "numberOfInstances": 299,

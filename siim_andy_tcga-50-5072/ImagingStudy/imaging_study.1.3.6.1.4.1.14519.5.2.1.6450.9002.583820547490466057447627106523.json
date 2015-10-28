@@ -22,7 +22,10 @@
     "series": [
       {
         "number": 1,
-        "modality": "CT",
+        "modality": {
+          "system": "http://dicom.nema.org/medical/dicom/current/output/html/part03.html#sect_C.7.3.1.1",
+          "code": "CT"
+        },
         "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.6450.9002.280396351248518190986957310952",
         "description": "CT SCOUT HEAD IN",
         "numberOfInstances": 2,
@@ -42,7 +45,10 @@
       },
       {
         "number": 2,
-        "modality": "CT",
+        "modality": {
+          "system": "http://dicom.nema.org/medical/dicom/current/output/html/part03.html#sect_C.7.3.1.1",
+          "code": "CT"
+        },
         "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.6450.9002.203648771004802075904617227084",
         "description": "LOW DOSE C- CHEST",
         "numberOfInstances": 147,
@@ -787,7 +793,10 @@
       },
       {
         "number": 3,
-        "modality": "CT",
+        "modality": {
+          "system": "http://dicom.nema.org/medical/dicom/current/output/html/part03.html#sect_C.7.3.1.1",
+          "code": "CT"
+        },
         "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.6450.9002.160603992769469736388947327838",
         "description": "CT WHOLE BODY",
         "numberOfInstances": 267,
@@ -2132,7 +2141,10 @@
       },
       {
         "number": 4,
-        "modality": "CT",
+        "modality": {
+          "system": "http://dicom.nema.org/medical/dicom/current/output/html/part03.html#sect_C.7.3.1.1",
+          "code": "CT"
+        },
         "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.6450.9002.379381983062361120381828578254",
         "description": "LUNG WINDOWS",
         "numberOfInstances": 348,
@@ -3882,7 +3894,10 @@
       },
       {
         "number": 5,
-        "modality": "PT",
+        "modality": {
+          "system": "http://dicom.nema.org/medical/dicom/current/output/html/part03.html#sect_C.7.3.1.1",
+          "code": "PT"
+        },
         "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.6450.9002.310517959166069749301800297733",
         "description": "WB_2D AC",
         "numberOfInstances": 267,
@@ -5227,7 +5242,10 @@
       },
       {
         "number": 6,
-        "modality": "PT",
+        "modality": {
+          "system": "http://dicom.nema.org/medical/dicom/current/output/html/part03.html#sect_C.7.3.1.1",
+          "code": "PT"
+        },
         "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.6450.9002.276430187287782887952521379085",
         "description": "WB_2D NAC",
         "numberOfInstances": 267,
