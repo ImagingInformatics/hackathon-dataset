@@ -6,7 +6,7 @@
       "status": "generated",
       "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>CT Chest with Contrast</p>\n\n<p>Clinical History: Abnormal chest x-ray</p>\n\n<p>Comparison: Chest XR 1/1/00, Chest CT 10:04 AM 1/1/00</p>\n\n<p>Technique: Contiguous axial CT images of the chest were obtained after the administration of IV contrast material.</p>\n\n<p>Findings:</p>\n\n<p>The heart is normal in size. There is no pericardial effusion.</p>\n\n<p>The thoracic aorta is normal in size and calibur. There is a bovine configuration of the aortic arch, a normal variant. Mild atherosclerotic changes are present in the upper abdominal aorta.</p>\n\n<p>There is a 2.1 x 1.4 cm cavitary lesion in the left upper lobe (Image 28/116). A smaller cavitary lesion is seen in the right lower lobe measuring 9 mm (Image 40/116). Linear bandlike areas of scarring/atelectasis are present in the right upper lobe with associated bronchiectasis. The central airways are clear.</p>\n\n<p>There is no axillary, mediastinal, or hilar adenopathy. The thyroid gland is within normal limits.</p>\n\n<p>The visualized portions of the upper abdomen are unremarkable. No suspicious osseous lesion is seen. There is evidence of prior trauma/deformity of the right 5th rib.</p>\n\n<p>Impression:</p>\n\n<ol>\n<li><p>Interval evolution of left upper lobe cavitary lesion in the left upper and new right lower lobe nodule. Given the rapid evolution of these cavitary lesions an infectious etiology is favored.</p></li>\n<li><p>Unchanged bandlike areas of atelectasis/scarring and bronchiectasis in the right upper lobe likely related to prior infection/insult.</p></li>\n</ol>\n</div>"
     },
-    "name": {
+    "code": {
       "coding": [
         {
           "system": "http://loinc.org/",
@@ -24,13 +24,13 @@
       "reference": "Organization/siim",
       "display": "Society of Imaging Informatics in Medicine"
     },
-    "identifier" : {
-      "use" : "usual",
-      "label" : "Accession Number",
-      "system" : "http://www.siim.org",
-      "value" : "2819497684894128"
+    "identifer": {
+      "use": "usual",
+      "label": "Accession Number",
+      "system": "http://www.siim.org",
+      "value": "2819497684894128"
     },
-    "serviceCategory" : {
+    "serviceCategory": {
       "coding": [
         {
           "system": "http://hl7.org/fhir/v2/0074",
@@ -39,6 +39,6 @@
       ]
     },
     "diagnosticDateTime": "2000-01-01",
-    "conclusion":"<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Impression:</p>\n\n<ol>\n<li><p>Interval evolution of left upper lobe cavitary lesion in the left upper and new right lower lobe nodule. Given the rapid evolution of these cavitary lesions an infectious etiology is favored.</p></li>\n<li><p>Unchanged bandlike areas of atelectasis/scarring and bronchiectasis in the right upper lobe likely related to prior infection/insult.</p></li>\n</ol>\n</div>"
+    "conclusion": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Impression:</p>\n\n<ol>\n<li><p>Interval evolution of left upper lobe cavitary lesion in the left upper and new right lower lobe nodule. Given the rapid evolution of these cavitary lesions an infectious etiology is favored.</p></li>\n<li><p>Unchanged bandlike areas of atelectasis/scarring and bronchiectasis in the right upper lobe likely related to prior infection/insult.</p></li>\n</ol>\n</div>"
   }
 }

@@ -1,84 +1,54 @@
 {
-    "id": "2819497684894126",
-    "resource": {
-        "resourceType": "DiagnosticReport",
-        "text": {
-            "status": "generated",
-            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\r\n</div>"
-        },
-        "contained": [
-            {
-                "resourceType": "Observation",
-                "id": "r1",
-                "name": {
-                    "coding": [
-                        {
-                            "system": "http://loinc.org/",
-                            "code": "24701-5",
-                            "display": "Chest PET/CT"
-                        }
-                    ]
-                },
-                "status": "final",
-                "reliability": "ok",
-                "bodySite": {
-                    "coding": [
-                        {
-                            "system": "http://snomed.info/sct",
-                            "code": "71341001:272741003=7771000"
-                        }
-                    ]
-                }
-            }
-        ],
-        "name": {
-            "coding": [
-                {
-                    "system": "http://loinc.org/",
-                    "code": "38269-7"
-                }
-            ],
-            "text": "chest PET/CT"
-        },
-        "status": "final",
-        "issued": "1986-04-22T09:23:00+10:00",
-        "subject": {
-            "reference": "Patient/siimjoe"
-        },
-        "performer": {
-            "reference": "Organization/siim",
-            "display": "Society of Imaging Informatics in Medicine"
-        },
-        "identifier" : {
-          "use" : "usual",
-          "label" : "Accession Number",
-          "system" : "http://www.siim.org",
-          "value" : "2819497684894126"
-        },
-        "serviceCategory" : {
-          "coding": [
-            {
-              "system": "http://hl7.org/fhir/v2/0074",
-              "code": "RAD"
-            }
-          ]
-        },
-        "diagnosticDateTime": "1986-04-22",
-        "result": [
-            {
-                "reference": "#r1"
-            }
-        ],
-        "codedDiagnosis": [
-            {
-                "coding": [
-                    {
-                        "system": "http://snomed.info/sct",
-                        "code": "391040000",
-                        "display": "PET Oncologic Study 4/22/1986 Duration of fast prior to injection: [ ] Blood glucose prior to injection: [ ] mg/dl Scan region: [ ] Radiopharmaceutical: [F-18 FDG] [ ] mCi IV. Calibration time: [] [] Administration time: [] [] Injection site: [ ] Post-injection imaging delay: [ ] minutes. Attenuation correction: [Rod source transmission scan. ] Clinical information [ ] Comparison [None. ] Findings Hypermetabolic foci: [None. ] Other findings: [None.] Impression [ ] EORTC Response Criteria: [Complete Metabolic Response. MaxSUV < 2.5 or equivalent to background | Partial Metabolic Response. Decrease in MaxSUV >= 25% | Progressive Metabolic Disease. Increase in MaxSUV > 25% | Stable Metabolic Disease. Change in MaxSUV < 25%]"
-                    }
-                ]
-            }
+  "id": "2819497684894126",
+  "resource": {
+    "resourceType": "DiagnosticReport",
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\r\n</div>"
+    },
+    "": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "391040000",
+            "display": "PET Oncologic Study 4/22/1986 Duration of fast prior to injection: [ ] Blood glucose prior to injection: [ ] mg/dl Scan region: [ ] Radiopharmaceutical: [F-18 FDG] [ ] mCi IV. Calibration time: [] [] Administration time: [] [] Injection site: [ ] Post-injection imaging delay: [ ] minutes. Attenuation correction: [Rod source transmission scan. ] Clinical information [ ] Comparison [None. ] Findings Hypermetabolic foci: [None. ] Other findings: [None.] Impression [ ] EORTC Response Criteria: [Complete Metabolic Response. MaxSUV < 2.5 or equivalent to background | Partial Metabolic Response. Decrease in MaxSUV >= 25% | Progressive Metabolic Disease. Increase in MaxSUV > 25% | Stable Metabolic Disease. Change in MaxSUV < 25%]"
+          }
         ]
-    }
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org/",
+          "code": "38269-7"
+        }
+      ],
+      "text": "chest PET/CT"
+    },
+    "status": "final",
+    "issued": "1986-04-22T09:23:00+10:00",
+    "subject": {
+      "reference": "Patient/siimjoe"
+    },
+    "performer": {
+      "reference": "Organization/siim",
+      "display": "Society of Imaging Informatics in Medicine"
+    },
+    "identifer": {
+      "use": "usual",
+      "label": "Accession Number",
+      "system": "http://www.siim.org",
+      "value": "2819497684894126"
+    },
+    "serviceCategory": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v2/0074",
+          "code": "RAD"
+        }
+      ]
+    },
+    "diagnosticDateTime": "1986-04-22"
+  }
 }
