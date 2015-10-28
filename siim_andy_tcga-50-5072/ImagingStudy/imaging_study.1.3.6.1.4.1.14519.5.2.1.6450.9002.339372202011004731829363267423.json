@@ -6,12 +6,12 @@
       "status": "generated",
       "div": "CT CHEST N/C"
     },
-    "dateTime": "2000-01-28",
+    "started": "2000-01-28",
     "subject": {
       "reference": "Patient/siimandy"
     },
     "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.6450.9002.339372202011004731829363267423",
-    "accessionNo": {
+    "accession": {
       "use": "usual",
       "system": "http://www.siim.org",
       "value": "2508258761846499"

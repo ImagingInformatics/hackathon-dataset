@@ -6,12 +6,12 @@
       "status": "generated",
       "div": "CT Chest Abdomen Pelvis"
     },
-    "dateTime": "1986-09-28",
+    "started": "1986-09-28",
     "subject": {
       "reference": "Patient/siimjoe"
     },
     "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.7777.9002.988079582344471175076015633105",
-    "accessionNo": {
+    "accession": {
       "use": "usual",
       "system": "http://www.siim.org",
       "value": "3173095681219824"

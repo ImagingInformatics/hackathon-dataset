@@ -6,12 +6,12 @@
       "status": "generated",
       "div": "CT Chest"
     },
-    "dateTime": "2000-01-01",
+    "started": "2000-01-01",
     "subject": {
       "reference": "Patient/siimravi"
     },
     "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.6279.6001.218658642102832118810712329678",
-    "accessionNo": {
+    "accession": {
       "use": "usual",
       "system": "http://www.siim.org",
       "value": "2819497684894126"

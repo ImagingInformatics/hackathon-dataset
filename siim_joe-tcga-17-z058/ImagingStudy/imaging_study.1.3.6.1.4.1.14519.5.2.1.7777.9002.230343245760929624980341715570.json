@@ -6,12 +6,12 @@
       "status": "generated",
       "div": "Routine PE"
     },
-    "dateTime": "1986-05-05",
+    "started": "1986-05-05",
     "subject": {
       "reference": "Patient/siimjoe"
     },
     "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.7777.9002.230343245760929624980341715570",
-    "accessionNo": {
+    "accession": {
       "use": "usual",
       "system": "http://www.siim.org",
       "value": "1857795211017352"

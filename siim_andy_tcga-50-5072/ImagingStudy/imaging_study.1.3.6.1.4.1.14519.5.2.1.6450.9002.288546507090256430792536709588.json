@@ -6,12 +6,12 @@
       "status": "generated",
       "div": "PTCTSKTHPET / CT TUMOR"
     },
-    "dateTime": "2000-02-11",
+    "started": "2000-02-11",
     "subject": {
       "reference": "Patient/siimandy"
     },
     "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.6450.9002.288546507090256430792536709588",
-    "accessionNo": {
+    "accession": {
       "use": "usual",
       "system": "http://www.siim.org",
       "value": "4372611551565644"

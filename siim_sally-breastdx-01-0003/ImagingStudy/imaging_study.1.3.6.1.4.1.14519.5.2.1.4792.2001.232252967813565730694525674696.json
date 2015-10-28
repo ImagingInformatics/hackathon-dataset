@@ -6,12 +6,12 @@
       "status": "generated",
       "div": "Digital Left Mammogram Diagnostic"
     },
-    "dateTime": "2008-04-22",
+    "started": "2008-04-22",
     "subject": {
       "reference": "Patient/siimsally"
     },
     "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.4792.2001.232252967813565730694525674696",
-    "accessionNo": {
+    "accession": {
       "use": "usual",
       "system": "http://www.siim.org",
       "value": "4361814883895900"
