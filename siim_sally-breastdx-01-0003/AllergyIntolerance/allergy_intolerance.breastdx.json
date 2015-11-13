@@ -1,18 +1,48 @@
 {
-  "id": "random56",
   "resourceType": "AllergyIntolerance",
+  "id": "9483726462664827",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">NKDA</div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Penicillin - Hives and Airway compromise</div>"
   },
-  "criticality": "",
-  "sensitivityType": "allergy",
   "recordedDate": "2008-05-24",
-  "status": "confirmed",
-  "subject": {
+  "patient": {
     "reference": "Patient/siimsally"
   },
-  "recorder": {
+  "reporter": {
     "reference": "Practitioner/example"
-  }
+  },
+  "substance": {
+      "coding": [
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "code": "314422",
+        "display": "ALLERGENIC EXTRACT, PENICILLIN"
+      }
+    ]
+  },
+  "status": "confirmed",
+  "criticality": "CRITL",
+  "type": "allergy",
+  "category": "medication",
+  "reaction": [
+    {
+      "manifestation": [
+        {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "247472004",
+              "display": "Hives"
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "code": "44416002",
+              "display": "Airway constriction"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
