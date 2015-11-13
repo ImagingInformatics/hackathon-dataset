@@ -12,7 +12,7 @@
   "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.6279.6001.314138616411061948052843767346",
   "accession": {
     "use": "usual",
-    "system": "http://www.siim.org",
+    "system": "http://www.siim.org/",
     "value": "2819497684894128"
   },
   "url": "http://vna.hackathon.siim.org/dcm4chee-arc/wado/DCM4CHEE/studies/1.3.6.1.4.1.14519.5.2.1.6279.6001.314138616411061948052843767346",

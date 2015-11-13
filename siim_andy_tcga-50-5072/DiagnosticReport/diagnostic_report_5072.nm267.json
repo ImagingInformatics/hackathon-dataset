@@ -26,7 +26,7 @@
   "identifer": {
     "use": "usual",
     "label": "Accession Number",
-    "system": "http://www.siim.org",
+    "system": "http://www.siim.org/",
     "value": "1411079800582267"
   },
   "serviceCategory": {
