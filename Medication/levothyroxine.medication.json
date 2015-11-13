@@ -1,22 +1,16 @@
 {
-  "id": "126202002",
   "resourceType": "Medication",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">126202002: levothyroxine sodium 50mcg oral tablet</div>"
-  },
-  "name": "levothyroxine sodium 50mcg ",
+  "id": "126202002",
   "code": {
     "coding": [
       {
         "system": "http://snomed.info/sct",
         "code": "126202002",
-        "display": "levothyroxine sodium 50mcg once daily  (product)"
+        "display": "levothyroxine sodium 50mcg once daily (product)"
       }
     ]
   },
   "isBrand": false,
-  "kind": "product",
   "product": {
     "form": {
       "coding": [
