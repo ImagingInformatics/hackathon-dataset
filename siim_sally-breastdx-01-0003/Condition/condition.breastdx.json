@@ -5,7 +5,7 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">5/24/2008 Invasive ductal carcinoma</div>"
   },
-  "subject": {
+  "patient": {
     "reference": "Patient/siimsally"
   },
   "code": {
@@ -32,7 +32,7 @@
       }
     ]
   },
-  "status": "confirmed",
+  "clinicialStatus": "confirmed",
   "severity": {
     "coding": [
       {
@@ -43,18 +43,16 @@
     ]
   },
   "onsetDate": "2012-05-24",
-  "location": [
+  "bodySite": [
     {
-      "code": {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "361716006",
-            "display": "Left breast"
-          }
-        ],
-        "text": "Left breast"
-      }
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "361716006",
+          "display": "Left breast"
+        }
+      ],
+      "text": "Left breast"
     }
   ]
 }

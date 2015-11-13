@@ -5,7 +5,7 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">60 yo male with history of lung adenocarcinoma (Date: 24-May 1985)</div>"
   },
-  "subject": {
+  "patient": {
     "reference": "Patient/siimjoe"
   },
   "code": {
@@ -32,7 +32,7 @@
       }
     ]
   },
-  "status": "confirmed",
+  "clinicalStatus": "confirmed",
   "severity": {
     "coding": [
       {
@@ -43,18 +43,16 @@
     ]
   },
   "onsetDate": "2012-05-24",
-  "location": [
+  "bodySite": [
     {
-      "code": {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "49521004",
-            "display": "Left lung"
-          }
-        ],
-        "text": "Left lung"
-      }
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "49521004",
+          "display": "Left lung"
+        }
+      ],
+      "text": "Left lung"
     }
   ]
 }
