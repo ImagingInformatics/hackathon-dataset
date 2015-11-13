@@ -1,55 +1,53 @@
 {
   "id": "2889127246021897",
-  "resource": {
-    "resourceType": "DiagnosticReport",
-    "text": {
-      "status": "generated",
-      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\r\n <p>05/24/2008\nSurgical Specimen Radiograph</p>\n\n<p>Clinical History:  Unknown</p>\n\n<p>Technique: Single surgical specimen radiograph</p>\n\n<p>Findings: The surgical specimen contains an intact wire and surgical clip.  No masses or calcifications are identified.</p>\n\n<p>Impression:</p>\n\n<p>Specimen radiograph with intact wire and surgical clip.</p> </div>"
-    },
-    "": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "89164003",
-            "display": "left breast lump"
-          }
-        ]
-      }
-    ],
-    "code": {
+  "resourceType": "DiagnosticReport",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\r\n <p>05/24/2008\nSurgical Specimen Radiograph</p>\n\n<p>Clinical History:  Unknown</p>\n\n<p>Technique: Single surgical specimen radiograph</p>\n\n<p>Findings: The surgical specimen contains an intact wire and surgical clip.  No masses or calcifications are identified.</p>\n\n<p>Impression:</p>\n\n<p>Specimen radiograph with intact wire and surgical clip.</p> </div>"
+  },
+  "": [
+    {
       "coding": [
         {
-          "system": "http://loinc.org/",
-          "code": "24597-7"
-        }
-      ],
-      "text": "Breast Specimen Mammogram"
-    },
-    "status": "final",
-    "issued": "2008-05-24T09:23:00+10:00",
-    "subject": {
-      "reference": "Patient/siimsally"
-    },
-    "performer": {
-      "reference": "Organization/siim",
-      "display": "Society of Imaging Informatics in Medicine"
-    },
-    "identifer": {
-      "use": "usual",
-      "label": "Accession Number",
-      "system": "http://www.siim.org",
-      "value": "2889127246021897"
-    },
-    "serviceCategory": {
-      "coding": [
-        {
-          "system": "http://hl7.org/fhir/v2/0074",
-          "code": "RAD"
+          "system": "http://snomed.info/sct",
+          "code": "89164003",
+          "display": "left breast lump"
         }
       ]
-    },
-    "diagnosticDateTime": "2008-05-24",
-    "conclusion": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\r\n<p>Specimen radiograph with intact wire and surgical clip.</p> </div>"
-  }
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org/",
+        "code": "24597-7"
+      }
+    ],
+    "text": "Breast Specimen Mammogram"
+  },
+  "status": "final",
+  "issued": "2008-05-24T09:23:00+10:00",
+  "subject": {
+    "reference": "Patient/siimsally"
+  },
+  "performer": {
+    "reference": "Organization/siim",
+    "display": "Society of Imaging Informatics in Medicine"
+  },
+  "identifer": {
+    "use": "usual",
+    "label": "Accession Number",
+    "system": "http://www.siim.org",
+    "value": "2889127246021897"
+  },
+  "serviceCategory": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/v2/0074",
+        "code": "RAD"
+      }
+    ]
+  },
+  "diagnosticDateTime": "2008-05-24",
+  "conclusion": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\r\n<p>Specimen radiograph with intact wire and surgical clip.</p> </div>"
 }

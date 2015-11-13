@@ -1,66 +1,64 @@
 {
-    "id": "siimjoe",
-    "resource": {
-        "resourceType": "Specimen",
-        "text": {
-            "status": "generated",
-            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">[Put rendering here]</div>"
-        },
-        "contained": [
-            {
-                "resourceType": "Substance",
-                "id": "hep",
-                "type": {
-                    "coding": [
-                        {
-                            "system": "http://hl7.org/fhir/v3/EntityCode",
-                            "code": "HEPL"
-                        }
-                    ]
-                }
-            }
-        ],
-        "identifier": [
-            {
-                "system": "http://ehr.acme.org/identifiers/collections",
-                "value": "23234352356"
-            }
-        ],
-        "type": {
-            "coding": [
-                {
-                    "system": "http://snomed.info/sct",
-                    "code": "122555007",
-                    "display": "Lingular lung bxs"
-                }
-            ]
-        },
-        "subject": {
-            "reference": "Patient/siimjoe",
-            "display": "siimjoe"
-        },
-        "accessionIdentifier": {
-            "system": "http://lab.acme.org/specimens/2011",
-            "value": "XXX66-4444"
-        },
-        "receivedTime": "1986-04-25T07:03:00",
-        "collection": {
-            "collector": {
-                "reference": "Practitioner/example"
-            },
-            "collectedDateTime": "1986-04-25T06:15:00",
-            "quantity": {
-                "value": 10,
-                "units": "mL"
-            },
-            "method": {
-                "coding": [
-                    {
-                        "system": "http://hl7.org/fhir/v2/0488",
-                        "code": "LNV"
-                    }
-                ]
-            }
-        }
+  "id": "siimjoe",
+  "resourceType": "Specimen",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">[Put rendering here]</div>"
+  },
+  "contained": [
+    {
+      "resourceType": "Substance",
+      "id": "hep",
+      "type": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/v3/EntityCode",
+            "code": "HEPL"
+          }
+        ]
+      }
     }
+  ],
+  "identifier": [
+    {
+      "system": "http://ehr.acme.org/identifiers/collections",
+      "value": "23234352356"
+    }
+  ],
+  "type": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "122555007",
+        "display": "Lingular lung bxs"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/siimjoe",
+    "display": "siimjoe"
+  },
+  "accessionIdentifier": {
+    "system": "http://lab.acme.org/specimens/2011",
+    "value": "XXX66-4444"
+  },
+  "receivedTime": "1986-04-25T07:03:00",
+  "collection": {
+    "collector": {
+      "reference": "Practitioner/example"
+    },
+    "collectedDateTime": "1986-04-25T06:15:00",
+    "quantity": {
+      "value": 10,
+      "units": "mL"
+    },
+    "method": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v2/0488",
+          "code": "LNV"
+        }
+      ]
+    }
+  }
 }

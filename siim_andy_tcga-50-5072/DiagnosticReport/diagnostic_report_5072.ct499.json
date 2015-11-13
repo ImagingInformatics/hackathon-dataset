@@ -1,44 +1,42 @@
 {
   "id": "2508258761846499",
-  "resource": {
-    "resourceType": "DiagnosticReport",
-    "text": {
-      "status": "generated",
-      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Indication: Mass seen on chest x-ray</p>\n\n<p>Comparison: None.</p>\n\n<p>Procedure: CT scan of the chest was performed without intravenous contrast.</p>\n\n<p>Findings: No suspicious axillary or supraclavicular adenopathy.  There are several enlarged mediastinal lymph nodes including 2.7 x 2.2 cm AP window (series 3, image 22), 1.9 x 1.6 cm lower paratracheal (series 3, image 23).  There are a few small right paratracheal nodes that are not enlarged by CT size criteria.</p>\n\n<p>Evaluation of lung windows demonstrates a 4.4 x 3.4 cm left upper lobe mass with well circumscribed borders (series 3, image #12).  A smaller daughter mass measuring 1 cm is seen on (series 3, image #18).  There are no  contralateral lung nodules.  Emphysematous changes are seen greatest in the upper lobes.  No focal infiltrate or pneumothorax.  No pleural thickening or pneumothorax.</p>\n\n<p>Non-contrast evaluation of the upper abdomen is unremarkable.  The liver demonstrates homogenous attenuation.  The adrenal glands are partially imaged, but appear within normal limits.</p>\n\n<p>Evaluation of bone windows does not demonstrate suspicious lucent or sclerotic lesion.</p>\n\n<p>Impression:\n1. Left upper lobe mass, suspicious for malignancy.\n2. Mediastinal adenopathy measuring up to 2.7 cm, without contralateral lung nodules.</p></div>"
-    },
-    "code": {
-      "coding": [
-        {
-          "system": "http://loinc.org/",
-          "code": "24627-2"
-        }
-      ],
-      "text": "Chest CT"
-    },
-    "status": "final",
-    "issued": "2000-01-28T09:23:00+10:00",
-    "subject": {
-      "reference": "Patient/siimandy"
-    },
-    "performer": {
-      "reference": "Organization/siim",
-      "display": "Society of Imaging Informatics in Medicine"
-    },
-    "identifer": {
-      "use": "usual",
-      "label": "Accession Number",
-      "system": "http://www.siim.org",
-      "value": "2508258761846499"
-    },
-    "serviceCategory": {
-      "coding": [
-        {
-          "system": "http://hl7.org/fhir/v2/0074",
-          "code": "RAD"
-        }
-      ]
-    },
-    "diagnosticDateTime": "2000-01-28",
-    "conclusion": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Impression:\n1. Left upper lobe mass, suspicious for malignancy.\n2. Mediastinal adenopathy measuring up to 2.7 cm, without contralateral lung nodules.</p></div>"
-  }
+  "resourceType": "DiagnosticReport",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Indication: Mass seen on chest x-ray</p>\n\n<p>Comparison: None.</p>\n\n<p>Procedure: CT scan of the chest was performed without intravenous contrast.</p>\n\n<p>Findings: No suspicious axillary or supraclavicular adenopathy.  There are several enlarged mediastinal lymph nodes including 2.7 x 2.2 cm AP window (series 3, image 22), 1.9 x 1.6 cm lower paratracheal (series 3, image 23).  There are a few small right paratracheal nodes that are not enlarged by CT size criteria.</p>\n\n<p>Evaluation of lung windows demonstrates a 4.4 x 3.4 cm left upper lobe mass with well circumscribed borders (series 3, image #12).  A smaller daughter mass measuring 1 cm is seen on (series 3, image #18).  There are no  contralateral lung nodules.  Emphysematous changes are seen greatest in the upper lobes.  No focal infiltrate or pneumothorax.  No pleural thickening or pneumothorax.</p>\n\n<p>Non-contrast evaluation of the upper abdomen is unremarkable.  The liver demonstrates homogenous attenuation.  The adrenal glands are partially imaged, but appear within normal limits.</p>\n\n<p>Evaluation of bone windows does not demonstrate suspicious lucent or sclerotic lesion.</p>\n\n<p>Impression:\n1. Left upper lobe mass, suspicious for malignancy.\n2. Mediastinal adenopathy measuring up to 2.7 cm, without contralateral lung nodules.</p></div>"
+  },
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org/",
+        "code": "24627-2"
+      }
+    ],
+    "text": "Chest CT"
+  },
+  "status": "final",
+  "issued": "2000-01-28T09:23:00+10:00",
+  "subject": {
+    "reference": "Patient/siimandy"
+  },
+  "performer": {
+    "reference": "Organization/siim",
+    "display": "Society of Imaging Informatics in Medicine"
+  },
+  "identifer": {
+    "use": "usual",
+    "label": "Accession Number",
+    "system": "http://www.siim.org",
+    "value": "2508258761846499"
+  },
+  "serviceCategory": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/v2/0074",
+        "code": "RAD"
+      }
+    ]
+  },
+  "diagnosticDateTime": "2000-01-28",
+  "conclusion": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Impression:\n1. Left upper lobe mass, suspicious for malignancy.\n2. Mediastinal adenopathy measuring up to 2.7 cm, without contralateral lung nodules.</p></div>"
 }

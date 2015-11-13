@@ -1,55 +1,53 @@
 {
   "id": "3173095681219824",
-  "resource": {
-    "resourceType": "DiagnosticReport",
-    "text": {
-      "status": "generated",
-      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Clinical indication: History of lung adenocarcinoma, followup.</p><p>Comparison: Multiple prior CTs, the most recent from 5/31/1986</p><p>Technique: Multidetector axial CT of the chest, abdomen and pelvis was performed after the administration of intravenous contrast in the portal venous phase.</p><p>Findings:</p><p>Thorax: The thyroid and thoracic inlet are normal. There are no enlarged axillary lymph nodes. There has been interval development of an enlarged lymph node conglomerate mass within the posterior mediastinum just anterior to the descending aorta, measuring 2.8 x 4.2 cm in axial dimension (series 5, image 36). This mass anteriorly displaces and mildly narrows the left main pulmonary artery. There is no clear evidence of vascular invasion. There is stable right hilar adenopathy. A new markedly enlarged precardial lymph node is also now seen, measuring 3.3 x 1.7 cm (series 5, image 42).</p><p>There is stable severe emphysema. A 4 mm left apical nodule (series 5, image 6) appears stable. Surgical changes from prior left lower lobectomy are evident with associated pleural thickening. Interval resolution of the previously noted left hydropneumothorax. A small left lateral rim enhancing pleural collection is suspicious for infection.</p><p>No suspicious osseous lesions. The visualized soft tissues are unremarkable.</p><p>Abdomen: Punctate calcifications noted in the right hepatic lobe. Liver otherwise unremarkable. Gallbladder, pancrease, speen, and adrenal glands are normal. Bilateral renal cysts are noted. The kidneys are otherwise unremarkable with normal enhancement.</p><p>An enlarged gastrosplenic node is noted, measuring 1.3 cm in short axis dimension (series 6, image 13). The visualized bowel is within normal limits.</p><p>Impression: 1. Post surgical changes from left lower lobectomy.</p><p>2. Development of posterior mediastinal and precardial lymphadenopathy concerning for disease progression. An enlarged gastrosplenic node is nonspecific and appears grossly stable compared to CT from 4/22/1986 given differences in technique.</p><p>3. Small rim enhancing left pleural fluid collection concerning for infection.</p></div>"
-    },
-    "code": {
-      "coding": [
-        {
-          "system": "http://loinc.org/",
-          "code": "42275-8"
-        }
-      ],
-      "text": "Chest and Abdomen CT W contrast PO and W contrast IV"
-    },
-    "status": "final",
-    "issued": "1986-09-28T09:23:00+10:00",
-    "subject": {
-      "reference": "Patient/siimjoe"
-    },
-    "performer": {
-      "reference": "Organization/siim",
-      "display": "Society of Imaging Informatics in Medicine"
-    },
-    "identifer": {
-      "use": "usual",
-      "label": "Accession Number",
-      "system": "http://www.siim.org",
-      "value": "3173095681219824"
-    },
-    "serviceCategory": {
-      "coding": [
-        {
-          "system": "http://hl7.org/fhir/v2/0074",
-          "code": "RAD"
-        }
-      ]
-    },
-    "diagnosticDateTime": "1986-03-30",
-    "conclusion": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Impression 1. Post surgical changes from left lower lobectomy.</p><p>2. Development of posterior mediastinal and precardial lymphadenopathy concerning for disease progression. An enlarged gastrosplenic node is nonspecific and appears grossly stable compared to CT from 4/22/1986 given differences in technique.</p><p>3. Small rim enhancing left pleural fluid collection concerning for infection.</p></div>",
-    "": [
+  "resourceType": "DiagnosticReport",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Clinical indication: History of lung adenocarcinoma, followup.</p><p>Comparison: Multiple prior CTs, the most recent from 5/31/1986</p><p>Technique: Multidetector axial CT of the chest, abdomen and pelvis was performed after the administration of intravenous contrast in the portal venous phase.</p><p>Findings:</p><p>Thorax: The thyroid and thoracic inlet are normal. There are no enlarged axillary lymph nodes. There has been interval development of an enlarged lymph node conglomerate mass within the posterior mediastinum just anterior to the descending aorta, measuring 2.8 x 4.2 cm in axial dimension (series 5, image 36). This mass anteriorly displaces and mildly narrows the left main pulmonary artery. There is no clear evidence of vascular invasion. There is stable right hilar adenopathy. A new markedly enlarged precardial lymph node is also now seen, measuring 3.3 x 1.7 cm (series 5, image 42).</p><p>There is stable severe emphysema. A 4 mm left apical nodule (series 5, image 6) appears stable. Surgical changes from prior left lower lobectomy are evident with associated pleural thickening. Interval resolution of the previously noted left hydropneumothorax. A small left lateral rim enhancing pleural collection is suspicious for infection.</p><p>No suspicious osseous lesions. The visualized soft tissues are unremarkable.</p><p>Abdomen: Punctate calcifications noted in the right hepatic lobe. Liver otherwise unremarkable. Gallbladder, pancrease, speen, and adrenal glands are normal. Bilateral renal cysts are noted. The kidneys are otherwise unremarkable with normal enhancement.</p><p>An enlarged gastrosplenic node is noted, measuring 1.3 cm in short axis dimension (series 6, image 13). The visualized bowel is within normal limits.</p><p>Impression: 1. Post surgical changes from left lower lobectomy.</p><p>2. Development of posterior mediastinal and precardial lymphadenopathy concerning for disease progression. An enlarged gastrosplenic node is nonspecific and appears grossly stable compared to CT from 4/22/1986 given differences in technique.</p><p>3. Small rim enhancing left pleural fluid collection concerning for infection.</p></div>"
+  },
+  "code": {
+    "coding": [
       {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "35917007",
-            "display": "Adenocarcinoma"
-          }
-        ]
+        "system": "http://loinc.org/",
+        "code": "42275-8"
+      }
+    ],
+    "text": "Chest and Abdomen CT W contrast PO and W contrast IV"
+  },
+  "status": "final",
+  "issued": "1986-09-28T09:23:00+10:00",
+  "subject": {
+    "reference": "Patient/siimjoe"
+  },
+  "performer": {
+    "reference": "Organization/siim",
+    "display": "Society of Imaging Informatics in Medicine"
+  },
+  "identifer": {
+    "use": "usual",
+    "label": "Accession Number",
+    "system": "http://www.siim.org",
+    "value": "3173095681219824"
+  },
+  "serviceCategory": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/v2/0074",
+        "code": "RAD"
       }
     ]
-  }
+  },
+  "diagnosticDateTime": "1986-03-30",
+  "conclusion": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Impression 1. Post surgical changes from left lower lobectomy.</p><p>2. Development of posterior mediastinal and precardial lymphadenopathy concerning for disease progression. An enlarged gastrosplenic node is nonspecific and appears grossly stable compared to CT from 4/22/1986 given differences in technique.</p><p>3. Small rim enhancing left pleural fluid collection concerning for infection.</p></div>",
+  "": [
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "35917007",
+          "display": "Adenocarcinoma"
+        }
+      ]
+    }
+  ]
 }

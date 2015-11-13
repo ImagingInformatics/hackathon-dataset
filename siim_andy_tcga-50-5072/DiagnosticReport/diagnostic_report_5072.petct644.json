@@ -1,44 +1,42 @@
 {
   "id": "4372611551565644",
-  "resource": {
-    "resourceType": "DiagnosticReport",
-    "text": {
-      "status": "generated",
-      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Exam: PET/CT Scan Whole Body</p>\n\n<p>Date: 2/11/2000</p>\n\n<p>Indication: Initial staging for lung cancer</p>\n\n<p>Procedure: Following injection of 14.6 mCi of F-18 labeled glucose, concurrent PET CT scanning was performed.  Patient also recieved 125 ml of isovue intravenously for diagnostic scanning purposes.</p>\n\n<p>Findings:\nOncologic Findings:\nAgain seen is a 4.6 x 4.6 mass in the left upper lobe (series 3, iamge 78).  The SUV max of the mass is 3.1.</p>\n\n<p>The large AP window lymph node on (series 3, image 89) is again noted and has a maximum SUV of 1.5.</p>\n\n<p>No contralateral lung nodules are identified.  There is physiologic activity in both adrenal glands.</p>\n\n<p>No FDG avid bone metastasis.</p>\n\n<p>Other Findings:\nVisualized intracranial structures are unremarkable.  The trachea is midline.  The thyroid is unremarkable.  No cervical adenopathy.  The salivary glands are unremarkable.</p>\n\n<p>Continued emphysematous changes in the upper lobes bilaterally.  No infiltrate or pleural effusion.  No pneumothorax.</p>\n\n<p>The liver enhances homogenously.  The spleen and pancreas are within normal limits.  The kidneys are unremarkable.  Visualized bowel is unremarkable.  No free fluid or free air.</p>\n\n<p>Extensive vascular changes are noted including AAA graft.  The vessels are grossly patent.</p>\n\n<p>The prostate and seminal vesicles are within normal limits.  The bladder is unremarkable.</p>\n\n<p>Impression:\n1. Left upper lobe mass with mediastinal adenopathy compatible with lung cancer.</p></div>"
-    },
-    "code": {
-      "coding": [
-        {
-          "system": "http://loinc.org/",
-          "code": "58741-0"
-        }
-      ],
-      "text": "Head to thigh PET"
-    },
-    "status": "final",
-    "issued": "2000-02-11T18:23:00+10:00",
-    "subject": {
-      "reference": "Patient/siimandy"
-    },
-    "performer": {
-      "reference": "Organization/siim",
-      "display": "Society of Imaging Informatics in Medicine"
-    },
-    "identifer": {
-      "use": "usual",
-      "label": "Accession Number",
-      "system": "http://www.siim.org",
-      "value": "4372611551565644"
-    },
-    "serviceCategory": {
-      "coding": [
-        {
-          "system": "http://hl7.org/fhir/v2/0074",
-          "code": "RAD"
-        }
-      ]
-    },
-    "diagnosticDateTime": "2000-02-11",
-    "conclusion": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Impression:\n1. Left upper lobe mass with mediastinal adenopathy compatible with lung cancer.</p></div>"
-  }
+  "resourceType": "DiagnosticReport",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Exam: PET/CT Scan Whole Body</p>\n\n<p>Date: 2/11/2000</p>\n\n<p>Indication: Initial staging for lung cancer</p>\n\n<p>Procedure: Following injection of 14.6 mCi of F-18 labeled glucose, concurrent PET CT scanning was performed.  Patient also recieved 125 ml of isovue intravenously for diagnostic scanning purposes.</p>\n\n<p>Findings:\nOncologic Findings:\nAgain seen is a 4.6 x 4.6 mass in the left upper lobe (series 3, iamge 78).  The SUV max of the mass is 3.1.</p>\n\n<p>The large AP window lymph node on (series 3, image 89) is again noted and has a maximum SUV of 1.5.</p>\n\n<p>No contralateral lung nodules are identified.  There is physiologic activity in both adrenal glands.</p>\n\n<p>No FDG avid bone metastasis.</p>\n\n<p>Other Findings:\nVisualized intracranial structures are unremarkable.  The trachea is midline.  The thyroid is unremarkable.  No cervical adenopathy.  The salivary glands are unremarkable.</p>\n\n<p>Continued emphysematous changes in the upper lobes bilaterally.  No infiltrate or pleural effusion.  No pneumothorax.</p>\n\n<p>The liver enhances homogenously.  The spleen and pancreas are within normal limits.  The kidneys are unremarkable.  Visualized bowel is unremarkable.  No free fluid or free air.</p>\n\n<p>Extensive vascular changes are noted including AAA graft.  The vessels are grossly patent.</p>\n\n<p>The prostate and seminal vesicles are within normal limits.  The bladder is unremarkable.</p>\n\n<p>Impression:\n1. Left upper lobe mass with mediastinal adenopathy compatible with lung cancer.</p></div>"
+  },
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org/",
+        "code": "58741-0"
+      }
+    ],
+    "text": "Head to thigh PET"
+  },
+  "status": "final",
+  "issued": "2000-02-11T18:23:00+10:00",
+  "subject": {
+    "reference": "Patient/siimandy"
+  },
+  "performer": {
+    "reference": "Organization/siim",
+    "display": "Society of Imaging Informatics in Medicine"
+  },
+  "identifer": {
+    "use": "usual",
+    "label": "Accession Number",
+    "system": "http://www.siim.org",
+    "value": "4372611551565644"
+  },
+  "serviceCategory": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/v2/0074",
+        "code": "RAD"
+      }
+    ]
+  },
+  "diagnosticDateTime": "2000-02-11",
+  "conclusion": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Impression:\n1. Left upper lobe mass with mediastinal adenopathy compatible with lung cancer.</p></div>"
 }
