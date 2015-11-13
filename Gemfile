@@ -4,3 +4,4 @@ source "https://rubygems.org"
 # gem "rails"
 
 gem "rest-client"
+gem 'rspec'
