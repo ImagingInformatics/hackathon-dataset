@@ -6,18 +6,20 @@
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\r\n  <table>\r\n    <tbody>\r\n      <tr>\r\n        <td>Name</td>\r\n        <td>Sally <b>SIIM</b></td>\r\n      </tr>\r\n      <tr>\r\n        <td>Address</td>\r\n        <td>534 Erewhon, Rochester, MD, 53999</td>\r\n      </tr>\r\n      <tr>\r\n        <td>Contacts</td>\r\n        <td>Home: unknown. Work: (03) 5555 6473</td>\r\n      </tr>\r\n      <tr>\r\n        <td>Id</td>\r\n        <td>MRN: BreastDx-01-0003 (TCIA)</td>\r\n      </tr>\r\n    </tbody>\r\n  </table>\r\n</div>"
   },
   "identifier": [
-    {
-      "use": "usual",
-      "label": "MRN",
-      "system": "urn:oid:1.2.36.146.595.217.0.1",
-      "value": "BreastDx-01-0003",
-      "period": {
-        "start": "2001-05-06"
-      },
-      "assigner": {
-        "display": "TCIA"
+    [
+      {
+        "use": "usual",
+        "label": "MRN",
+        "system": "urn:oid:1.2.36.146.595.217.0.1",
+        "value": "BreastDx-01-0003",
+        "period": {
+          "start": "2001-05-06"
+        },
+        "assigner": {
+          "display": "TCIA"
+        }
       }
-    }
+    ]
   ],
   "name": [
     {

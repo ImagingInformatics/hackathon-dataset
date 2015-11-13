@@ -20,10 +20,12 @@
     }
   ],
   "identifier": [
-    {
-      "system": "http://ehr.acme.org/identifiers/collections",
-      "value": "23234352356"
-    }
+    [
+      {
+        "system": "http://ehr.acme.org/identifiers/collections",
+        "value": "23234352356"
+      }
+    ]
   ],
   "type": {
     "coding": [

@@ -34,11 +34,13 @@
     "reference": "Organization/siim",
     "display": "Society of Imaging Informatics in Medicine"
   },
-  "identifier": {
-    "use": "usual",
-    "system": "http://www.siim.org/",
-    "value": "1085557173658239"
-  },
+  "identifier": [
+    {
+      "use": "usual",
+      "system": "http://www.siim.org/",
+      "value": "1085557173658239"
+    }
+  ],
   "category": {
     "coding": [
       {
