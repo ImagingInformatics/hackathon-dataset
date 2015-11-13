@@ -29,7 +29,7 @@
         "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.6450.9002.320679027608000687591928843096",
         "description": "scout",
         "numberOfInstances": 2,
-        "dateTime": "2000-01-28",
+        "started": "2000-01-28",
         "instance": [
           {
             "number": 1,
@@ -52,7 +52,7 @@
         "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.6450.9002.747485993156290148171122461766",
         "description": "HELICAL MODE",
         "numberOfInstances": 516,
-        "dateTime": "2000-01-28",
+        "started": "2000-01-28",
         "instance": [
           {
             "number": 1,
@@ -2645,7 +2645,7 @@
         "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.6450.9002.323744164395727327590329158420",
         "description": "Recon 2:",
         "numberOfInstances": 65,
-        "dateTime": "2000-01-28",
+        "started": "2000-01-28",
         "instance": [
           {
             "number": 1,
@@ -2983,7 +2983,7 @@
         "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.6450.9002.248199601481656697949812913992",
         "description": "Recon 3:",
         "numberOfInstances": 65,
-        "dateTime": "2000-01-28",
+        "started": "2000-01-28",
         "instance": [
           {
             "number": 1,

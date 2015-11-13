@@ -29,7 +29,7 @@
         "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.6450.9002.327242609312583228767452269043",
         "description": "CT SCOUT HEAD IN",
         "numberOfInstances": 2,
-        "dateTime": "2000-02-11",
+        "started": "2000-02-11",
         "instance": [
           {
             "number": 1,
@@ -52,7 +52,7 @@
         "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.6450.9002.683075781678687434856657608318",
         "description": "LOW DOSE C- CHEST",
         "numberOfInstances": 148,
-        "dateTime": "2000-02-11",
+        "started": "2000-02-11",
         "instance": [
           {
             "number": 1,
@@ -805,7 +805,7 @@
         "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.6450.9002.778031780013017127114983017082",
         "description": "CT WHOLE BODY",
         "numberOfInstances": 267,
-        "dateTime": "2000-02-11",
+        "started": "2000-02-11",
         "instance": [
           {
             "number": 1,
@@ -2153,7 +2153,7 @@
         "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.6450.9002.138126480457862075495863975412",
         "description": "LUNG WINDOWS",
         "numberOfInstances": 348,
-        "dateTime": "2000-02-11",
+        "started": "2000-02-11",
         "instance": [
           {
             "number": 1,
@@ -3906,7 +3906,7 @@
         "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.6450.9002.309663631642891008113221722967",
         "description": "WB_2D AC",
         "numberOfInstances": 267,
-        "dateTime": "2000-02-11",
+        "started": "2000-02-11",
         "instance": [
           {
             "number": 1,
@@ -5254,7 +5254,7 @@
         "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.6450.9002.599248238970409781945294563017",
         "description": "WB_2D NAC",
         "numberOfInstances": 267,
-        "dateTime": "2000-02-11",
+        "started": "2000-02-11",
         "instance": [
           {
             "number": 1,
@@ -6602,7 +6602,7 @@
         "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.6450.9002.166343715953064755389331244908",
         "description": "Smart Prep Series",
         "numberOfInstances": 7,
-        "dateTime": "2000-02-11",
+        "started": "2000-02-11",
         "instance": [
           {
             "number": 1,
