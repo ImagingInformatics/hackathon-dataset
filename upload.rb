@@ -35,10 +35,9 @@ Dir["#{ARGV[1]}/**/*.json"].each do |data|
 
 	data_string = File.read(data)
 
-	json = JSON.parse(File.read(data))
+	resource = JSON.parse(File.read(data))
 
-	id = json["id"]
-	resource = json["resource"]
+	id = resource["id"]
 
 	if id.nil?
 		log.error("Error reading #{data}, make sure an ID is specified in the header comment")
