@@ -47,15 +47,7 @@
       "use": "work"
     }
   ],
-  "gender": {
-    "coding": [
-      {
-        "system": "http://hl7.org/fhir/v3/AdministrativeGender",
-        "code": "M",
-        "display": "Male"
-      }
-    ]
-  },
+  "gender": "male",
   "birthDate": "1926-04-01",
   "deceasedBoolean": false,
   "address": [

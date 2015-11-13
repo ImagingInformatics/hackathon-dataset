@@ -44,15 +44,7 @@
       "use": "work"
     }
   ],
-  "gender": {
-    "coding": [
-      {
-        "system": "http://hl7.org/fhir/v3/AdministrativeGender",
-        "code": "F",
-        "display": "Female"
-      }
-    ]
-  },
+  "gender": "female",
   "birthDate": "1950-04-28",
   "deceasedBoolean": false,
   "address": [
