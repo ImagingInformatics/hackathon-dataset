@@ -1,6 +1,6 @@
 {
-  "id": "random",
-  "resourceType": "MedicationPrescription",
+  "id": "9586737385927264",
+  "resourceType": "MedicationOrder",
   "text": {
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\r\n  126202002: levothyroxine sodium 50mcg oral tablet</div>\r\n  <p>ONE tablet taken ONCE daily</p>\r\n  <p>to patient ref: breast</p>\r\n  <p>by practitioner example </p> <p> dispense 30 tablets </p>\r\n</div>"
@@ -12,16 +12,17 @@
   "prescriber": {
     "reference": "Practitioner/example"
   },
-  "medication": {
-    "reference": "Medication/126202002"
+  "medicationReference": {
+    "reference": "Medication/126202002",
+    "display": "prescribed medication"
   },
   "dosageInstruction": [
     {
-      "timingSchedule": {
+      "timing": {
         "repeat": {
           "frequency": 1,
-          "duration": 1,
-          "units": "d"
+          "period": 1,
+          "periodUnits": "d"
         }
       },
       "route": {
@@ -35,16 +36,16 @@
       },
       "doseQuantity": {
         "value": 50,
-        "units": "mcg",
+        "unit": "mcg",
         "system": "http://unitsofmeasure.org/",
         "code": "mcg"
       }
     }
   ],
-  "dispense": {
+  "dispenseRequest": {
     "quantity": {
       "value": 30,
-      "units": "tablets"
+      "unit": "tablets"
     }
   }
 }
