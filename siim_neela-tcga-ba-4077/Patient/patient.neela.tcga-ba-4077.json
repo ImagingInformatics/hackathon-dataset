@@ -9,7 +9,6 @@
     [
       {
         "use": "usual",
-        "label": "MRN",
         "system": "http://www.siim.org/",
         "value": "TCGA-BA-4077",
         "assigner": {

@@ -1,6 +1,6 @@
 {
-  "id": "siimandy",
   "resourceType": "Patient",
+  "id": "siimandy",
   "text": {
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\r\n  <table>\r\n    <tbody>\r\n      <tr>\r\n        <td>Name</td>\r\n        <td>Andy SIIM</td>\r\n      </tr>\r\n      <tr>\r\n        <td>Address</td>\r\n        <td>534 Erewhon, Rochester, MD, 53999</td>\r\n      </tr>\r\n      <tr>\r\n        <td>Contacts</td>\r\n        <td>Home: unknown. Work: (03) 5555 6473</td>\r\n      </tr>\r\n      <tr>\r\n        <td>Id</td>\r\n        <td>MRN: TCGA-50-5072 (TCIA)</td>\r\n      </tr>\r\n    </tbody>\r\n  </table>\r\n</div>"
@@ -9,7 +9,6 @@
     [
       {
         "use": "usual",
-        "label": "MRN",
         "system": "urn:oid:1.2.36.146.595.217.0.1",
         "value": "TCGA-50-5072",
         "period": {
