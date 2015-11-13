@@ -47,6 +47,6 @@
       }
     ]
   },
-  "diagnosticDateTime": "2008-05-24",
+  "effectiveDateTime": "2008-05-24",
   "conclusion": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\r\n<p>Specimen radiograph with intact wire and surgical clip.</p> </div>"
 }

@@ -36,6 +36,6 @@
       }
     ]
   },
-  "diagnosticDateTime": "2000-01-01",
+  "effectiveDateTime": "2000-01-01",
   "conclusion": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Impression:</p>\n\n<ol>\n<li><p>1.6 cm left upper lobe nodule.</p></li>\n<li><p>Right upper lobe scarring and pleural thickening along with right pleural effusion versus scarring.</p></li>\n</ol>\n\n<p>Recommendations:</p>\n\n<p>CT Chest is recommended to further evaluate the above findings and impression.</p>\n</div>"
 }
