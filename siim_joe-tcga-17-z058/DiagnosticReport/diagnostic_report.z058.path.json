@@ -33,7 +33,7 @@
     "reference": "Organization/siim",
     "display": "Society of Imaging Informatics in Medicine"
   },
-  "serviceCategory": {
+  "category": {
     "coding": [
       {
         "system": "http://hl7.org/fhir/v2/0074",

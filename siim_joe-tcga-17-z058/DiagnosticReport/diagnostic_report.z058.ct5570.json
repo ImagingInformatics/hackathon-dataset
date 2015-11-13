@@ -28,7 +28,7 @@
     "system": "http://www.siim.org/",
     "value": "1857795211017352"
   },
-  "serviceCategory": {
+  "category": {
     "coding": [
       {
         "system": "http://hl7.org/fhir/v2/0074",
