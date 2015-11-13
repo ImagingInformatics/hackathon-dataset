@@ -9,7 +9,8 @@ describe '#delete' do
     result = RestClient.delete server[:url] + resource['resourceType'] + "/" + resource['id'],
                                :params => {:_format => server[:format]}
 
-    it {expect(result.code).to eq 204}
+    it {expect(result.code).to be >= 200}
+    it {expect(result.code).to be <= 204}
 
 end
 
