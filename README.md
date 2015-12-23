@@ -29,6 +29,7 @@ This is not meant to be an exhaustive collection, the types are chosen based on 
 - Accession numbers are used as FHIR IDs for DiagnosticReports
 
 # Uploading to a FHIR server
+
     cp fhir_server.yml.dist fhir_server.yml
 
 Edit fhir_server.yml to fit your needs.
@@ -36,19 +37,24 @@ Edit fhir_server.yml to fit your needs.
 Install dependencies: ruby, bundler
 
 Run Bundler to install needed gems
+
     bundle install
 
-Run the script to upload all of the resources in the folders
-    ruby update.rb
+Run the script to upload all of the resources in the sub-folders.
+
+    ruby update.rb . 
+
+You can also update only a subset of the resources by specifying a top-level directory.
+
+    ruby update.rb siim_andy_tcga-50-5072/DiagnosticReport
 
 # Process to contribute
-- Fork this repo
+- Fork this repo on github
 - Make your changes/improvements
 - Send a pull request
 
 # Suggested Exercises
 - Search report text to add coded diagnosis for Andy's DiagnosticReports
-
 
 # Patient Narratives
 ###Sally SIIM (mrn: BreastDx-01-0003)
