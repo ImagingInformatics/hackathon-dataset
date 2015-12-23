@@ -42,7 +42,7 @@ Run Bundler to install needed gems
 
 Run the script to upload all of the resources in the sub-folders.
 
-    ruby update.rb . 
+    ruby update.rb fhir_server.yml . 
 
 You can also update only a subset of the resources by specifying a top-level directory.
 
