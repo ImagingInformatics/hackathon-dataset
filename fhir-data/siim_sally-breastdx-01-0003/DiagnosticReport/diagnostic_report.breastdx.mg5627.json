@@ -1,0 +1,59 @@
+{
+  "id": "2278028270041068",
+  "resourceType": "DiagnosticReport",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\r\n <p>DIAGNOSTIC BILATERAL 4/12/2008</p>\n\n<p>Clinical History:  59 year-old female with history of left invasive ductal carcinoma (age 55) status post lumpectomy.</p>\n\n<p>Technique: Bilateral CC and MLO, Left spot compression LMLO views were obtained</p>\n\n<p>Findings:</p>\n\n<p>LEFT BREAST: There are scattered fibroglandular densities. There are expected lumpectomy changes in the upper outer quadrant with surgical clips in place.  Skin thickening is consistent with post radiation changes. No concerning masses, architectural distortions, or suspicious calcifications are identified.</p>\n\n<p>RIGHT BREAST: There are scattered fibroglandular densities. No concerning masses, architectural distortions, or suspicious calcifications are identified.</p>\n\n<p>Impression:</p>\n\n<p>LEFT BREAST: Expected lumpectomy changes. Benign. BI-RADS 2 - Recommend routine screening in 1 year.</p>\n\n<p>RIGHT BREAST: Negative. BI-RADS 1 - Recommend routine screening in 1 year.</p>\n\n<p>OVERALL BI-RADS 2 (Benign)</p>\n</div>"
+  },
+  "": [
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "89164003",
+          "display": "left breast lump"
+        },
+        {
+          "system": "http://snomed.info/sct",
+          "code": "384671006",
+          "display": "microcalcifications in tumor present"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org/",
+        "code": "39152-4"
+      }
+    ],
+    "text": "Digital Diagnostic Mammogram Bilateral "
+  },
+  "status": "final",
+  "issued": "2008-04-12T09:23:00+10:00",
+  "subject": {
+    "reference": "Patient/siimsally"
+  },
+  "performer": {
+    "reference": "Organization/siim",
+    "display": "Society of Imaging Informatics in Medicine"
+  },
+  "identifier": [
+    {
+      "use": "usual",
+      "system": "http://www.siim.org/",
+      "value": "2278028270041068"
+    }
+  ],
+  "category": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/v2/0074",
+        "code": "RAD"
+      }
+    ]
+  },
+  "effectiveDateTime": "2008-04-12",
+  "conclusion": "Impression: LEFT BREAST: Expected lumpectomy changes. Benign. BI-RADS 2 - Recommend routine screening in 1 year. RIGHT BREAST: Negative. BI-RADS 1 - Recommend routine screening in 1 year. OVERALL BI-RADS 2 (Benign)"
+}

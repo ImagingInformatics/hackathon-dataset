@@ -1,0 +1,147 @@
+Element 	Name 	Data
+(0002,0001)  	File Meta Information Version  	00\01  
+(0002,0002)  	Media Storage SOP Class UID  	1.2.840.10008.5.1.4.1.1.128  
+(0002,0003)  	Media Storage SOP Instance UID  	1.3.6.1.4.1.14519.5.2.1.8421.4009.116748854512213929752516998505  
+(0002,0010)  	Transfer Syntax UID  	1.2.840.10008.1.2.1  
+(0002,0012)  	Implementation Class UID  	1.2.40.0.13.1.1.1  
+(0002,0013)  	Implementation Version Name  	dcm4che-1.4.34  
+(0008,0005)  	Specific Character Set  	ISO_IR 100  
+(0008,0008)  	Image Type  	ORIGINAL\PRIMARY  
+(0008,0016)  	SOP Class UID  	1.2.840.10008.5.1.4.1.1.128  
+(0008,0018)  	SOP Instance UID  	1.3.6.1.4.1.14519.5.2.1.8421.4009.116748854512213929752516998505  
+(0008,0020)  	Study Date  	19960514  
+(0008,0021)  	Series Date  	19960514  
+(0008,0022)  	Acquisition Date  	19960514  
+(0008,0023)  	Content Date  	19960514  
+(0008,0030)  	Study Time  	125626.308000  
+(0008,0031)  	Series Time  	123423.687000  
+(0008,0032)  	Acquisition Time  	124946.133000  
+(0008,0033)  	Content Time  	125401.000000  
+(0008,0050)  	Accession Number  	2142485449496602  
+(0008,0060)  	Modality  	CTPT  
+(0008,0070)  	Manufacturer  	CPS  
+(0008,0090)  	Referring Physician's Name  	 
+(0008,1030)  	Study Description  	PET WB/reg Restag Hd/Nck Ca  
+(0008,103E)  	Series Description  	PET WB-uncorrected  
+(0008,1090)  	Manufacturer's Model Name  	1023  
+(0010,0010)  	Patient's Name  	SIIM^Neela  
+(0010,0020)  	Patient ID  	TCGA-BA-4077  
+(0010,0030)  	Patient's Birth Date  	 
+(0010,0040)  	Patient's Sex  	F  
+(0010,1010)  	Patient's Age  	047Y  
+(0010,1030)  	Patient's Weight  	59.474  
+(0010,21B0)  	Additional Patient History  	Recurrent Tongue Ca  
+(0012,0062)  	Patient Identity Removed  	YES  
+(0012,0063)  	De-identification Method  	Per DICOM PS 3.15 AnnexE. Details in 0012,0064  
+(0012,0064)  	De-identification Method Code Sequence  	 
+>(0008,0100)  	Code Value  	113100  
+>(0008,0102)  	Coding Scheme Designator  	DCM  
+>(0008,0104)  	Code Meaning  	Basic Application Confidentiality Profile  
+>(0008,0100)  	Code Value  	113101  
+>(0008,0102)  	Coding Scheme Designator  	DCM  
+>(0008,0104)  	Code Meaning  	Clean Pixel Data Option  
+>(0008,0100)  	Code Value  	113105  
+>(0008,0102)  	Coding Scheme Designator  	DCM  
+>(0008,0104)  	Code Meaning  	Clean Descriptors Option  
+>(0008,0100)  	Code Value  	113107  
+>(0008,0102)  	Coding Scheme Designator  	DCM  
+>(0008,0104)  	Code Meaning  	Retain Longitudinal With Modified Dates Option  
+>(0008,0100)  	Code Value  	113108  
+>(0008,0102)  	Coding Scheme Designator  	DCM  
+>(0008,0104)  	Code Meaning  	Retain Patient Characteristics Option  
+>(0008,0100)  	Code Value  	113109  
+>(0008,0102)  	Coding Scheme Designator  	DCM  
+>(0008,0104)  	Code Meaning  	Retain Device Identity Option  
+>(0008,0100)  	Code Value  	113111  
+>(0008,0102)  	Coding Scheme Designator  	DCM  
+>(0008,0104)  	Code Meaning  	Retain Safe Private Option  
+(0012,0064)  	End De-identification Method Code Sequence  	 
+(0013,0010)  	 	CTP  
+(0013,1010)  	 	54\43\47\41\2D\48\4E\53\43\00  
+(0013,1013)  	 	38\34\32\31\34\30\30\39  
+(0018,0015)  	Body Part Examined  	HEADNECK  
+(0018,0050)  	Slice Thickness  	3.3750001  
+(0018,1000)  	Device Serial Number  	0201023  
+(0018,1181)  	Collimator Type  	NONE  
+(0018,1200)  	Date of Last Calibration  	 
+(0018,1201)  	Time of Last Calibration  	094956.859000\074716.000000  
+(0018,1242)  	Actual Frame Duration  	180000  
+(0018,5100)  	Patient Position  	HFS  
+(0020,000D)  	Study Instance UID  	1.3.6.1.4.1.14519.5.2.1.8421.4009.312603252934799756197864329946  
+(0020,000E)  	Series Instance UID  	1.3.6.1.4.1.14519.5.2.1.8421.4009.196228604563469888269110627731  
+(0020,0010)  	Study ID  	 
+(0020,0011)  	Series Number  	605  
+(0020,0012)  	Acquisition Number  	1  
+(0020,0013)  	Instance Number  	1  
+(0020,0032)  	Image Position (Patient)  	-341.91721\-486.4961\-408  
+(0020,0037)  	Image Orientation (Patient)  	1\0\0\0\1\0  
+(0020,0052)  	Frame of Reference UID  	1.3.6.1.4.1.14519.5.2.1.8421.4009.249485603200841322297101474304  
+(0020,1040)  	Position Reference Indicator  	 
+(0020,1041)  	Slice Location  	-408  
+(0028,0002)  	Samples per Pixel  	1  
+(0028,0004)  	Photometric Interpretation  	MONOCHROME2  
+(0028,0010)  	Rows  	128  
+(0028,0011)  	Columns  	128  
+(0028,0030)  	Pixel Spacing  	5.3067274\5.3067274  
+(0028,0051)  	Corrected Image  	RAN\DTIM\NORM\DECY  
+(0028,0100)  	Bits Allocated  	16  
+(0028,0101)  	Bits Stored  	16  
+(0028,0102)  	High Bit  	15  
+(0028,0103)  	Pixel Representation  	1  
+(0028,0303)  	 	MODIFIED  
+(0028,1050)  	Window Center  	3229  
+(0028,1051)  	Window Width  	5812  
+(0028,1052)  	Rescale Intercept  	0  
+(0028,1053)  	Rescale Slope  	0.89143693  
+(0028,1054)  	Rescale Type  	PROPCPS  
+(0029,0010)  	 	SIEMENS MEDCOM HEADER  
+(0029,1031)  	 	14.0.420980830  
+(0029,1034)  	 	DB TO DICOM  
+(0031,0010)  	 	AGFA PACS Archive Mirroring 1.0  
+(0032,000A)  	Study Status ID  	READ  
+(0032,000C)  	Study Priority ID  	LOW  
+(0032,1030)  	Reason for Study  	Recurrent Tongue Ca  
+(0032,1060)  	Requested Procedure Description  	Abdomen AbdPETCT  
+(0033,0010)  	 	MITRA OBJECT UTF8 ATTRIBUTES 1.0  
+(0054,0013)  	Energy Window Range Sequence  	 
+>(0054,0014)  	Energy Window Lower Limit  	350  
+>(0054,0015)  	Energy Window Upper Limit  	650  
+(0054,0013)  	End Energy Window Range Sequence  	 
+(0054,0016)  	Radiopharmaceutical Information Sequence  	 
+>(0018,1072)  	Radiopharmaceutical Start Time  	113521.000000  
+>(0018,1074)  	Radionuclide Total Dose  	4.7729999e+008  
+>(0018,1075)  	Radionuclide Half Life  	6586.2  
+>(0018,1076)  	Radionuclide Positron Fraction  	0.97  
+>(0054,0300)  	Radionuclide Code Sequence  	 
+>(0054,0300)  	End Radionuclide Code Sequence  	 
+(0054,0016)  	End Radiopharmaceutical Information Sequence  	 
+(0054,0081)  	Number of Slices  	226  
+(0054,0410)  	Patient Orientation Code Sequence  	 
+>(0008,0100)  	Code Value  	F-10450  
+>(0008,0102)  	Coding Scheme Designator  	SNM3  
+>(0008,0104)  	Code Meaning  	recumbent  
+>(0054,0412)  	Patient Orientation Modifier Code Sequence  	 
+>>(0008,0100)  	Code Value  	F-10340  
+>>(0008,0102)  	Coding Scheme Designator  	SNM3  
+>>(0008,0104)  	Code Meaning  	supine  
+>(0054,0412)  	End Patient Orientation Modifier Code Sequence  	 
+(0054,0410)  	End Patient Orientation Code Sequence  	 
+(0054,0414)  	Patient Gantry Relationship Code Sequence  	 
+>(0008,0100)  	Code Value  	F-10470  
+>(0008,0102)  	Coding Scheme Designator  	SNM3  
+>(0008,0104)  	Code Meaning  	headfirst  
+(0054,0414)  	End Patient Gantry Relationship Code Sequence  	 
+(0054,1000)  	Series Type  	WHOLE BODY\IMAGE  
+(0054,1001)  	Units  	PROPCPS  
+(0054,1002)  	Counts Source  	EMISSION  
+(0054,1100)  	Randoms Correction Method  	DLYD  
+(0054,1102)  	Decay Correction  	START  
+(0054,1103)  	Reconstruction Method  	OSEM 2i8s  
+(0054,1200)  	Axial Acceptance  	17  
+(0054,1201)  	Axial Mash  	3\4  
+(0054,1300)  	Frame Reference Time  	0  
+(0054,1321)  	Decay Factor  	1.1124194  
+(0054,1322)  	Dose Calibration Factor  	1600289.6  
+(0054,1330)  	Image Index  	1  
+
+

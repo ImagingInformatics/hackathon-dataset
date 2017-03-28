@@ -1,0 +1,43 @@
+{
+  "id": "2956893214499959",
+  "resourceType": "DiagnosticReport",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>PET/CT scan whole body with IV contrast 4/19/2000</p>\n\n<p>Indication: Measure response from lung cancer.</p>\n\n<p>Procedure: Simultaneous PET/CT scanning was performed 1 hour and 18 minutes   following intravenous administration of 14.48 mCi of FDG.  Gastroview enteric contrast was administered prior to the CT scan.  125 mL of Isovue was administered intravenously at the time of the CT scan to improve diagnostic accuracy.</p>\n\n<p>Findings:</p>\n\n<p>Again seen is a mass in the left upper lobe (series 3, image 85).  This currently measures 2.8 x 2.1 cm (previously 4.6 x 4.6 cm).  The max SUV is 1.96 (previously 3.1).</p>\n\n<p>The AP window adenopathy (series 3, image 85) has also decreased in size.  This now measures 2.0 x 1.7 cm (previously 3.2 x 2.4 cm).   The SUV max of this lesion is 1.46 (previously 1.53).</p>\n\n<p>No right hilar adnenopathy.  No paratracheal adenopathy.  No contralateral lung lesions.</p>\n\n<p>No FDG-avid metastatic disease in the abdomen or pelvis.</p>\n\n<p>Other Findings:\nThere is continued mild cardiomegaly.  The liver enhances homogeneously.  The pancreas is unremarkable.  The esophagus and stomach are unremarkable.  The spleen is within normal limits.  The kidneys are unremarkable.  Again seen is an aortic graft which appears patent.  The celiac and superior mesenteric arteries are patent.</p>\n\n<p>There is normal progression of enteric contrast.  Stool is scattered throughout the colon.  Scattered colonic diverticula without diverticulitis.</p>\n\n<p>There is mild diffuse thickening of the anterior bladder wall.</p>\n\n<p>Bone windows are unreamarkable.  No sclerotic or lucent lesions are identified.</p>\n\n<p>Impression:\n1. Interval decrease in size and FDG activity of left upper lobe lesion and AP window adenopathy.\n2. No findings to suggest progression</p></div>"
+  },
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org/",
+        "code": "58741-0"
+      }
+    ],
+    "text": "Head to thigh PET"
+  },
+  "status": "final",
+  "issued": "2000-04-19T17:23:00+10:00",
+  "subject": {
+    "reference": "Patient/siimandy"
+  },
+  "performer": {
+    "reference": "Organization/siim",
+    "display": "Society of Imaging Informatics in Medicine"
+  },
+  "identifier": [
+    {
+      "use": "usual",
+      "system": "http://www.siim.org/",
+      "value": "2956893214499959"
+    }
+  ],
+  "category": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/v2/0074",
+        "code": "RAD"
+      }
+    ]
+  },
+  "effectiveDateTime": "2000-04-19",
+  "conclusion": "Impression:\n1. Interval decrease in size and FDG activity of left upper lobe lesion and AP window adenopathy.\n2. No findings to suggest progression"
+}

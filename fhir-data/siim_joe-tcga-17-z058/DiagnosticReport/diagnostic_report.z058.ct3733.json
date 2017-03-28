@@ -1,0 +1,54 @@
+{
+  "id": "2257132503242682",
+  "resourceType": "DiagnosticReport",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>CT Onco Lung Mass 3/30/1986</p>\n\n<p>Clinical information\n60 yo male with left hilar mass.</p>\n\n<p>Comparison\nNone.</p>\n\n<p>Findings\nLung mass\nSize: 5.3 x 4.0 x 4.0 cm</p>\n\n<p>Location: left hilar region</p>\n\n<p>Shape: Smoothly marginated</p>\n\n<p>Internal consistency: homogenous, hypodense to surrounding muscle.</p>\n\n<p>Local extent\nPleural surface: Left lower lobe metastasis</p>\n\n<p>Chest wall: No involvement.</p>\n\n<p>Airway: Compression of the lingula</p>\n\n<p>Vessels: Mass surrounds and nearly occludes the left inferior pulmonary artery.</p>\n\n<p>Nerves: No involvement.</p>\n\n<p>Regional extent\nLymph nodes: AP window, and right hilar adenopathy.</p>\n\n<p>Distant metastases (chest and upper abdomen): None.</p>\n\n<p>Other findings\nOther findings: None. </p>\n\n<p>Impression\nLeft hilar mass concerning for malignancy.</p></div>"
+  },
+  "": [
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "35917007",
+          "display": "Adenocarcinoma"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org/",
+        "code": "24627-2"
+      }
+    ],
+    "text": "chest CT"
+  },
+  "status": "final",
+  "issued": "1986-03-30T09:23:00+10:00",
+  "subject": {
+    "reference": "Patient/siimjoe"
+  },
+  "performer": {
+    "reference": "Organization/siim",
+    "display": "Society of Imaging Informatics in Medicine"
+  },
+  "identifier": [
+    {
+      "use": "usual",
+      "system": "http://www.siim.org/",
+      "value": "2257132503242682"
+    }
+  ],
+  "category": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/v2/0074",
+        "code": "RAD"
+      }
+    ]
+  },
+  "effectiveDateTime": "1986-03-30",
+  "conclusion": "Impression: Left hilar mass concerning for malignancy."
+}
