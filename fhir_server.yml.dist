@@ -1,6 +1,5 @@
 # fhir_server.yml.dist
 
-:url: http://fhir.hackathon.siim.org:8080/fhir/
-:username:
-:password:
+:url: http://api.hackathon.siim.org/fhir/
+:apikey: 
 :format: application/json
