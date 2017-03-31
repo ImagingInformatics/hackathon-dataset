@@ -1,0 +1,53 @@
+{
+  "resourceType": "Practitioner",
+  "id": "siimmd",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: f007</p><p><b>identifier</b>: 874635264 (OFFICIAL), 567IUI51C154 (USUAL)</p><p><b>name</b>: Simone Heps (OFFICIAL)</p><p><b>telecom</b>: ph: 020556936(WORK), S.M.Heps@bmc.nl(WORK), fax: 0205669283(WORK)</p><p><b>address</b>: Galapagosweg 91 Den Burg 9105 PZ NLD (WORK)</p><p><b>gender</b>: female</p><p><b>birthDate</b>: 07/11/1971</p></div>"
+  },
+  "identifier": [
+    {
+      "use": "usual",
+      "system": "https://github.com/ImagingInformatics/hackathon-dataset",
+      "value": "8022992389394228"
+    }
+  ],
+  "name": [
+    {
+      "use": "official",
+      "family": "SIIM",
+      "given": [
+        "Provider"
+      ],
+      "suffix": [
+        "MD"
+      ]
+    }
+  ],
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "(703) 723-0432",
+      "use": "work"
+    },
+    {
+      "system": "email",
+      "value": "info@siim.org",
+      "use": "work"
+    }
+  ],
+  "address": [
+    {
+      "use": "work",
+      "line": [
+        "19440 Golf Vista Plaza",
+        "Ste 330"
+      ],
+      "city": "Leesburg",
+      "state": "VA",
+      "postalCode": "20176"
+    }
+  ],
+  "gender": "female",
+  "birthDate": "1970-11-06"
+}
