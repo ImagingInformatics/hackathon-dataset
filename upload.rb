@@ -23,7 +23,7 @@ end
 # if this fails, it throws an error and the script doesn't proceed
 
 begin
-	result = RestClient.get server[:url] + "Patient", :params => {:_format => server[:format]}
+	result = RestClient.get server[:url] + "Patient", apikey: server[:apikey], :params => {:_format => server[:format]}
 rescue
 	log.error(result)
 	raise
@@ -50,13 +50,13 @@ Dir["#{ARGV[1]}/**/*.json"].each do |data|
 
 	if id == "random"
 		begin
-			result = RestClient.post server[:url] + resource_type, resource.to_json, :content_type => server[:format] + '+fhir', :params => {:_format => server[:format]}
+			result = RestClient.post server[:url] + resource_type, resource.to_json, :content_type => server[:format] + '+fhir', :params => {:_format => server[:format]}, apikey: server[:apikey]
 		rescue => e
 			e.response
 		end
 	else
 		begin
-			result = RestClient.put server[:url] + resource_type + "/" + id, resource.to_json, :content_type => server[:format] + '+fhir', :params => {:_format => server[:format]}
+			result = RestClient.put server[:url] + resource_type + "/" + id, resource.to_json, :content_type => server[:format] + '+fhir', :params => {:_format => server[:format]}, apikey: server[:apikey]
 		rescue => e
 			e.response
 		end
