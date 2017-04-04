@@ -48,6 +48,14 @@ You can also update only a subset of the resources by specifying a top-level dir
 
     ruby update.rb siim_andy_tcga-50-5072/DiagnosticReport
 
+# Creating MHD resources - DocumentReference and DocumentManifest
+
+There are three components to the MHD resource creation process.  The create_mhd.rb script, and two ERB templates for the JSON resources.  create_mhd.rb takes a single patient directory as an input, reads all of the resources for that patient, and creates DocumentReference resources for each of the DiagnosticReport and ImagingStudy resources.  These are stored in subdirectories for that particular patient.
+
+    ruby create_mhd.rb <patient_folder>
+
+These can be subsequently uploaded to a FHIR server
+
 # Process to contribute
 - Fork this repo on github
 - Make your changes/improvements
