@@ -1,0 +1,122 @@
+{
+  "resourceType": "DocumentReference",
+  "id": "<%= @id %>",
+  "text": {
+    "status": "generated",
+    "div": "<%= @div %>"
+  },
+  "identifier": [
+    {
+      "system": "https://github.com/ImagingInformatics/hackathon-dataset/",
+      "value": "89573"
+    }
+  ],
+  "subject": {
+    "reference": "Patient/<%= @patient_id %>"
+  },
+  "type": 
+    <%= @diagnostic_report_code %>,
+  "class": {
+    "coding": [
+      <%= @document_class_code %>
+    ]
+  },
+  "author": [
+    {
+      "reference": "Practitioner/siimmd"
+    },
+    {
+      "reference": "#a2"
+    }
+  ],
+  "custodian": {
+    "reference": "Organization/siim"
+  },
+  "authenticator": {
+    "reference": "Practitioner/siimmd"
+  },
+  "created": "<%= @created %>",
+  "indexed": "<%= @created %>",
+  "status": "current",
+  "docStatus": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/composition-status",
+        "code": "final",
+        "display": "Final"
+      }
+    ]
+  },
+  "description": "Physical",
+  "securityLabel": [
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/Confidentiality",
+          "code": "V",
+          "display": "very restricted"
+        }
+      ]
+    }
+  ],
+  "content": [
+    {
+      "attachment": {
+        "contentType": "application/json-fhir",
+        "language": "en-US",
+        "url": "<%= @parent_resource_type + "/" + @parent_id %>"
+      },
+      "format": [
+        {
+          "system": "http://hl7.org/fhir/diagnosticreport.html",
+          "display": "FHIR DiagnosticReport Specification"
+        }
+      ]
+    }
+  ],
+  "context": {
+    "encounter": {
+      "reference": "Encounter/xcda"
+    },
+    "event": [
+      {
+        "coding": [
+          <%= @parent_resource_code %>
+        ]
+      }
+    ],
+    "period": {
+      "start": "2004-12-23T08:00:00+11:00",
+      "end": "2004-12-23T08:01:00+11:00"
+    },
+    "facilityType": {
+      "coding": [
+        {
+          "system": "https://loinc.org/document-ontology/",
+          "code": "Outpatient",
+          "display": "Outpatient"
+        }
+      ]
+    },
+    "practiceSetting": {
+      "coding": [
+        {
+          "system": "https://loinc.org/document-ontology/",
+          "code": "Radiology",
+          "display": "Radiology"
+        }
+      ]
+    },
+    "sourcePatientInfo": {
+      "reference": "Patient/<%= @patient_id %>"
+    },
+    "related": [
+      {
+        "identifier": <%= @patient_identifier %>,
+        "ref": {
+          "reference": "Patient/<%= @patient_id %>"
+        }
+      }
+    ]
+  }
+}
