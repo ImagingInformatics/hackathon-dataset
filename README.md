@@ -1,15 +1,15 @@
-# siim-dataset
+# SIIM hackathon-dataset
 Collection of FHIR JSON objects representing fictious patient vignettes for use in our hackathon environment.
 
 # What?
-The [Society for Imaging Informatics in Medicine (SIIM)](http://www.siim.org/) is supporting the new DICOMWEB and FHIR standards by creating opportunities for it's members to interact with these systems at the annual meeting, and throughout the year through it's Hackathon/HackPack projects.
+The [Society for Imaging Informatics in Medicine (SIIM)](http://www.siim.org/) is supporting the new DICOMWEB and FHIR standards by creating opportunities for it's members to interact with these systems at the annual meeting, and throughout the year through it's Hackathon event, platform and dataset.
 
 We're using images from [The Cancer Imaging Archive (TCIA)](http://www.cancerimagingarchive.net) and creating fictious but believable narratives that illustrate concepts common in imaging.
 
 This project will contain FHIR JSON objects surrounding these patient narratives.
 
 # Why?
-During our first hackathon, we realized that in order to have a successful hackathon across multiple platforms, we need to have a cohesive, rich dataset that will allow people to build interesting applications. 
+During our first hackathon in 2014, we realized that in order to have a successful hackathon across multiple platforms, we need to have a cohesive, rich dataset that will allow people to build interesting applications. 
 
 # Organization
 In the top level directory there are directories for resources that cross patients (Medications, Practitioner, Organizations)
@@ -65,7 +65,7 @@ These can be subsequently uploaded to a FHIR server
 - Search report text to add coded diagnosis for Andy's DiagnosticReports
 
 # Patient Narratives
-###Sally SIIM (mrn: BreastDx-01-0003)
+### Sally SIIM (mrn: BreastDx-01-0003)
 58 yo female DOB: 04/12/1950
 
 HPI: Had a palpable left breast mass discovered on self-breast exam.  Patient was initially seen for diagnostic mammogram on 4/12/2008.  Patient had a lumpectomy on 5/24/2008.
@@ -79,7 +79,7 @@ Medications: levothyroxine sodium 50mcg once daily
 Lab/Radiology
 
 ---------------------------------------
-#####Diagnostic Bilateral Mammogram 4/12/2008 (FHIR ID/Accession Number: 2278028270041068)
+##### Diagnostic Bilateral Mammogram 4/12/2008 (FHIR ID/Accession Number: 2278028270041068)
 
 DIAGNOSTIC BILATERAL 4/12/2008
 
@@ -102,7 +102,7 @@ RIGHT BREAST: Negative. BI-RADS 1 - Recommend routine screening in 1 year.
 OVERALL BI-RADS 2 (Benign)
 
 ---------------------------------------
-#####Bilateral Breast MRI 4/29/2008 (FHIR ID/Accession Number: 1085557173658239)
+##### Bilateral Breast MRI 4/29/2008 (FHIR ID/Accession Number: 1085557173658239)
 Bilateral Breast MRI 04/19/2008
 
 Clinical History:  59 year-old female with history of left invasive ductal carcinoma (age 55) status post lumpectomy. High-risk screening MRI exam.
@@ -124,7 +124,7 @@ RIGHT BREAST: Negative. BI-RADS 1. Recommend routine screening mammography in 1 
 OVERALL BI-RADS 2 (Benign)
 
 ---------------------------------------
-#####Full Field Digital Left Diagnostic Mammogram 4/19/2008 (FHIR ID/Accession No: 4361814883895900)
+##### Full Field Digital Left Diagnostic Mammogram 4/19/2008 (FHIR ID/Accession No: 4361814883895900)
 
 
 Full Field Digital Left Diagnostic Mammogram 4/19/2008 
@@ -142,7 +142,7 @@ Impression:
 LEFT BREAST: Expected changes status post lumpectomy and radiation. Benign. BI-RADS 2 - Recommend routine screening in 1 year.
 
 ---------------------------------------
-#####Surgical Specimen Radiograph 5/24/2008 (FHIR ID/Accession No 2889127246021897)
+##### Surgical Specimen Radiograph 5/24/2008 (FHIR ID/Accession No 2889127246021897)
 05/24/2008
 Surgical Specimen Radiograph
 
@@ -157,13 +157,13 @@ Impression:
 Specimen radiograph with intact wire and surgical clip.
 
 
-###Ravi SIIM (mrn: LIDC-IDRI-0132)
+### Ravi SIIM (mrn: LIDC-IDRI-0132)
 
 HPI: 60 yo male with chronic lung disease.
 
-####Imaging Exams
+#### Imaging Exams
 
-#####CT Chest with IV Contrast 1/1/2000 10:04 AM (FHIR ID/Accession Number: 2819497684894126)
+##### CT Chest with IV Contrast 1/1/2000 10:04 AM (FHIR ID/Accession Number: 2819497684894126)
 CT Chest with Contrast 1/1/00 at 10:04 AM
 
 Clinical History: Abnormal chest x-ray
@@ -190,7 +190,7 @@ Impression:
 
 2. Bandlike areas of atelectasis/scarring and bronchiectasis in the right upper lobe likely related to prior infection/insult.
 
-#####AP Chest Radiograph 1/1/2000 11:22 AM (FHIR ID/Accession Number: 2819497684894127)
+##### AP Chest Radiograph 1/1/2000 11:22 AM (FHIR ID/Accession Number: 2819497684894127)
 
 Chest: AP View
 
@@ -216,7 +216,7 @@ Recommendations:
 
 CT Chest is recommended to further evaluate the above findings and impression.
 
-#####CT Chest with IV Contrast 1/1/2000 12:00 PM (FHIR ID/Accession Number: 2819497684894128)
+##### CT Chest with IV Contrast 1/1/2000 12:00 PM (FHIR ID/Accession Number: 2819497684894128)
 
 CT Chest with Contrast
 
@@ -244,12 +244,12 @@ Impression:
 
 2. Unchanged bandlike areas of atelectasis/scarring and bronchiectasis in the right upper lobe likely related to prior infection/insult.
 
-###Joe SIIM (mrn: TCGA-17-Z058)
+### Joe SIIM (mrn: TCGA-17-Z058)
 HPI: 60 yo male with history of lung adenocarcinoma. 
 
-####Imaging Exams
+#### Imaging Exams
 
-#####CT Chest 3/30/1986 (FHIR ID/Accession No: 2257132503242682)
+##### CT Chest 3/30/1986 (FHIR ID/Accession No: 2257132503242682)
 
 CT Onco Lung Mass 3/30/1986
 
@@ -293,7 +293,7 @@ Left hilar mass concerning for malignancy.
 
 ---------------------------------------
 
-#####PET Oncologic Study 4/22/1986 (FHIR ID/Accession No: 2819497684894126)
+##### PET Oncologic Study 4/22/1986 (FHIR ID/Accession No: 2819497684894126)
 
 Duration of fast prior to injection: 6 hours
 
@@ -342,7 +342,7 @@ Impression
 EORTC Response Criteria: N/A - Baseline
 
 ---------------------------------------
-#####Surgical Pathology Report 4/25/1986 (FHIR ID/Accession No: z058path)
+##### Surgical Pathology Report 4/25/1986 (FHIR ID/Accession No: z058path)
 
 SIIM Diagnostic Lab
 Leesburg, VA
@@ -389,7 +389,7 @@ END OF REPORT
 
 ---------------------------------------
 
-#####CTA Chest 5/5/1986 (FHIR ID/Accession Number: 1857795211017352)
+##### CTA Chest 5/5/1986 (FHIR ID/Accession Number: 1857795211017352)
 
 Clinical Indication:
 Acute shortness of breath, elevated D-dimer. History of lung cancer. Concern for PE.
@@ -419,7 +419,7 @@ Impression:
 
 ---------------------------------------
 
-#####CT Chest 5/31/1986 (FHIR ID/Accession Number: 1654061970756517)
+##### CT Chest 5/31/1986 (FHIR ID/Accession Number: 1654061970756517)
 
 Clinical indication: Followup lung mass.
 
@@ -446,7 +446,7 @@ Impression:
 
 ---------------------------------------
 
-#####CT Chest, abdomen and pelvis 9/28/1986 (FHIR ID/Accession Number: 3173095681219824)
+##### CT Chest, abdomen and pelvis 9/28/1986 (FHIR ID/Accession Number: 3173095681219824)
 
 Clinical indication:
 History of lung adenocarcinoma, followup.
@@ -480,12 +480,12 @@ Impression:
 
 ---------------------------------------
 
-###Neela SIIM (mrn: TCGA-BA-4077)
+### Neela SIIM (mrn: TCGA-BA-4077)
 HPI: 65 yo Female with recurrent right base of tongue cancer after chemotherapy and radiotherapy
 
-####Imaging Exams
+#### Imaging Exams
 
-#####CT Head and Neck 4/28/1986 (FHIR ID/Accession No: 2605867053656544)
+##### CT Head and Neck 4/28/1986 (FHIR ID/Accession No: 2605867053656544)
 
 CT Head and Neck with contrast 4/28/1986
 
@@ -573,11 +573,11 @@ suggestive of distant metastatic disease
 
 ---------------------------------------
 
-###Andy SIIM (mrn: TCGA-50-5072)
+### Andy SIIM (mrn: TCGA-50-5072)
 
 HPI: 75 yo with lung cancer
 
-####CT Chest 1/28/2000 (FHIR ID/Accession Number: 2508258761846499)
+#### CT Chest 1/28/2000 (FHIR ID/Accession Number: 2508258761846499)
 
 Indication: Mass seen on chest x-ray
 
@@ -599,7 +599,7 @@ Impression:
 
 ---------------------------------------
 
-####PET/CT Scan Whole Body 2/11/2000 (FHIR ID/Accession Number: 1411079800582267)
+#### PET/CT Scan Whole Body 2/11/2000 (FHIR ID/Accession Number: 1411079800582267)
 
 Exam: PET/CT Scan Whole Body
 
@@ -635,7 +635,7 @@ Impression:
 
 ---------------------------------------
 
-####Bone Scan, Whole Body 2/23/2000 (FHIR ID/Accession Number: 1411079800582267)
+#### Bone Scan, Whole Body 2/23/2000 (FHIR ID/Accession Number: 1411079800582267)
 
 Whole Body Tc-99m Bone Scintigraphy 2/23/2000
 
@@ -651,7 +651,7 @@ Negative for bony metastatic disease.
 ---------------------------------------
 
 
-####PET/CT Scan Whole Body 4/19/2000 (FHIR ID/Accession Number: 1411079800582267)
+#### PET/CT Scan Whole Body 4/19/2000 (FHIR ID/Accession Number: 1411079800582267)
 
 PET/CT scan whole body with IV contrast 4/19/2000
 
