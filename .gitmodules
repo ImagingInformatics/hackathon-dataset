@@ -1,0 +1,3 @@
+[submodule "hackathon-images"]
+	path = hackathon-images
+	url = https://github.com/ImagingInformatics/hackathon-images.git
