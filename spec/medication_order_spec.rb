@@ -1,26 +1,20 @@
 # MedicationOrder Spec
 
-require 'rest-client'
 server = YAML.load_file('fhir_server.yml')
 
 resource = JSON.parse(File.read("siim_sally-breastdx-01-0003/MedicationOrder/medication_order.breastdx.json"))
 
-describe '#delete' do
-    result = RestClient.delete server[:url] + resource['resourceType'] + "/" + resource['id'],
-                               :params => {:_format => server[:format]}
-
+RSpec.describe '#delete' do
+    result = fhir_delete(server, resource)
     it {expect(result.code).to be >= 200}
     it {expect(result.code).to be <= 204}
 
 end
 
-describe '#put' do
+RSpec.describe '#put' do
 
     begin
-        result = RestClient.put server[:url] + resource['resourceType'] + "/" + resource['id'],
-                                resource.to_json,
-                                :content_type => server[:format] + '+fhir',
-                                :params => {:_format => server[:format]}
+        result = fhir_put(server, resource)
     rescue => e
         puts e.inspect
     end
@@ -29,10 +23,9 @@ describe '#put' do
 
 end
 
-describe '#get' do
+RSpec.describe '#get' do
 
-    result = RestClient.get server[:url] + resource['resourceType'] + "/" + resource['id'],
-                            :params => {:_format => server[:format]}
+    result = fhir_get(server, resource)
 
     it {expect(result.code).to eq 200}
 
