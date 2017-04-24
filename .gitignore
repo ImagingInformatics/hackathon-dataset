@@ -35,3 +35,5 @@ build/
 
 # YAML config files
 *.yml
+
+bin/
