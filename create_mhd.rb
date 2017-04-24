@@ -9,8 +9,7 @@ require 'date'
 require 'fileutils'
 
 log = Logger.new(STDOUT)
-
-DEBUG = true
+log.level = Logger::DEBUG
 
 Bundler::require
 
@@ -23,13 +22,9 @@ if ARGV.length < 1
 	raise "usage:\n\nruby create_mhd.rb path_for_patient\n\nnote: only a single patient is currently supported"
 end
 
-
-# Create directories to hold our objects
-patient_root_directory = File.join(Dir.pwd, ARGV[0])
-
-FileUtils.mkpath (File.join(patient_root_directory, "DocumentReference"))
-FileUtils.mkpath (File.join(patient_root_directory, "DocumentManifest"))
-
+if !File.directory?(ARGV[0])
+	raise "input requires a directory to iterate over"
+end
 
 # IHE XDS classCode Value Set
 report_class_code = {}
@@ -45,8 +40,10 @@ images_class_code["display"] = "Images"
 fhir = {}
 
 Dir["#{ARGV[0]}/**/*.json"].each do |data|
+	# Iterates over a directory, and loads each JSON object into a hash with
+	# with the key being the resourceType of the object
 
-	log.info("Processing: #{data}\n")
+	log.info("Loading: #{data}\n")
     json = JSON.parse(data_string = File.read(data))
 
     if fhir[json["resourceType"].to_s].nil?
@@ -57,48 +54,72 @@ Dir["#{ARGV[0]}/**/*.json"].each do |data|
 
 end
 
-if fhir["Patient"].length > 1
-	raise "Multiple patients not currenlty supported"
+if fhir["Patient"].nil?
+	raise "Please give a patient-level directory"
 end
 
+if fhir["Patient"].length > 1
+	raise "Multiple patients not currently supported"
+end
 
+# Create directories to hold our objects
+patient_root_directory = File.join(Dir.pwd, ARGV[0])
+
+FileUtils.mkpath (File.join(patient_root_directory, "DocumentReference"))
+FileUtils.mkpath (File.join(patient_root_directory, "DocumentManifest"))
 
 # Will use ERB templates to generate DocumentReference resources
 # ERB template requires the following instance variables:
 # @id - going to be used to uniquely identify this resource
 # @div - human readable (html) rendering of the resource
-# @patient_id - json 
+# @patient_id - json
 # @diagnostic_report_code
 
 @patient_id = fhir["Patient"][0]["id"]
 @patient_identifier = fhir["Patient"][0]["identifier"].to_json
 
-fhir["DiagnosticReport"].each do |r|
+reference_resources = fhir["DiagnosticReport"] + fhir["ImagingStudy"]
+
+reference_resources.each do |r|
 
 	@parent_resource_type = r["resourceType"]
 
-	@parent_resource_code = r["code"]["coding"][0].to_json
+	log.info "Processing Resource Type: #{@parent_resource_type}"
+
+	@parent_resource_code = case @parent_resource_type
+		when "DiagnosticReport"
+			r["code"].to_json
+		when "ImagingStudy"
+			r["description"].to_json
+	end
 
 	@id = generate_id
 
 	@parent_id = r["id"]
 
-	@document_class_code = report_class_code.to_json
+	@document_class_code = case @parent_resource_type
+		when "DiagnosticReport"
+			report_class_code.to_json
+		when "ImagingStudy"
+			images_class_code.to_json
+	end
 
-	@diagnostic_report_code = r["code"].to_json
-
-	@created = r["issued"]
+	@created = case @parent_resource_type
+		when "DiagnosticReport"
+			r["issued"]
+		when "ImagingStudy"
+			r["started"]
+	end
 
 	b = binding
 	document_reference_template = ERB.new(File.read("document_reference.json.erb"))
 
-	puts document_reference_template.result(b) if DEBUG
+	log.debug document_reference_template.result(b)
 
 	#TODO - Create @div from the object itself
 
 	mhd_hash = JSON.parse(document_reference_template.result(b))
 
-	File.write(File.join(patient_root_directory,  "DocumentReference/document_reference." + @parent_id + ".json"), JSON.pretty_generate(mhd_hash))
+	File.write(File.join(patient_root_directory,  "DocumentReference/document_reference_" + @parent_resource_type + "." + @parent_id + ".json"), JSON.pretty_generate(mhd_hash))
 
 end
-
