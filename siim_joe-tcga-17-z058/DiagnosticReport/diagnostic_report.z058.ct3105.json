@@ -40,7 +40,7 @@
   },
   "effectiveDateTime": "1986-03-30",
   "conclusion": "Impression 1. Post surgical changes from left lower lobectomy. 2. Development of posterior mediastinal and precardial lymphadenopathy concerning for disease progression. An enlarged gastrosplenic node is nonspecific and appears grossly stable compared to CT from 4/22/1986 given differences in technique. 3. Small rim enhancing left pleural fluid collection concerning for infection.",
-  "": [
+  "codedDiagnosis": [
     {
       "coding": [
         {

@@ -5,17 +5,6 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\r\n</div>"
   },
-  "": [
-    {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "391040000",
-          "display": "PET Oncologic Study 4/22/1986 Duration of fast prior to injection: [ ] Blood glucose prior to injection: [ ] mg/dl Scan region: [ ] Radiopharmaceutical: [F-18 FDG] [ ] mCi IV. Calibration time: [] [] Administration time: [] [] Injection site: [ ] Post-injection imaging delay: [ ] minutes. Attenuation correction: [Rod source transmission scan. ] Clinical information [ ] Comparison [None. ] Findings Hypermetabolic foci: [None. ] Other findings: [None.] Impression [ ] EORTC Response Criteria: [Complete Metabolic Response. MaxSUV < 2.5 or equivalent to background | Partial Metabolic Response. Decrease in MaxSUV >= 25% | Progressive Metabolic Disease. Increase in MaxSUV > 25% | Stable Metabolic Disease. Change in MaxSUV < 25%]"
-        }
-      ]
-    }
-  ],
   "code": {
     "coding": [
       {
