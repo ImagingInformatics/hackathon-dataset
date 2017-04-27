@@ -2,7 +2,11 @@ GEM
   remote: https://rubygems.org/
   specs:
     diff-lcs (1.2.5)
+    json_spec (1.1.4)
+      multi_json (~> 1.0)
+      rspec (>= 2.0, < 4.0)
     mime-types (2.4.3)
+    multi_json (1.12.1)
     netrc (0.10.2)
     rest-client (1.7.2)
       mime-types (>= 1.16, < 3.0)
@@ -25,8 +29,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  json_spec
   rest-client
   rspec
-
-BUNDLED WITH
-   1.10.6
