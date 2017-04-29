@@ -1,17 +1,18 @@
 # SIIM hackathon-dataset
-Collection of FHIR JSON objects representing fictious patient vignettes for use in our hackathon environment.
+Collection of FHIR JSON objects representing fictious patient vignettes for use in our hackathon environment, along with DICOM images that coraborate each patient's story.
 
 # What?
-The [Society for Imaging Informatics in Medicine (SIIM)](http://www.siim.org/) is supporting the new DICOMWEB and FHIR standards by creating opportunities for it's members to interact with these systems at the annual meeting, and throughout the year through it's Hackathon event, platform and dataset.
+The [Society for Imaging Informatics in Medicine (SIIM)](http://www.siim.org/) is supporting the new DICOMweb and FHIR standards by creating opportunities for it's members to interact with these systems at the annual meeting, and throughout the year through it's Hackathon event, platform and dataset.
 
 We're using images from [The Cancer Imaging Archive (TCIA)](http://www.cancerimagingarchive.net) and creating fictious but believable narratives that illustrate concepts common in imaging.
 
-This project will contain FHIR JSON objects surrounding these patient narratives.
+This project will contain FHIR JSON objects surrounding these patient narratives, as well as a Git sub-module for the DICOM images supporting these patient narratives.
 
 # Why?
 During our first hackathon in 2014, we realized that in order to have a successful hackathon across multiple platforms, we need to have a cohesive, rich dataset that will allow people to build interesting applications. 
 
 # Organization
+## FHIR Data
 In the top level directory there are directories for resources that cross patients (Medications, Practitioner, Organizations)
 
 Also within the top level directory are a set of sub-folders for each patient.  This skeleton contains a set of top-level directories that correspond with the FHIR Resources: http://www.hl7.org/implement/standards/fhir/resourcelist.html.  Within these sub-folders are json FHIR documents.
@@ -23,6 +24,15 @@ Each FHIR document should have a commented header that looks like this:
 If set to something other than random, this will be used to create the FHIR resource.
 
 This is not meant to be an exhaustive collection, the types are chosen based on relevance to imaging patients.
+
+## DICOM Data
+Contains DICOM images (aka part 10 files) under each patient's name, nested below are folders representing the individual studies.
+
+These files can easily be pushed in a DICOM server, e.g. Orthanc or dcm4chee, using multiple methods, one of which is the dcm4che library (not to be confused with the dcm4chee server).
+
+NOTE: The DICOM files are placed in a sub-module and therefore are not checked out/cloned automatically. To retrieve the files (about 1.4 GBs), either perform a recursive clone of this repository, or if already cloned, go into the *hackathon-images* directory and perform git submodule update. For example:
+    cd hackathon-images
+    git submodule update --init --recursive
 
 # Conventions
 - Original TCIA IDs are retained as MRN
