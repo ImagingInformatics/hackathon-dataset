@@ -31,6 +31,7 @@ Contains DICOM images (aka part 10 files) under each patient's name, nested belo
 These files can easily be pushed in a DICOM server, e.g. Orthanc or dcm4chee, using multiple methods, one of which is the dcm4che library (not to be confused with the dcm4chee server).
 
 NOTE: The DICOM files are placed in a sub-module and therefore are not checked out/cloned automatically. To retrieve the files (about 1.4 GBs), either perform a recursive clone of this repository, or if already cloned, go into the *hackathon-images* directory and perform git submodule update. For example:
+
     cd hackathon-images
     git submodule update --init --recursive
 
