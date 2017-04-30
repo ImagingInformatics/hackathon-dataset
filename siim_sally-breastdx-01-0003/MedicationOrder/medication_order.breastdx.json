@@ -3,7 +3,7 @@
   "resourceType": "MedicationOrder",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\r\n  126202002: levothyroxine sodium 50mcg oral tablet</div>\r\n  <p>ONE tablet taken ONCE daily</p>\r\n  <p>to patient ref: breast</p>\r\n  <p>by practitioner example </p> <p> dispense 30 tablets </p>\r\n</div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">126202002: levothyroxine sodium 50mcg oral tablet<p>ONE tablet taken ONCE daily</p> <p>to patient ref: siimsally</p> <p>by practitioner example</p> <p>dispense 30 tablets </p></div>"
   },
   "status": "active",
   "patient": {
