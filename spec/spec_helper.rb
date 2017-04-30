@@ -118,3 +118,21 @@ def fhir_get(server, resource)
   RestClient.get server[:url] + resource['resourceType'] + "/" + resource['id'],
                  apikey: server[:apikey], :params => {:_format => server[:format]}
 end
+
+def fhir_resource_compare(server, resource, json)
+
+  # remove the added keys
+  json.delete('meta')
+  json.delete('lastUpdated')
+
+  # Spark changes div formatting, and adds two fields
+  # remove the spaces and line brakes to check if the content is stable
+  resource['text']['div'] = resource['text']['div'].gsub(/\n\n/, '').gsub(/ /, '')
+
+  json['text']['div'] = json['text']['div'].gsub(/\r\n/, '').gsub(/ /, '')
+
+  it "Is equavalent to the dataset resource" do
+      expect json == resource
+  end
+
+end
