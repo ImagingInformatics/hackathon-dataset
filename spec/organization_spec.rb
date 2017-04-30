@@ -3,38 +3,44 @@
 require 'rest-client'
 server = YAML.load_file('fhir_server.yml')
 
-resource = JSON.parse(File.read("Organization/siim.organization.json"))
+def test_organization(server, resource)
+    RSpec.describe '#delete' do
+        result = fhir_delete(server, resource)
+        it {expect(result.code).to be >= 200}
+        it {expect(result.code).to be <= 204}
 
-RSpec.describe '#delete' do
-    result = fhir_delete(server, resource)
-    it {expect(result.code).to be >= 200}
-    it {expect(result.code).to be <= 204}
-
-end
-
-RSpec.describe '#put' do
-
-    begin
-        result = fhir_put(server, resource)
-    rescue => e
-        puts e.inspect
     end
 
-    it {expect(result.code).to eq 200}
+    RSpec.describe '#put' do
+
+        begin
+            result = fhir_put(server, resource)
+        rescue => e
+            puts e.inspect
+        end
+
+        it {expect(result.code).to eq 200}
+
+    end
+
+    RSpec.describe '#get' do
+
+        result = fhir_get(server, resource)
+
+        it {expect(result.code).to eq 200}
+
+        # need to remove the metadata and other keys from the server version
+        json = JSON.parse(result)
+        json.delete('meta')
+        json.delete('lastUpdated')
+
+        fhir_resource_compare(server, resource, json)
+    end
 
 end
 
-RSpec.describe '#get' do
-
-    result = fhir_get(server, resource)
-
-    it {expect(result.code).to eq 200}
-
-    # need to remove the metadata and other keys from the server version
-    json = JSON.parse(result)
-    json.delete('meta')
-    json.delete('lastUpdated')
-
-    it {expect(json).to eq resource}
-
+Dir.glob("**/Organization/*") do |f|
+    resource = JSON.parse(File.read(f))
+    puts "Testing resource: #{f}"
+    test_organization(server, resource)
 end

@@ -127,9 +127,11 @@ def fhir_resource_compare(server, resource, json)
 
   # Spark changes div formatting, and adds two fields
   # remove the spaces and line brakes to check if the content is stable
-  resource['text']['div'] = resource['text']['div'].gsub(/\n\n/, '').gsub(/ /, '')
+  if !resource['text'].nil?
+    resource['text']['div'] = resource['text']['div'].gsub(/\n\n/, '').gsub(/ /, '')
 
-  json['text']['div'] = json['text']['div'].gsub(/\r\n/, '').gsub(/ /, '')
+    json['text']['div'] = json['text']['div'].gsub(/\r\n/, '').gsub(/ /, '')
+  end
 
   it "Is equavalent to the dataset resource" do
       expect json == resource
