@@ -9,13 +9,13 @@
   "subject": {
     "reference": "Patient/siimjoe"
   },
-  "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.7777.9002.168969969813049794019998800433",
+  "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.7777.9002.198875685720513246512710453733",
   "accession": {
     "use": "usual",
     "system": "http://www.siim.org/",
     "value": "2257132503242682"
   },
-  "url": "http://api.hackathon.siim.org/dicomweb/studies/1.3.6.1.4.1.14519.5.2.1.7777.9002.168969969813049794019998800433",
+  "url": "http://api.hackathon.siim.org/dicomweb/studies/1.3.6.1.4.1.14519.5.2.1.7777.9002.198875685720513246512710453733",
   "numberOfSeries": 7,
   "numberOfInstances": 137,
   "series": [
