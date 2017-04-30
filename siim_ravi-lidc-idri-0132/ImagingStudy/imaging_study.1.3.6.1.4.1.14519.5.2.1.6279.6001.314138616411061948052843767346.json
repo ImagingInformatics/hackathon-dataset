@@ -3,12 +3,9 @@
   "resourceType": "ImagingStudy",
   "text": {
     "status": "generated",
-    "div": "CT Chest"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">CT Chest</div>"
   },
   "started": "2000-01-01",
-  "subject": {
-    "reference": "Patient/siimravi"
-  },
   "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.6279.6001.314138616411061948052843767346",
   "accession": {
     "use": "usual",
@@ -28,7 +25,6 @@
       "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.6279.6001.254176853278710432756285662989",
       "description": "ThorRoutine  3.0  B31f",
       "numberOfInstances": 116,
-      "dateTime": "2000-01-01",
       "instance": [
         {
           "number": 1,
@@ -612,5 +608,8 @@
         }
       ]
     }
-  ]
+  ],
+  "patient": {
+    "reference": "Patient/siimravi"
+  }
 }

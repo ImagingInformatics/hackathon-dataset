@@ -3,12 +3,9 @@
   "resourceType": "ImagingStudy",
   "text": {
     "status": "generated",
-    "div": "CT Chest Abdomen Pelvis"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">CT Chest Abdomen Pelvis</div>"
   },
   "started": "1986-09-28",
-  "subject": {
-    "reference": "Patient/siimjoe"
-  },
   "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.7777.9002.988079582344471175076015633105",
   "accession": {
     "use": "usual",
@@ -28,7 +25,6 @@
       "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.7777.9002.141167273198380363601209791116",
       "description": "Topogram",
       "numberOfInstances": 2,
-      "dateTime": "1986-09-28",
       "instance": [
         {
           "number": 1,
@@ -51,7 +47,6 @@
       "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.7777.9002.224254801503854435438984518612",
       "description": "Chest 5.0 B20f",
       "numberOfInstances": 52,
-      "dateTime": "1986-09-28",
       "instance": [
         {
           "number": 1,
@@ -324,7 +319,6 @@
       "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.7777.9002.227571573286142502566010959726",
       "description": "Abdomen 5.0 B20f",
       "numberOfInstances": 49,
-      "dateTime": "1986-09-28",
       "instance": [
         {
           "number": 1,
@@ -582,7 +576,6 @@
       "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.7777.9002.237093367628070762650617586235",
       "description": "Chest 5.0 B60f",
       "numberOfInstances": 52,
-      "dateTime": "1986-09-28",
       "instance": [
         {
           "number": 1,
@@ -846,5 +839,8 @@
         }
       ]
     }
-  ]
+  ],
+  "patient": {
+    "reference": "Patient/siimjoe"
+  }
 }

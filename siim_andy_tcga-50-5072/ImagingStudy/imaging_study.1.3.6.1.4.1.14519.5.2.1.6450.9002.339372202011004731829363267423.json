@@ -3,7 +3,7 @@
   "resourceType": "ImagingStudy",
   "text": {
     "status": "generated",
-    "div": "CT CHEST N/C"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">CT CHEST N/C</div>"
   },
   "started": "2000-01-28",
   "patient": {

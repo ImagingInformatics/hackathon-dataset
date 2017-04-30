@@ -3,7 +3,7 @@
   "resourceType": "ImagingStudy",
   "text": {
     "status": "generated",
-    "div": "PTCTSKTHPET / CT TUMOR"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">PTCTSKTHPET / CT TUMOR</div>"
   },
   "started": "2000-02-11",
   "patient": {

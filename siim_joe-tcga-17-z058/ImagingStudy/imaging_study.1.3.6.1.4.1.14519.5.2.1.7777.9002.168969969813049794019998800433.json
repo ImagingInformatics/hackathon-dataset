@@ -3,12 +3,9 @@
   "resourceType": "ImagingStudy",
   "text": {
     "status": "generated",
-    "div": "CT Chest Routine"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">CT Chest Routine</div>"
   },
   "started": "1986-03-30",
-  "subject": {
-    "reference": "Patient/siimjoe"
-  },
   "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.7777.9002.198875685720513246512710453733",
   "accession": {
     "use": "usual",
@@ -28,7 +25,6 @@
       "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.7777.9002.209790382569215452249761599322",
       "description": "Topogram  1.0  T20s",
       "numberOfInstances": 2,
-      "dateTime": "1986-03-30",
       "instance": [
         {
           "number": 1,
@@ -51,7 +47,6 @@
       "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.7777.9002.156193230572698742469080278763",
       "description": "CHEST ROUTINE  5.0  B20f",
       "numberOfInstances": 66,
-      "dateTime": "1986-03-30",
       "instance": [
         {
           "number": 1,
@@ -394,7 +389,6 @@
       "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.7777.9002.169708773530749216204344678898",
       "description": "CHEST ROUTINE  5.0  B60f",
       "numberOfInstances": 64,
-      "dateTime": "1986-03-30",
       "instance": [
         {
           "number": 1,
@@ -727,7 +721,6 @@
       "uid": "urn:oid:1.3.6.1.4.1.25403.121370035285.1340.20150425031228.1",
       "description": "KEY IMAGES (chafey)",
       "numberOfInstances": 1,
-      "dateTime": "1986-03-30",
       "instance": [
         {
           "number": 1,
@@ -745,7 +738,6 @@
       "uid": "urn:oid:1.3.6.1.4.1.25403.121370035285.1340.20150425031228.2",
       "description": "FOR_PRESENTATION",
       "numberOfInstances": 1,
-      "dateTime": "1986-03-30",
       "instance": [
         {
           "number": 1,
@@ -763,7 +755,6 @@
       "uid": "urn:oid:1.3.6.1.4.1.25403.121370035285.1340.20150425033316.1",
       "description": "KEY IMAGES (chafey)",
       "numberOfInstances": 1,
-      "dateTime": "1986-03-30",
       "instance": [
         {
           "number": 1,
@@ -781,7 +772,6 @@
       "uid": "urn:oid:1.3.6.1.4.1.25403.121370035285.1340.20150425033316.2",
       "description": "FOR_PRESENTATION",
       "numberOfInstances": 2,
-      "dateTime": "1986-03-30",
       "instance": [
         {
           "number": 1,
@@ -795,5 +785,8 @@
         }
       ]
     }
-  ]
+  ],
+  "patient": {
+    "reference": "Patient/siimjoe"
+  }
 }

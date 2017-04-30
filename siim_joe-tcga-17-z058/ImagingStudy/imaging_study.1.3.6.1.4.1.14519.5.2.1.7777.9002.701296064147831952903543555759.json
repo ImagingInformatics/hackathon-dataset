@@ -3,12 +3,9 @@
   "resourceType": "ImagingStudy",
   "text": {
     "status": "generated",
-    "div": "PET/CT Study"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">PET/CT Study</div>"
   },
   "started": "1986-04-22",
-  "subject": {
-    "reference": "Patient/siimjoe"
-  },
   "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.7777.9002.701296064147831952903543555759",
   "accession": {
     "use": "usual",
@@ -28,7 +25,6 @@
       "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.7777.9002.338693646012912810657666242632",
       "description": "PROJECTION<MIP Range>",
       "numberOfInstances": 32,
-      "dateTime": "1986-04-22",
       "instance": [
         {
           "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.7777.9002.170578987908015096026941161556",
@@ -201,7 +197,6 @@
       "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.7777.9002.483970526485201431983118576674",
       "description": "PET WB-uncorrected",
       "numberOfInstances": 299,
-      "dateTime": "1986-04-22",
       "instance": [
         {
           "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.7777.9002.122734353816528500671645477999",
@@ -1709,7 +1704,6 @@
       "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.7777.9002.139227318580447170989733503790",
       "description": "Topogram",
       "numberOfInstances": 1,
-      "dateTime": "1986-04-22",
       "instance": [
         {
           "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.7777.9002.166399408314531221117671877674",
@@ -1727,7 +1721,6 @@
       "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.7777.9002.189472349000633286262330433483",
       "description": "<ALPHA Collection>",
       "numberOfInstances": 9,
-      "dateTime": "1986-04-22",
       "instance": [
         {
           "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.7777.9002.668074415159333452355812990550",
@@ -1785,7 +1778,6 @@
       "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.7777.9002.331308443872722270694908138201",
       "description": "<ALPHA Collection>",
       "numberOfInstances": 9,
-      "dateTime": "1986-04-22",
       "instance": [
         {
           "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.7777.9002.488806565656360055080448541234",
@@ -1843,7 +1835,6 @@
       "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.7777.9002.273279093200991843714733857258",
       "description": "Abd.CT 5.0 B30s",
       "numberOfInstances": 179,
-      "dateTime": "1986-04-22",
       "instance": [
         {
           "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.7777.9002.603387185246166554357064720434",
@@ -2751,7 +2742,6 @@
       "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.7777.9002.276979399257180200489703215689",
       "description": "Abd.CT 5.0 B30s",
       "numberOfInstances": 225,
-      "dateTime": "1986-04-22",
       "instance": [
         {
           "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.7777.9002.295725441252213656551875309797",
@@ -3889,7 +3879,6 @@
       "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.7777.9002.173979535811735592326423332677",
       "description": "PET WB [MIP]",
       "numberOfInstances": 32,
-      "dateTime": "1986-04-22",
       "instance": [
         {
           "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.7777.9002.774656781367982085934409374608",
@@ -4062,7 +4051,6 @@
       "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.7777.9002.219070742080005429019386559724",
       "description": "PET WB",
       "numberOfInstances": 299,
-      "dateTime": "1986-04-22",
       "instance": [
         {
           "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.7777.9002.251387197347291196147224473404",
@@ -5562,5 +5550,8 @@
       ]
     }
   ],
-  "description": "(null)"
+  "description": "(null)",
+  "patient": {
+    "reference": "Patient/siimjoe"
+  }
 }

@@ -3,12 +3,9 @@
   "resourceType": "ImagingStudy",
   "text": {
     "status": "generated",
-    "div": "Chest PA"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Chest PA</div>"
   },
   "started": "2000-01-01",
-  "subject": {
-    "reference": "Patient/siimravi"
-  },
   "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.6279.6001.300027087262813745730072134723",
   "accession": {
     "use": "usual",
@@ -28,7 +25,6 @@
       "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.6279.6001.513114548408601984123939083099",
       "description": "W Chest PA",
       "numberOfInstances": 1,
-      "dateTime": "2000-01-01",
       "instance": [
         {
           "number": 1,
@@ -37,5 +33,8 @@
         }
       ]
     }
-  ]
+  ],
+  "patient": {
+    "reference": "Patient/siimravi"
+  }
 }
