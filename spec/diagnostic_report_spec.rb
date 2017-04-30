@@ -31,20 +31,12 @@ def test_diagnostic_report(resource, server)
 
         # need to remove the metadata and other keys from the server version
         json = JSON.parse(result)
-        json.delete('meta')
-        json.delete('lastUpdated')
 
-
+        # Update these to be absolute URLs rather than the relative URLs listed in the resource
         resource['performer']['reference'] = server[:url] + resource['performer']['reference']
         resource['subject']['reference'] = server[:url] + resource['subject']['reference']
 
-        # Spark changes div formatting
-        # remove the spaces and line brakes to check if the content is stable
-        resource['text']['div'] = resource['text']['div'].gsub(/\n\n/, '').gsub(/ /, '')
-
-        json['text']['div'] = json['text']['div'].gsub(/\r\n/, '').gsub(/ /, '')
-
-        it {expect(json).to eq resource}
+        fhir_resource_compare(server, resource, json)
 
     end
 end
@@ -53,5 +45,4 @@ Dir.glob("**/DiagnosticReport/*") do |f|
     resource = JSON.parse(File.read(f))
     puts "Testing resource: #{f}"
     test_diagnostic_report(resource, server)
-    break
 end
