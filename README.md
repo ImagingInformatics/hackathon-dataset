@@ -260,7 +260,7 @@ HPI: 60 yo male with history of lung adenocarcinoma.
 
 #### Imaging Exams
 
-##### CT Chest 3/30/1986 (FHIR ID/Accession No: 2257132503242682)
+##### CT Chest 3/30/1986 (FHIR ID/Accession No: a257132503242682)
 
 CT Onco Lung Mass 3/30/1986
 

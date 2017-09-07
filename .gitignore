@@ -38,3 +38,5 @@ build/
 *.yml
 
 bin/
+
+*.DS_Store
