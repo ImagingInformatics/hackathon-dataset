@@ -10,7 +10,7 @@
     "reference": "Patient/siimsally"
   },
   "reporter": {
-    "reference": "Practitioner/example"
+    "reference": "Practitioner/siim_md"
   },
   "substance": {
       "coding": [
@@ -22,7 +22,7 @@
     ]
   },
   "status": "confirmed",
-  "criticality": "CRITL",
+  "criticality": "high",
   "type": "allergy",
   "category": "medication",
   "reaction": [
