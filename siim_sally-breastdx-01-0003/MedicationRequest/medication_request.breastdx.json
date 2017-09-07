@@ -1,0 +1,51 @@
+{
+  "id": "mr86737385927264",
+  "resourceType": "MedicationRequest",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">m126202002: levothyroxine sodium 50mcg oral tablet<p>ONE tablet taken ONCE daily</p> <p>to patient ref: siimsally</p> <p>by practitioner example</p> <p>dispense 30 tablets </p></div>"
+  },
+  "status": "active",
+  "patient": {
+    "reference": "Patient/siimsally"
+  },
+  "prescriber": {
+    "reference": "Practitioner/example"
+  },
+  "medicationReference": {
+    "reference": "Medication/m126202002",
+    "display": "prescribed medication"
+  },
+  "dosageInstruction": [
+    {
+      "timing": {
+        "repeat": {
+          "frequency": 1,
+          "period": 1,
+          "periodUnits": "d"
+        }
+      },
+      "route": {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "394899003",
+            "display": "oral administration of treatment"
+          }
+        ]
+      },
+      "doseQuantity": {
+        "value": 50,
+        "unit": "mcg",
+        "system": "http://unitsofmeasure.org/",
+        "code": "mcg"
+      }
+    }
+  ],
+  "dispenseRequest": {
+    "quantity": {
+      "value": 30,
+      "unit": "tablets"
+    }
+  }
+}

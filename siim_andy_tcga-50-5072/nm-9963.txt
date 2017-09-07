@@ -13,7 +13,7 @@ Element 	Name 	Data
 (0008,0022)  	Acquisition Date  	20000223  
 (0008,0030)  	Study Time  	142419  
 (0008,0032)  	Acquisition Time  	142419  
-(0008,0050)  	Accession Number  	1411079800582267  
+(0008,0050)  	Accession Number  	a411079800582267  
 (0008,0060)  	Modality  	NM  
 (0008,0070)  	Manufacturer  	ADAC  
 (0008,0090)  	Referring Physician's Name  	 

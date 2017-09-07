@@ -1,6 +1,6 @@
 {
   "resourceType": "AllergyIntolerance",
-  "id": "9483726462664827",
+  "id": "ai83726462664827",
   "text": {
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Penicillin - Hives and Airway compromise</div>"
@@ -10,7 +10,7 @@
     "reference": "Patient/siimsally"
   },
   "reporter": {
-    "reference": "Practitioner/example"
+    "reference": "Practitioner/siim_md"
   },
   "substance": {
       "coding": [
@@ -22,7 +22,7 @@
     ]
   },
   "status": "confirmed",
-  "criticality": "CRITL",
+  "criticality": "high",
   "type": "allergy",
   "category": "medication",
   "reaction": [

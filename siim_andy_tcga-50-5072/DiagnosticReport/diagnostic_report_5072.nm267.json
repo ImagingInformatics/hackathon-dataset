@@ -1,5 +1,5 @@
 {
-  "id": "1411079800582267",
+  "id": "a411079800582267",
   "resourceType": "DiagnosticReport",
   "text": {
     "status": "generated",
@@ -27,7 +27,7 @@
     {
       "use": "usual",
       "system": "http://www.siim.org/",
-      "value": "1411079800582267"
+      "value": "a411079800582267"
     }
   ],
   "category": {
