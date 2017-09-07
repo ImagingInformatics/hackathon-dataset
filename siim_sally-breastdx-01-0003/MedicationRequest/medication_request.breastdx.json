@@ -1,6 +1,6 @@
 {
-  "id": "9586737385927264",
-  "resourceType": "MedicationOrder",
+  "id": "mr86737385927264",
+  "resourceType": "MedicationRequest",
   "text": {
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">m126202002: levothyroxine sodium 50mcg oral tablet<p>ONE tablet taken ONCE daily</p> <p>to patient ref: siimsally</p> <p>by practitioner example</p> <p>dispense 30 tablets </p></div>"
