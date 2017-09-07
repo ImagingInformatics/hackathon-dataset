@@ -400,7 +400,7 @@ END OF REPORT
 
 ---------------------------------------
 
-##### CTA Chest 5/5/1986 (FHIR ID/Accession Number: 1857795211017352)
+##### CTA Chest 5/5/1986 (FHIR ID/Accession Number: a857795211017352)
 
 Clinical Indication:
 Acute shortness of breath, elevated D-dimer. History of lung cancer. Concern for PE.
@@ -430,7 +430,7 @@ Impression:
 
 ---------------------------------------
 
-##### CT Chest 5/31/1986 (FHIR ID/Accession Number: 1654061970756517)
+##### CT Chest 5/31/1986 (FHIR ID/Accession Number: a654061970756517)
 
 Clinical indication: Followup lung mass.
 
@@ -457,7 +457,7 @@ Impression:
 
 ---------------------------------------
 
-##### CT Chest, abdomen and pelvis 9/28/1986 (FHIR ID/Accession Number: 3173095681219824)
+##### CT Chest, abdomen and pelvis 9/28/1986 (FHIR ID/Accession Number: a173095681219824)
 
 Clinical indication:
 History of lung adenocarcinoma, followup.

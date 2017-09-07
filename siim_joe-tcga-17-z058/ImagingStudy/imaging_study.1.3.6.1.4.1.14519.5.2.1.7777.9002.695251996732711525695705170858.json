@@ -1,5 +1,5 @@
 {
-  "id": "1654061970756517",
+  "id": "a654061970756517",
   "resourceType": "ImagingStudy",
   "text": {
     "status": "generated",
@@ -10,7 +10,7 @@
   "accession": {
     "use": "usual",
     "system": "http://www.siim.org/",
-    "value": "1654061970756517"
+    "value": "a654061970756517"
   },
   "url": "http://api.hackathon.siim.org/dicomweb/studies/1.3.6.1.4.1.14519.5.2.1.7777.9002.695251996732711525695705170858",
   "numberOfSeries": 4,
