@@ -588,7 +588,7 @@ suggestive of distant metastatic disease
 
 HPI: 75 yo with lung cancer
 
-#### CT Chest 1/28/2000 (FHIR ID/Accession Number: 2508258761846499)
+#### CT Chest 1/28/2000 (FHIR ID/Accession Number: a508258761846499)
 
 Indication: Mass seen on chest x-ray
 
@@ -610,7 +610,7 @@ Impression:
 
 ---------------------------------------
 
-#### PET/CT Scan Whole Body 2/11/2000 (FHIR ID/Accession Number: 1411079800582267)
+#### PET/CT Scan Whole Body 2/11/2000 (FHIR ID/Accession Number: a411079800582267)
 
 Exam: PET/CT Scan Whole Body
 
@@ -646,7 +646,7 @@ Impression:
 
 ---------------------------------------
 
-#### Bone Scan, Whole Body 2/23/2000 (FHIR ID/Accession Number: 1411079800582267)
+#### Bone Scan, Whole Body 2/23/2000 (FHIR ID/Accession Number: a411079800582267)
 
 Whole Body Tc-99m Bone Scintigraphy 2/23/2000
 
@@ -662,7 +662,7 @@ Negative for bony metastatic disease.
 ---------------------------------------
 
 
-#### PET/CT Scan Whole Body 4/19/2000 (FHIR ID/Accession Number: 1411079800582267)
+#### PET/CT Scan Whole Body 4/19/2000 (FHIR ID/Accession Number: a411079800582267)
 
 PET/CT scan whole body with IV contrast 4/19/2000
 
