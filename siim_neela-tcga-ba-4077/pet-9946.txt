@@ -17,7 +17,7 @@ Element 	Name 	Data
 (0008,0031)  	Series Time  	123423.687000  
 (0008,0032)  	Acquisition Time  	124946.133000  
 (0008,0033)  	Content Time  	125401.000000  
-(0008,0050)  	Accession Number  	2142485449496602  
+(0008,0050)  	Accession Number  	a142485449496602  
 (0008,0060)  	Modality  	CTPT  
 (0008,0070)  	Manufacturer  	CPS  
 (0008,0090)  	Referring Physician's Name  	 

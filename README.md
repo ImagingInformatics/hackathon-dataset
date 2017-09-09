@@ -496,7 +496,7 @@ HPI: 65 yo Female with recurrent right base of tongue cancer after chemotherapy 
 
 #### Imaging Exams
 
-##### CT Head and Neck 4/28/1986 (FHIR ID/Accession No: 2605867053656544)
+##### CT Head and Neck 4/28/1986 (FHIR ID/Accession No: a605867053656544)
 
 CT Head and Neck with contrast 4/28/1986
 
@@ -533,7 +533,7 @@ Impression
 
 ---------------------------------------
 
-##### Whole Body PET/CT Restaging 5/14/1996 (FHIR ID/Accession No: 2142485449496602)
+##### Whole Body PET/CT Restaging 5/14/1996 (FHIR ID/Accession No: a142485449496602)
 
 5/14/1996
 PET Oncologic Study
