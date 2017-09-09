@@ -174,7 +174,7 @@ HPI: 60 yo male with chronic lung disease.
 
 #### Imaging Exams
 
-##### CT Chest with IV Contrast 1/1/2000 10:04 AM (FHIR ID/Accession Number: 2819497684894126)
+##### CT Chest with IV Contrast 1/1/2000 10:04 AM (FHIR ID/Accession Number: a819497684894126)
 CT Chest with Contrast 1/1/00 at 10:04 AM
 
 Clinical History: Abnormal chest x-ray
@@ -201,7 +201,7 @@ Impression:
 
 2. Bandlike areas of atelectasis/scarring and bronchiectasis in the right upper lobe likely related to prior infection/insult.
 
-##### AP Chest Radiograph 1/1/2000 11:22 AM (FHIR ID/Accession Number: 2819497684894127)
+##### AP Chest Radiograph 1/1/2000 11:22 AM (FHIR ID/Accession Number: a819497684894127)
 
 Chest: AP View
 
@@ -227,7 +227,7 @@ Recommendations:
 
 CT Chest is recommended to further evaluate the above findings and impression.
 
-##### CT Chest with IV Contrast 1/1/2000 12:00 PM (FHIR ID/Accession Number: 2819497684894128)
+##### CT Chest with IV Contrast 1/1/2000 12:00 PM (FHIR ID/Accession Number: a819497684894128)
 
 CT Chest with Contrast
 
@@ -304,7 +304,7 @@ Left hilar mass concerning for malignancy.
 
 ---------------------------------------
 
-##### PET Oncologic Study 4/22/1986 (FHIR ID/Accession No: 2819497684894126)
+##### PET Oncologic Study 4/22/1986 (FHIR ID/Accession No: a819497684894126)
 
 Duration of fast prior to injection: 6 hours
 

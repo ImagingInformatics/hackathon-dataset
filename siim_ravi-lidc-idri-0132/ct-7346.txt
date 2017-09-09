@@ -20,7 +20,7 @@ Element 	Name 	Data
 (0008,0031)  	Series Time  	 
 (0008,0032)  	Acquisition Time  	 
 (0008,0033)  	Content Time  	 
-(0008,0050)  	Accession Number  	2819497684894128  
+(0008,0050)  	Accession Number  	a819497684894128  
 (0008,0060)  	Modality  	CT  
 (0008,0070)  	Manufacturer  	SIEMENS  
 (0008,0090)  	Referring Physician's Name  	 
