@@ -32,7 +32,7 @@
       }
     ]
   },
-  "clinicalStatus": "confirmed",
+  "clinicalStatus": "active",
   "severity": {
     "coding": [
       {

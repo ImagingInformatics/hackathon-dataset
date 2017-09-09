@@ -85,12 +85,10 @@ load_order.each do |resource_type|
 
             resource_type = resource["resourceType"]
 
-            log.debug("Resource: #{resource.to_json}\n\nResource Type: #{resource_type}")
-
             id = resource["id"]
 
             if id.nil?
-                log.error("Error reading #{data}, make sure an ID is specified in the header comment")
+                log.error("Error reading #{resource}, make sure an ID is specified in the header comment")
                 raise
             end
 
