@@ -90,7 +90,7 @@ Medications: levothyroxine sodium 50mcg once daily
 Lab/Radiology
 
 ---------------------------------------
-##### Diagnostic Bilateral Mammogram 4/12/2008 (FHIR ID/Accession Number: 2278028270041068)
+##### Diagnostic Bilateral Mammogram 4/12/2008 (FHIR ID/Accession Number: a278028270041068)
 
 DIAGNOSTIC BILATERAL 4/12/2008
 
@@ -113,7 +113,7 @@ RIGHT BREAST: Negative. BI-RADS 1 - Recommend routine screening in 1 year.
 OVERALL BI-RADS 2 (Benign)
 
 ---------------------------------------
-##### Bilateral Breast MRI 4/29/2008 (FHIR ID/Accession Number: 1085557173658239)
+##### Bilateral Breast MRI 4/29/2008 (FHIR ID/Accession Number: a085557173658239)
 Bilateral Breast MRI 04/19/2008
 
 Clinical History:  59 year-old female with history of left invasive ductal carcinoma (age 55) status post lumpectomy. High-risk screening MRI exam.
@@ -135,7 +135,7 @@ RIGHT BREAST: Negative. BI-RADS 1. Recommend routine screening mammography in 1 
 OVERALL BI-RADS 2 (Benign)
 
 ---------------------------------------
-##### Full Field Digital Left Diagnostic Mammogram 4/19/2008 (FHIR ID/Accession No: 4361814883895900)
+##### Full Field Digital Left Diagnostic Mammogram 4/19/2008 (FHIR ID/Accession No: a361814883895900)
 
 
 Full Field Digital Left Diagnostic Mammogram 4/19/2008 
@@ -153,7 +153,7 @@ Impression:
 LEFT BREAST: Expected changes status post lumpectomy and radiation. Benign. BI-RADS 2 - Recommend routine screening in 1 year.
 
 ---------------------------------------
-##### Surgical Specimen Radiograph 5/24/2008 (FHIR ID/Accession No 2889127246021897)
+##### Surgical Specimen Radiograph 5/24/2008 (FHIR ID/Accession No a889127246021897)
 05/24/2008
 Surgical Specimen Radiograph
 

@@ -17,7 +17,7 @@ Element 	Name 	Data
 (0008,0031)  	Series Time  	102542  
 (0008,0032)  	Acquisition Time  	102819  
 (0008,0033)  	Content Time  	102819  
-(0008,0050)  	Accession Number  	2278028270041068  
+(0008,0050)  	Accession Number  	a278028270041068  
 (0008,0060)  	Modality  	MG  
 (0008,0061)  	Modalities in Study  	MG  
 (0008,0068)  	Presentation Intent Type  	FOR PRESENTATION  
