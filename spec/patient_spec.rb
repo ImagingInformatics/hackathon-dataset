@@ -4,13 +4,6 @@ server = YAML.load_file('fhir_server.yml')
 
 def test_patient(server, resource)
 
-    RSpec.describe '#delete' do
-        result = fhir_delete(server, resource)
-        it {expect(result.code).to be >= 200}
-        it {expect(result.code).to be <= 204}
-
-    end
-
     RSpec.describe '#put' do
 
         begin

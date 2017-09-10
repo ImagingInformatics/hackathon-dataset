@@ -4,14 +4,6 @@ server = YAML.load_file('fhir_server.yml')
 
 def test_medication(server, resource)
 
-    RSpec.describe '#delete' do
-        result = fhir_delete(server, resource)
-
-        it {expect(result.code).to be >= 200}
-        it {expect(result.code).to be <= 204}
-
-    end
-
     RSpec.describe '#put' do
 
         begin
@@ -32,8 +24,6 @@ def test_medication(server, resource)
 
         # need to remove the metadata and other keys from the server version
         json = JSON.parse(result)
-        json.delete('meta')
-        json.delete('lastUpdated')
 
         fhir_resource_compare(server, resource, json)
 
