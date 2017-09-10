@@ -28,6 +28,7 @@ load_order = ["Organization",
               "OrderResponse",
               "Procedure",
               "ImagingStudy",
+              "DiagnosticReport",
               "Specimen"]
 
 
@@ -109,8 +110,9 @@ load_order.each do |resource_type|
                     raise e.response
                 end
             end
+            result = JSON.parse(result)
 
-            log.info("Submission Status: #{result}")
+            log.info("Submission Status: #{result["issue"][0]["diagnostics"]}")
         end
     end
 end
