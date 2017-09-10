@@ -1,6 +1,5 @@
 # Medication Spec
 
-require 'rest-client'
 server = YAML.load_file('fhir_server.yml')
 
 def test_organization(server, resource)
