@@ -29,7 +29,9 @@ load_order = ["Organization",
               "Procedure",
               "ImagingStudy",
               "DiagnosticReport",
-              "Specimen"]
+              "Specimen",
+              "Condition",
+              "DocumentReference"]
 
 
 if ARGV.length < 2
