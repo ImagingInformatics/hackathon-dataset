@@ -3,7 +3,7 @@
   "resourceType": "Condition",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">5/24/2008 Invasive ductal carcinoma</div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">01/02/2000 Left Lung Mass</div>"
   },
   "patient": {
     "reference": "Patient/siimravi"
@@ -42,7 +42,7 @@
       }
     ]
   },
-  "onsetDate": "2012-05-24",
+  "onsetDate": "2000-01-02",
   "bodySite": [
     {
       "coding": [
