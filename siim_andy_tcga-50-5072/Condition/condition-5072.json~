@@ -1,0 +1,58 @@
+{
+  "id": "a411079800582267",
+  "resourceType": "Condition",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Whole Body Tc-99m Bone Scintigraphy 2/23/2000</div>"
+  },
+  "patient": {
+    "reference": "Patient/siimandy"
+  },
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "89164003",
+        "display": "Negative Bone scan"
+      }
+    ],
+    "text": "Negative Bone scan"
+  },
+  "category": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/condition-category",
+        "code": "diagnosis",
+        "display": "Diagnosis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "439401001",
+        "display": "Diagnosis"
+      }
+    ]
+  },
+  "clinicalStatus": "active",
+  "severity": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "24484000",
+        "display": "Severe"
+      }
+    ]
+  },
+  "onsetDate": "2000/02/23",
+  "bodySite": [
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "361716006",
+          "display": "Whole bone"
+        }
+      ],
+      "text": "Whole Bone"
+    }
+  ]
+}
