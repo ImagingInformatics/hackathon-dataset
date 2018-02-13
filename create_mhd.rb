@@ -14,8 +14,8 @@ log.level = Logger::DEBUG
 Bundler::require
 
 def generate_id
-	# Generates a 16 digit random number
-	Random.new.random_number(9999999999999999)
+	# Generates a FHIR compliant ID
+	"a" + Random.new.random_number(999999999999999).to_s
 end
 
 if ARGV.length < 1
