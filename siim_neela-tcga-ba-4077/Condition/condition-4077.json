@@ -1,22 +1,22 @@
 {
-  "id": "a411079800582267",
+  "id": "a605867053656544",
   "resourceType": "Condition",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Whole Body Tc-99m Bone Scintigraphy 2/23/2000</div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">CT Head and Neck with contrast 4/28/1986</div>"
   },
   "patient": {
-    "reference": "Patient/siimandy"
+    "reference": "Patient/siimneela"
   },
   "code": {
     "coding": [
       {
         "system": "http://snomed.info/sct",
-        "code": "228084000",
-        "display": "Negative Bone scan"
+        "code": "448335009",
+        "display": "CT Head and Neck with Contrast"
       }
     ],
-    "text": "Negative Bone scan"
+    "text": "CT Head and Neck with Contrast"
   },
   "category": {
     "coding": [
@@ -42,17 +42,17 @@
       }
     ]
   },
-  "onsetDate": "2000/02/23",
+  "onsetDate": "1996-04-28",
   "bodySite": [
     {
       "coding": [
         {
           "system": "http://snomed.info/sct",
-          "code": "361716006",
-          "display": "Whole bone"
+          "code": "61716006",
+          "display": "Tongue Mass"
         }
       ],
-      "text": "Whole Bone"
+      "text": "Tongue Mass"
     }
   ]
 }
