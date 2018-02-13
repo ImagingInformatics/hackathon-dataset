@@ -53,11 +53,11 @@ Run Bundler to install needed gems
 
 Run the script to upload all of the resources in the sub-folders.
 
-    ruby update.rb fhir_server.yml . 
+    ruby upload.rb fhir_server.yml .
 
 You can also update only a subset of the resources by specifying a top-level directory.
 
-    ruby update.rb siim_andy_tcga-50-5072/DiagnosticReport
+    ruby upload.rb siim_andy_tcga-50-5072/DiagnosticReport
 
 # Creating MHD resources - DocumentReference and DocumentManifest
 
