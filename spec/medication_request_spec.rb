@@ -1,10 +1,8 @@
-# MedicationOrder Spec
+# MedicationRequest Spec
 
 server = YAML.load_file('fhir_server.yml')
 
-resource = JSON.parse(File.read("siim_sally-breastdx-01-0003/MedicationOrder/medication_order.breastdx.json"))
-
-def test_medication_order(server, resource)
+def test_medication_request(server, resource)
     RSpec.describe '#delete' do
 
         result = fhir_delete(server, resource)
@@ -46,8 +44,8 @@ def test_medication_order(server, resource)
 
 end
 
-Dir.glob("**/MedicationOrder/*") do |f|
+Dir.glob("**/MedicationRequest/*") do |f|
     resource = JSON.parse(File.read(f))
     puts "Testing resource: #{f}"
-    test_medication_order(server, resource)
+    test_medication_request(server, resource)
 end

@@ -10,7 +10,7 @@
     "reference": "Patient/siimsally"
   },
   "prescriber": {
-    "reference": "Practitioner/example"
+    "reference": "Practitioner/siimmd"
   },
   "medicationReference": {
     "reference": "Medication/m126202002",

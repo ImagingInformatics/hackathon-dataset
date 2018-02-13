@@ -10,7 +10,7 @@
     "reference": "Patient/siimsally"
   },
   "reporter": {
-    "reference": "Practitioner/siim_md"
+    "reference": "Practitioner/siimmd"
   },
   "substance": {
       "coding": [

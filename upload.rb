@@ -20,7 +20,7 @@ load_order = ["Organization",
               "AllergyIntolerance",
               "AdverseReaction",
               "Alert",
-              "MedicationOrder",
+              "MedicationRequest",
               "MedicationDispense",
               "MedicationAdministration",
               "Observation",
@@ -28,7 +28,10 @@ load_order = ["Organization",
               "OrderResponse",
               "Procedure",
               "ImagingStudy",
-              "Specimen"]
+              "DiagnosticReport",
+              "Specimen",
+              "Condition",
+              "DocumentReference"]
 
 
 if ARGV.length < 2
@@ -78,6 +81,15 @@ Dir["#{ARGV[1]}/**/*.json"].each do |data|
 
 end
 
+# Make sure we have load_order for all of our resource types
+missing_keys = fhir.keys - load_order
+
+if missing_keys.length > 0
+  log.error("Resource Types missing from load order: #{missing_keys.inspect}")
+  raise
+end
+
+
 load_order.each do |resource_type|
 
     unless fhir[resource_type].nil?
@@ -85,19 +97,17 @@ load_order.each do |resource_type|
 
             resource_type = resource["resourceType"]
 
-            log.debug("Resource: #{resource.to_json}\n\nResource Type: #{resource_type}")
-
             id = resource["id"]
 
             if id.nil?
-                log.error("Error reading #{data}, make sure an ID is specified in the header comment")
+                log.error("Error reading #{resource}, make sure an ID is specified in the header comment")
                 raise
             end
 
             if id == "random"
                 begin
                     url = server[:url] + resource_type
-                    log.debug("POST - #{url}")
+                    log.info("POST - #{url}")
                     result = RestClient.post url, resource.to_json, :content_type => server[:format] + '+fhir', :params => {:_format => server[:format]}, apikey: server[:apikey]
                 rescue => e
                     raise e.response
@@ -105,14 +115,15 @@ load_order.each do |resource_type|
             else
                 begin
                     url = server[:url] + resource_type + "/" + id
-                    log.debug("PUT - #{url}")
+                    log.info("PUT - #{url}")
                     result = RestClient.put url, resource.to_json, :content_type => server[:format] + '+fhir', :params => {:_format => server[:format]}, apikey: server[:apikey]
                 rescue => e
                     raise e.response
                 end
             end
+            result = JSON.parse(result)
 
-            log.info("Submission Status: #{result}")
+            log.info("Submission Status: #{result["issue"][0]["diagnostics"]}")
         end
     end
 end

@@ -1,8 +1,8 @@
-# Medication Spec
+# Specimen Spec
 
 server = YAML.load_file('fhir_server.yml')
 
-def test_medication(server, resource)
+def test_specimen(server, resource)
 
     RSpec.describe '#put' do
 
@@ -24,14 +24,16 @@ def test_medication(server, resource)
 
         # need to remove the metadata and other keys from the server version
         json = JSON.parse(result)
+        json.delete('meta')
+        json.delete('lastUpdated')
 
         fhir_resource_compare(server, resource, json)
-
     end
+
 end
 
-Dir.glob("**/Medication/*") do |f|
+Dir.glob("**/Specimen/*") do |f|
     resource = JSON.parse(File.read(f))
     puts "Testing resource: #{f}"
-    test_medication(server, resource)
+    test_specimen(server, resource)
 end

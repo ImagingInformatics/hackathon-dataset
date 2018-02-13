@@ -1,22 +1,22 @@
 {
-  "id": "z058cond",
+  "id": "a819497684894127",
   "resourceType": "Condition",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">60 yo male with history of lung adenocarcinoma (Date: 24-May 1985)</div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">01/02/2000 Left Lung Mass</div>"
   },
   "patient": {
-    "reference": "Patient/siimjoe"
+    "reference": "Patient/siimravi"
   },
   "code": {
     "coding": [
       {
         "system": "http://snomed.info/sct",
-        "code": "39065001",
-        "display": "lung adenocarcinoma"
+        "code": "89164003",
+        "display": "lung mass"
       }
     ],
-    "text": "lung adenocarcinoma"
+    "text": "left lung upper lobe mass"
   },
   "category": {
     "coding": [
@@ -42,13 +42,13 @@
       }
     ]
   },
-  "onsetDate": "2012-05-24",
+  "onsetDate": "2000-01-02",
   "bodySite": [
     {
       "coding": [
         {
           "system": "http://snomed.info/sct",
-          "code": "49521004",
+          "code": "361716006",
           "display": "Left lung"
         }
       ],

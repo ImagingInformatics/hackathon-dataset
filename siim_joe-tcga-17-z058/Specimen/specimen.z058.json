@@ -47,7 +47,7 @@
   "receivedTime": "1986-04-25T07:03:00",
   "collection": {
     "collector": {
-      "reference": "Practitioner/example"
+      "reference": "Practitioner/siimmd"
     },
     "collectedDateTime": "1986-04-25T06:15:00",
     "quantity": {
