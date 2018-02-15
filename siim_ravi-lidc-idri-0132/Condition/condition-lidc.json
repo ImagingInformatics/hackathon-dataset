@@ -12,11 +12,11 @@
     "coding": [
       {
         "system": "http://snomed.info/sct",
-        "code": "89164003",
-        "display": "lung mass"
+        "code": "707772007",
+        "display": "Pulmonary nodule"
       }
     ],
-    "text": "left lung upper lobe mass"
+    "text": "Pulmonary nodule"
   },
   "category": {
     "coding": [

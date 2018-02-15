@@ -12,11 +12,11 @@
     "coding": [
       {
         "system": "http://snomed.info/sct",
-        "code": "228084000",
-        "display": "Negative Bone scan"
+        "code": "254637007",
+        "display": "Lung cancer NOS"
       }
     ],
-    "text": "Negative Bone scan"
+    "text": "Lung cancer NOS"
   },
   "category": {
     "coding": [
@@ -48,11 +48,11 @@
       "coding": [
         {
           "system": "http://snomed.info/sct",
-          "code": "361716006",
-          "display": "Whole bone"
+          "code": "181216001",
+          "display": "Entire Lung"
         }
       ],
-      "text": "Whole Bone"
+      "text": "Entore Lung"
     }
   ]
 }

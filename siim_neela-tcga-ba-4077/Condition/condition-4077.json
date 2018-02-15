@@ -12,11 +12,11 @@
     "coding": [
       {
         "system": "http://snomed.info/sct",
-        "code": "448335009",
-        "display": "CT Head and Neck with Contrast"
+        "code": "276952000",
+        "display": "base of tongue squamous cell cancer"
       }
     ],
-    "text": "CT Head and Neck with Contrast"
+    "text": "base of tongue squamous cell cancert"
   },
   "category": {
     "coding": [
@@ -48,11 +48,11 @@
       "coding": [
         {
           "system": "http://snomed.info/sct",
-          "code": "61716006",
-          "display": "Tongue Mass"
+          "code": "21974007",
+          "display": "Tongue"
         }
       ],
-      "text": "Tongue Mass"
+      "text": "Tongue"
     }
   ]
 }
