@@ -1,0 +1,58 @@
+{
+  "id": "a605867053656544",
+  "resourceType": "Condition",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">CT Head and Neck with contrast 4/28/1986</div>"
+  },
+  "patient": {
+    "reference": "Patient/siimneela"
+  },
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "89164003",
+        "display": "Negative Bone scan"
+      }
+    ],
+    "text": "Negative Bone scan"
+  },
+  "category": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/condition-category",
+        "code": "diagnosis",
+        "display": "Diagnosis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "439401001",
+        "display": "Diagnosis"
+      }
+    ]
+  },
+  "clinicalStatus": "active",
+  "severity": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "24484000",
+        "display": "Severe"
+      }
+    ]
+  },
+  "onsetDate": "1996-04-28",
+  "bodySite": [
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "61716006",
+          "display": "Tongue Mass"
+        }
+      ],
+      "text": "Tongue Mass"
+    }
+  ]
+}
