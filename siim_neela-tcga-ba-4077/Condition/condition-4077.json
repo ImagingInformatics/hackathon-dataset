@@ -1,22 +1,22 @@
 {
-  "id": "a819497684894127",
+  "id": "a605867053656544",
   "resourceType": "Condition",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">01/02/2000 Left Lung Mass</div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">CT Head and Neck with contrast 4/28/1986</div>"
   },
   "patient": {
-    "reference": "Patient/siimravi"
+    "reference": "Patient/siimneela"
   },
   "code": {
     "coding": [
       {
         "system": "http://snomed.info/sct",
-        "code": "707772007",
-        "display": "Pulmonary nodule"
+        "code": "276952000",
+        "display": "base of tongue squamous cell cancer"
       }
     ],
-    "text": "Pulmonary nodule"
+    "text": "base of tongue squamous cell cancert"
   },
   "category": {
     "coding": [
@@ -42,17 +42,17 @@
       }
     ]
   },
-  "onsetDate": "2000-01-02",
+  "onsetDate": "1996-04-28",
   "bodySite": [
     {
       "coding": [
         {
           "system": "http://snomed.info/sct",
-          "code": "361716006",
-          "display": "Left lung"
+          "code": "21974007",
+          "display": "Tongue"
         }
       ],
-      "text": "Left lung"
+      "text": "Tongue"
     }
   ]
 }

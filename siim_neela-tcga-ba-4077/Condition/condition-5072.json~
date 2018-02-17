@@ -1,22 +1,22 @@
 {
-  "id": "a819497684894127",
+  "id": "a411079800582267",
   "resourceType": "Condition",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">01/02/2000 Left Lung Mass</div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Whole Body Tc-99m Bone Scintigraphy 2/23/2000</div>"
   },
   "patient": {
-    "reference": "Patient/siimravi"
+    "reference": "Patient/siimandy"
   },
   "code": {
     "coding": [
       {
         "system": "http://snomed.info/sct",
-        "code": "707772007",
-        "display": "Pulmonary nodule"
+        "code": "89164003",
+        "display": "Negative Bone scan"
       }
     ],
-    "text": "Pulmonary nodule"
+    "text": "Negative Bone scan"
   },
   "category": {
     "coding": [
@@ -42,17 +42,17 @@
       }
     ]
   },
-  "onsetDate": "2000-01-02",
+  "onsetDate": "2000/02/23",
   "bodySite": [
     {
       "coding": [
         {
           "system": "http://snomed.info/sct",
           "code": "361716006",
-          "display": "Left lung"
+          "display": "Whole bone"
         }
       ],
-      "text": "Left lung"
+      "text": "Whole Bone"
     }
   ]
 }
