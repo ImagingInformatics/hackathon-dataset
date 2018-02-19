@@ -17,7 +17,7 @@
     "status": "active",
     "connectionType": "dicom-qido-rs",
     "payloadType": "urn:ihe:pcc:xphr:2007",
-    "address": "http://api.hackathon.siim.org/dicomweb/studies/1.3.6.1.4.1.14519.5.2.1.8421.4009.308092408045167711117671108231",
+    "address": "http://api.hackathon.siim.org/dicomweb/studies/1.3.6.1.4.1.14519.5.2.1.8421.4009.308092408045167711117671108231"
   },
   "numberOfSeries": 4,
   "numberOfInstances": 189,
