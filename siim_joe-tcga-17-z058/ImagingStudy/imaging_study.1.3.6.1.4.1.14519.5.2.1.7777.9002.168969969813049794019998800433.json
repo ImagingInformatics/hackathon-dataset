@@ -12,7 +12,13 @@
     "system": "http://www.siim.org/",
     "value": "a257132503242682"
   },
-  "url": "http://api.hackathon.siim.org/dicomweb/studies/1.3.6.1.4.1.14519.5.2.1.7777.9002.198875685720513246512710453733",
+  "endpoint": {
+    "name": "QIDO-RS Link",
+    "status": "active",
+    "connectionType": "dicom-qido-rs",
+    "payloadType": "urn:ihe:pcc:xphr:2007",
+    "address": "http://api.hackathon.siim.org/dicomweb/studies/1.3.6.1.4.1.14519.5.2.1.7777.9002.198875685720513246512710453733",
+  },
   "numberOfSeries": 7,
   "numberOfInstances": 137,
   "series": [
