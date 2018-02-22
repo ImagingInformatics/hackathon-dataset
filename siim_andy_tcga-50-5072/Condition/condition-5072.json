@@ -3,7 +3,7 @@
   "resourceType": "Condition",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Condition: a411079800582267<br/>Category: Diagnosis<br/>Severity: Severe<br/>Body Site: Left upper lobe of lung</div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Patient: Andy SIIM<br/>Condition: a411079800582267<br/>Category: Diagnosis<br/>Code: 276952000 - Squamous cell carcinoma of tongue<br/>Severity: Severe<br/>Onset Date: 2000-01-28<br/>Body Site: Left upper lobe of lung</div>"
   },
   "patient": {
     "reference": "Patient/siimandy"
@@ -42,7 +42,7 @@
       }
     ]
   },
-  "onsetDate": "2000/02/23",
+  "onsetDate": "2000-01-28",
   "bodySite": [
     {
       "coding": [
