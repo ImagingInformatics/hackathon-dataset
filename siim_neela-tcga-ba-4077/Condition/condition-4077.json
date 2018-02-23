@@ -3,7 +3,7 @@
   "resourceType": "Condition",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">CT Head and Neck with contrast 4/28/1986</div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Patient: Neela SIIM<br/>Condition: a605867053656544<br/>Category: Diagnosis<br/>Code: 276952000 - Squamous cell carcinoma of tongue<br/>Onset Date: 1996-04-28<br/>Severity: Severe<br/>Body Site: Base of tongue</div>"
   },
   "patient": {
     "reference": "Patient/siimneela"
@@ -13,10 +13,10 @@
       {
         "system": "http://snomed.info/sct",
         "code": "276952000",
-        "display": "base of tongue squamous cell cancer"
+        "display": "Squamous cell carcinoma of tongue"
       }
     ],
-    "text": "base of tongue squamous cell cancert"
+    "text": "Squamous cell carcinoma of tongue"
   },
   "category": {
     "coding": [
@@ -48,11 +48,11 @@
       "coding": [
         {
           "system": "http://snomed.info/sct",
-          "code": "21974007",
-          "display": "Tongue"
+          "code": "47975008",
+          "display": "Base of tongue"
         }
       ],
-      "text": "Tongue"
+      "text": "Base of tongue"
     }
   ]
 }
