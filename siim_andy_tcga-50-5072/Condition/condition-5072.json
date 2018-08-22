@@ -5,7 +5,7 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Patient: Andy SIIM<br/>Condition: a411079800582267<br/>Category: Diagnosis<br/>Code: 276952000 - Squamous cell carcinoma of tongue<br/>Severity: Severe<br/>Onset Date: 2000-01-28<br/>Body Site: Left upper lobe of lung</div>"
   },
-  "patient": {
+  "subject": {
     "reference": "Patient/siimandy"
   },
   "code": {

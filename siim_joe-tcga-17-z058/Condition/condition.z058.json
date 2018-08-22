@@ -5,7 +5,7 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Patient: Joe SIIM<br/>Condition: z058cond<br/>Category: Diagnosis<br/>Code: 254626006 - Adenocarcionoma of lung<br/>Severity: Severe<br/>Onset Date: 1986-03-30<br/>Body Site: Left lower lobe of lung</div>"
   },
-  "patient": {
+  "subject": {
     "reference": "Patient/siimjoe"
   },
   "code": {

@@ -5,7 +5,7 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Patient: Sally SIIM<br/>Condition: breastcondition<br/>Category: Diagnosis<br/>Code: 89164003 - Breast lump<br/>Onset Date: 05-24-2012<br/>Severity: Severe<br/>Body Site: Left breast</div>"
   },
-  "patient": {
+  "subject": {
     "reference": "Patient/siimsally"
   },
   "code": {
