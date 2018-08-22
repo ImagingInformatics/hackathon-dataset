@@ -57,7 +57,7 @@ Run the script to upload all of the resources in the sub-folders.
 
 You can also update only a subset of the resources by specifying a top-level directory.
 
-    ruby upload.rb siim_andy_tcga-50-5072/DiagnosticReport
+    ruby upload.rb fhir_server.yml siim_andy_tcga-50-5072/DiagnosticReport
 
 # Creating MHD resources - DocumentReference and DocumentManifest
 
