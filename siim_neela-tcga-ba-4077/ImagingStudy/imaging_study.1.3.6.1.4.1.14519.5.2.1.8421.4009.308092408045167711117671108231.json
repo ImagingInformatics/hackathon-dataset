@@ -12,13 +12,22 @@
     "system": "http://www.siim.org/",
     "value": "a605867053656544"
   },
-  "endpoint": [{
-    "name": "QIDO-RS Link",
-    "status": "active",
-    "connectionType": "dicom-qido-rs",
-    "payloadType": "urn:ihe:pcc:xphr:2007",
-    "address": "http://hackathon.siim.org/dicomweb/studies/1.3.6.1.4.1.14519.5.2.1.8421.4009.308092408045167711117671108231"
-  }],
+  "contained": [
+    {
+		"resourceType": "Endpoint",
+		"id": "1",
+		"name": "QIDO-RS Link",
+		"status": "active",
+		"connectionType": "dicom-qido-rs",
+		"payloadType": "urn:ihe:pcc:xphr:2007",
+		"address": "http://hackathon.siim.org/dicomweb/studies/1.3.6.1.4.1.14519.5.2.1.8421.4009.308092408045167711117671108231"
+    }
+  ],
+  "endpoint": [
+    {
+      "reference": "#1"
+    }
+  ],
   "numberOfSeries": 4,
   "numberOfInstances": 189,
   "series": [
