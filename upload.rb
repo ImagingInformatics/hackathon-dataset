@@ -121,9 +121,9 @@ load_order.each do |resource_type|
                     raise e.response
                 end
             end
-            result = JSON.parse(result)
+            log.info("HTTP Code: #{result.code}")
+            result = JSON.parse(result.body)
 
-            log.info("Submission Status: #{result["issue"][0]["diagnostics"]}")
         end
     end
 end
