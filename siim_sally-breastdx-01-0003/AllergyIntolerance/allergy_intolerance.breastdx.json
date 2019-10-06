@@ -24,7 +24,7 @@
   "status": "confirmed",
   "criticality": "high",
   "type": "allergy",
-  "category": "medication",
+  "category": ["medication"],
   "reaction": [
     {
       "manifestation": [
