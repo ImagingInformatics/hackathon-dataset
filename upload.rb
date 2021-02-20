@@ -13,7 +13,10 @@ Bundler::require
 #  The HAPI FHIR server requires dependent objects to be loaded first
 #
 ######
-load_order = ["Organization",
+load_order = ["ValueSet",
+              "Device",
+              "Organization",
+              "StructureDefinition",
               "Medication",
               "Practitioner",
               "Patient",
@@ -23,10 +26,12 @@ load_order = ["Organization",
               "MedicationRequest",
               "MedicationDispense",
               "MedicationAdministration",
+              "ImagingReference",
               "Observation",
               "Order",
               "OrderResponse",
               "Procedure",
+              "Endpoint",
               "ImagingStudy",
               "DiagnosticReport",
               "Specimen",
@@ -121,9 +126,9 @@ load_order.each do |resource_type|
                     raise e.response
                 end
             end
-            log.info("HTTP Code: #{result.code}")
-            result = JSON.parse(result.body)
+            result = JSON.parse(result)
 
+            #log.info("Submission Status: #{result["issue"][0]["diagnostics"]}")
         end
     end
 end
