@@ -1,40 +1,48 @@
 {
-  "id": "a2571325032426823",
   "resourceType": "ImagingStudy",
+  "id": "a2571325032426823",
   "text": {
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">CT Chest Routine (Key Images)</div>"
   },
-  "started": "1986-03-30",
-  "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.7777.9002.168969969813049794019998800433",
-  "accession": {
-    "use": "usual",
-    "system": "http://www.siim.org/",
-    "value": "a257132503242682"
-  },
-  "contained": [
+  "identifier": [
     {
-		"resourceType": "Endpoint",
-		"id": "1",
-		"name": "QIDO-RS Link",
-		"status": "active",
-		"connectionType": "dicom-qido-rs",
-		"payloadType": "urn:ihe:pcc:xphr:2007",
-		"address": "http://hackathon.siim.org/dicomweb/studies/1.3.6.1.4.1.14519.5.2.1.7777.9002.168969969813049794019998800433"
+      "system": "urn:dicom:uid",
+      "value": "urn:oid:1.3.6.1.4.1.14519.5.2.1.7777.9002.168969969813049794019998800433"
+    },
+    {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "ACSN"
+          }
+        ]
+      },
+      "value": "a257132503242682",
+      "assigner": {
+        "reference": "Organization/siim"
+      }
     }
   ],
+  "subject": {
+    "reference": "Patient/siimjoe"
+  },
+  "started": "1986-03-30",
   "endpoint": [
     {
-      "reference": "#1"
+      "reference": "Endpoint/siim-dicomweb"
     }
   ],
   "numberOfSeries": 7,
   "numberOfInstances": 137,
+  "description": "CT Chest Routine (Key Images)",
   "series": [
     {
       "number": 2,
       "modality": {
-        "system": "http://dicom.nema.org/medical/dicom/current/output/html/part03.html#sect_C.7.3.1.1",
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
         "code": "CT"
       },
       "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.7777.9002.156193230572698742469080278763",
@@ -51,7 +59,7 @@
     {
       "number": 2,
       "modality": {
-        "system": "http://dicom.nema.org/medical/dicom/current/output/html/part03.html#sect_C.7.3.1.1",
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
         "code": "CT"
       },
       "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.7777.9002.156193230572698742469080278763",
@@ -68,7 +76,7 @@
     {
       "number": 2,
       "modality": {
-        "system": "http://dicom.nema.org/medical/dicom/current/output/html/part03.html#sect_C.7.3.1.1",
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
         "code": "CT"
       },
       "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.7777.9002.156193230572698742469080278763",
@@ -85,7 +93,7 @@
     {
       "number": 4,
       "modality": {
-        "system": "http://dicom.nema.org/medical/dicom/current/output/html/part03.html#sect_C.7.3.1.1",
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
         "code": "KO"
       },
       "uid": "urn:oid:1.3.6.1.4.1.25403.121370035285.1340.20150425031228.1",
@@ -102,7 +110,7 @@
     {
       "number": 5,
       "modality": {
-        "system": "http://dicom.nema.org/medical/dicom/current/output/html/part03.html#sect_C.7.3.1.1",
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
         "code": "PR"
       },
       "uid": "urn:oid:1.3.6.1.4.1.25403.121370035285.1340.20150425031228.2",
@@ -119,7 +127,7 @@
     {
       "number": 6,
       "modality": {
-        "system": "http://dicom.nema.org/medical/dicom/current/output/html/part03.html#sect_C.7.3.1.1",
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
         "code": "KO"
       },
       "uid": "urn:oid:1.3.6.1.4.1.25403.121370035285.1340.20150425033316.1",
@@ -136,7 +144,7 @@
     {
       "number": 7,
       "modality": {
-        "system": "http://dicom.nema.org/medical/dicom/current/output/html/part03.html#sect_C.7.3.1.1",
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
         "code": "PR"
       },
       "uid": "urn:oid:1.3.6.1.4.1.25403.121370035285.1340.20150425033316.2",
@@ -155,8 +163,5 @@
         }
       ]
     }
-  ],
-  "patient": {
-    "reference": "Patient/siimjoe"
-  }
+  ]
 }

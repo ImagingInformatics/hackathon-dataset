@@ -1,40 +1,48 @@
 {
-  "id": "a278028270041068",
   "resourceType": "ImagingStudy",
+  "id": "a278028270041068",
   "text": {
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Digital Diagnostic Mammogram Bilateral</div>"
   },
-  "started": "2008-04-12",
-  "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.4792.2001.105216574054253895819671475627",
-  "accession": {
-    "use": "usual",
-    "system": "http://www.siim.org/",
-    "value": "a278028270041068"
-  },
-  "contained": [
+  "identifier": [
     {
-		"resourceType": "Endpoint",
-		"id": "1",
-		"name": "QIDO-RS Link",
-		"status": "active",
-		"connectionType": "dicom-qido-rs",
-		"payloadType": "urn:ihe:pcc:xphr:2007",
-		"address": "http://hackathon.siim.org/dicomweb/studies/1.3.6.1.4.1.14519.5.2.1.4792.2001.105216574054253895819671475627"
+      "system": "urn:dicom:uid",
+      "value": "urn:oid:1.3.6.1.4.1.14519.5.2.1.4792.2001.105216574054253895819671475627"
+    },
+    {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "ACSN"
+          }
+        ]
+      },
+      "value": "a278028270041068",
+      "assigner": {
+        "reference": "Organization/siim"
+      }
     }
   ],
+  "subject": {
+    "reference": "Patient/siimsally"
+  },
+  "started": "2008-04-12",
   "endpoint": [
     {
-      "reference": "#1"
+      "reference": "Endpoint/siim-dicomweb"
     }
   ],
   "numberOfSeries": 6,
   "numberOfInstances": 6,
+  "description": "Digital Diagnostic Mammogram Bilateral",
   "series": [
     {
       "number": 1,
       "modality": {
-        "system": "http://dicom.nema.org/medical/dicom/current/output/html/part03.html#sect_C.7.3.1.1",
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
         "code": "MG"
       },
       "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.4792.2001.326862698868700146219088322924",
@@ -51,7 +59,7 @@
     {
       "number": 3,
       "modality": {
-        "system": "http://dicom.nema.org/medical/dicom/current/output/html/part03.html#sect_C.7.3.1.1",
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
         "code": "MG"
       },
       "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.4792.2001.323835191362867057104216682000",
@@ -68,7 +76,7 @@
     {
       "number": 4,
       "modality": {
-        "system": "http://dicom.nema.org/medical/dicom/current/output/html/part03.html#sect_C.7.3.1.1",
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
         "code": "MG"
       },
       "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.4792.2001.299324598221034771323901632218",
@@ -85,7 +93,7 @@
     {
       "number": 5,
       "modality": {
-        "system": "http://dicom.nema.org/medical/dicom/current/output/html/part03.html#sect_C.7.3.1.1",
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
         "code": "MG"
       },
       "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.4792.2001.243808245447989246744724575759",
@@ -102,7 +110,7 @@
     {
       "number": 6,
       "modality": {
-        "system": "http://dicom.nema.org/medical/dicom/current/output/html/part03.html#sect_C.7.3.1.1",
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
         "code": "MG"
       },
       "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.4792.2001.210542687020950294776803479438",
@@ -119,7 +127,7 @@
     {
       "number": 9,
       "modality": {
-        "system": "http://dicom.nema.org/medical/dicom/current/output/html/part03.html#sect_C.7.3.1.1",
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
         "code": "MG"
       },
       "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.4792.2001.246998110832292351156382625158",
@@ -133,9 +141,5 @@
         }
       ]
     }
-  ],
-  "description": "Digital Diagnostic Mammogram Bilateral",
-  "patient": {
-    "reference": "Patient/siimsally"
-  }
+  ]
 }

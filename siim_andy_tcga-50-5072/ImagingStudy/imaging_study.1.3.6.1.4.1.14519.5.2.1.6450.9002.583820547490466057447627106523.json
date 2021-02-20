@@ -1,43 +1,48 @@
 {
-  "id": "a956893214499959",
   "resourceType": "ImagingStudy",
+  "id": "a956893214499959",
   "text": {
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">PTCTSKTHPET / CT TUMOR</div>"
   },
-  "started": "2000-04-19",
-  "patient": {
-    "reference": "Patient/siimandy"
-  },
-  "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.6450.9002.583820547490466057447627106523",
-  "accession": {
-    "use": "usual",
-    "system": "http://www.siim.org/",
-    "value": "a956893214499959"
-  },
-  "contained": [
+  "identifier": [
     {
-		"resourceType": "Endpoint",
-		"id": "1",
-		"name": "QIDO-RS Link",
-		"status": "active",
-		"connectionType": "dicom-qido-rs",
-		"payloadType": "urn:ihe:pcc:xphr:2007",
-		"address": "http://hackathon.siim.org/dicomweb/studies/1.3.6.1.4.1.14519.5.2.1.6450.9002.583820547490466057447627106523"
+      "system": "urn:dicom:uid",
+      "value": "urn:oid:1.3.6.1.4.1.14519.5.2.1.6450.9002.583820547490466057447627106523"
+    },
+    {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "ACSN"
+          }
+        ]
+      },
+      "value": "a956893214499959",
+      "assigner": {
+        "reference": "Organization/siim"
+      }
     }
   ],
+  "subject": {
+    "reference": "Patient/siimandy"
+  },
+  "started": "2000-04-19",
   "endpoint": [
     {
-      "reference": "#1"
+      "reference": "Endpoint/siim-dicomweb"
     }
   ],
   "numberOfSeries": 6,
   "numberOfInstances": 1298,
+  "description": "PTCTSKTHPET / CT TUMOR",
   "series": [
     {
       "number": 1,
       "modality": {
-        "system": "http://dicom.nema.org/medical/dicom/current/output/html/part03.html#sect_C.7.3.1.1",
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
         "code": "CT"
       },
       "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.6450.9002.280396351248518190986957310952",
@@ -60,7 +65,7 @@
     {
       "number": 2,
       "modality": {
-        "system": "http://dicom.nema.org/medical/dicom/current/output/html/part03.html#sect_C.7.3.1.1",
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
         "code": "CT"
       },
       "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.6450.9002.203648771004802075904617227084",
@@ -808,7 +813,7 @@
     {
       "number": 3,
       "modality": {
-        "system": "http://dicom.nema.org/medical/dicom/current/output/html/part03.html#sect_C.7.3.1.1",
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
         "code": "CT"
       },
       "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.6450.9002.160603992769469736388947327838",
@@ -2156,7 +2161,7 @@
     {
       "number": 4,
       "modality": {
-        "system": "http://dicom.nema.org/medical/dicom/current/output/html/part03.html#sect_C.7.3.1.1",
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
         "code": "CT"
       },
       "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.6450.9002.379381983062361120381828578254",
@@ -3909,7 +3914,7 @@
     {
       "number": 5,
       "modality": {
-        "system": "http://dicom.nema.org/medical/dicom/current/output/html/part03.html#sect_C.7.3.1.1",
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
         "code": "PT"
       },
       "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.6450.9002.310517959166069749301800297733",
@@ -5257,7 +5262,7 @@
     {
       "number": 6,
       "modality": {
-        "system": "http://dicom.nema.org/medical/dicom/current/output/html/part03.html#sect_C.7.3.1.1",
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
         "code": "PT"
       },
       "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.6450.9002.276430187287782887952521379085",
@@ -6602,6 +6607,5 @@
         }
       ]
     }
-  ],
-  "description": "PTCTSKTHPET / CT TUMOR"
+  ]
 }

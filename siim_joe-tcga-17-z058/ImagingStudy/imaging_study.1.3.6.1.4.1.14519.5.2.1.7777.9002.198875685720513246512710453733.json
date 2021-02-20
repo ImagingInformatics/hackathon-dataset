@@ -1,40 +1,48 @@
 {
-  "id": "a257132503242682",
   "resourceType": "ImagingStudy",
+  "id": "a257132503242682",
   "text": {
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">CT Chest Routine</div>"
   },
-  "started": "1986-03-30",
-  "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.7777.9002.198875685720513246512710453733",
-  "accession": {
-    "use": "usual",
-    "system": "http://www.siim.org/",
-    "value": "a257132503242682"
-  },
-  "contained": [
+  "identifier": [
     {
-		"resourceType": "Endpoint",
-		"id": "1",
-		"name": "QIDO-RS Link",
-		"status": "active",
-		"connectionType": "dicom-qido-rs",
-		"payloadType": "urn:ihe:pcc:xphr:2007",
-		"address": "http://hackathon.siim.org/dicomweb/studies/1.3.6.1.4.1.14519.5.2.1.7777.9002.198875685720513246512710453733"
+      "system": "urn:dicom:uid",
+      "value": "urn:oid:1.3.6.1.4.1.14519.5.2.1.7777.9002.198875685720513246512710453733"
+    },
+    {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "ACSN"
+          }
+        ]
+      },
+      "value": "a257132503242682",
+      "assigner": {
+        "reference": "Organization/siim"
+      }
     }
   ],
+  "subject": {
+    "reference": "Patient/siimjoe"
+  },
+  "started": "1986-03-30",
   "endpoint": [
     {
-      "reference": "#1"
+      "reference": "Endpoint/siim-dicomweb"
     }
   ],
   "numberOfSeries": 3,
   "numberOfInstances": 132,
+  "description": "CT Chest Routine",
   "series": [
     {
       "number": 1,
       "modality": {
-        "system": "http://dicom.nema.org/medical/dicom/current/output/html/part03.html#sect_C.7.3.1.1",
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
         "code": "CT"
       },
       "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.7777.9002.207203214132667549392101803048",
@@ -56,7 +64,7 @@
     {
       "number": 2,
       "modality": {
-        "system": "http://dicom.nema.org/medical/dicom/current/output/html/part03.html#sect_C.7.3.1.1",
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
         "code": "CT"
       },
       "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.7777.9002.284154446239506871690811399151",
@@ -398,7 +406,7 @@
     {
       "number": 3,
       "modality": {
-        "system": "http://dicom.nema.org/medical/dicom/current/output/html/part03.html#sect_C.7.3.1.1",
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
         "code": "CT"
       },
       "uid": "urn:oid:1.3.6.1.4.1.14519.5.2.1.7777.9002.288990024261317693034755667155",
@@ -727,8 +735,5 @@
         }
       ]
     }
-  ],
-  "patient": {
-    "reference": "Patient/siimjoe"
-  }
+  ]
 }
