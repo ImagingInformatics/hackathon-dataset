@@ -57,7 +57,7 @@ If you get an error like:
     
 Then ensure you have the following packages installed: build-essential and ruby-dev before installing bundler and the dependencies, on Debian/Ubuntu:
 
-    apt install ruby-bundler ruby-dev build-essential
+    sudo apt install ruby-bundler ruby-dev build-essential
     sudo gem install bundler:1.14.6
     bundle install
 
