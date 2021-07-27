@@ -51,6 +51,16 @@ Run Bundler to install needed gems
 
     bundle install
 
+If you get an error like:
+
+    An error occurred while installing unf_ext (0.0.7.4), and Bundler cannot continue.
+    
+Then ensure you have the following packages installed: build-essential and ruby-dev before installing bundler and the dependencies, on Debian/Ubuntu:
+
+    apt install ruby-bundler ruby-dev build-essential
+    sudo gem install bundler:1.14.6
+    bundle install
+
 Run the script to upload all of the resources in the sub-folders.
 
     ruby upload.rb fhir_server.yml .
