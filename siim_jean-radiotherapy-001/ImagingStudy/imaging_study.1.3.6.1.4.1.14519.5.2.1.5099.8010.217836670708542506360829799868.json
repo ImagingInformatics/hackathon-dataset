@@ -35,7 +35,7 @@
     "description": "Abdomen^AbdomenPETCT",
     "endpoint": [
         {
-            "reference": "file://C:/Users/StephanHahn/Documents/perso/siim/hackathon-images/Jean SIIM"
+            "reference": "Endpoint/siim-dicomweb"
         }
     ],
     "identifier": [
@@ -51,7 +51,7 @@
             },
             "value": "a330740045455447",
             "assigner": {
-                "reference": "Organisation/siim"
+                "reference": "Organization/siim"
              }
         },
         {
