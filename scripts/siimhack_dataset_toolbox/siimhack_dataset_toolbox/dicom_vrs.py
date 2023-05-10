@@ -5,17 +5,16 @@ from typing import Callable
 
 from faker import Faker
 
-from scripts.siimhack_dataset_toolbox.siimhack_dataset_toolbox.dicom_vr_faker import DicomVRProvider
+from siimhack_dataset_toolbox.dicom_vr_faker import DicomVRProvider
 
 
 class VR:
     """"A provider that simulate several dicom VR."""
 
-    def __init__(self, short_name, long_name, generator:Callable = None):
+    def __init__(self, short_name, long_name, generator: Callable = None):
         self.short_name = short_name
         self.long_name = self.long_name()
         self.generator = generator
-
 
     def __str__(self):
         return f"{self.short_name} ({self.long_name})"
@@ -53,4 +52,3 @@ class VRs:
     Unknown = VR('UN', 'Unknown')
     UnsignedShort = VR('US', 'Unsigned Short')
     UnlimitedText = VR('UT', 'Unlimited Text')
-

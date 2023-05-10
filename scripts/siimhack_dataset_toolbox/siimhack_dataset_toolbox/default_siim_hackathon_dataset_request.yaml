@@ -1,0 +1,30 @@
+PatientName: # Patient'Name
+  faker_kwargs:
+    firstname: '' # provide a firstname. if not, one is generated
+    lastname: '' # provide a lastname. if not, one is generated
+    gender: ''  # provide a gender. if not, one is generated
+StudyDate: # Study date
+  faker_kwargs:
+    default_value:
+      tag: StudyDate # Keep the study date if already present
+    before: '' # provide a before date. if not, now is generated
+    after: '-5y'
+PatientBirthDate: # Patient's Birth Date
+  faker_kwargs:
+    before: '-20y' # provide a before date. if not, now is generated
+    after: '-80y'
+PatientAge: #Patient age
+   faker_kwargs:
+     patient_birth_date:
+        tag: PatientBirthDate
+     study_date:
+         tag: StudyDate
+AccessionNumber: # Accession number
+   faker_kwargs:
+     length: 10
+     only_digits: true
+     only_letters: false
+PatientID: # Patient Id
+   default_value: "patient_id"
+
+
