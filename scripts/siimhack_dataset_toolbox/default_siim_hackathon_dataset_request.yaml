@@ -2,7 +2,9 @@ PatientName: # Patient'Name
   faker_kwargs:
     firstname: '' # provide a firstname. if not, one is generated
     lastname: '' # provide a lastname. if not, one is generated
-    gender: ''  # provide a gender. if not, one is generated
+    gender:
+       tag:
+          PatientSex # provide a gender. if not, one is generated. Should be 'M' or 'F'
 StudyDate: # Study date
   faker_kwargs:
     default_value:
@@ -25,6 +27,8 @@ AccessionNumber: # Accession number
      only_digits: true
      only_letters: false
 PatientID: # Patient Id
-   default_value: "patient_id"
+  faker_kwargs:
+    default_value: # Provide an unique patient id
+      tag: PatientID
 
 

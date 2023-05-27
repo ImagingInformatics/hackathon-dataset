@@ -13,7 +13,6 @@ class DicomVRProvider(BaseProvider):
 
     def __init__(self, generator: Any, seed: int = 15):
         super().__init__(generator)
-        Faker.seed(seed)
         self.fake = Faker()
 
     def person_name(self, firstname='', lastname='', gender: str = None):
@@ -68,15 +67,15 @@ class DicomVRProvider(BaseProvider):
         else:
             return f"{age_in_days // 365}Y"
 
-    def _dicom_s(self, default_value: str = None,
-                 length: int = 10,
-                 only_digits: bool = True,
-                 only_letters: bool = False):
-        """Generate a random accession number or the default provided value."""
+    def _dicom_str(self, default_value: str = None,
+                   length: int = 10,
+                   only_digits: bool = True,
+                   only_letters: bool = False):
+        """Generate a string or the default provided value."""
         if default_value:
             return default_value
         if only_digits:
-            return self.fake.random_number(digits=length)
+            return str(self.fake.random_number(digits=length))
         if only_letters:
             return self.fake.random_letters(length=length)
         letters_and_digits = string.ascii_letters + string.digits
@@ -91,7 +90,7 @@ class DicomVRProvider(BaseProvider):
         if length > 64:
             raise ValueError("The maximum length of a Short String is 64 characters. Please use Long String for "
                              "longer values.")
-        return self._dicom_s(default_value, length, only_digits, only_letters)
+        return self._dicom_str(default_value, length, only_digits, only_letters)
 
     def dicom_lo(self,
                  default_value: str = None,
@@ -99,7 +98,7 @@ class DicomVRProvider(BaseProvider):
                  only_digits: bool = True,
                  only_letters: bool = False):
         """Generate a random accession number or the default provided value."""
-        return self._dicom_s(default_value, length, only_digits, only_letters)
+        return self._dicom_str(default_value, length, only_digits, only_letters)
 
     def dicom_uid(self, org_root: str = ''):
         """Generate a valid dicom uid. If org_root is not provided, a random one will be generated."""
