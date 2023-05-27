@@ -52,7 +52,7 @@ class DicomVRProvider(BaseProvider):
             else self.fake.date(pattern="%Y%m%d", end_datetime=before)
 
     def dicom_age(self, study_date: str, patient_birth_date: str):
-        """Return the DICOM age in the format 'N[Y|M|W|D]'.
+        """Return the DICOM age in the format 'N[Y|M|W|D]' with a length of 4 bytes. Leading zeros are added if needed.
         :param study_date: (str) The date of the study in the format YYYYMMDD.
         :param patient_birth_date: (str) or None. The date of birth of the patient in the format YYYYMMDD.
         """
@@ -61,11 +61,11 @@ class DicomVRProvider(BaseProvider):
         study_date = datetime.strptime(study_date, '%Y%m%d')
         age_in_days = (study_date - birth_date).days
         if age_in_days < 30:
-            return f"{age_in_days}D"
+            return f"{age_in_days}D".zfill(4)
         elif age_in_days < 365:
-            return f"{age_in_days // 30}M"
+            return f"{age_in_days // 30}M".zfill(4)
         else:
-            return f"{age_in_days // 365}Y"
+            return f"{age_in_days // 365}Y".zfill(4)
 
     def _dicom_str(self, default_value: str = None,
                    length: int = 10,

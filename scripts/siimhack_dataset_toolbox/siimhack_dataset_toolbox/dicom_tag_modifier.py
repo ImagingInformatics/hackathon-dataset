@@ -1,8 +1,4 @@
 import os
-from datetime import datetime
-
-import numpy as np
-from dicom.tag import Tag
 import pydicom
 from pydicom.dataset import Dataset
 from pydicom.datadict import dictionary_VR

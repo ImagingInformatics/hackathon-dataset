@@ -46,7 +46,7 @@ MODIFY_DICOM_TAGS_OPTIONS = [
                  help='Input directory.'),
     click.option('--tag_modifier_request',
                  '-req',
-                 required=True,
+                 required=False,
                  type=click.Path(exists=True, file_okay=True, dir_okay=False, readable=True, resolve_path=True),
                  help='Dicom tag request (yaml).'),
     click.option('--output-directory',
