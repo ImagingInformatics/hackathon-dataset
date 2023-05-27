@@ -38,6 +38,10 @@ build/
 # YAML config files
 *.yml
 
+# IDE
+.idea/
+
 bin/
 
 *.DS_Store
+__pycache__/
