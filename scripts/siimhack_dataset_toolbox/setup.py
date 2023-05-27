@@ -1,7 +1,5 @@
 import setuptools
 
-# Read configuration from setup.cfg
-config = setuptools.config.read_configuration('setup.cfg')
 
 # Call setuptools.setup with the configuration
 setuptools.setup(install_requires=[
@@ -12,4 +10,4 @@ setuptools.setup(install_requires=[
     'pyrootutils==1.0.4',
     'PyYAML==6.0',
     'tqdm==4.65.0']
-    , **config)
+    , )

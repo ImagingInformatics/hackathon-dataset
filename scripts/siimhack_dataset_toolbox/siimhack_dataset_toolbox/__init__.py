@@ -11,6 +11,7 @@ path = pyrootutils.setup_root(
 import click
 from siimhack_dataset_toolbox.dicom_tag_modifier import DICOMTagModifier
 from siimhack_dataset_toolbox.config_default import siim_default_configuration
+
 context_settings = dict(help_option_names=["-h", "--help"])
 
 
@@ -72,5 +73,9 @@ def modify_dicom_tags_cli(**kwargs):
     if tag_modifier_request:
         with open(tag_modifier_request, 'r') as f:
             request = yaml.safe_load(f)
-    dm = DICOMTagModifier(input_directoy=input_directory, output_directory=output_directory,)
+    dm = DICOMTagModifier(input_directoy=input_directory, output_directory=output_directory, )
     dm.modify_dicom_tags(request)
+
+
+if __name__ == '__main__':
+    cli()
