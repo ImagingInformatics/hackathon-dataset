@@ -41,3 +41,5 @@ build/
 bin/
 
 *.DS_Store
+.idea/
+contribute/generated-fhir-resources/
