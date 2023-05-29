@@ -1,3 +1,4 @@
+import json
 import os
 from datetime import datetime
 
@@ -7,6 +8,8 @@ from typing import Dict, List
 from fhir.resources.codeableconcept import CodeableConcept
 from fhir.resources.coding import Coding
 from fhir.resources.endpoint import Endpoint
+from fhir.resources.fhirdate import FHIRDate
+from fhir.resources.fhirreference import FHIRReference
 from fhir.resources.identifier import Identifier
 from fhir.resources.imagingstudy import ImagingStudy, ImagingStudySeries, ImagingStudySeriesInstance
 from dataclasses import dataclass
@@ -21,7 +24,7 @@ class DICOMStudy:
                  accession_number: str,
                  study_description: str,
                  study_date: str,
-                 patient_name:str,
+                 patient_name: str,
                  modality: str):
         """
         Represents a DICOM study.
@@ -99,7 +102,7 @@ class DICOMStudySplitter:
                 'accession_number': study.accession_number,
                 'study_description': study.study_description,
                 'series': study.series,
-                'modality' : study.modality,
+                'modality': study.modality,
                 'num_series': study.num_series,
                 'num_instances': study.num_instances,
                 'study_date': study.study_date,
@@ -122,13 +125,13 @@ class ImagingStudyCreator:
         """
         imaging_studies = []
 
-        for dicom_study_id,dicom_study  in tqdm(dicom_studies.items()):
-            imaging_study = self.create_imaging_study(dicom_study_id,dicom_study)
+        for dicom_study_id, dicom_study in tqdm(dicom_studies.items()):
+            imaging_study = self.create_imaging_study(dicom_study_id, dicom_study)
             imaging_studies.append(imaging_study)
 
         return imaging_studies
 
-    def create_imaging_study(self,dicom_study_id:str, dicom_study: DICOMStudy) -> ImagingStudy:
+    def create_imaging_study(self, dicom_study_id: str, dicom_study: DICOMStudy) -> ImagingStudy:
         """
         Create an ImagingStudy resource from a DicomStudy object.
 
@@ -147,14 +150,16 @@ class ImagingStudyCreator:
         imaging_study.text.status = 'generated'
         imaging_study.text.div = f"<div xmlns=\"http://www.w3.org/1999/xhtml\">{dicom_study['study_description']}</div>"
 
-        endpoint = Endpoint()
+        endpoint = FHIRReference()
         endpoint.reference = "Endpoint/siim-dicomweb"
         # Initialize the imaging_study.endpoint as an empty list if it's None
         if imaging_study.endpoint is None:
             imaging_study.endpoint = []
         imaging_study.endpoint.append(endpoint)
 
-        imaging_study.started = datetime.strptime(dicom_study['study_date'], "%Y%m%d").date().isoformat()
+        started = FHIRDate()
+        started.date = datetime.strptime(dicom_study['study_date'], "%Y%m%d")
+        imaging_study.started = started
 
         if imaging_study.identifier is None:
             imaging_study.identifier = []
@@ -173,19 +178,20 @@ class ImagingStudyCreator:
         acsn_coding.code = "ACSN"
         identifier_accession.type.coding.append(acsn_coding)
         identifier_accession.value = dicom_study['accession_number']
-        assigner = Reference()
+        assigner = FHIRReference()
         assigner.reference = "Organization/siim"
         identifier_accession.assigner = assigner
         imaging_study.identifier.append(identifier_accession)
 
-        subject_reference = Reference()
+        subject_reference = FHIRReference()
         subject_reference.reference = f"Patient/{dicom_study['patient_name']}"
         imaging_study.subject = subject_reference
         imaging_study.description = dicom_study['study_description']
 
         series_creator = ImagingStudySeriesCreator()
-        series_list = series_creator.create_series(dicom_study['series'],)
+        series_list = series_creator.create_series(dicom_study['series'], )
         imaging_study.series = series_list
+        imaging_study.status = "available"
 
         return imaging_study
 
@@ -231,7 +237,9 @@ class ImagingStudySeriesCreator:
 
         series.description = ds_serie.SeriesDescription
         series.numberOfInstances = len(dicom_file_path)
-        series.started = datetime.strptime(ds_serie.SeriesDate, "%Y%m%d").date().isoformat()
+        started = FHIRDate()
+        started.date = datetime.strptime(ds_serie.SeriesDate, "%Y%m%d")
+        series.started = started
 
         instance_creator = ImagingStudyInstanceCreator()
         instances_list = instance_creator.create_instances(dicom_file_path)
@@ -241,7 +249,7 @@ class ImagingStudySeriesCreator:
 
 
 class ImagingStudyInstanceCreator:
-    def create_instances(self, dicom_files:list) -> List[ImagingStudySeriesInstance]:
+    def create_instances(self, dicom_files: list) -> List[ImagingStudySeriesInstance]:
         """
         Create ImagingStudyInstance resources for a given series ID.
 
@@ -256,14 +264,46 @@ class ImagingStudyInstanceCreator:
             instance = self.create_instance(dicom_file)
             instance_list.append(instance)
         return instance_list
+
     def create_instance(self, dicom_file):
         ds_instance = pydicom.dcmread(dicom_file)
         instance = ImagingStudySeriesInstance()
-        instance.uid = ds_instance.SOPInstanceUID
-        instance.sopClass = ds_instance.SOPClassUID
+        instance.uid = str(ds_instance.SOPInstanceUID)
+
+        sopClass = Coding()
+        sopClass.system = "http://dicom.nema.org/resources/ontology/DCM"
+        sopClass.code = str(ds_instance.SOPClassUID)
+        instance.sopClass = sopClass
         instance.number = ds_instance.InstanceNumber
 
         return instance
+
+
+def convert_dcm_2_fhir(input_directory: str, output_directory: str):
+    dcm_file_list = []
+    output_root_list = []
+    for root, dirs, files in os.walk(input_directory):
+        if files:
+            output_root = root.replace(input_directory, output_directory)
+            for file in files:
+                dicom_file_path = os.path.join(root, file)
+                if pydicom.misc.is_dicom(dicom_file_path):
+                    if not os.path.exists(output_root):
+                        os.makedirs(output_root)
+                    dcm_file_list.append(dicom_file_path)
+                    output_root_list.append(output_root)
+
+    dicom_study_splitter = DICOMStudySplitter()
+    splitted = dicom_study_splitter.split_dicom_by_study(dcm_file_list)
+
+    imaging_study_creator = ImagingStudyCreator()
+    imaging_studies = imaging_study_creator.create_imaging_studies(splitted)
+
+    for imaging_study, output_root, study_id in zip(imaging_studies, output_root_list, splitted.keys()):
+        imaging_study_json = imaging_study.as_json()
+        output_path = os.path.join(output_root, f"imagin_study.{study_id}.json")
+        with open(output_path, "w") as f:
+            json.dump(imaging_study_json, f, indent=4)
 
 
 if __name__ == '__main__':
@@ -283,12 +323,8 @@ if __name__ == '__main__':
                         if not os.path.exists(output_root):
                             os.makedirs(output_root)
                         yield dicom_file_path, output_root
+
+
     input_directory = "C:/Users/StephanHahn/Documents/perso/siim/hackathon-images/Andy SIIM"
     output_directory = "./datasample/test"
-    files = [file[0] for file in walk_directory(input_directory, output_directory)]
-    dicom_study_splitter = DICOMStudySplitter()
-    splitted = dicom_study_splitter.split_dicom_by_study(files)
-
-    imaging_study_creator = ImagingStudyCreator()
-    imaging_studies = imaging_study_creator.create_imaging_studies(splitted)
-    print(imaging_studies)
+    convert_dcm_2_fhir(input_directory, output_directory)

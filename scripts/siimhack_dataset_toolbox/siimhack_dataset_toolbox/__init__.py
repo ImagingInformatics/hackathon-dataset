@@ -60,7 +60,18 @@ MODIFY_DICOM_TAGS_OPTIONS = [
                  help='Validate that the dicom file is a valid dicom'),
 ]
 
-
+DCM_2_FHIR_OPTIONS = [
+    click.option('--input-directory',
+                    '-i',
+                    required=True,
+                    type=click.Path(exists=True, file_okay=False, dir_okay=True, readable=True, resolve_path=True),
+                    help='Input directory.'),
+    click.option('--output-directory',
+                    '-o',
+                    required=True,
+                    type=click.Path(exists=True, file_okay=False, dir_okay=True, readable=True, writable=True,
+                                    resolve_path=True),
+                    help='Output directory.'),]
 @cli.command(name='modify_dicom_tags')
 @add_options(MODIFY_DICOM_TAGS_OPTIONS)
 def modify_dicom_tags_cli(**kwargs):
@@ -75,6 +86,12 @@ def modify_dicom_tags_cli(**kwargs):
     dm = DICOMTagModifier(input_directoy=input_directory, output_directory=output_directory, )
     dm.modify_dicom_tags(request)
 
+@cli.command(name='dcm2fhir')
+@add_options(DCM_2_FHIR_OPTIONS)
+def dcm2fhir_cli(**kwargs):
+    input_directory = kwargs['input_directory']
+    output_directory = kwargs['output_directory']
+    convert_dicom_2_fhir(input_directory, output_directory)
 
 if __name__ == '__main__':
     cli()
