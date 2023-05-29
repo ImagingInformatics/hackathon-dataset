@@ -66,11 +66,10 @@ MODIFY_DICOM_TAGS_OPTIONS = [
 def modify_dicom_tags_cli(**kwargs):
     input_directory = kwargs['input_directory']
     output_directory = kwargs['output_directory']
-    tag_modifier_request = kwargs['tag_modifier_request']
     validated_dicom = kwargs.get('validated_dicom', False)
 
     request = siim_default_configuration
-    if tag_modifier_request:
+    if tag_modifier_request := kwargs['tag_modifier_request']:
         with open(tag_modifier_request, 'r') as f:
             request = yaml.safe_load(f)
     dm = DICOMTagModifier(input_directoy=input_directory, output_directory=output_directory, )
