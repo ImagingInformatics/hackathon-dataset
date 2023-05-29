@@ -3,7 +3,7 @@
   "id": "CHANGEME",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Not Implemented</div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">ImagingStudy Resource</div>"
   },
   "identifier": [
     {

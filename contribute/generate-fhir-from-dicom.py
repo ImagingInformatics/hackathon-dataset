@@ -15,6 +15,10 @@ def dicomtToFhirDate(dicomDate : str):
     return dicomDate[0:4] + '-' + dicomDate[4:6] + '-' + dicomDate[6:8]
 
 
+def dicomtToFhirInstant(dicomDate : str, dicomTime : str, timezone : str = "+00:00"):
+    return dicomDate[0:4] + '-' + dicomDate[4:6] + '-' + dicomDate[6:8] + 'T' + dicomTime[0:2] + ':' + dicomTime[2:4] + ':' + dicomTime[4:6] + timezone
+
+
 
 def processDicomFile(dcmFile :str , reportsFlag : bool):
     dicom = None
@@ -27,7 +31,6 @@ def processDicomFile(dcmFile :str , reportsFlag : bool):
     currentPath = str(pathlib.Path(__file__).parent.resolve())
     patient = json.load(open(currentPath + "/patient-template.txt",mode='r'))
     study = json.load(open(currentPath + "/imagingStudy-template.txt",mode='r'))
-    report = json.load(open(currentPath + "/diagnosticReport-template.txt", mode='r'))
 
     # Update the Patient object
     pid = str(dicom.PatientID)
@@ -39,6 +42,7 @@ def processDicomFile(dcmFile :str , reportsFlag : bool):
     seriesUid = str(dicom.SeriesInstanceUID)
     desc = str(dicom.StudyDescription)
     studyDate = str(dicom.StudyDate)
+    studyTime = str(dicom.StudyTime)
     identifierPatient = "".join(names).lower() # E.g. siimravi
     identifierStudy = acn
     identifierSeries = seriesUid
@@ -75,6 +79,10 @@ def processDicomFile(dcmFile :str , reportsFlag : bool):
     else:
         patient['birthDate'] = dicomtToFhirDate(dob)
 
+    # In case study time is not filled out
+    if studyTime is None or studyTime == '':
+        studyTime = '000000'
+
     # Update the ImagingStudy object
     study['id'] = identifierStudy
     study['identifier'][0]['value'] = studyUid
@@ -82,6 +90,17 @@ def processDicomFile(dcmFile :str , reportsFlag : bool):
     study['subject']['reference'] = 'Patient/' + identifierPatient
     study['description'] = desc
     study['started'] = dicomtToFhirDate(studyDate)
+
+
+    # Update the DiagnosticReport object, if requested
+    report = None
+    if reportsFlag:
+        report = json.load(open(currentPath + "/diagnosticReport-template.txt", mode='r'))
+        report['id'] = identifierStudy
+        report['issued'] = dicomtToFhirInstant(studyDate, studyTime)
+        report['subject']['reference'] = 'Patient/' + identifierPatient
+        report['identifier'][0]['value'] = acn
+        report['effectiveDateTime'] = dicomtToFhirDate(studyDate)
 
     # Check if this patient/study/series were encountered before
     if identifierPatient not in encounteredPatientIds:
@@ -92,6 +111,8 @@ def processDicomFile(dcmFile :str , reportsFlag : bool):
         encounteredStudyUids.append(identifierStudy)
         encounteredSeriesUids.append(identifierSeries)
         studyResources.append(study)
+        if reportsFlag:
+            reportResources.append(report)
 
     else: # Study has been seen before - increment instance and possible series counter
         for studyResource in studyResources:
@@ -111,6 +132,7 @@ if __name__ == '__main__':
     dicomCounter = 0
     patientCounter = 0
     studyCounter = 0
+    reportCounter = 0
 
     # Ensure the output directory exists or gets created
     outputDir = os.path.join(os.path.curdir, fhirOutputDirName)
@@ -149,4 +171,19 @@ if __name__ == '__main__':
             studyFile.close()
             studyCounter += 1
 
-    print(f"Wrote {patientCounter} Patient resources, and {studyCounter} ImagingStudy resources", flush=True)
+        # If reports were not requested, then skip
+        if not args.reports:
+            continue
+
+        for report in reportResources:
+            # Ensure the report belongs to this patient
+            if report['subject']['reference'] != 'Patient/' + patient['id']:
+                continue
+
+            # Write report file
+            reportFile = open(os.path.join(patientDir, 'diagnostic_report.' + report['identifier'][0]['value']  + '.json'), "w")
+            reportFile.write(json.dumps(report, indent=2))
+            reportFile.close()
+            reportCounter += 1
+
+    print(f"Wrote {patientCounter} Patient resources, {studyCounter} ImagingStudy resources and , {reportCounter} DiagnosticReport resources", flush=True)

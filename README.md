@@ -89,7 +89,7 @@ Look in the `contribute` folder, which contains a python script to generate FHIR
 ### Usage
 ```python generate-fhir-from-dicom.py -d [Path to DICOM files]```
 
-The script has the option to generate dummy `DiagnosticReport` FHIR resources with the `-r` flag.
+The script has the option to generate dummy `DiagnosticReport` FHIR resources with the `-r true` flag.
 
 # Suggested Exercises
 - Search report text to add coded diagnosis for Andy's DiagnosticReports
