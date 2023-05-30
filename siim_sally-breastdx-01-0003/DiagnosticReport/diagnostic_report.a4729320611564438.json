@@ -1,0 +1,34 @@
+{
+  "id": "a4729320611564438",
+  "resourceType": "DiagnosticReport",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">DiagnosticReport Resource</div>"
+  },
+  "status": "final",
+  "issued": "2008-04-29T13:06:39+00:00",
+  "subject": {
+    "reference": "Patient/siimsally"
+  },
+  "performer": {
+    "reference": "Organization/siim",
+    "display": "Society of Imaging Informatics in Medicine"
+  },
+  "identifier": [
+    {
+      "use": "usual",
+      "system": "http://www.siim.org/",
+      "value": "a4729320611564438"
+    }
+  ],
+  "category": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/v2/0074",
+        "code": "RAD"
+      }
+    ]
+  },
+  "effectiveDateTime": "2008-04-29",
+  "conclusion": "Date of Collection/Procedure/Outside Report: 3/17/2008\nDate of Receipt: 3/18/2008\nDate of Report: 3/20/2008\n\nClinical Diagnosis & History:\n1) symptomatic lesion.\n\nSpecimens Submitted:\n1.  Skin, lateral right breast, shave removal:  \n    - Seborrheic keratosis, pedunculated and inflamed.\n\nI ATTEST THAT THE ABOVE DIAGNOSIS IS BASED UPON MY PERSONAL EXAMINATION OF\nTHE SLIDES (AND/OR OTHER MATERIAL), AND THAT I HAVE REVIEWED AND APPROVED\nTHIS REPORT.\n\nJane Doe, M.D\n*** Report Electronically Signed Out ***"
+}

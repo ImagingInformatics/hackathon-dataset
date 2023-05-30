@@ -1,0 +1,34 @@
+{
+  "id": "a2287140355989137",
+  "resourceType": "DiagnosticReport",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">DiagnosticReport Resource</div>"
+  },
+  "status": "final",
+  "issued": "2000-01-01T18:22:45+00:00",
+  "subject": {
+    "reference": "Patient/siimravi"
+  },
+  "performer": {
+    "reference": "Organization/siim",
+    "display": "Society of Imaging Informatics in Medicine"
+  },
+  "identifier": [
+    {
+      "use": "usual",
+      "system": "http://www.siim.org/",
+      "value": "a2287140355989137"
+    }
+  ],
+  "category": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/v2/0074",
+        "code": "RAD"
+      }
+    ]
+  },
+  "effectiveDateTime": "2000-01-01",
+  "conclusion": "Date of Collection/Procedure/Outside Report: 2/8/2000\nDate of Receipt: 2/8/2000\nDate of Report: 2/13/2000\n\nClinical Diagnosis & History:\nSite 1: Rule Out Atypical Nevus, Lesion - Changed\n\nSpecimens Submitted:\n1: Left Lumbosacral Back, Biopsy- Shave\n\nDIAGNOSIS:     \n1.  Left Lumbosacral Back, Biopsy- Shave:\n    - Compound dysplastic melanocytic nevus with slight to moderate atypia, section margins not involved.\n\nI ATTEST THAT THE ABOVE DIAGNOSIS IS BASED UPON MY PERSONAL EXAMINATION OF\nTHE SLIDES (AND/OR OTHER MATERIAL), AND THAT I HAVE REVIEWED AND APPROVED\nTHIS REPORT.\n\nJohn Doe, M.D.\n*** Report Electronically Signed Out ***"
+}

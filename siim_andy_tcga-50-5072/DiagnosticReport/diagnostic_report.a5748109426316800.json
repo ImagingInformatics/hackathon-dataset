@@ -1,0 +1,34 @@
+{
+  "id": "a5748109426316800",
+  "resourceType": "DiagnosticReport",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">DiagnosticReport Resource</div>"
+  },
+  "status": "final",
+  "issued": "2000-03-06T12:49:49+00:00",
+  "subject": {
+    "reference": "Patient/siimandy"
+  },
+  "performer": {
+    "reference": "Organization/siim",
+    "display": "Society of Imaging Informatics in Medicine"
+  },
+  "identifier": [
+    {
+      "use": "usual",
+      "system": "http://www.siim.org/",
+      "value": "a5748109426316800"
+    }
+  ],
+  "category": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/v2/0074",
+        "code": "RAD"
+      }
+    ]
+  },
+  "effectiveDateTime": "2000-03-06",
+  "conclusion":"Date of Collection/Procedure/Outside Report: 5/30/1999\nDate of Receipt: 5/31/1999\nDate of Report: 6/6/1999\n\nClinical Diagnosis & History:\nSite 1: Rule Out Melanoma, Lesion - New\n\nSpecimens Submitted:\n1:  Left Lower Anterior Chest, Biopsy- Shave\n\nDIAGNOSIS:     \n1.  Skin, Left Lower Anterior Chest, Biopsy- Shave:\n    - Melanoma, predominantly in situ, extending to a side tissue edge (see\nnote). \n\nNote: Single cell microinvasion to 0.2 mm cannot be excluded. No ulceration\nis present. Melan A immunostain was examined. \n\nI ATTEST THAT THE ABOVE DIAGNOSIS IS BASED UPON MY PERSONAL EXAMINATION OF\nTHE SLIDES (AND/OR OTHER MATERIAL), AND THAT I HAVE REVIEWED AND APPROVED\nTHIS REPORT.\n\nJane Doe, M.D.\n*** Report Electronically Signed Out ***"
+}

@@ -45,3 +45,6 @@ bin/
 
 *.DS_Store
 __pycache__/
+
+contribute/generated-fhir-resources/
+

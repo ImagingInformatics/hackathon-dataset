@@ -1,0 +1,34 @@
+{
+  "id": "a7516395503667574",
+  "resourceType": "DiagnosticReport",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">DiagnosticReport Resource</div>"
+  },
+  "status": "final",
+  "issued": "1996-03-17T14:42:58+00:00",
+  "subject": {
+    "reference": "Patient/siimneela"
+  },
+  "performer": {
+    "reference": "Organization/siim",
+    "display": "Society of Imaging Informatics in Medicine"
+  },
+  "identifier": [
+    {
+      "use": "usual",
+      "system": "http://www.siim.org/",
+      "value": "a7516395503667574"
+    }
+  ],
+  "category": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/v2/0074",
+        "code": "RAD"
+      }
+    ]
+  },
+  "effectiveDateTime": "1996-03-17",
+  "conclusion": "Date of Collection/Procedure/Outside Report: 1/10/1996\nDate of Receipt: 1/11/1996\nDate of Report: 1/15/1996\n\nClinical Diagnosis & History:\nSeborrheic Keratosis, Lesion  New.\n\nSpecimens Submitted:\n1: Right Forehead, Superior, Biopsy- Shave\n\nDIAGNOSIS:     \n1.  Right Forehead, Superior, Biopsy- Shave:\n    - Verrucoid seborrheic keratosis, inflamed.\n \nI ATTEST THAT THE ABOVE DIAGNOSIS IS BASED UPON MY PERSONAL EXAMINATION OF\nTHE SLIDES (AND/OR OTHER MATERIAL), AND THAT I HAVE REVIEWED AND APPROVED\nTHIS REPORT.\n\nJohn Doe, M.D.\n*** Report Electronically Signed Out ***"
+}

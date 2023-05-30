@@ -82,6 +82,15 @@ These can be subsequently uploaded to a FHIR server
 - Make your changes/improvements
 - Send a pull request
 
+## Generating FHIR resources from DICOM Studies
+Look in the `contribute` folder, which contains a python script to generate FHIR resources (Patient, ImagingStudy) from traveresed DICOM files. It can be used as per the instructions below...
+### Install dependencies
+```pip install --no-cache-dir -r requirements.txt```
+### Usage
+```python generate-fhir-from-dicom.py -d [Path to DICOM files]```
+
+The script has the option to generate dummy `DiagnosticReport` FHIR resources with the `-r true` flag.
+
 # Suggested Exercises
 - Search report text to add coded diagnosis for Andy's DiagnosticReports
 
