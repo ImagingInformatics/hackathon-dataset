@@ -9,11 +9,11 @@ StudyDate: # Study date
   faker_kwargs:
     default_value:
       tag: StudyDate # Keep the study date if already present
-    before: '' # provide a before date. if not, now is generated
+    before: '' # provide a before date. if not, now is used as before date
     after: '-5y'
 PatientBirthDate: # Patient's Birth Date
   faker_kwargs:
-    before: '-20y' # provide a before date. if not, now is generated
+    before: '-20y' # provide a before date. if not, now is used as before data
     after: '-80y'
 PatientAge: #Patient age
    faker_kwargs:
@@ -28,7 +28,7 @@ AccessionNumber: # Accession number
      only_letters: false
 PatientID: # Patient Id
   faker_kwargs:
-    default_value: # Provide an unique patient id
-      tag: PatientID
+    default_value: # Provide an unique patient id as string on this line
+      tag: PatientID # OR keep the patient id if already present
 
 

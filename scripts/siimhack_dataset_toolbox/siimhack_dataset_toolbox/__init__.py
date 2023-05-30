@@ -1,9 +1,9 @@
 # Find the root of the project to add it to the python path for resolving imports
 import pyrootutils
 import yaml
-
+import os
 path = pyrootutils.setup_root(
-    search_from=__file__,
+    search_from=os.path.abspath(__file__),
     indicator=[".git", "pyproject.toml", "requirements.txt"],
     pythonpath=True,
     dotenv=True,
