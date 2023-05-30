@@ -38,8 +38,13 @@ build/
 # YAML config files
 *.yml
 
+# IDE
+.idea/
+
 bin/
 
 *.DS_Store
-.idea/
+__pycache__/
+
 contribute/generated-fhir-resources/
+
