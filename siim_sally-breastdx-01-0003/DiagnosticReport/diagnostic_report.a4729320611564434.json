@@ -1,0 +1,34 @@
+{
+  "id": "a4729320611564434",
+  "resourceType": "DiagnosticReport",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">DiagnosticReport Resource</div>"
+  },
+  "status": "final",
+  "issued": "2008-04-29T14:04:49+00:00",
+  "subject": {
+    "reference": "Patient/siimsally"
+  },
+  "performer": {
+    "reference": "Organization/siim",
+    "display": "Society of Imaging Informatics in Medicine"
+  },
+  "identifier": [
+    {
+      "use": "usual",
+      "system": "http://www.siim.org/",
+      "value": "a4729320611564434"
+    }
+  ],
+  "category": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/v2/0074",
+        "code": "RAD"
+      }
+    ]
+  },
+  "effectiveDateTime": "2008-04-29",
+  "conclusion": "Date of Collection/Procedure/Outside Report: 3/17/2008\nDate of Receipt: 3/18/2008\nDate of Report: 3/20/2008\n\nClinical Diagnosis & History:\nSite 1: Gross/Micro Rule Out Y Nevus- Atypical other Lesion - New\n\nSpecimens Submitted:\n1:  Location, right mid medial chest, Biopsy- Shave\n\nDIAGNOSIS:     \n1.  Skin, right mid medial chest, Biopsy- Shave\n    - Lichenoid keratosis. \n \nI ATTEST THAT THE ABOVE DIAGNOSIS IS BASED UPON MY PERSONAL EXAMINATION OF\nTHE SLIDES (AND/OR OTHER MATERIAL), AND THAT I HAVE REVIEWED AND APPROVED\nTHIS REPORT.\n\nJane Doe, M.D.\n*** Report Electronically Signed Out ***"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "a9488265223658754",
+  "resourceType": "DiagnosticReport",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">DiagnosticReport Resource</div>"
+  },
+  "status": "final",
+  "issued": "1986-07-01T12:39:07+00:00",
+  "subject": {
+    "reference": "Patient/siimjoe"
+  },
+  "performer": {
+    "reference": "Organization/siim",
+    "display": "Society of Imaging Informatics in Medicine"
+  },
+  "identifier": [
+    {
+      "use": "usual",
+      "system": "http://www.siim.org/",
+      "value": "a9488265223658754"
+    }
+  ],
+  "category": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/v2/0074",
+        "code": "RAD"
+      }
+    ]
+  },
+  "effectiveDateTime": "1986-07-01",
+  "conclusion": "Date of Collection/Procedure/Outside Report: 2/15/1986\nDate of Receipt: 2/15/1986\nDate of Report: 2/19/1986\n\nClinical Diagnosis & History:\nSite 1: Gross/Micro Melanoma Lesion - Changed\n\nSpecimens Submitted:\n1:  Location, Right Upper Back Scapular Region, Biopsy- Shave\n\nDIAGNOSIS:     \n1.  Skin, right upper back, scapular region; shave biopsy:  \n    - Features consistent with an early evolving radial growth phase melanoma. (see Note.)\n\nNote: The lesion is small and has the silhouette of a dysplastic nevus.\nHowever, several atypical melanocytes are seen at all layers of the\nepidermis. A few similar cells are also seen in the papillary dermis. While\nwe considered a traumatized dysplastic nevus, the findings are most in\nkeeping with an early melanoma (0.25 mm thick, Clark level II,\nnon-ulcerated, with no mitosis; confined to its radial growth phase). The\ninked section margins are not involved, but the lesion extends to within < 1\nmm of a tissue edge. Levels and an immunostain for melan-A were examined.\n\nI ATTEST THAT THE ABOVE DIAGNOSIS IS BASED UPON MY PERSONAL EXAMINATION OF\nTHE SLIDES (AND/OR OTHER MATERIAL), AND THAT I HAVE REVIEWED AND APPROVED\nTHIS REPORT.\n\nJohn Doe, M.D.\n*** Report Electronically Signed Out ***"
+}

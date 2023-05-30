@@ -1,6 +1,6 @@
 {
   "resourceType": "ImagingStudy",
-  "id": "a9488265223658752",
+  "id": "a4729320611564433",
   "text": {
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">ImagingStudy Resource</div>"
@@ -8,7 +8,7 @@
   "identifier": [
     {
       "system": "urn:dicom:uid",
-      "value": "1.3.6.1.4.1.5962.99.1.1147.1273.1620349952573.1.2.1"
+      "value": "1.3.6.1.4.1.5962.99.1.1137.4825.1620340108626.1.2.1"
     },
     {
       "use": "usual",
@@ -20,7 +20,7 @@
           }
         ]
       },
-      "value": "a9488265223658752",
+      "value": "a4729320611564433",
       "assigner": {
         "reference": "Organization/siim"
       }
@@ -28,10 +28,10 @@
   ],
   "status": "available",
   "subject": {
-    "reference": "Patient/siimjoe"
+    "reference": "Patient/siimsally"
   },
   "description": "Lesion Dermoscopy",
-  "started": "1986-07-01",
+  "started": "2008-04-29",
   "endpoint": [
     {
       "reference": "Endpoint/siim-dicomweb"

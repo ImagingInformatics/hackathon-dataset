@@ -1,6 +1,6 @@
 {
   "resourceType": "ImagingStudy",
-  "id": "a9488265223658752",
+  "id": "a9488265223658754",
   "text": {
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">ImagingStudy Resource</div>"
@@ -8,7 +8,7 @@
   "identifier": [
     {
       "system": "urn:dicom:uid",
-      "value": "1.3.6.1.4.1.5962.99.1.1147.1273.1620349952573.1.2.1"
+      "value": "1.3.6.1.4.1.5962.99.1.1116.1432.1620319148179.1.2.1"
     },
     {
       "use": "usual",
@@ -20,7 +20,7 @@
           }
         ]
       },
-      "value": "a9488265223658752",
+      "value": "a9488265223658754",
       "assigner": {
         "reference": "Organization/siim"
       }

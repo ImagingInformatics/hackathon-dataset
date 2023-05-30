@@ -1,0 +1,34 @@
+{
+  "id": "a2287140355989140",
+  "resourceType": "DiagnosticReport",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">DiagnosticReport Resource</div>"
+  },
+  "status": "final",
+  "issued": "2000-01-01T20:49:23+00:00",
+  "subject": {
+    "reference": "Patient/siimravi"
+  },
+  "performer": {
+    "reference": "Organization/siim",
+    "display": "Society of Imaging Informatics in Medicine"
+  },
+  "identifier": [
+    {
+      "use": "usual",
+      "system": "http://www.siim.org/",
+      "value": "a2287140355989140"
+    }
+  ],
+  "category": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/v2/0074",
+        "code": "RAD"
+      }
+    ]
+  },
+  "effectiveDateTime": "2000-01-01",
+  "conclusion": "Date of Collection/Procedure/Outside Report: 2/15/2000\nDate of Receipt: 2/15/2000\nDate of Report: 2/21/2000\n\nClinical Diagnosis & History:\nSite 1: Seborrheic Keratosis, Lesion- New \n\nSpecimens Submitted:\n1: Right zygoma, Biopsy- Tangential \n\nDIAGNOSIS:     \n1.  Right zygoma, Biopsy- Tangential: \n\n    - Seborrheic keratosis.  \n \nI ATTEST THAT THE ABOVE DIAGNOSIS IS BASED UPON MY PERSONAL EXAMINATION OF\nTHE SLIDES (AND/OR OTHER MATERIAL), AND THAT I HAVE REVIEWED AND APPROVED\nTHIS REPORT.\n\nJane Doe, M.D.\n*** Report Electronically Signed Out ***"
+}
