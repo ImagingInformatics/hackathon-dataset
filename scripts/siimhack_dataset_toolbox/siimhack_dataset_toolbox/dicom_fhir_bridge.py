@@ -281,17 +281,12 @@ class ImagingStudyInstanceCreator:
 
 def convert_dcm_2_fhir(input_directory: str, output_directory: str):
     dcm_file_list = []
-    output_root_list = []
     for root, dirs, files in os.walk(input_directory):
         if files:
-            output_root = root.replace(input_directory, output_directory)
             for file in files:
                 dicom_file_path = os.path.join(root, file)
                 if pydicom.misc.is_dicom(dicom_file_path):
-                    if not os.path.exists(output_root):
-                        os.makedirs(output_root)
                     dcm_file_list.append(dicom_file_path)
-                    output_root_list.append(output_root)
 
     dicom_study_splitter = DICOMStudySplitter()
     splitted = dicom_study_splitter.split_dicom_by_study(dcm_file_list)
@@ -299,9 +294,9 @@ def convert_dcm_2_fhir(input_directory: str, output_directory: str):
     imaging_study_creator = ImagingStudyCreator()
     imaging_studies = imaging_study_creator.create_imaging_studies(splitted)
 
-    for imaging_study, output_root, study_id in zip(imaging_studies, output_root_list, splitted.keys()):
+    for imaging_study,  study_id in zip(imaging_studies, splitted.keys()):
         imaging_study_json = imaging_study.as_json()
-        output_path = os.path.join(output_root, f"imagin_study.{study_id}.json")
+        output_path = os.path.join(output_directory, f"imagin_study.{study_id}.json")
         with open(output_path, "w") as f:
             json.dump(imaging_study_json, f, indent=4)
 
