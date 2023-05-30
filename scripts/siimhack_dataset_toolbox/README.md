@@ -34,6 +34,7 @@ siim-hackathon <command> [options]
 Available commands:
 
 - `modify_dicom_tags`: Modify existing DICOM data to fit the SIIM Hackathon data format.
+- `dcm2fhir`:          Export dicom images into FHIR imaging resource (as json file) according to siim-hackathon data format.
 ### modify_dicom_tags Command
 This command modifies DICOM tags in existing files to fit the SIIM Hackathon data format.
 
@@ -41,10 +42,23 @@ This command modifies DICOM tags in existing files to fit the SIIM Hackathon dat
 siim-hackathon modify_dicom_tags --input-directory <input_directory> --tag_modifier_request <tag_modifier_request> --output-directory <output_directory> [--validated-dicom]
 ````
 Options
---input-directory, -i: Path to the input directory containing DICOM files.
---tag_modifier_request, -req: Path to the DICOM tag request YAML file.
---output-directory, -o: Path to the output directory to save modified DICOM files.
---validated-dicom: Validate that the DICOM file is a valid DICOM (flag).
+--input-directory, -i: Path to the input directory containing DICOM files.  
+--tag_modifier_request, -req: Path to the DICOM tag request YAML file. [optional]  
+--output-directory, -o: Path to the output directory to save modified DICOM files.   
+--validated-dicom: Validate that the DICOM file is a valid DICOM (flag).[Not implemented yet]    
+#### Tag Modifier Request YAML file
+The tag modifier request YAML file is used to specify the DICOM tags to be modified. The file should be in the following format:
+Look at ``default_tag_modifier_request.yaml`` for an example.
+### dcm2fhir Command
+This command converts DICOM images into FHIR imaging resource (as json file) according to siim-hackathon data format.
+
+````bash
+siim-hackathon dcm2fhir --input-directory <input_directory> --output-directory <output_directory>
+````
+Options   
+--input-directory, -i: Path to the input directory containing DICOM files.    
+--output-directory, -o: Path to the output directory to save FHIR imaging resource files.    
+
 
 
 ## Contributing
@@ -57,11 +71,10 @@ This project is licensed under the MIT License.
 
 -[x] Convert dicom images into the SIIM DICOM format
 -[x] Create a setup to install the CLI
--[ ] Convert one DICOM study into FHIR imaging resource (as json file)
+-[x] Convert one DICOM study into FHIR imaging resource (as json file)
 -[x] Create a basic dicom tag faker 
 -[ ] Validate modified dicom images using pydicom validator
--[ ] Handle several studies at once
+-[x] Handle several studies at once
 -[ ] Create patient FHIR resource from DICOM image
 -[ ] Run the service inside Docker container
--[ ] Change configuration using CLI
 
