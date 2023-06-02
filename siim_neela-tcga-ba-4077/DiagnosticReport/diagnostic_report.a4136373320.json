@@ -1,0 +1,34 @@
+{
+  "id": "a4136373320",
+  "resourceType": "DiagnosticReport",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">DiagnosticReport Resource</div>"
+  },
+  "status": "final",
+  "issued": "2021-09-14T17:54:46+00:00",
+  "subject": {
+    "reference": "Patient/siimneela"
+  },
+  "performer": {
+    "reference": "Organization/siim",
+    "display": "Society of Imaging Informatics in Medicine"
+  },
+  "identifier": [
+    {
+      "use": "usual",
+      "system": "http://www.siim.org/",
+      "value": ""
+    }
+  ],
+  "category": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/v2/0074",
+        "code": "RAD"
+      }
+    ]
+  },
+  "effectiveDateTime": "2021-09-14",
+  "conclusion": "To be filled out by hand afterwards"
+}

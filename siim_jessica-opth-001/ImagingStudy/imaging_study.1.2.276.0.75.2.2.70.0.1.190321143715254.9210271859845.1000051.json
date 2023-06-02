@@ -1,0 +1,42 @@
+{
+  "resourceType": "ImagingStudy",
+  "id": "a1000051",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">ImagingStudy Resource</div>"
+  },
+  "identifier": [
+    {
+      "system": "urn:dicom:uid",
+      "value": "1.2.276.0.75.2.2.70.0.1.190321143715254.9210271859845.1000051"
+    },
+    {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "ACSN"
+          }
+        ]
+      },
+      "value": "",
+      "assigner": {
+        "reference": "Organization/siim"
+      }
+    }
+  ],
+  "status": "available",
+  "subject": {
+    "reference": "Patient/siimjessica"
+  },
+  "description": "",
+  "started": "2019-03-21",
+  "endpoint": [
+    {
+      "reference": "Endpoint/siim-dicomweb"
+    }
+  ],
+  "numberOfSeries": 1,
+  "numberOfInstances": 3
+}
