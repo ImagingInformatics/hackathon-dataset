@@ -116,10 +116,10 @@ def processDicomFile(dcmFile :str , reportsFlag : bool):
 
     else: # Study has been seen before - increment instance and possible series counter
         for studyResource in studyResources:
-            if studyResources['id'] == identifierStudy:
-                studyResources['numberOfInstances'] += 1
+            if studyResource['id'] == identifierStudy:
+                studyResource['numberOfInstances'] += 1
                 if identifierSeries not in encounteredSeriesUids:
-                    studyResources['numberOfSeries'] += 1
+                    studyResource['numberOfSeries'] += 1
                     encounteredSeriesUids.append(identifierSeries)
 
 

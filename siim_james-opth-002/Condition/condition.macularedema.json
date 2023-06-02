@@ -1,0 +1,58 @@
+{
+  "id": "eyecondition",
+  "resourceType": "Condition",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Patient: James SIIM<br/>Condition: eyecondition<br/>Category: Diagnosis<br/>Code: 312911008 - Macular edema<br/>Onset Date: 08-08-2014<br/>Severity: Severe<br/>Body Site: Left eye</div>"
+  },
+  "subject": {
+    "reference": "Patient/siimjames"
+  },
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "312911008",
+        "display": "macular edema"
+      }
+    ],
+    "text": "macular edema"
+  },
+  "category": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/condition-category",
+        "code": "diagnosis",
+        "display": "Diagnosis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "439401001",
+        "display": "Diagnosis"
+      }
+    ]
+  },
+  "clinicalStatus": "active",
+  "severity": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "24484000",
+        "display": "Severe"
+      }
+    ]
+  },
+  "onsetDate": "2014-08-08",
+  "bodySite": [
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "362503005",
+          "display": "Left eye"
+        }
+      ],
+      "text": "Left eye"
+    }
+  ]
+}
