@@ -1,0 +1,1 @@
+Bibata Amadou is a fake patient with an idea of q201 who has several FHIR DiagnosticReports and Observations in Radiology and Pathology which indicate that he has concerning results regarding his prostate cancer. he's expected to be used for Radiology Pathology Concordance and clinical decision support use cases.

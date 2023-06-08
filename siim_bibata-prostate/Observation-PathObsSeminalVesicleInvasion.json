@@ -1,0 +1,55 @@
+{
+  "resourceType": "Observation",
+  "id": "156",
+  "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-06-07T20:46:45.707+00:00"
+  },
+  "status": "final",
+  "category": [
+      {
+          "coding": [
+              {
+                  "code": "laboratory"
+              }
+          ]
+      }
+  ],
+  "code": {
+      "coding": [
+          {
+              "system": "http://snomed.info/sct",
+              "code": "384999004",
+              "display": "Status of seminal vesicle invasion by tumor (observable entity)"
+          }
+      ]
+  },
+  "subject": {
+      "reference": "Patient/145",
+      "display": "Bibata Amadou"
+  },
+  "performer": [
+      {
+          "reference": "Practitioner/149",
+          "display": "Luigi Maas"
+      }
+  ],
+  "valueCodeableConcept": {
+      "coding": [
+          {
+              "system": "http://snomed.info/sct",
+              "code": "49907008",
+              "display": "Uninvolved (Qualifier Value)"
+          }
+      ]
+  },
+  "bodySite": {
+      "coding": [
+          {
+              "system": "http://snomed.info/sct",
+              "code": "5026003",
+              "display": "Structure of posterior surface of prostate"
+          }
+      ]
+  }
+}
