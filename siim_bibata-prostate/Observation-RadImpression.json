@@ -1,0 +1,47 @@
+{
+    "resourceType": "Observation",
+    "id": "RadObs-Impression",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-06-07T20:46:58.859+00:00"
+    },
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "code": "imaging"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "code": "RID49895",
+          "system": "http://radlex.org",
+          "display": "Impression"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/145",
+      "display": "Bibata Amadou"
+    },
+    "performer": [
+      {
+        "reference": "Practitioner/147",
+        "display": "Kiki Bambrick"
+      }
+    ],
+    "valueString": "Low ADC value increases the likelihood of Gleason grade group 2 or higher",
+    "bodySite": {
+      "coding": [
+        {
+          "code": "5026003",
+          "system": "http://snomed.info/sct",
+          "display": "Structure of posterior surface of prostate"
+        }
+      ]
+    }
+  }
