@@ -1,0 +1,52 @@
+{
+  "resourceType": "Observation",
+  "id": "159",
+  "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-06-07T20:47:06.430+00:00"
+  },
+  "status": "final",
+  "category": [
+      {
+          "coding": [
+              {
+                  "code": "imaging"
+              }
+          ]
+      }
+  ],
+  "code": {
+      "coding": [
+          {
+              "system": "http://snomed.info/sct",
+              "code": "385014004",
+              "display": "Tumor size, dominant nodule (observable entity)"
+          }
+      ]
+  },
+  "subject": {
+      "reference": "Patient/145",
+      "display": "Bibata Amadou"
+  },
+  "performer": [
+      {
+          "reference": "Practitioner/147",
+          "display": "Kiki Bambrick"
+      }
+  ],
+  "valueQuantity": {
+      "value": 7,
+      "unit": "milimeter",
+      "system": "http://unitsofmeasure.org",
+      "code": "mm"
+  },
+  "bodySite": {
+      "coding": [
+          {
+              "system": "http://snomed.info/sct",
+              "code": "5026003",
+              "display": "Structure of posterior surface of prostate"
+          }
+      ]
+  }
+}

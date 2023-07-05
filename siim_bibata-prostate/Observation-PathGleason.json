@@ -1,0 +1,55 @@
+{
+  "resourceType": "Observation",
+  "id": "154",
+  "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-06-07T20:46:29.850+00:00"
+  },
+  "status": "final",
+  "category": [
+      {
+          "coding": [
+              {
+                  "code": "laboratory"
+              }
+          ]
+      }
+  ],
+  "code": {
+      "coding": [
+          {
+              "system": "http://snomed.info/sct",
+              "code": "372278000",
+              "display": "Gleason score"
+          }
+      ]
+  },
+  "subject": {
+      "reference": "Patient/145",
+      "display": "Bibata Amadou"
+  },
+  "performer": [
+      {
+          "reference": "Practitioner/149",
+          "display": "Luigi Maas"
+      }
+  ],
+  "valueCodeableConcept": {
+      "coding": [
+          {
+              "system": "http://cap.org/eCC",
+              "code": "16811",
+              "display": "Score 7"
+          }
+      ]
+  },
+  "bodySite": {
+      "coding": [
+          {
+              "system": "http://snomed.info/sct",
+              "code": "5026003",
+              "display": "Structure of posterior surface of prostate"
+          }
+      ]
+  }
+}

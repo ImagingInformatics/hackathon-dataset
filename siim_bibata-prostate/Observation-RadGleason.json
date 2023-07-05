@@ -1,0 +1,55 @@
+{
+  "resourceType": "Observation",
+  "id": "158",
+  "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-06-07T20:46:58.859+00:00"
+  },
+  "status": "final",
+  "category": [
+      {
+          "coding": [
+              {
+                  "code": "imaging"
+              }
+          ]
+      }
+  ],
+  "code": {
+      "coding": [
+          {
+              "system": "http://snomed.info/sct",
+              "code": "372278000",
+              "display": "Gleason score"
+          }
+      ]
+  },
+  "subject": {
+      "reference": "Patient/145",
+      "display": "Bibata Amadou"
+  },
+  "performer": [
+      {
+          "reference": "Practitioner/147",
+          "display": "Kiki Bambrick"
+      }
+  ],
+  "valueCodeableConcept": {
+      "coding": [
+          {
+              "system": "http://radlex.org",
+              "code": "RID49502",
+              "display": "clinically significant prostate cancer"
+          }
+      ]
+  },
+  "bodySite": {
+      "coding": [
+          {
+              "system": "http://snomed.info/sct",
+              "code": "5026003",
+              "display": "Structure of posterior surface of prostate"
+          }
+      ]
+  }
+}
