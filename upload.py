@@ -9,8 +9,8 @@ log = logging.getLogger(__name__)
 
 # The HAPI FHIR server requires dependent objects to be loaded first
 # TODO Upgrade the script so that dependencies can be resolved in a more automated, elegant fashion (reference detection) vs. this crude way
-load_order = ["ValueSet", "Device", "Organization", "StructureDefinition", "Medication", "Practitioner", "Patient",
-              "AllergyIntolerance", "AdverseReaction", "Alert", "MedicationRequest", "MedicationDispense",
+load_order = ["ValueSet", "Device", "Organization", "StructureDefinition", "Medication", "Practitioner", "PractitionerRole", 
+              "Patient", "AllergyIntolerance", "AdverseReaction", "Alert", "MedicationRequest", "MedicationDispense",
               "MedicationAdministration", "ImagingReference", "Observation", "Order", "OrderResponse", "Procedure",
               "Endpoint", "ImagingStudy", "DiagnosticReport", "Specimen", "Condition", "DocumentReference"]
 

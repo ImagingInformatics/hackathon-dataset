@@ -1,6 +1,6 @@
 {
   "resourceType": "Observation",
-  "id": "154",
+  "id": "ob154",
   "meta": {
       "versionId": "1",
       "lastUpdated": "2023-06-07T20:46:29.850+00:00"
@@ -25,12 +25,12 @@
       ]
   },
   "subject": {
-      "reference": "Patient/145",
+      "reference": "Patient/siimbibata",
       "display": "Bibata Amadou"
   },
   "performer": [
       {
-          "reference": "Practitioner/149",
+          "reference": "Practitioner/practitioner149",
           "display": "Luigi Maas"
       }
   ],

@@ -25,12 +25,12 @@
       ]
     },
     "subject": {
-      "reference": "Patient/145",
+      "reference": "Patient/siimbibata",
       "display": "Bibata Amadou"
     },
     "performer": [
       {
-        "reference": "Practitioner/147",
+        "reference": "Practitioner/practitioner147",
         "display": "Kiki Bambrick"
       }
     ],

@@ -1,6 +1,6 @@
 {
   "resourceType": "PractitionerRole",
-  "id": "151",
+  "id": "practitionerrole151",
   "meta": {
       "versionId": "1",
       "lastUpdated": "2023-06-07T20:04:19.762+00:00"
@@ -12,7 +12,7 @@
       }
   ],
   "practitioner": {
-      "reference": "Practitioner/147"
+      "reference": "Practitioner/practitioner147"
   },
   "code": [
       {
