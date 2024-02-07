@@ -1,0 +1,21 @@
+#  -*- mode: conf; -*-
+
+# TODO Move into pyproject.toml once flake8 adds support
+#  https://gitlab.com/pycqa/flake8/issues/428
+[flake8]
+# Recommend matching the black line length (default 88),
+# rather than using the flake8 default of 79:
+max-line-length = 88
+max-complexity = 10
+
+exclude =
+    .git,
+    .venv,
+    __pycache__,
+    build,
+    dist
+
+# T101 = TODO (flake8-fixme). We allow TODO, but not FIXME or XXX
+# W503 = Line break before binary operator -- default best practice
+#        is changing & black formats to new best practice.
+ignore = T101, W503
