@@ -1,0 +1,3 @@
+[virtualenvs]
+# Keep virtualenv in project for easier Makefile
+in-project = true

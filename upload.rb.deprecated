@@ -1,3 +1,5 @@
+# THIS SCRIPT HAS BEEN DEPRECATED AND WILL NO LONGER BE MAINTAINED. PLEASE SWITCH TO USING THE PYTHON VERSION, i.e. upload.py
+
 # A quick script to iterate over all of the json objects in our directory tree and post them up
 # to a FHIR server
 

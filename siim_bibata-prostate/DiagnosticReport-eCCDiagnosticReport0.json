@@ -1,6 +1,6 @@
 {
   "resourceType": "DiagnosticReport",
-  "id": "161",
+  "id": "dr161",
   "meta": {
       "versionId": "1",
       "lastUpdated": "2023-06-07T20:48:29.931+00:00"
@@ -47,28 +47,28 @@
       ]
   },
   "subject": {
-      "reference": "Patient/145",
+      "reference": "Patient/siimbibata",
       "display": "Example Patient"
   },
   "effectiveDateTime": "2021-05-11",
   "performer": [
       {
-          "reference": "Practitioner/149",
+          "reference": "Practitioner/practitioner149",
           "display": "Luigi Maas"
       }
   ],
   "result": [
       {
-          "reference": "Observation/155"
+          "reference": "Observation/ob155"
       },
       {
-          "reference": "Observation/156"
+          "reference": "Observation/ob156"
       },
       {
-          "reference": "Observation/154"
+          "reference": "Observation/ob154"
       },
       {
-          "reference": "Observation/153"
+          "reference": "Observation/ob153"
       }
   ],
   "presentedForm": [
