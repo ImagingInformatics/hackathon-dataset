@@ -2,58 +2,66 @@
     "id": "diabetes-jessica-siim",
     "resourceType": "Condition",
     "text": {
-      "status": "generated",
-      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Patient: Jessica SIIM<br/>Condition: diabetes<br/>Category: Diagnosis<br/>Code: 44054006 - Type 2 diabetes mellitus<br/>Onset Date: 05-20-2018<br/>Severity: Severe<br/>Body Site: Entire pancreas</div>"
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Patient: Jessica SIIM<br/>Condition: diabetes<br/>Category: Diagnosis<br/>Code: 44054006 - Type 2 diabetes mellitus<br/>Onset Date: 05-20-2018<br/>Severity: Severe<br/>Body Site: Entire pancreas</div>"
     },
     "subject": {
-      "reference": "Patient/siimjessica"
+        "reference": "Patient/siimjessica"
     },
     "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "44054006",
-          "display": "type 2 diabetes mellitus"
-        }
-      ],
-      "text": "type 2 diabetes mellitus"
-    },
-    "category": {
-      "coding": [
-        {
-          "system": "http://hl7.org/fhir/condition-category",
-          "code": "diagnosis",
-          "display": "Diagnosis"
-        },
-        {
-          "system": "http://snomed.info/sct",
-          "code": "439401001",
-          "display": "Diagnosis"
-        }
-      ]
-    },
-    "clinicalStatus": "active",
-    "severity": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "24484000",
-          "display": "Severe"
-        }
-      ]
-    },
-    "onsetDate": "2018-05-20",
-    "bodySite": [
-      {
         "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "181277001",
-            "display": "Entire pancreas"
-          }
+            {
+                "system": "http://snomed.info/sct",
+                "code": "44054006",
+                "display": "type 2 diabetes mellitus"
+            }
         ],
-        "text": "Entire pancreas"
-      }
-    ]
-  }
-  
+        "text": "type 2 diabetes mellitus"
+    },
+    "category": [
+        {
+            "coding": [
+                {
+                    "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                    "code": "encounter-diagnosis",
+                    "display": "Encounter Diagnosis"
+                },
+                {
+                    "system": "http://snomed.info/sct",
+                    "code": "439401001",
+                    "display": "Diagnosis"
+                }
+            ]
+        }
+    ],
+    "clinicalStatus": {
+        "coding": [
+            {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+            }
+        ]
+    },
+    "severity": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "code": "24484000",
+                "display": "Severe"
+            }
+        ]
+    },
+    "bodySite": [
+        {
+            "coding": [
+                {
+                    "system": "http://snomed.info/sct",
+                    "code": "181277001",
+                    "display": "Entire pancreas"
+                }
+            ],
+            "text": "Entire pancreas"
+        }
+    ],
+    "onsetDateTime": "2018-05-20"
+}

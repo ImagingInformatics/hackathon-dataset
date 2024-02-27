@@ -18,21 +18,30 @@
     ],
     "text": "Squamous cell carcinoma of tongue"
   },
-  "category": {
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "encounter-diagnosis",
+          "display": "Encounter Diagnosis"
+        },
+        {
+          "system": "http://snomed.info/sct",
+          "code": "439401001",
+          "display": "Diagnosis"
+        }
+      ]
+    }
+  ],
+  "clinicalStatus": {
     "coding": [
       {
-        "system": "http://hl7.org/fhir/condition-category",
-        "code": "diagnosis",
-        "display": "Diagnosis"
-      },
-      {
-        "system": "http://snomed.info/sct",
-        "code": "439401001",
-        "display": "Diagnosis"
+        "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+        "code": "active"
       }
     ]
   },
-  "clinicalStatus": "active",
   "severity": {
     "coding": [
       {
@@ -42,7 +51,6 @@
       }
     ]
   },
-  "onsetDate": "1996-04-28",
   "bodySite": [
     {
       "coding": [
@@ -54,5 +62,6 @@
       ],
       "text": "Base of tongue"
     }
-  ]
+  ],
+  "onsetDateTime": "1996-04-28"
 }

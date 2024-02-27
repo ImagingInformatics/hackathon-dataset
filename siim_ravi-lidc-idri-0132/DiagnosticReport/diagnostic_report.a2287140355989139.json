@@ -10,10 +10,12 @@
   "subject": {
     "reference": "Patient/siimravi"
   },
-  "performer": {
-    "reference": "Organization/siim",
-    "display": "Society of Imaging Informatics in Medicine"
-  },
+  "performer": [
+    {
+      "reference": "Organization/siim",
+      "display": "Society of Imaging Informatics in Medicine"
+    }
+  ],
   "identifier": [
     {
       "use": "usual",
@@ -21,14 +23,19 @@
       "value": "a2287140355989139"
     }
   ],
-  "category": {
-    "coding": [
-      {
-        "system": "http://hl7.org/fhir/v2/0074",
-        "code": "RAD"
-      }
-    ]
-  },
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+          "code": "RAD"
+        }
+      ]
+    }
+  ],
   "effectiveDateTime": "2000-01-01",
-  "conclusion": "Date of Collection/Procedure/Outside Report: 2/15/2000\nDate of Receipt: 2/15/2000\nDate of Report: 2/21/2000\n\nClinical Diagnosis & History:\nSite 1: Atypia, Lesion- Atypical.\n\nSpecimens Submitted:\n1: Left lateral mid back, Biopsy- Shave, 3 pieces\n\nDIAGNOSIS:     \n1.  Left lateral mid back, Biopsy- Shave:\n    - Compound dysplastic nevus with mild to moderate atypia, see note\n\nNote: the margins in the plane of section are free. \n \nI ATTEST THAT THE ABOVE DIAGNOSIS IS BASED UPON MY PERSONAL EXAMINATION OF\nTHE SLIDES (AND/OR OTHER MATERIAL), AND THAT I HAVE REVIEWED AND APPROVED\nTHIS REPORT.\n\nJane Doe, M.D.\n*** Report Electronically Signed Out ***"
+  "conclusion": "Date of Collection/Procedure/Outside Report: 2/15/2000\nDate of Receipt: 2/15/2000\nDate of Report: 2/21/2000\n\nClinical Diagnosis & History:\nSite 1: Atypia, Lesion- Atypical.\n\nSpecimens Submitted:\n1: Left lateral mid back, Biopsy- Shave, 3 pieces\n\nDIAGNOSIS:     \n1.  Left lateral mid back, Biopsy- Shave:\n    - Compound dysplastic nevus with mild to moderate atypia, see note\n\nNote: the margins in the plane of section are free. \n \nI ATTEST THAT THE ABOVE DIAGNOSIS IS BASED UPON MY PERSONAL EXAMINATION OF\nTHE SLIDES (AND/OR OTHER MATERIAL), AND THAT I HAVE REVIEWED AND APPROVED\nTHIS REPORT.\n\nJane Doe, M.D.\n*** Report Electronically Signed Out ***",
+  "code": {
+    "text": "Unknown"
+  }
 }

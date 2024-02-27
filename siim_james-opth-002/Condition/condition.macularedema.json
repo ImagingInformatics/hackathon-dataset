@@ -13,26 +13,35 @@
       {
         "system": "http://snomed.info/sct",
         "code": "312911008",
-        "display": "macular edema"
+        "display": "Clinically significant macular edema"
       }
     ],
     "text": "macular edema"
   },
-  "category": {
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "encounter-diagnosis",
+          "display": "Encounter Diagnosis"
+        },
+        {
+          "system": "http://snomed.info/sct",
+          "code": "439401001",
+          "display": "Diagnosis"
+        }
+      ]
+    }
+  ],
+  "clinicalStatus": {
     "coding": [
       {
-        "system": "http://hl7.org/fhir/condition-category",
-        "code": "diagnosis",
-        "display": "Diagnosis"
-      },
-      {
-        "system": "http://snomed.info/sct",
-        "code": "439401001",
-        "display": "Diagnosis"
+        "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+        "code": "active"
       }
     ]
   },
-  "clinicalStatus": "active",
   "severity": {
     "coding": [
       {
@@ -42,17 +51,17 @@
       }
     ]
   },
-  "onsetDate": "2014-08-08",
   "bodySite": [
     {
       "coding": [
         {
           "system": "http://snomed.info/sct",
           "code": "362503005",
-          "display": "Left eye"
+          "display": "Entire left eye"
         }
       ],
       "text": "Left eye"
     }
-  ]
+  ],
+  "onsetDateTime": "2014-08-08"
 }

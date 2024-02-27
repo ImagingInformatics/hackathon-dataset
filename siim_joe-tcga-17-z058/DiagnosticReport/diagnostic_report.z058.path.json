@@ -8,7 +8,7 @@
   "code": {
     "coding": [
       {
-        "system": "http://loinc.org/",
+        "system": "http://loinc.org",
         "code": "38269-7"
       }
     ],
@@ -19,18 +19,27 @@
   "subject": {
     "reference": "Patient/siimjoe"
   },
-  "performer": {
-    "reference": "Organization/siim",
-    "display": "Society of Imaging Informatics in Medicine"
-  },
-  "category": {
-    "coding": [
-      {
-        "system": "http://hl7.org/fhir/v2/0074",
-        "code": "SP"
-      }
-    ]
-  },
+  "performer": [
+    {
+      "reference": "Organization/siim",
+      "display": "Society of Imaging Informatics in Medicine"
+    }
+  ],
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+          "code": "SP"
+        }
+      ]
+    }
+  ],
   "effectiveDateTime": "1986-04-25",
-  "conclusion": "Final Pathologic Diagnosis: Lingula, lung, transbronchial biopsies: Adenocarcinoma (see note)"
+  "conclusion": "Final Pathologic Diagnosis: Lingula, lung, transbronchial biopsies: Adenocarcinoma (see note)",
+  "identifier": [
+    {
+      "value": "z058path"
+    }
+  ]
 }

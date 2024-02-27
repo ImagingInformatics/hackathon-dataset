@@ -18,31 +18,39 @@
     ],
     "text": "Solitary pulmonary nodule"
   },
-  "category": {
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "encounter-diagnosis",
+          "display": "Encounter Diagnosis"
+        },
+        {
+          "system": "http://snomed.info/sct",
+          "code": "439401001",
+          "display": "Diagnosis"
+        }
+      ]
+    }
+  ],
+  "clinicalStatus": {
     "coding": [
       {
-        "system": "http://hl7.org/fhir/condition-category",
-        "code": "diagnosis",
-        "display": "Diagnosis"
-      },
-      {
-        "system": "http://snomed.info/sct",
-        "code": "439401001",
-        "display": "Diagnosis"
+        "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+        "code": "active"
       }
     ]
   },
-  "clinicalStatus": "active",
   "severity": {
     "coding": [
       {
         "system": "http://snomed.info/sct",
         "code": "6736007",
-        "display": "Moderate"
+        "display": "Midgrade"
       }
     ]
   },
-  "onsetDate": "2000-01-01",
   "bodySite": [
     {
       "coding": [
@@ -54,5 +62,6 @@
       ],
       "text": "Left upper lobe of lung"
     }
-  ]
+  ],
+  "onsetDateTime": "2000-01-01"
 }

@@ -13,26 +13,35 @@
       {
         "system": "http://snomed.info/sct",
         "code": "254626006",
-        "display": "Adenocarcionoma of lung"
+        "display": "Adenocarcinoma of lung"
       }
     ],
     "text": "Adenocarcinoma of lung"
   },
-  "category": {
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "encounter-diagnosis",
+          "display": "Encounter Diagnosis"
+        },
+        {
+          "system": "http://snomed.info/sct",
+          "code": "439401001",
+          "display": "Diagnosis"
+        }
+      ]
+    }
+  ],
+  "clinicalStatus": {
     "coding": [
       {
-        "system": "http://hl7.org/fhir/condition-category",
-        "code": "diagnosis",
-        "display": "Diagnosis"
-      },
-      {
-        "system": "http://snomed.info/sct",
-        "code": "439401001",
-        "display": "Diagnosis"
+        "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+        "code": "active"
       }
     ]
   },
-  "clinicalStatus": "active",
   "severity": {
     "coding": [
       {
@@ -42,7 +51,6 @@
       }
     ]
   },
-  "onsetDate": "1986-03-30",
   "bodySite": [
     {
       "coding": [
@@ -54,5 +62,6 @@
       ],
       "text": "Left lower lobe"
     }
-  ]
+  ],
+  "onsetDateTime": "1986-03-30"
 }
