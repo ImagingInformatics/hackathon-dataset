@@ -10,10 +10,12 @@
   "subject": {
     "reference": "Patient/siimsally"
   },
-  "performer": {
-    "reference": "Organization/siim",
-    "display": "Society of Imaging Informatics in Medicine"
-  },
+  "performer": [
+    {
+      "reference": "Organization/siim",
+      "display": "Society of Imaging Informatics in Medicine"
+    }
+  ],
   "identifier": [
     {
       "use": "usual",
@@ -21,14 +23,19 @@
       "value": "a4729320611564433"
     }
   ],
-  "category": {
-    "coding": [
-      {
-        "system": "http://hl7.org/fhir/v2/0074",
-        "code": "RAD"
-      }
-    ]
-  },
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+          "code": "RAD"
+        }
+      ]
+    }
+  ],
   "effectiveDateTime": "2008-04-29",
-  "conclusion": "No report available"
+  "conclusion": "No report available",
+  "code": {
+    "text": "Unknown"
+  }
 }

@@ -8,7 +8,7 @@
   "code": {
     "coding": [
       {
-        "system": "http://loinc.org/",
+        "system": "http://loinc.org",
         "code": "39818-0"
       }
     ],
@@ -19,10 +19,12 @@
   "subject": {
     "reference": "Patient/siimandy"
   },
-  "performer": {
-    "reference": "Organization/siim",
-    "display": "Society of Imaging Informatics in Medicine"
-  },
+  "performer": [
+    {
+      "reference": "Organization/siim",
+      "display": "Society of Imaging Informatics in Medicine"
+    }
+  ],
   "identifier": [
     {
       "use": "usual",
@@ -30,14 +32,16 @@
       "value": "a411079800582267"
     }
   ],
-  "category": {
-    "coding": [
-      {
-        "system": "http://hl7.org/fhir/v2/0074",
-        "code": "RAD"
-      }
-    ]
-  },
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+          "code": "RAD"
+        }
+      ]
+    }
+  ],
   "effectiveDateTime": "2000-02-23",
   "conclusion": "Impression:\nNegative for bony metastatic disease. Recommend follow up per clinical guidelines."
 }

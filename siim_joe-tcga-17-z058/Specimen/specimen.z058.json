@@ -5,34 +5,18 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">[Put rendering here]</div>"
   },
-  "contained": [
-    {
-      "resourceType": "Substance",
-      "id": "hep",
-      "type": {
-        "coding": [
-          {
-            "system": "http://hl7.org/fhir/v3/EntityCode",
-            "code": "HEPL"
-          }
-        ]
-      }
-    }
-  ],
   "identifier": [
-    [
-      {
-        "system": "http://ehr.acme.org/identifiers/collections",
-        "value": "23234352356"
-      }
-    ]
+    {
+      "system": "http://ehr.acme.org/identifiers/collections",
+      "value": "23234352356"
+    }
   ],
   "type": {
     "coding": [
       {
-        "system": "http://snomed.info/sct",
-        "code": "122555007",
-        "display": "Lingular lung bxs"
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+        "code": "BLDV",
+        "display": "Blood venous"
       }
     ]
   },
@@ -44,20 +28,20 @@
     "system": "http://lab.acme.org/specimens/2011",
     "value": "XXX66-4444"
   },
-  "receivedTime": "1986-04-25T07:03:00",
+  "receivedTime": "1986-04-25T07:03:00Z",
   "collection": {
     "collector": {
       "reference": "Practitioner/siimmd"
     },
-    "collectedDateTime": "1986-04-25T06:15:00",
+    "collectedDateTime": "1986-04-25T06:15:00Z",
     "quantity": {
       "value": 10,
-      "units": "mL"
+      "unit": "mL"
     },
     "method": {
       "coding": [
         {
-          "system": "http://hl7.org/fhir/v2/0488",
+          "system": "http://terminology.hl7.org/CodeSystem/v2-0488",
           "code": "LNV"
         }
       ]
