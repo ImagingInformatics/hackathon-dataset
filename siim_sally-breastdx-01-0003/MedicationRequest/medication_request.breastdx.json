@@ -22,7 +22,7 @@
         "repeat": {
           "frequency": 1,
           "period": 1,
-          "periodUnits": "d"
+          "periodUnit": "d"
         }
       },
       "route": {
@@ -47,5 +47,6 @@
       "value": 30,
       "unit": "tablets"
     }
-  }
+  },
+  "intent": "order"
 }
