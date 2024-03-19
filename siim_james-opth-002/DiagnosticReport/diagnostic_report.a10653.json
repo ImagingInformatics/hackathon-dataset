@@ -1,21 +1,10 @@
 {
-  "id": "a10653",
   "resourceType": "DiagnosticReport",
+  "id": "a10653",
   "text": {
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">DiagnosticReport Resource</div>"
   },
-  "status": "final",
-  "issued": "2012-01-11T15:48:01+00:00",
-  "subject": {
-    "reference": "Patient/siimjames"
-  },
-  "performer": [
-    {
-      "reference": "Organization/siim",
-      "display": "Society of Imaging Informatics in Medicine"
-    }
-  ],
   "identifier": [
     {
       "use": "usual",
@@ -23,6 +12,7 @@
       "value": "10653"
     }
   ],
+  "status": "final",
   "category": [
     {
       "coding": [
@@ -33,9 +23,19 @@
       ]
     }
   ],
-  "effectiveDateTime": "2012-01-11",
-  "conclusion": "To be filled out by hand afterwards",
   "code": {
     "text": "Unknown"
-  }
+  },
+  "subject": {
+    "reference": "Patient/siimjames"
+  },
+  "effectiveDateTime": "2012-01-11",
+  "issued": "2012-01-11T15:48:01+00:00",
+  "performer": [
+    {
+      "reference": "Organization/siim",
+      "display": "Society of Imaging Informatics in Medicine"
+    }
+  ],
+  "conclusion": "To be filled out by hand afterwards"
 }

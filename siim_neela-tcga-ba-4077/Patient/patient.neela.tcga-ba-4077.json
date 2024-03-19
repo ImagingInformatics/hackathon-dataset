@@ -1,20 +1,21 @@
 {
-  "id": "siimneela",
   "resourceType": "Patient",
+  "id": "siimneela",
   "text": {
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\r\n  <table>\r\n    <tbody>\r\n      <tr>\r\n        <td>Name</td>\r\n        <td>Neela <b>SIIM</b></td>\r\n      </tr>\r\n      <tr>\r\n        <td>Address</td>\r\n        <td>534 Erewhon, Pleasantville, Vic, 3999</td>\r\n      </tr>\r\n      <tr>\r\n        <td>Contacts</td>\r\n        <td>Home: unknown. Work: (03) 5555 6473</td>\r\n      </tr>\r\n      <tr>\r\n        <td>Id</td>\r\n        <td>MRN: TCGA-BA-4077 (TCIA)</td>\r\n      </tr>\r\n    </tbody>\r\n  </table>\r\n</div>"
   },
   "identifier": [
-      {
-        "use": "usual",
-        "system": "http://www.siim.org/",
-        "value": "TCGA-BA-4077",
-        "assigner": {
-          "display": "TCIA"
-        }
+    {
+      "use": "usual",
+      "system": "http://www.siim.org/",
+      "value": "TCGA-BA-4077",
+      "assigner": {
+        "display": "TCIA"
       }
+    }
   ],
+  "active": true,
   "name": [
     {
       "use": "official",
@@ -84,6 +85,5 @@
   ],
   "managingOrganization": {
     "reference": "Organization/siim"
-  },
-  "active": true
+  }
 }

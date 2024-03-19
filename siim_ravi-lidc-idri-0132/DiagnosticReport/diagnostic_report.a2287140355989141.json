@@ -1,21 +1,10 @@
 {
-  "id": "a2287140355989141",
   "resourceType": "DiagnosticReport",
+  "id": "a2287140355989141",
   "text": {
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">DiagnosticReport Resource</div>"
   },
-  "status": "final",
-  "issued": "2000-01-01T14:36:15+00:00",
-  "subject": {
-    "reference": "Patient/siimravi"
-  },
-  "performer": [
-    {
-      "reference": "Organization/siim",
-      "display": "Society of Imaging Informatics in Medicine"
-    }
-  ],
   "identifier": [
     {
       "use": "usual",
@@ -23,6 +12,7 @@
       "value": "a2287140355989141"
     }
   ],
+  "status": "final",
   "category": [
     {
       "coding": [
@@ -33,9 +23,19 @@
       ]
     }
   ],
-  "effectiveDateTime": "2000-01-01",
-  "conclusion": "Date of Collection/Procedure/Outside Report: 2/15/2000\nDate of Receipt: 2/15/2000\nDate of Report: 2/21/2000\n\nClinical Diagnosis & History:\nSite 1: Rule out.  Atypical nevus, lesion - changed, rule out atypical\nnevus, lesion - changed, rule out atypical nevus, lesion  changed.\n\nSpecimens Submitted:\n1:  Left lower outer quadrant of breast, biopsy- shave\n\nDIAGNOSIS:     \n1.  Skin, Left lower outer quadrant of breast, biopsy- shave:  \n    - Compound dysplastic melanocytic nevus with mild atypia\n\nNote: The margins in the plane of section are free. \n \nI ATTEST THAT THE ABOVE DIAGNOSIS IS BASED UPON MY PERSONAL EXAMINATION OF\nTHE SLIDES (AND/OR OTHER MATERIAL), AND THAT I HAVE REVIEWED AND APPROVED\nTHIS REPORT.\n\nJane Doe, M.D.\n*** Report Electronically Signed Out ***",
   "code": {
     "text": "Unknown"
-  }
+  },
+  "subject": {
+    "reference": "Patient/siimravi"
+  },
+  "effectiveDateTime": "2000-01-01",
+  "issued": "2000-01-01T14:36:15+00:00",
+  "performer": [
+    {
+      "reference": "Organization/siim",
+      "display": "Society of Imaging Informatics in Medicine"
+    }
+  ],
+  "conclusion": "Date of Collection/Procedure/Outside Report: 2/15/2000\nDate of Receipt: 2/15/2000\nDate of Report: 2/21/2000\n\nClinical Diagnosis & History:\nSite 1: Rule out.  Atypical nevus, lesion - changed, rule out atypical\nnevus, lesion - changed, rule out atypical nevus, lesion  changed.\n\nSpecimens Submitted:\n1:  Left lower outer quadrant of breast, biopsy- shave\n\nDIAGNOSIS:     \n1.  Skin, Left lower outer quadrant of breast, biopsy- shave:  \n    - Compound dysplastic melanocytic nevus with mild atypia\n\nNote: The margins in the plane of section are free. \n \nI ATTEST THAT THE ABOVE DIAGNOSIS IS BASED UPON MY PERSONAL EXAMINATION OF\nTHE SLIDES (AND/OR OTHER MATERIAL), AND THAT I HAVE REVIEWED AND APPROVED\nTHIS REPORT.\n\nJane Doe, M.D.\n*** Report Electronically Signed Out ***"
 }

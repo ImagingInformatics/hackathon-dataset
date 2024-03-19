@@ -1,6 +1,10 @@
 {
   "resourceType": "Medication",
   "id": "m126202002",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"> Levothyroxine sodium </div></div>"
+  },
   "code": {
     "coding": [
       {

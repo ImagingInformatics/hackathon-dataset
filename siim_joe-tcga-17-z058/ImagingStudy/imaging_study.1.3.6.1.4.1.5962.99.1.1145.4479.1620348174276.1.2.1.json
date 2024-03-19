@@ -30,7 +30,6 @@
   "subject": {
     "reference": "Patient/siimjoe"
   },
-  "description": "Lesion Dermoscopy",
   "started": "1986-07-01",
   "endpoint": [
     {
@@ -38,5 +37,6 @@
     }
   ],
   "numberOfSeries": 1,
-  "numberOfInstances": 1
+  "numberOfInstances": 1,
+  "description": "Lesion Dermoscopy"
 }

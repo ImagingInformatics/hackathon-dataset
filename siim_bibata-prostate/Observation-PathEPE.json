@@ -10,8 +10,8 @@
     {
       "coding": [
         {
-          "code": "laboratory",
           "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "laboratory",
           "display": "Laboratory"
         }
       ]

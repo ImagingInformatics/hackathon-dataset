@@ -1,22 +1,17 @@
 {
-  "id": "a819497684894127",
   "resourceType": "Condition",
+  "id": "a819497684894127",
   "text": {
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Patient: Ravi SIIM<br/>Condition: a819497684894127<br/>Category: Diagnosis<br/>Code: 427359005 - Solitary pulmonary nodule<br/>Severity: Moderate<br/>Onset Date: 01-01-2000<br/>Body Site: Left upper lobe of lung</div>"
   },
-  "subject": {
-    "reference": "Patient/siimravi"
-  },
-  "code": {
+  "clinicalStatus": {
     "coding": [
       {
-        "system": "http://snomed.info/sct",
-        "code": "427359005",
-        "display": "Solitary Pulmonary nodule"
+        "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+        "code": "active"
       }
-    ],
-    "text": "Solitary pulmonary nodule"
+    ]
   },
   "category": [
     {
@@ -34,14 +29,6 @@
       ]
     }
   ],
-  "clinicalStatus": {
-    "coding": [
-      {
-        "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-        "code": "active"
-      }
-    ]
-  },
   "severity": {
     "coding": [
       {
@@ -50,6 +37,16 @@
         "display": "Midgrade"
       }
     ]
+  },
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "427359005",
+        "display": "Solitary Pulmonary nodule"
+      }
+    ],
+    "text": "Solitary pulmonary nodule"
   },
   "bodySite": [
     {
@@ -63,5 +60,8 @@
       "text": "Left upper lobe of lung"
     }
   ],
+  "subject": {
+    "reference": "Patient/siimravi"
+  },
   "onsetDateTime": "2000-01-01"
 }

@@ -20,7 +20,6 @@
           }
         ]
       },
-      "value": "",
       "assigner": {
         "reference": "Organization/siim"
       }
@@ -30,7 +29,6 @@
   "subject": {
     "reference": "Patient/siimneela"
   },
-  "description": "",
   "started": "2021-09-14",
   "endpoint": [
     {

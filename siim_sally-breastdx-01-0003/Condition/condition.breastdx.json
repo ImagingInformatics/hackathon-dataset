@@ -1,22 +1,17 @@
 {
-  "id": "breastcondition",
   "resourceType": "Condition",
+  "id": "breastcondition",
   "text": {
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Patient: Sally SIIM<br/>Condition: breastcondition<br/>Category: Diagnosis<br/>Code: 89164003 - Breast lump<br/>Onset Date: 05-24-2012<br/>Severity: Severe<br/>Body Site: Left breast</div>"
   },
-  "subject": {
-    "reference": "Patient/siimsally"
-  },
-  "code": {
+  "clinicalStatus": {
     "coding": [
       {
-        "system": "http://snomed.info/sct",
-        "code": "89164003",
-        "display": "breast lump"
+        "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+        "code": "active"
       }
-    ],
-    "text": "palpable left breast mass"
+    ]
   },
   "category": [
     {
@@ -34,14 +29,6 @@
       ]
     }
   ],
-  "clinicalStatus": {
-    "coding": [
-      {
-        "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-        "code": "active"
-      }
-    ]
-  },
   "severity": {
     "coding": [
       {
@@ -50,6 +37,16 @@
         "display": "Severe"
       }
     ]
+  },
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "89164003",
+        "display": "breast lump"
+      }
+    ],
+    "text": "palpable left breast mass"
   },
   "bodySite": [
     {
@@ -63,5 +60,8 @@
       "text": "Left breast"
     }
   ],
+  "subject": {
+    "reference": "Patient/siimsally"
+  },
   "onsetDateTime": "2012-05-24"
 }

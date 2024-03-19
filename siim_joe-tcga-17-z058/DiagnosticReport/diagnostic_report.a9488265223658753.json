@@ -1,21 +1,10 @@
 {
-  "id": "a9488265223658753",
   "resourceType": "DiagnosticReport",
+  "id": "a9488265223658753",
   "text": {
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">DiagnosticReport Resource</div>"
   },
-  "status": "final",
-  "issued": "1986-07-01T20:42:54+00:00",
-  "subject": {
-    "reference": "Patient/siimjoe"
-  },
-  "performer": [
-    {
-      "reference": "Organization/siim",
-      "display": "Society of Imaging Informatics in Medicine"
-    }
-  ],
   "identifier": [
     {
       "use": "usual",
@@ -23,6 +12,7 @@
       "value": "a9488265223658753"
     }
   ],
+  "status": "final",
   "category": [
     {
       "coding": [
@@ -33,9 +23,19 @@
       ]
     }
   ],
-  "effectiveDateTime": "1986-07-01",
-  "conclusion": "Date of Collection/Procedure/Outside Report: 2/25/1986\nDate of Receipt: 2/25/1986\nDate of Report: 3/2/1986\n\nClinical Diagnosis & History:\n1 nevus rule out melanoma.  1) 0.2 cm lesion.\n\nSpecimens Submitted:\n1:  Posterior left shoulder; excision\n\nDIAGNOSIS:     \n1.  Skin, posterior left shoulder; excision:  \n    - Blue nevus; margins not involved.\n\nI ATTEST THAT THE ABOVE DIAGNOSIS IS BASED UPON MY PERSONAL EXAMINATION OF\nTHE SLIDES (AND/OR OTHER MATERIAL), AND THAT I HAVE REVIEWED AND APPROVED\nTHIS REPORT.\n\nJohn Doe, M.D.\n*** Report Electronically Signed Out ***",
   "code": {
     "text": "Unknown"
-  }
+  },
+  "subject": {
+    "reference": "Patient/siimjoe"
+  },
+  "effectiveDateTime": "1986-07-01",
+  "issued": "1986-07-01T20:42:54+00:00",
+  "performer": [
+    {
+      "reference": "Organization/siim",
+      "display": "Society of Imaging Informatics in Medicine"
+    }
+  ],
+  "conclusion": "Date of Collection/Procedure/Outside Report: 2/25/1986\nDate of Receipt: 2/25/1986\nDate of Report: 3/2/1986\n\nClinical Diagnosis & History:\n1 nevus rule out melanoma.  1) 0.2 cm lesion.\n\nSpecimens Submitted:\n1:  Posterior left shoulder; excision\n\nDIAGNOSIS:     \n1.  Skin, posterior left shoulder; excision:  \n    - Blue nevus; margins not involved.\n\nI ATTEST THAT THE ABOVE DIAGNOSIS IS BASED UPON MY PERSONAL EXAMINATION OF\nTHE SLIDES (AND/OR OTHER MATERIAL), AND THAT I HAVE REVIEWED AND APPROVED\nTHIS REPORT.\n\nJohn Doe, M.D.\n*** Report Electronically Signed Out ***"
 }
