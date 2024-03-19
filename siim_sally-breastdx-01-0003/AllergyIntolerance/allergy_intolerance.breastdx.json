@@ -19,7 +19,15 @@
       }
     ]
   },
-  "type": "allergy",
+  "type": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/allergy-intolerance-type",
+        "code": "allergy",
+        "display": "Allergy"
+      }
+    ]
+  },
   "category": [
     "medication"
   ],
@@ -50,18 +58,20 @@
       },
       "manifestation": [
         {
-          "coding": [
-            {
-              "system": "http://snomed.info/sct",
-              "code": "247472004",
-              "display": "Hives"
-            },
-            {
-              "system": "http://snomed.info/sct",
-              "code": "44416002",
-              "display": "Airway constriction"
-            }
-          ]
+          "concept": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "247472004",
+                "display": "Hives"
+              },
+              {
+                "system": "http://snomed.info/sct",
+                "code": "44416002",
+                "display": "Airway constriction"
+              }
+            ]
+          }
         }
       ]
     }

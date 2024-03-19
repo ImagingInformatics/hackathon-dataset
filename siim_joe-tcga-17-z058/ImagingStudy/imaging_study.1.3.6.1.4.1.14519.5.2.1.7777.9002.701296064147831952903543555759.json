@@ -44,8 +44,12 @@
       "uid": "1.3.6.1.4.1.14519.5.2.1.7777.9002.338693646012912810657666242632",
       "number": 607,
       "modality": {
-        "system": "http://dicom.nema.org/resources/ontology/DCM",
-        "code": "PT"
+        "coding": [
+          {
+            "system": "http://dicom.nema.org/resources/ontology/DCM",
+            "code": "PT"
+          }
+        ]
       },
       "description": "PROJECTION<MIP Range>",
       "numberOfInstances": 32,
@@ -312,8 +316,12 @@
       "uid": "1.3.6.1.4.1.14519.5.2.1.7777.9002.483970526485201431983118576674",
       "number": 605,
       "modality": {
-        "system": "http://dicom.nema.org/resources/ontology/DCM",
-        "code": "PT"
+        "coding": [
+          {
+            "system": "http://dicom.nema.org/resources/ontology/DCM",
+            "code": "PT"
+          }
+        ]
       },
       "description": "PET WB-uncorrected",
       "numberOfInstances": 299,
@@ -2716,8 +2724,12 @@
       "uid": "1.3.6.1.4.1.14519.5.2.1.7777.9002.139227318580447170989733503790",
       "number": 1,
       "modality": {
-        "system": "http://dicom.nema.org/resources/ontology/DCM",
-        "code": "CT"
+        "coding": [
+          {
+            "system": "http://dicom.nema.org/resources/ontology/DCM",
+            "code": "CT"
+          }
+        ]
       },
       "description": "Topogram",
       "numberOfInstances": 1,
@@ -2736,8 +2748,12 @@
       "uid": "1.3.6.1.4.1.14519.5.2.1.7777.9002.189472349000633286262330433483",
       "number": 608,
       "modality": {
-        "system": "http://dicom.nema.org/resources/ontology/DCM",
-        "code": "CT"
+        "coding": [
+          {
+            "system": "http://dicom.nema.org/resources/ontology/DCM",
+            "code": "CT"
+          }
+        ]
       },
       "description": "<ALPHA Collection>",
       "numberOfInstances": 9,
@@ -2820,8 +2836,12 @@
       "uid": "1.3.6.1.4.1.14519.5.2.1.7777.9002.331308443872722270694908138201",
       "number": 608,
       "modality": {
-        "system": "http://dicom.nema.org/resources/ontology/DCM",
-        "code": "CT"
+        "coding": [
+          {
+            "system": "http://dicom.nema.org/resources/ontology/DCM",
+            "code": "CT"
+          }
+        ]
       },
       "description": "<ALPHA Collection>",
       "numberOfInstances": 9,
@@ -2904,8 +2924,12 @@
       "uid": "1.3.6.1.4.1.14519.5.2.1.7777.9002.273279093200991843714733857258",
       "number": 2,
       "modality": {
-        "system": "http://dicom.nema.org/resources/ontology/DCM",
-        "code": "CT"
+        "coding": [
+          {
+            "system": "http://dicom.nema.org/resources/ontology/DCM",
+            "code": "CT"
+          }
+        ]
       },
       "description": "Abd.CT 5.0 B30s",
       "numberOfInstances": 179,
@@ -4348,8 +4372,12 @@
       "uid": "1.3.6.1.4.1.14519.5.2.1.7777.9002.276979399257180200489703215689",
       "number": 2,
       "modality": {
-        "system": "http://dicom.nema.org/resources/ontology/DCM",
-        "code": "CT"
+        "coding": [
+          {
+            "system": "http://dicom.nema.org/resources/ontology/DCM",
+            "code": "CT"
+          }
+        ]
       },
       "description": "Abd.CT 5.0 B30s",
       "numberOfInstances": 225,
@@ -6160,8 +6188,12 @@
       "uid": "1.3.6.1.4.1.14519.5.2.1.7777.9002.173979535811735592326423332677",
       "number": 1,
       "modality": {
-        "system": "http://dicom.nema.org/resources/ontology/DCM",
-        "code": "PT"
+        "coding": [
+          {
+            "system": "http://dicom.nema.org/resources/ontology/DCM",
+            "code": "PT"
+          }
+        ]
       },
       "description": "PET WB [MIP]",
       "numberOfInstances": 32,
@@ -6428,8 +6460,12 @@
       "uid": "1.3.6.1.4.1.14519.5.2.1.7777.9002.219070742080005429019386559724",
       "number": 606,
       "modality": {
-        "system": "http://dicom.nema.org/resources/ontology/DCM",
-        "code": "PT"
+        "coding": [
+          {
+            "system": "http://dicom.nema.org/resources/ontology/DCM",
+            "code": "PT"
+          }
+        ]
       },
       "description": "PET WB",
       "numberOfInstances": 299,

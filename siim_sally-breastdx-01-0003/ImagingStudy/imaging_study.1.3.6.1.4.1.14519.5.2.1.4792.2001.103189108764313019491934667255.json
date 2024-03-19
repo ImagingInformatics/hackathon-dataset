@@ -44,8 +44,12 @@
       "uid": "1.3.6.1.4.1.14519.5.2.1.4792.2001.104616474240757574154876423123",
       "number": 2,
       "modality": {
-        "system": "http://dicom.nema.org/resources/ontology/DCM",
-        "code": "MG"
+        "coding": [
+          {
+            "system": "http://dicom.nema.org/resources/ontology/DCM",
+            "code": "MG"
+          }
+        ]
       },
       "description": "L SPECIMEN",
       "numberOfInstances": 1,

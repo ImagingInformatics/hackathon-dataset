@@ -30,12 +30,20 @@
   "status": "available",
   "modality": [
     {
-      "system": "http://dicom.nema.org/resources/ontology/DCM",
-      "code": "CT"
+      "coding": [
+        {
+          "system": "http://dicom.nema.org/resources/ontology/DCM",
+          "code": "CT"
+        }
+      ]
     },
     {
-      "system": "http://dicom.nema.org/resources/ontology/DCM",
-      "code": "OT"
+      "coding": [
+        {
+          "system": "http://dicom.nema.org/resources/ontology/DCM",
+          "code": "OT"
+        }
+      ]
     }
   ],
   "subject": {
@@ -55,8 +63,12 @@
       "uid": "1.2.276.0.7230010.3.1.3.296485376.1.1665793212.499802",
       "number": 100,
       "modality": {
-        "system": "http://dicom.nema.org/resources/ontology/DCM",
-        "code": "CT"
+        "coding": [
+          {
+            "system": "http://dicom.nema.org/resources/ontology/DCM",
+            "code": "CT"
+          }
+        ]
       },
       "numberOfInstances": 384,
       "instance": [
@@ -3522,8 +3534,12 @@
       "uid": "1.2.276.0.7230010.3.1.3.296485376.1.1665793212.499799",
       "number": 6,
       "modality": {
-        "system": "http://dicom.nema.org/resources/ontology/DCM",
-        "code": "CT"
+        "coding": [
+          {
+            "system": "http://dicom.nema.org/resources/ontology/DCM",
+            "code": "CT"
+          }
+        ]
       },
       "numberOfInstances": 2,
       "instance": [
@@ -3551,8 +3567,12 @@
       "uid": "1.2.276.0.7230010.3.1.3.296485376.1.1665793212.499776",
       "number": 902,
       "modality": {
-        "system": "http://dicom.nema.org/resources/ontology/DCM",
-        "code": "OT"
+        "coding": [
+          {
+            "system": "http://dicom.nema.org/resources/ontology/DCM",
+            "code": "OT"
+          }
+        ]
       },
       "numberOfInstances": 11,
       "instance": [
@@ -3650,8 +3670,12 @@
       "uid": "1.2.276.0.7230010.3.1.3.296485376.1.1665793212.499773",
       "number": 900,
       "modality": {
-        "system": "http://dicom.nema.org/resources/ontology/DCM",
-        "code": "OT"
+        "coding": [
+          {
+            "system": "http://dicom.nema.org/resources/ontology/DCM",
+            "code": "OT"
+          }
+        ]
       },
       "description": "ExamDump",
       "numberOfInstances": 1,

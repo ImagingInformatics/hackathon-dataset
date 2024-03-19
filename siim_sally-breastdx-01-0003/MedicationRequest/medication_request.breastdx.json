@@ -7,9 +7,11 @@
   },
   "status": "active",
   "intent": "order",
-  "medicationReference": {
-    "reference": "Medication/m126202002",
-    "display": "prescribed medication"
+  "medication": {
+    "reference": {
+      "reference": "Medication/m126202002",
+      "display": "prescribed medication"
+    }
   },
   "subject": {
     "reference": "Patient/siimsally"
