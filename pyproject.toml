@@ -11,7 +11,7 @@ requests = "^2.31.0"
 pyyaml = "^6.0.1"
 
 [tool.poetry.group.dev.dependencies]
-black = "^24.1.1"
+black = "^24.3.0"
 mypy = "^1.8.0"
 isort = "^5.13.2"
 
