@@ -43,8 +43,12 @@
     {
       "uid": "1.3.6.1.4.1.14519.5.2.1.6450.9002.329451189839369613896222100019",
       "modality": {
-        "system": "http://dicom.nema.org/resources/ontology/DCM",
-        "code": "NM"
+        "coding": [
+          {
+            "system": "http://dicom.nema.org/resources/ontology/DCM",
+            "code": "NM"
+          }
+        ]
       },
       "description": "TB TOTAL BODY",
       "numberOfInstances": 1,
@@ -63,8 +67,12 @@
     {
       "uid": "1.3.6.1.4.1.14519.5.2.1.6450.9002.264867910411553467234581655041",
       "modality": {
-        "system": "http://dicom.nema.org/resources/ontology/DCM",
-        "code": "NM"
+        "coding": [
+          {
+            "system": "http://dicom.nema.org/resources/ontology/DCM",
+            "code": "NM"
+          }
+        ]
       },
       "description": "TB TOTAL BODY",
       "numberOfInstances": 1,
@@ -83,8 +91,12 @@
     {
       "uid": "1.3.6.1.4.1.14519.5.2.1.6450.9002.204170368393007669948814352536",
       "modality": {
-        "system": "http://dicom.nema.org/resources/ontology/DCM",
-        "code": "NM"
+        "coding": [
+          {
+            "system": "http://dicom.nema.org/resources/ontology/DCM",
+            "code": "NM"
+          }
+        ]
       },
       "description": "TB TOTAL BODY",
       "numberOfInstances": 1,
@@ -103,8 +115,12 @@
     {
       "uid": "1.3.6.1.4.1.14519.5.2.1.6450.9002.300663607045648111916934763322",
       "modality": {
-        "system": "http://dicom.nema.org/resources/ontology/DCM",
-        "code": "NM"
+        "coding": [
+          {
+            "system": "http://dicom.nema.org/resources/ontology/DCM",
+            "code": "NM"
+          }
+        ]
       },
       "description": "ST STATIC",
       "numberOfInstances": 1,
@@ -123,8 +139,12 @@
     {
       "uid": "1.3.6.1.4.1.14519.5.2.1.6450.9002.948065078518382661199820460943",
       "modality": {
-        "system": "http://dicom.nema.org/resources/ontology/DCM",
-        "code": "NM"
+        "coding": [
+          {
+            "system": "http://dicom.nema.org/resources/ontology/DCM",
+            "code": "NM"
+          }
+        ]
       },
       "description": "ST STATIC",
       "numberOfInstances": 1,

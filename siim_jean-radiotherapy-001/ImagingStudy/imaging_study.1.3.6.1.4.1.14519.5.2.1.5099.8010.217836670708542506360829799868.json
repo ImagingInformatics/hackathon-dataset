@@ -61,12 +61,20 @@
   "status": "available",
   "modality": [
     {
-      "system": "http://dicom.nema.org/resources/ontology/DCM",
-      "code": "CT"
+      "coding": [
+        {
+          "system": "http://dicom.nema.org/resources/ontology/DCM",
+          "code": "CT"
+        }
+      ]
     },
     {
-      "system": "http://dicom.nema.org/resources/ontology/DCM",
-      "code": "PT"
+      "coding": [
+        {
+          "system": "http://dicom.nema.org/resources/ontology/DCM",
+          "code": "PT"
+        }
+      ]
     }
   ],
   "subject": {
@@ -86,8 +94,12 @@
       "uid": "1.3.6.1.4.1.14519.5.2.1.5099.8010.251402186443276877513851675309",
       "number": 2,
       "modality": {
-        "system": "http://dicom.nema.org/resources/ontology/DCM",
-        "code": "CT"
+        "coding": [
+          {
+            "system": "http://dicom.nema.org/resources/ontology/DCM",
+            "code": "CT"
+          }
+        ]
       },
       "description": "AbdomenCT 5.0 B40s",
       "numberOfInstances": 404,
@@ -3735,8 +3747,12 @@
       "uid": "1.3.6.1.4.1.14519.5.2.1.5099.8010.309509059873779686762162362551",
       "number": 605,
       "modality": {
-        "system": "http://dicom.nema.org/resources/ontology/DCM",
-        "code": "PT"
+        "coding": [
+          {
+            "system": "http://dicom.nema.org/resources/ontology/DCM",
+            "code": "PT"
+          }
+        ]
       },
       "description": "PET WB-uncorrected",
       "numberOfInstances": 404,
@@ -7384,8 +7400,12 @@
       "uid": "1.3.6.1.4.1.14519.5.2.1.5099.8010.197000461587794333266508534119",
       "number": 606,
       "modality": {
-        "system": "http://dicom.nema.org/resources/ontology/DCM",
-        "code": "PT"
+        "coding": [
+          {
+            "system": "http://dicom.nema.org/resources/ontology/DCM",
+            "code": "PT"
+          }
+        ]
       },
       "description": "PET WB",
       "numberOfInstances": 404,

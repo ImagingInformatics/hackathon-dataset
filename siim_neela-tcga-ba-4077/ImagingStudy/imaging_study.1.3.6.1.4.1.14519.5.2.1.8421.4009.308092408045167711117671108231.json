@@ -44,8 +44,12 @@
       "uid": "1.3.6.1.4.1.14519.5.2.1.8421.4009.148721140606055021653661934276",
       "number": 1,
       "modality": {
-        "system": "http://dicom.nema.org/resources/ontology/DCM",
-        "code": "CT"
+        "coding": [
+          {
+            "system": "http://dicom.nema.org/resources/ontology/DCM",
+            "code": "CT"
+          }
+        ]
       },
       "description": "Topogram  1.0  T20s",
       "numberOfInstances": 1,
@@ -64,8 +68,12 @@
       "uid": "1.3.6.1.4.1.14519.5.2.1.8421.4009.670337923074915417255291650946",
       "number": 602,
       "modality": {
-        "system": "http://dicom.nema.org/resources/ontology/DCM",
-        "code": "CT"
+        "coding": [
+          {
+            "system": "http://dicom.nema.org/resources/ontology/DCM",
+            "code": "CT"
+          }
+        ]
       },
       "description": "st neck axials<MPR Thick Range>",
       "numberOfInstances": 85,
@@ -756,8 +764,12 @@
       "uid": "1.3.6.1.4.1.14519.5.2.1.8421.4009.736248695112495127251488179321",
       "number": 603,
       "modality": {
-        "system": "http://dicom.nema.org/resources/ontology/DCM",
-        "code": "CT"
+        "coding": [
+          {
+            "system": "http://dicom.nema.org/resources/ontology/DCM",
+            "code": "CT"
+          }
+        ]
       },
       "description": "st coronals neck<MPR Thick Range>",
       "numberOfInstances": 59,
@@ -1240,8 +1252,12 @@
       "uid": "1.3.6.1.4.1.14519.5.2.1.8421.4009.962252619380570696165083862904",
       "number": 604,
       "modality": {
-        "system": "http://dicom.nema.org/resources/ontology/DCM",
-        "code": "CT"
+        "coding": [
+          {
+            "system": "http://dicom.nema.org/resources/ontology/DCM",
+            "code": "CT"
+          }
+        ]
       },
       "description": "st sagittals neck<MPR Thick Range>",
       "numberOfInstances": 44,

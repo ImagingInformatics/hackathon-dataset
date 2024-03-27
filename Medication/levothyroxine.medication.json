@@ -14,7 +14,7 @@
       }
     ]
   },
-  "form": {
+  "doseForm": {
     "coding": [
       {
         "system": "http://snomed.info/sct",

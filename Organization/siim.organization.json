@@ -14,25 +14,25 @@
     }
   ],
   "name": "Society of Imaging Informatics in Medicine",
-  "telecom": [
-    {
-      "system": "phone",
-      "value": "(703) 723-0432"
-    }
-  ],
-  "address": [
-    {
-      "use": "work",
-      "line": [
-        "19440 Golf Vista Plaza",
-        "Ste 330"
-      ],
-      "city": "Leesburg",
-      "state": "VA",
-      "postalCode": "20176"
-    }
-  ],
   "contact": [
+    {
+      "telecom": [
+        {
+          "system": "phone",
+          "value": "(703) 723-0432"
+        }
+      ],
+      "address": {
+        "use": "work",
+        "line": [
+          "19440 Golf Vista Plaza",
+          "Ste 330"
+        ],
+        "city": "Leesburg",
+        "state": "VA",
+        "postalCode": "20176"
+      }
+    },
     {
       "purpose": {
         "coding": [
@@ -42,9 +42,11 @@
           }
         ]
       },
-      "name": {
-        "text": "SIIM Administrator"
-      },
+      "name": [
+        {
+          "text": "SIIM Administrator"
+        }
+      ],
       "telecom": [
         {
           "system": "phone",

@@ -44,8 +44,12 @@
       "uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.513114548408601984123939083099",
       "number": 3172,
       "modality": {
-        "system": "http://dicom.nema.org/resources/ontology/DCM",
-        "code": "CR"
+        "coding": [
+          {
+            "system": "http://dicom.nema.org/resources/ontology/DCM",
+            "code": "CR"
+          }
+        ]
       },
       "description": "W Chest PA",
       "numberOfInstances": 1,
