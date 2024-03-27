@@ -1,30 +1,10 @@
 {
-  "id": "a819497684894127",
   "resourceType": "DiagnosticReport",
+  "id": "a819497684894127",
   "text": {
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Chest: AP View</p>\n\n<p>Clinical History: Cough</p>\n\n<p>Comparison: None</p>\n\n<p>Findings:</p>\n\n<p>The cardiomediastinal silhouette and pulmonary vasculature are within normal limits.</p>\n\n<p>Linear scarring and pleural thickening are present in the right upper lobe. There is thickening of the right paratracheal stripe as well as questionable righit hillier adenopathy. A 1.6 cm nodule projects in the left upper lobe. The right costophrenic angle is effaced.</p>\n\n<p>No free air beneath the hemidiaphragms. The osseous structures are grossly unremarkable.</p>\n\n<p>Impression:</p>\n\n<ol>\n<li><p>1.6 cm left upper lobe nodule.</p></li>\n<li><p>Right upper lobe scarring and pleural thickening along with right pleural effusion versus scarring.</p></li>\n</ol>\n\n<p>Recommendations:</p>\n\n<p>CT Chest is recommended to further evaluate the above findings and impression.</p>\n</div>"
   },
-  "code": {
-    "coding": [
-      {
-        "system": "http://loinc.org",
-        "code": "36572-6"
-      }
-    ],
-    "text": "Chest AP"
-  },
-  "status": "final",
-  "issued": "2000-01-02T11:15:00+10:00",
-  "subject": {
-    "reference": "Patient/siimravi"
-  },
-  "performer": [
-    {
-      "reference": "Organization/siim",
-      "display": "Society of Imaging Informatics in Medicine"
-    }
-  ],
   "identifier": [
     {
       "use": "usual",
@@ -32,6 +12,7 @@
       "value": "a819497684894127"
     }
   ],
+  "status": "final",
   "category": [
     {
       "coding": [
@@ -42,6 +23,25 @@
       ]
     }
   ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "36572-6"
+      }
+    ],
+    "text": "Chest AP"
+  },
+  "subject": {
+    "reference": "Patient/siimravi"
+  },
   "effectiveDateTime": "2000-01-01",
+  "issued": "2000-01-02T11:15:00+10:00",
+  "performer": [
+    {
+      "reference": "Organization/siim",
+      "display": "Society of Imaging Informatics in Medicine"
+    }
+  ],
   "conclusion": "Impression: 1.6 cm left upper lobe nodule. Right upper lobe scarring and pleural thickening along with right pleural effusion versus scarring. Recommendations: CT Chest is recommended to further evaluate the above findings and impression."
 }

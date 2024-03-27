@@ -30,7 +30,6 @@
   "subject": {
     "reference": "Patient/siimandy"
   },
-  "description": "Lesion Dermoscopy",
   "started": "2000-03-06",
   "endpoint": [
     {
@@ -38,5 +37,6 @@
     }
   ],
   "numberOfSeries": 1,
-  "numberOfInstances": 1
+  "numberOfInstances": 1,
+  "description": "Lesion Dermoscopy"
 }

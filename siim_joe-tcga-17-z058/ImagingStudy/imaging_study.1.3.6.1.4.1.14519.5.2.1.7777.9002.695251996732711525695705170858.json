@@ -26,6 +26,7 @@
       }
     }
   ],
+  "status": "available",
   "subject": {
     "reference": "Patient/siimjoe"
   },
@@ -40,12 +41,12 @@
   "description": "CT Chest",
   "series": [
     {
+      "uid": "1.3.6.1.4.1.14519.5.2.1.7777.9002.231169414301528210714189934818",
       "number": 3,
       "modality": {
         "system": "http://dicom.nema.org/resources/ontology/DCM",
         "code": "CT"
       },
-      "uid": "1.3.6.1.4.1.14519.5.2.1.7777.9002.231169414301528210714189934818",
       "numberOfInstances": 26,
       "instance": [
         {
@@ -259,12 +260,12 @@
       ]
     },
     {
+      "uid": "1.3.6.1.4.1.14519.5.2.1.7777.9002.246606807181055791884070217538",
       "number": 5,
       "modality": {
         "system": "http://dicom.nema.org/resources/ontology/DCM",
         "code": "CT"
       },
-      "uid": "1.3.6.1.4.1.14519.5.2.1.7777.9002.246606807181055791884070217538",
       "numberOfInstances": 14,
       "instance": [
         {
@@ -382,12 +383,12 @@
       ]
     },
     {
+      "uid": "1.3.6.1.4.1.14519.5.2.1.7777.9002.143875850834932735631965244241",
       "number": 4,
       "modality": {
         "system": "http://dicom.nema.org/resources/ontology/DCM",
         "code": "CT"
       },
-      "uid": "1.3.6.1.4.1.14519.5.2.1.7777.9002.143875850834932735631965244241",
       "numberOfInstances": 25,
       "instance": [
         {
@@ -593,12 +594,12 @@
       ]
     },
     {
+      "uid": "1.3.6.1.4.1.14519.5.2.1.7777.9002.605176515924083114740918850709",
       "number": 2,
       "modality": {
         "system": "http://dicom.nema.org/resources/ontology/DCM",
         "code": "CT"
       },
-      "uid": "1.3.6.1.4.1.14519.5.2.1.7777.9002.605176515924083114740918850709",
       "numberOfInstances": 1,
       "instance": [
         {
@@ -611,6 +612,5 @@
         }
       ]
     }
-  ],
-  "status": "available"
+  ]
 }

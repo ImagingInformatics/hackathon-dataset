@@ -26,6 +26,7 @@
       }
     }
   ],
+  "status": "available",
   "subject": {
     "reference": "Patient/siimjoe"
   },
@@ -40,12 +41,12 @@
   "description": "CT Chest Routine",
   "series": [
     {
+      "uid": "1.3.6.1.4.1.14519.5.2.1.7777.9002.207203214132667549392101803048",
       "number": 1,
       "modality": {
         "system": "http://dicom.nema.org/resources/ontology/DCM",
         "code": "CT"
       },
-      "uid": "1.3.6.1.4.1.14519.5.2.1.7777.9002.207203214132667549392101803048",
       "description": "Topogram  1.0  T20s",
       "numberOfInstances": 2,
       "instance": [
@@ -68,12 +69,12 @@
       ]
     },
     {
+      "uid": "1.3.6.1.4.1.14519.5.2.1.7777.9002.284154446239506871690811399151",
       "number": 2,
       "modality": {
         "system": "http://dicom.nema.org/resources/ontology/DCM",
         "code": "CT"
       },
-      "uid": "1.3.6.1.4.1.14519.5.2.1.7777.9002.284154446239506871690811399151",
       "description": "CHEST ROUTINE  5.0  B20f",
       "numberOfInstances": 66,
       "instance": [
@@ -608,12 +609,12 @@
       ]
     },
     {
+      "uid": "1.3.6.1.4.1.14519.5.2.1.7777.9002.288990024261317693034755667155",
       "number": 3,
       "modality": {
         "system": "http://dicom.nema.org/resources/ontology/DCM",
         "code": "CT"
       },
-      "uid": "1.3.6.1.4.1.14519.5.2.1.7777.9002.288990024261317693034755667155",
       "description": "CHEST ROUTINE  5.0  B60f",
       "numberOfInstances": 64,
       "instance": [
@@ -1131,6 +1132,5 @@
         }
       ]
     }
-  ],
-  "status": "available"
+  ]
 }

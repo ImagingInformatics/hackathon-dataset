@@ -1,7 +1,7 @@
 {
   "resourceType": "Organization",
   "id": "siim",
-  "name": "Society of Imaging Informatics in Medicine",
+  "active": true,
   "type": [
     {
       "coding": [
@@ -13,6 +13,7 @@
       ]
     }
   ],
+  "name": "Society of Imaging Informatics in Medicine",
   "telecom": [
     {
       "system": "phone",
@@ -68,6 +69,5 @@
         "postalCode": "20176"
       }
     }
-  ],
-  "active": true
+  ]
 }

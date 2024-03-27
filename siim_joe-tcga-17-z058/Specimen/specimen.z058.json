@@ -1,6 +1,6 @@
 {
-  "id": "siimjoe",
   "resourceType": "Specimen",
+  "id": "siimjoe",
   "text": {
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">[Put rendering here]</div>"
@@ -11,6 +11,10 @@
       "value": "23234352356"
     }
   ],
+  "accessionIdentifier": {
+    "system": "http://lab.acme.org/specimens/2011",
+    "value": "XXX66-4444"
+  },
   "type": {
     "coding": [
       {
@@ -23,10 +27,6 @@
   "subject": {
     "reference": "Patient/siimjoe",
     "display": "siimjoe"
-  },
-  "accessionIdentifier": {
-    "system": "http://lab.acme.org/specimens/2011",
-    "value": "XXX66-4444"
   },
   "receivedTime": "1986-04-25T07:03:00Z",
   "collection": {

@@ -1,30 +1,10 @@
 {
-  "id": "a142485449496602",
   "resourceType": "DiagnosticReport",
+  "id": "a142485449496602",
   "text": {
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>5/14/1996 PET Oncologic Study</p>\n\n<p>Duration of fast prior to injection: 12 hours</p>\n\n<p>Blood glucose prior to injection: 100 mg/dl</p>\n\n<p>Scan region: Whole body scan</p>\n\n<p>Radiopharmaceutical: F-18 FDG 12.9 mCi IV</p>\n\n<p>Administration time: 11:35</p>\n\n<p>Post-injection imaging delay: 60 minutes</p>\n\n<p>Attenuation correction: Rod source transmission scan.</p>\n\n<p>Clinical information\n65 yo Female with recurrent right base of tongue cancer after chemotherapy and radiotherapy</p>\n\n<p>Comparison\nCT Head and Neck 4/28/1986. No prior comparison PET scan</p>\n\n<p>Findings\nHypermetabolic foci: Increased FDG uptake in the base of the tongue with max SUV of 8.4.</p>\n\n<p>Physiologic uptake identified. No other areas of increased uptake.</p>\n\n<p>Other findings:\nThe lungs are clear bilaterally. No pulmonary nodules, consolidations, or pleural effusions.</p>\n\n<p>No axillary, hilar, mediastinal, or paratracheal lymphadenopathy.</p>\n\n<p>Heart size is normal. No pericardial effusion.  Calcific coronary atherosclerosis.</p>\n\n<p>The visualized osseous structures are unremarkable. No suspicious sclerotic or lytic lesions observed.</p>\n\n<p>Chest wall is unremarkable.</p>\n\n<p>The liver, gallbladder, pancreas, spleen and adrenal glands are within normal limits. There is no retroperitoneal or mesenteric lymphadenopathy.</p>\n\n<p>The visualized loops of small bowel and large bowel are within normal limits. No free fluid or free air within the visualized abdomen.</p>\n\n<p>Impression\n1. FDG hypermetabolic lesion in the base of the right tongue suggests recurrent disease. No areas of increased peripheral uptake suggestive of distant metastatic disease</p></div>"
   },
-  "code": {
-    "coding": [
-      {
-        "system": "http://loinc.org",
-        "code": "58742-8"
-      }
-    ],
-    "text": "PET WB/reg Restag Hd/Nck Ca"
-  },
-  "status": "final",
-  "issued": "1996-05-14T09:23:00+10:00",
-  "subject": {
-    "reference": "Patient/siimneela"
-  },
-  "performer": [
-    {
-      "reference": "Organization/siim",
-      "display": "Society of Imaging Informatics in Medicine"
-    }
-  ],
   "identifier": [
     {
       "use": "usual",
@@ -32,6 +12,7 @@
       "value": "a142485449496602"
     }
   ],
+  "status": "final",
   "category": [
     {
       "coding": [
@@ -42,6 +23,25 @@
       ]
     }
   ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "58742-8"
+      }
+    ],
+    "text": "PET WB/reg Restag Hd/Nck Ca"
+  },
+  "subject": {
+    "reference": "Patient/siimneela"
+  },
   "effectiveDateTime": "1996-05-14",
+  "issued": "1996-05-14T09:23:00+10:00",
+  "performer": [
+    {
+      "reference": "Organization/siim",
+      "display": "Society of Imaging Informatics in Medicine"
+    }
+  ],
   "conclusion": "Impression: 1. FDG hypermetabolic lesion in the base of the right tongue suggests recurrent disease. No areas of increased peripheral uptake suggestive of distant metastatic disease. Recommend followup with ENT"
 }

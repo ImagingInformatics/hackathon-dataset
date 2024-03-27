@@ -1,21 +1,10 @@
 {
-  "id": "a4729320611564433",
   "resourceType": "DiagnosticReport",
+  "id": "a4729320611564433",
   "text": {
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">DiagnosticReport Resource</div>"
   },
-  "status": "final",
-  "issued": "2008-04-29T18:28:28+00:00",
-  "subject": {
-    "reference": "Patient/siimsally"
-  },
-  "performer": [
-    {
-      "reference": "Organization/siim",
-      "display": "Society of Imaging Informatics in Medicine"
-    }
-  ],
   "identifier": [
     {
       "use": "usual",
@@ -23,6 +12,7 @@
       "value": "a4729320611564433"
     }
   ],
+  "status": "final",
   "category": [
     {
       "coding": [
@@ -33,9 +23,19 @@
       ]
     }
   ],
-  "effectiveDateTime": "2008-04-29",
-  "conclusion": "No report available",
   "code": {
     "text": "Unknown"
-  }
+  },
+  "subject": {
+    "reference": "Patient/siimsally"
+  },
+  "effectiveDateTime": "2008-04-29",
+  "issued": "2008-04-29T18:28:28+00:00",
+  "performer": [
+    {
+      "reference": "Organization/siim",
+      "display": "Society of Imaging Informatics in Medicine"
+    }
+  ],
+  "conclusion": "No report available"
 }

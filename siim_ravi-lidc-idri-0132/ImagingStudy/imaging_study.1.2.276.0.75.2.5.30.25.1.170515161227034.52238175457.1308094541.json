@@ -30,7 +30,6 @@
   "subject": {
     "reference": "Patient/siimravi"
   },
-  "description": "generic order",
   "started": "2017-05-15",
   "endpoint": [
     {
@@ -38,5 +37,6 @@
     }
   ],
   "numberOfSeries": 1,
-  "numberOfInstances": 1
+  "numberOfInstances": 1,
+  "description": "generic order"
 }

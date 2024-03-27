@@ -26,6 +26,7 @@
       }
     }
   ],
+  "status": "available",
   "subject": {
     "reference": "Patient/siimsally"
   },
@@ -40,45 +41,44 @@
   "description": "Digital Left Mammogram Diagnostic",
   "series": [
     {
+      "uid": "1.3.6.1.4.1.14519.5.2.1.4792.2001.146744821244586368840068937301",
       "number": 5,
       "modality": {
         "system": "http://dicom.nema.org/resources/ontology/DCM",
         "code": "MG"
       },
-      "uid": "1.3.6.1.4.1.14519.5.2.1.4792.2001.146744821244586368840068937301",
       "description": "L ML",
       "numberOfInstances": 1,
       "instance": [
         {
-          "number": 25,
           "uid": "1.3.6.1.4.1.14519.5.2.1.4792.2001.145360848639150080488752783872",
           "sopClass": {
             "system": "urn:ietf:rfc:3986",
             "code": "urn:oid:1.2.840.10008.5.1.4.1.1.1.2"
-          }
+          },
+          "number": 25
         }
       ]
     },
     {
+      "uid": "1.3.6.1.4.1.14519.5.2.1.4792.2001.749836586993208029747489805614",
       "number": 6,
       "modality": {
         "system": "http://dicom.nema.org/resources/ontology/DCM",
         "code": "MG"
       },
-      "uid": "1.3.6.1.4.1.14519.5.2.1.4792.2001.749836586993208029747489805614",
       "description": "L XCCL",
       "numberOfInstances": 1,
       "instance": [
         {
-          "number": 23,
           "uid": "1.3.6.1.4.1.14519.5.2.1.4792.2001.339560662872714359694994877834",
           "sopClass": {
             "system": "urn:ietf:rfc:3986",
             "code": "urn:oid:1.2.840.10008.5.1.4.1.1.1.2"
-          }
+          },
+          "number": 23
         }
       ]
     }
-  ],
-  "status": "available"
+  ]
 }

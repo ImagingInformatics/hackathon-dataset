@@ -1,10 +1,28 @@
 {
-  "id": "a889127246021897",
   "resourceType": "DiagnosticReport",
+  "id": "a889127246021897",
   "text": {
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\r\n <p>05/24/2008\nSurgical Specimen Radiograph</p>\n\n<p>Clinical History:  Unknown</p>\n\n<p>Technique: Single surgical specimen radiograph</p>\n\n<p>Findings: The surgical specimen contains an intact wire and surgical clip.  No masses or calcifications are identified.</p>\n\n<p>Impression:</p>\n\n<p>Specimen radiograph with intact wire and surgical clip.</p> </div>"
   },
+  "identifier": [
+    {
+      "use": "usual",
+      "system": "http://www.siim.org/",
+      "value": "a889127246021897"
+    }
+  ],
+  "status": "final",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+          "code": "RAD"
+        }
+      ]
+    }
+  ],
   "code": {
     "coding": [
       {
@@ -19,34 +37,16 @@
     ],
     "text": "Breast Specimen Mammogram"
   },
-  "status": "final",
-  "issued": "2008-05-24T09:23:00+10:00",
   "subject": {
     "reference": "Patient/siimsally"
   },
+  "effectiveDateTime": "2008-05-24",
+  "issued": "2008-05-24T09:23:00+10:00",
   "performer": [
     {
       "reference": "Organization/siim",
       "display": "Society of Imaging Informatics in Medicine"
     }
   ],
-  "identifier": [
-    {
-      "use": "usual",
-      "system": "http://www.siim.org/",
-      "value": "a889127246021897"
-    }
-  ],
-  "category": [
-    {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
-          "code": "RAD"
-        }
-      ]
-    }
-  ],
-  "effectiveDateTime": "2008-05-24",
   "conclusion": "Specimen radiograph with intact wire and surgical clip."
 }

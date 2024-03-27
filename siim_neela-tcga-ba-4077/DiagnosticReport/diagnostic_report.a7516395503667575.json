@@ -1,21 +1,10 @@
 {
-  "id": "a7516395503667575",
   "resourceType": "DiagnosticReport",
+  "id": "a7516395503667575",
   "text": {
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">DiagnosticReport Resource</div>"
   },
-  "status": "final",
-  "issued": "1996-03-17T15:30:55+00:00",
-  "subject": {
-    "reference": "Patient/siimneela"
-  },
-  "performer": [
-    {
-      "reference": "Organization/siim",
-      "display": "Society of Imaging Informatics in Medicine"
-    }
-  ],
   "identifier": [
     {
       "use": "usual",
@@ -23,6 +12,7 @@
       "value": "a7516395503667575"
     }
   ],
+  "status": "final",
   "category": [
     {
       "coding": [
@@ -33,9 +23,19 @@
       ]
     }
   ],
-  "effectiveDateTime": "1996-03-17",
-  "conclusion": "Date of Collection/Procedure/Outside Report: 1/19/1996\nDate of Receipt: 1/20/1996\nDate of Report: 1/24/1996\n\nClinical Diagnosis & History:\nRule out BCC (shave biopsy)\n\nSpecimens Submitted:\n1: Right shoulder\n\nDIAGNOSIS:     \n1.  Right shoulder; shave:  \n     - Irritated seborrheic keratosis\n\nI ATTEST THAT THE ABOVE DIAGNOSIS IS BASED UPON MY PERSONAL EXAMINATION OF\nTHE SLIDES (AND/OR OTHER MATERIAL), AND THAT I HAVE REVIEWED AND APPROVED\nTHIS REPORT.\n\nJohn Doe, M.D.\n*** Report Electronically Signed Out ***",
   "code": {
     "text": "Unknown"
-  }
+  },
+  "subject": {
+    "reference": "Patient/siimneela"
+  },
+  "effectiveDateTime": "1996-03-17",
+  "issued": "1996-03-17T15:30:55+00:00",
+  "performer": [
+    {
+      "reference": "Organization/siim",
+      "display": "Society of Imaging Informatics in Medicine"
+    }
+  ],
+  "conclusion": "Date of Collection/Procedure/Outside Report: 1/19/1996\nDate of Receipt: 1/20/1996\nDate of Report: 1/24/1996\n\nClinical Diagnosis & History:\nRule out BCC (shave biopsy)\n\nSpecimens Submitted:\n1: Right shoulder\n\nDIAGNOSIS:     \n1.  Right shoulder; shave:  \n     - Irritated seborrheic keratosis\n\nI ATTEST THAT THE ABOVE DIAGNOSIS IS BASED UPON MY PERSONAL EXAMINATION OF\nTHE SLIDES (AND/OR OTHER MATERIAL), AND THAT I HAVE REVIEWED AND APPROVED\nTHIS REPORT.\n\nJohn Doe, M.D.\n*** Report Electronically Signed Out ***"
 }
