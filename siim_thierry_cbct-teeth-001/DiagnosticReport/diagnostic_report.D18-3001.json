@@ -1,0 +1,34 @@
+{
+  "id": "D18-3001",
+  "resourceType": "DiagnosticReport",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">DiagnosticReport Resource</div>"
+  },
+  "status": "final",
+  "issued": "2018-10-03T09:52:55+00:00",
+  "subject": {
+    "reference": "Patient/philipschris"
+  },
+  "performer": {
+    "reference": "Organization/siim",
+    "display": "Society of Imaging Informatics in Medicine"
+  },
+  "identifier": [
+    {
+      "use": "usual",
+      "system": "http://www.siim.org/",
+      "value": "D18-3001"
+    }
+  ],
+  "category": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/v2/0074",
+        "code": "RAD"
+      }
+    ]
+  },
+  "effectiveDateTime": "2018-10-03",
+  "conclusion": "To be filled out by hand afterwards"
+}

@@ -1,0 +1,42 @@
+{
+  "resourceType": "ImagingStudy",
+  "id": "D19-1001",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">ImagingStudy Resource</div>"
+  },
+  "identifier": [
+    {
+      "system": "urn:dicom:uid",
+      "value": "2.25.292315917905782003007355414279734624434"
+    },
+    {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "ACSN"
+          }
+        ]
+      },
+      "value": "D19-1001",
+      "assigner": {
+        "reference": "Organization/siim"
+      }
+    }
+  ],
+  "status": "available",
+  "subject": {
+    "reference": "Patient/histechsamantha"
+  },
+  "description": "Colon polyps",
+  "started": "2019-01-04",
+  "endpoint": [
+    {
+      "reference": "Endpoint/siim-dicomweb"
+    }
+  ],
+  "numberOfSeries": 1,
+  "numberOfInstances": 10
+}

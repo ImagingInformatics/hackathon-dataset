@@ -1,0 +1,42 @@
+{
+  "resourceType": "ImagingStudy",
+  "id": "D19-1002",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">ImagingStudy Resource</div>"
+  },
+  "identifier": [
+    {
+      "system": "urn:dicom:uid",
+      "value": "2.25.31500298076180885870438326289639355558"
+    },
+    {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "ACSN"
+          }
+        ]
+      },
+      "value": "D19-1002",
+      "assigner": {
+        "reference": "Organization/siim"
+      }
+    }
+  ],
+  "status": "available",
+  "subject": {
+    "reference": "Patient/histechtheresa"
+  },
+  "description": "Placenta",
+  "started": "2019-01-05",
+  "endpoint": [
+    {
+      "reference": "Endpoint/siim-dicomweb"
+    }
+  ],
+  "numberOfSeries": 2,
+  "numberOfInstances": 17
+}

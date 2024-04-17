@@ -1,0 +1,42 @@
+{
+  "resourceType": "ImagingStudy",
+  "id": "A20210527083803",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">ImagingStudy Resource</div>"
+  },
+  "identifier": [
+    {
+      "system": "urn:dicom:uid",
+      "value": "2.25.293755960071087971037154104444119427201"
+    },
+    {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "ACSN"
+          }
+        ]
+      },
+      "value": "A20210527083803",
+      "assigner": {
+        "reference": "Organization/siim"
+      }
+    }
+  ],
+  "status": "available",
+  "subject": {
+    "reference": "Patient/3dhistechappendix"
+  },
+  "description": "",
+  "started": "2021-05-27",
+  "endpoint": [
+    {
+      "reference": "Endpoint/siim-dicomweb"
+    }
+  ],
+  "numberOfSeries": 1,
+  "numberOfInstances": 14
+}
