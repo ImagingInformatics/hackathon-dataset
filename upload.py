@@ -68,23 +68,26 @@ for root, dirs, files in os.walk(os.sys.argv[2]):
     for file in files:
         if file.endswith(".json"):
             data_path = os.path.join(root, file)
-            log.info("Loading: {}".format(data_path))
+            try:
+                log.info("Loading: {}".format(data_path))
 
-            with open(data_path, "r") as data_file:
-                resource = json.load(data_file)
+                with open(data_path, "r") as data_file:
+                    resource = json.load(data_file)
 
-            resource_type = resource.get("resourceType", None)
-            resource_id = resource.get("id", None)
+                resource_type = resource.get("resourceType", None)
+                resource_id = resource.get("id", None)
 
-            if resource_id is None:
-                log.error(
-                    "Error reading {}, make sure an ID is specified in the header comment".format(
-                        data_path
+                if resource_id is None:
+                    log.error(
+                        "Error reading {}, make sure an ID is specified in the header comment".format(
+                            data_path
+                        )
                     )
-                )
-                # raise ValueError
+                    # raise ValueError
 
-            fhir.setdefault(resource_type, []).append(resource)
+                fhir.setdefault(resource_type, []).append(resource)
+            except Exception as e:
+                log.error(f"Failed to load FHIR resource at {data_path} due to {e}")
 
 # Make sure we have load_order for all of our resource types
 missing_keys = set(fhir.keys()) - set(load_order)
@@ -107,8 +110,8 @@ for resource_type in load_order:
                 raise ValueError
 
             if resource_id == "random":
+                url = server["url"] + resource_type
                 try:
-                    url = server["url"] + resource_type
                     log.info("POST - {}".format(url))
                     result = requests.post(
                         url,
@@ -121,10 +124,12 @@ for resource_type in load_order:
                     )
                     result.raise_for_status()
                 except requests.exceptions.RequestException as e:
-                    raise SystemExit(e.response.text)
+                    log.error(f"Failed to load {url} due to {e.response.text}")
+
             else:
+
+                url = server["url"] + resource_type + "/" + resource_id
                 try:
-                    url = server["url"] + resource_type + "/" + resource_id
                     log.info("PUT - {}".format(url))
                     result = requests.put(
                         url,
@@ -137,7 +142,7 @@ for resource_type in load_order:
                     )
                     result.raise_for_status()
                 except requests.exceptions.RequestException as e:
-                    raise SystemExit(e.response.text)
+                    log.error(f"Failed to load {url} due to {e.response.text}")
 
             result_json = result.json()
             # log.info("Submission Status: {}".format(result_json["issue"][0]["diagnostics"]))
