@@ -1,3 +1,6 @@
+The FHIR resources in this repository are provided under an MIT license. The images under the `hackathon-images` submodule are **mostly**  provided under an MIT license as well. However, The exceptions to MIT Licensing apply to certain **radiology** images obtained from [TCIA](https://www.cancerimagingarchive.net/). See [README](https://github.com/ImagingInformatics/hackathon-images/blob/master/README.md) for all details.
+
+
 The MIT License (MIT)
 
 Copyright (c) 2015 Society of Imaging Informatics in Medicine

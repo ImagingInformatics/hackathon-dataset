@@ -1,6 +1,10 @@
 # SIIM hackathon-dataset
 Collection of FHIR JSON objects representing fictious patient vignettes for use in our hackathon environment, along with DICOM images that coraborate each patient's story.
 
+# License
+The FHIR resources in this repository are provided under an MIT license. The images under the `hackathon-images` submodule are **mostly**  provided under an MIT license as well. However, The exceptions to MIT Licensing apply to certain **radiology** images obtained from [TCIA](https://www.cancerimagingarchive.net/). See [README](https://github.com/ImagingInformatics/hackathon-images/blob/master/README.md) for all details.
+
+
 # What?
 The [Society for Imaging Informatics in Medicine (SIIM)](http://www.siim.org/) is supporting the new DICOMweb and FHIR standards by creating opportunities for it's members to interact with these systems at the annual meeting, and throughout the year through it's Hackathon event, platform and dataset.
 
