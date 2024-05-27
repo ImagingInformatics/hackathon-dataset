@@ -8,7 +8,7 @@
   "status": "final",
   "issued": "2021-05-27T00:00:00+00:00",
   "subject": {
-    "reference": "Patient/3dhistechkidney"
+    "reference": "Patient/siimjames"
   },
   "performer": {
     "reference": "Organization/siim",
