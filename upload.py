@@ -37,6 +37,7 @@ load_order = [
     "Specimen",
     "Condition",
     "DocumentReference",
+    "ImagingSelection"
 ]
 
 if len(os.sys.argv) < 3:
@@ -76,6 +77,14 @@ for root, dirs, files in os.walk(os.sys.argv[2]):
 
                 resource_type = resource.get("resourceType", None)
                 resource_id = resource.get("id", None)
+                
+                if resource_type is None:
+                    log.error(
+                        "Error reading {} - has no resourceType".format(
+                            data_path
+                        )
+                    )
+                    continue
 
                 if resource_id is None:
                     log.error(
