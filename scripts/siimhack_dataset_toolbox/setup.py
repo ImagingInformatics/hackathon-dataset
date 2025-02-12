@@ -9,5 +9,5 @@ setuptools.setup(install_requires=[
     'pydicom==2.3.1',
     'pyrootutils==1.0.4',
     'PyYAML==6.0',
-    'tqdm==4.65.0']
+    'tqdm==4.66.3']
     , )
