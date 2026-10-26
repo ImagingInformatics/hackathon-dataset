@@ -4,6 +4,6 @@ fhir.resources==5.1.1
 pydicom==2.4.5
 pyrootutils==1.0.4
 PyYAML==6.0
-setuptools==78.1.1
+setuptools==83.0.0
 tqdm==4.66.3
 
